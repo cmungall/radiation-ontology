@@ -1,0 +1,141 @@
+format-version: 1.2
+ontology: xco
+synonymtypedef: curation_status "curation_status"
+
+[Term]
+id: XCO:0000038
+name: radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to any type of energy transmitted by waves through space or through some medium or to a stream of particles, such as electrons or alpha particles." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000000  ! experimental condition
+
+[Term]
+id: XCO:0000039
+name: ionizing radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000040
+name: gamma ray exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Gamma_ray]
+synonym: "gamma radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000041
+name: radon exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to transmitted energy from the gaseous radioactive element, atomic number 86, resulting from decay of radium.  Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+is_a: XCO:0000039  ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000042
+name: ultraviolet ray exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, in the part of the electromagnetic spectrum with wavelengths between about 10 and 400 nm.  Ultraviolet radiation can be ionizing or non-ionizing depending on the wavelength." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "UV radiation exposure" EXACT []
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000043
+name: X-ray exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between approximately 0.01 and 10 nm." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "X-radiation exposure" EXACT []
+synonym: "roentgen radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000044
+name: non-ionizing radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Non-ionizing_radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000045
+name: electromagnetic radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000046
+name: infrared radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths longer than those of visible light, i.e. from approximately 750 nm to 1 mm." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "IR radiation exposure" EXACT []
+is_a: XCO:0000044  ! non-ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000179
+name: ionizing ultraviolet radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 10 and 120 nm. Radiation (i.e. ultraviolet light) at this wavelength is considered  ionizing, that is, composed of photons that individually carry enough energy to liberate an electron from an atom or molecule without raising the bulk material to ionization temperature." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+synonym: "extreme UV ray exposure" RELATED []
+synonym: "extreme ultraviolet ray exposure" RELATED []
+synonym: "ionizing UV radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000042  ! ultraviolet ray exposure
+
+[Term]
+id: XCO:0000180
+name: non-ionizing ultraviolet radiation exposure
+namespace: Experimental Conditions. ontology
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http://en.wikipedia.org/wiki/Ultraviolet]
+synonym: "near ultraviolet radiation exposure" NARROW []
+synonym: "non-ionizing UV radiation exposure" EXACT []
+is_a: XCO:0000042  ! ultraviolet ray exposure
+is_a: XCO:0000044  ! non-ionizing radiation exposure
+
+[Term]
+id: XCO:0000182
+name: controlled exposure to ambient light
+namespace: Experimental Conditions. ontology
+def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "diurnal condition" RELATED []
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000283
+name: visible light stimulus
+namespace: Experimental Conditions. ontology
+def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+is_a: XCO:0000049  ! visual stimulus
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000284
+name: controlled visible light exposure
+namespace: Experimental Conditions. ontology
+def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+is_a: XCO:0000181  ! controlled visible light condition
+
+[Term]
+id: XCO:0000459
+name: controlled light/dark cycle
+namespace: Experimental Conditions. ontology
+def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000462
+name: light phase of controlled light/dark cycle
+namespace: Experimental Conditions. ontology
+def: "The portion of a controlled light/dark cycle in which the subject is exposed to ambient light (that is, during which the room is lit). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000459  ! controlled light/dark cycle
+
+[Term]
+id: XCO:0000463
+name: dark phase of controlled light/dark cycle
+namespace: Experimental Conditions. ontology
+def: "The portion of a controlled light/dark cycle in which the subject is not being exposed to ambient light (that is, during which the room is darkened). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000459  ! controlled light/dark cycle
+

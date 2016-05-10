@@ -1,0 +1,420 @@
+format-version: 1.2
+ontology: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
+
+[Term]
+id: NCIT:C16279
+name: Alpha Radiation
+def: "An emission of positively charged particles composed of two protons and two neutrons, i.e., helium nuclei, emitted during disintegration of very heavy isotopes; a beam of alpha particles or an alpha ray has very strong ionizing power, but weak penetrability." [NCIT:C16279]
+synonym: "Alpha Particle Radiation" RELATED [NCIT:C16279]
+synonym: "Alpha Radiation" RELATED [NCIT:C16279]
+xref: NCIT:C16279
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Alpha-Radiation</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Alpha Radiation" xsd:string
+property_value: P207 "C0002217" xsd:string
+property_value: P366 "Alpha_Radiation" xsd:string
+
+[Term]
+id: NCIT:C16318
+name: Low-Level Radiation
+synonym: "Background Radiation" RELATED [NCIT:C16318]
+synonym: "Low-Level Radiation" RELATED [NCIT:C16318]
+xref: NCIT:C16318
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Low-Level Radiation" xsd:string
+property_value: P207 "C0004607" xsd:string
+property_value: P366 "Low-Level_Radiation" xsd:string
+
+[Term]
+id: NCIT:C16533
+name: Electromagnetic Field
+def: "Field of force associated with a moving electric charge and consisting of electric and magnetic fields that are generated at right angles to each other." [NCIT:C16533]
+synonym: "Electromagnetic Field" RELATED [NCIT:C16533]
+synonym: "Radiation, Electromagnetic Field" RELATED [NCIT:C16533]
+synonym: "electromagnetic field" RELATED [NCIT:C16533]
+xref: NCIT:C16533
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>EMF</ncicp:term-name><ncicp:term-group>AB</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>EMF</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI-GLOSS</ncicp:term-source><ncicp:source-code>CDR0000673817</ncicp:source-code></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Electromagnetic Field" xsd:string
+property_value: P207 "C0013835" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>An area of electric and magnetic forces caused by electromagnetic radiation. Researchers are studying whether the electromagnetic fields from power lines, electrical appliances, and wireless and cellular telephones can cause cancer or other harmful health effects.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Electromagnetic_Fields" xsd:string
+
+[Term]
+id: NCIT:C16535
+name: Beta Radiation
+def: "Radiation of beta particles during radioactive decay." [NCIT:C16535]
+synonym: "Beta Radiation" RELATED [NCIT:C16535]
+synonym: "Radiation, Charged Particles-Electrons" RELATED [NCIT:C16535]
+xref: NCIT:C16535
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Beta-Radiation</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Beta Radiation" xsd:string
+property_value: P207 "C2607955" xsd:string
+property_value: P366 "Beta_Radiation" xsd:string
+
+[Term]
+id: NCIT:C16736
+name: Infrared Radiation
+def: "Electromagnetic radiation with wavelengths between 750 nanometers and 1 millimeter, between those of visible light and microwaves. This portion of the electromagnetic spectrum can usually be sensed as heat." [NCIT:C16736]
+synonym: "Infrared Radiation" RELATED [NCIT:C16736]
+synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
+xref: NCIT:C16736
+is_a: NCIT:C17053  ! Nonionizing Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Infrared Radiation" xsd:string
+property_value: P207 "C0021431" xsd:string
+property_value: P366 "Infrared_Radiation" xsd:string
+
+[Term]
+id: NCIT:C16862
+name: Microwave Radiation
+def: "Electromagnetic radiation between the ultrahigh frequency radio and infrared (in the 10e-3 (micro) to about 0.5 X 10e-1 meter) region of the spectrum." [NCIT:C16862]
+synonym: "Electromagnetic, Microwave" RELATED [NCIT:C16862]
+synonym: "Microwave Radiation" RELATED [NCIT:C16862]
+synonym: "Radiation, Microwave" RELATED [NCIT:C16862]
+xref: NCIT:C16862
+is_a: NCIT:C17053  ! Nonionizing Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Microwave Radiation" xsd:string
+property_value: P207 "C0026051" xsd:string
+property_value: P366 "Microwave_Radiation" xsd:string
+
+[Term]
+id: NCIT:C17050
+name: Electromagnetic Radiation
+def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
+synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
+synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
+synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
+synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
+xref: NCIT:C17050
+is_a: NCIT:C18102  ! Physical Phenomenon or Property
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>EMR</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI-GLOSS</ncicp:term-source><ncicp:source-code>CDR0000673819</ncicp:source-code></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Radiation-Total</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>radiation</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI-GLOSS</ncicp:term-source><ncicp:source-code>CDR0000045072</ncicp:source-code></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Radiation</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Electromagnetic Radiation" xsd:string
+property_value: P207 "C0034519" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Radiation that has both electric and magnetic fields and travels in waves. It comes from natural and man-made sources. Electromagnetic radiation can vary in strength from low energy to high energy. It includes radio waves, microwaves, infrared light, visible light, ultraviolet light, x-rays, and gamma rays.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Electromagnetic_Radiation" xsd:string
+
+[Term]
+id: NCIT:C17052
+name: Ionizing Radiation
+def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
+synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
+synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
+synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
+synonym: "ionizing radiation" RELATED [NCIT:C17052]
+xref: NCIT:C17052
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Ionizing Radiation" xsd:string
+property_value: P207 "C0034538" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>A type of radiation made (or given off) by x-ray procedures, radioactive substances, rays that enter the Earth's atmosphere from outer space, and other sources. At high doses, ionizing radiation increases chemical activity inside cells and can lead to health risks, including cancer.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Ionizing_Radiation" xsd:string
+
+[Term]
+id: NCIT:C17053
+name: Nonionizing Radiation
+def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
+synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
+synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
+synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
+synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
+synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
+xref: NCIT:C17053
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Nonionizing Radiation" xsd:string
+property_value: P207 "C0034539" xsd:string
+property_value: P366 "Nonionizing_Radiation" xsd:string
+
+[Term]
+id: NCIT:C17054
+name: Radioactivity
+def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
+xref: NCIT:C17054
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Radioactive</ncicp:term-name><ncicp:term-group>AD</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>radioactive</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI-GLOSS</ncicp:term-source><ncicp:source-code>CDR0000046550</ncicp:source-code></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Radioactivity</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Radioactivity" xsd:string
+property_value: P207 "C0034553" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Giving off radiation.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Radioactivity" xsd:string
+
+[Term]
+id: NCIT:C17231
+name: Ultraviolet Radiation
+def: "The invisible ultraviolet spectrum makes up one specific portion of sunlight. This unique portion accounts for three percent of all solar radiation reaching the earth. UV radiation causes many health problems." [NCIT:C17231]
+synonym: "Radiation, UV" RELATED [NCIT:C17231]
+synonym: "Sun/Ultra-Violet Rays" RELATED [NCIT:C17231]
+synonym: "UV Radiation" RELATED [NCIT:C17231]
+synonym: "UV radiation" RELATED [NCIT:C17231]
+synonym: "Ultraviolet Radiation" RELATED [NCIT:C17231]
+synonym: "ultraviolet radiation" RELATED [NCIT:C17231]
+xref: NCIT:C17231
+is_a: NCIT:C44445  ! Solar Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>UV</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Ultraviolet Radiation" xsd:string
+property_value: P207 "C0041625" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Invisible rays that are part of the energy that comes from the sun. Ultraviolet radiation that reaches the Earth's surface is made up of two types of rays, called UVA and UVB. Ultraviolet radiation also comes from sun lamps and tanning beds. It can cause skin damage, premature aging, melanoma, and other types of skin cancer. It can also cause problems with the eyes and the immune system. Skin specialists recommend that people use sunscreens that protect the skin from both kinds of ultraviolet radiation. In medicine, ultraviolet radiation also comes from special lamps or a laser and is used to treat certain skin conditions such as psoriasis, vitiligo, and skin tumors of cutaneous T-cell lymphoma.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>That portion of the electromagnetic spectrum immediately below the visible range and extending into the x-ray frequencies. The longer wavelengths (near-UV or biotic or vital rays) are necessary for the endogenous synthesis of vitamin D and are also called antirachitic rays; the shorter, ionizing wavelengths (far-UV or abiotic or extravital rays) are viricidal, bactericidal, mutagenic, and carcinogenic and are used as disinfectants.</ncicp:def-definition><ncicp:def-source>MSH2002_06_01</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Ultraviolet_Radiation" xsd:string
+
+[Term]
+id: NCIT:C17262
+name: X-Ray
+synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
+xref: NCIT:C17262
+is_a: NCIT:C17052  ! Ionizing Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>X-radiation</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>x-ray</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI-GLOSS</ncicp:term-source><ncicp:source-code>CDR0000045944</ncicp:source-code></ncicp:ComplexTerm>
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>X-Ray</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "X-Ray" xsd:string
+property_value: P207 "C0043309" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>A type of high-energy radiation. In low doses, x-rays are used to diagnose diseases by making pictures of the inside of the body. In high doses, x-rays are used to treat cancer.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "X-Ray" xsd:string
+
+[Term]
+id: NCIT:C17732
+name: Visible Light
+def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
+synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
+synonym: "Visible Light" RELATED [NCIT:C17732]
+xref: NCIT:C17732
+is_a: NCIT:C17053  ! Nonionizing Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Visible Light" xsd:string
+property_value: P207 "C0242377" xsd:string
+property_value: P366 "Visible_Light" xsd:string
+
+[Term]
+id: NCIT:C18070
+name: Neutron Radiation
+def: "Radiation of neutrons during radioactive decay." [NCIT:C18070]
+synonym: "Neutron Radiation" RELATED [NCIT:C18070]
+synonym: "Radiation, Neutron" RELATED [NCIT:C18070]
+xref: NCIT:C18070
+is_a: NCIT:C17052  ! Ionizing Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Neutron-Radiation</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Neutron Radiation" xsd:string
+property_value: P207 "C0563222" xsd:string
+property_value: P366 "Neutron_Radiation" xsd:string
+
+[Term]
+id: NCIT:C18836
+name: High-LET Radiation
+def: "Radioactive particles that deposit a high amount of energy by radiation per unit length of travel." [NCIT:C18836]
+synonym: "High Linear Energy Transfer Radiation" RELATED [NCIT:C18836]
+synonym: "High-LET Radiation" RELATED [NCIT:C18836]
+xref: NCIT:C18836
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "High-LET Radiation" xsd:string
+property_value: P207 "C1512440" xsd:string
+property_value: P366 "High-LET_Radiation" xsd:string
+
+[Term]
+id: NCIT:C18982
+name: Radiation, Charged Particles
+def: "A particle which carries a positive or negative electrical charge, typically an ionized atom or molecule, or an electron." [NCIT:C18982]
+synonym: "Radiation, Charged Particles" RELATED [NCIT:C18982]
+xref: NCIT:C18982
+is_a: NCIT:C17052  ! Ionizing Radiation
+property_value: P106 "Element, Ion, or Isotope" xsd:string
+property_value: P108 "Radiation, Charged Particles" xsd:string
+property_value: P207 "C1516444" xsd:string
+property_value: P366 "Charged_Particles_Radiation" xsd:string
+
+[Term]
+id: NCIT:C18983
+name: Low-Level Ionizing Radiation
+synonym: "Low-Level Ionizing Radiation" RELATED [NCIT:C18983]
+synonym: "Radiation Ionizing, Low Level" RELATED [NCIT:C18983]
+synonym: "Radiation, Low-Level Ionizing" RELATED [NCIT:C18983]
+xref: NCIT:C18983
+is_a: NCIT:C16318  ! Low-Level Radiation
+is_a: NCIT:C17052  ! Ionizing Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>LLIR</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Low-Level Ionizing Radiation" xsd:string
+property_value: P207 "C1518007" xsd:string
+property_value: P366 "Low-Level_Ionizing_Radiation" xsd:string
+
+[Term]
+id: NCIT:C20049
+name: Radiation, Other
+synonym: "Radiation, Other" RELATED [NCIT:C20049]
+xref: NCIT:C20049
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Radiation, Other" xsd:string
+property_value: P207 "C1518667" xsd:string
+property_value: P366 "Other_Radiation" xsd:string
+
+[Term]
+id: NCIT:C27986
+name: Ultraviolet A Radiation
+def: "Ultraviolet A Radiation is the 320 to 400 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. It is may be up to 1,000 times more intense than UVB. UVA radiation can penetrate to underlying tissues of the skin and cause photo-aging or long-term skin damage. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C27986]
+synonym: "UVA Radiation" RELATED [NCIT:C27986]
+synonym: "UVA radiation" RELATED [NCIT:C27986]
+synonym: "Ultraviolet A Radiation" RELATED [NCIT:C27986]
+synonym: "ultraviolet A radiation" RELATED [NCIT:C27986]
+xref: NCIT:C27986
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Ultraviolet A Radiation" xsd:string
+property_value: P207 "C0564460" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Invisible rays that are part of the energy that comes from the sun. Ultraviolet A radiation also comes from sun lamps and tanning beds. Ultraviolet A radiation may cause premature aging of the skin and skin cancer. It may also cause problems with the eyes and the immune system. Skin specialists recommend that people use sunscreens that protect the skin from ultraviolet radiation. In medicine, ultraviolet A radiation also comes from special lamps or a laser and is used to treat certain skin conditions such as psoriasis, vitiligo, and skin tumors of cutaneous T-cell lymphoma.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Ultraviolet_A_radiation" xsd:string
+
+[Term]
+id: NCIT:C27987
+name: Ultraviolet B Radiation
+def: "Ultraviolet B Radiation is the 290 to 320 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. Recent ozone depletion has permitted more UVB to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. Evidence shows a dose-response relationship between nonmelanoma skin cancer and cumulative exposure to UVB radiation. (NCI04)" [NCIT:C27987]
+synonym: "UVB Radiation" RELATED [NCIT:C27987]
+synonym: "UVB radiation" RELATED [NCIT:C27987]
+synonym: "Ultraviolet B Radiation" RELATED [NCIT:C27987]
+synonym: "Ultraviolet-B Radiation" RELATED [NCIT:C27987]
+synonym: "ultraviolet B radiation" RELATED [NCIT:C27987]
+xref: NCIT:C27987
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>UVB</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Ultraviolet B Radiation" xsd:string
+property_value: P207 "C0564461" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Invisible rays that are part of the energy that comes from the sun. Ultraviolet B radiation causes sunburn, darkening and thickening of the outer layer of the skin, and melanoma and other types of skin cancer. It may also cause problems with the eyes and the immune system. Skin specialists recommend that people use sunscreens that protect the skin from ultraviolet radiation. In medicine, ultraviolet B radiation also comes from special lamps or a laser and is used to treat certain skin conditions such as psoriasis, vitiligo, and skin tumors of cutaneous T-cell lymphoma.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Ultraviolet_B_Radiation" xsd:string
+
+[Term]
+id: NCIT:C28039
+name: Electron Beam
+synonym: "Electron Beam" RELATED [NCIT:C28039]
+synonym: "electron beam" RELATED [NCIT:C28039]
+xref: NCIT:C28039
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Electron Beam" xsd:string
+property_value: P207 "C0013840" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>A stream of electrons (small negatively charged particles found in atoms) that can be used for radiation therapy.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Electron_Beam" xsd:string
+
+[Term]
+id: NCIT:C29887
+name: Californium-252 Fission Neutron Radiation
+def: "Californium-252 is a neutron emitter with a high specific activity.  It is used most often in brachytherapy for cancer patients." [NCIT:C29887]
+synonym: "Californium-252 Fission Neutron Radiation" RELATED [NCIT:C29887]
+xref: NCIT:C29887
+is_a: NCIT:C16279  ! Alpha Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Cf-252</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Human-caused Phenomenon or Process" xsd:string
+property_value: P108 "Californium-252 Fission Neutron Radiation" xsd:string
+property_value: P207 "C1516150" xsd:string
+property_value: P366 "Californium-252_Fission_Neutron_Radiation" xsd:string
+
+[Term]
+id: NCIT:C40431
+name: Proton Radiation
+def: "Radiation of protons during radioactive decay." [NCIT:C40431]
+synonym: "Proton Radiation" RELATED [NCIT:C40431]
+synonym: "Radiation, Charged Particles-Protons" RELATED [NCIT:C40431]
+xref: NCIT:C40431
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Proton Radiation" xsd:string
+property_value: P207 "C1514577" xsd:string
+property_value: P366 "Proton_Radiation" xsd:string
+
+[Term]
+id: NCIT:C44344
+name: Broad-Spectrum UV Radiation
+synonym: "Broad-Spectrum UV Radiation" RELATED [NCIT:C44344]
+xref: NCIT:C44344
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Broad-Spectrum UV Radiation" xsd:string
+property_value: P207 "C1707046" xsd:string
+property_value: P366 "Broad-Spectrum_UV_Radiation" xsd:string
+
+[Term]
+id: NCIT:C44386
+name: Gamma Radiation
+def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
+synonym: "Gamma Radiation" RELATED [NCIT:C44386]
+synonym: "Gamma Ray" RELATED [NCIT:C44386]
+synonym: "gamma ray" RELATED [NCIT:C44386]
+xref: NCIT:C44386
+is_a: NCIT:C17052  ! Ionizing Radiation
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Gamma</ncicp:term-name><ncicp:term-group>SY</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Gamma Radiation" xsd:string
+property_value: P207 "C0017011" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>A type of high-energy radiation that is different from an x-ray.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Gamma_Radiation" xsd:string
+
+[Term]
+id: NCIT:C44445
+name: Solar Radiation
+synonym: "Solar Radiation" RELATED [NCIT:C44445]
+xref: NCIT:C44445
+is_a: NCIT:C17053  ! Nonionizing Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Solar Radiation" xsd:string
+property_value: P207 "C0037605" xsd:string
+property_value: P366 "Solar_Radiation" xsd:string
+
+[Term]
+id: NCIT:C44461
+name: Ultraviolet C Radiation
+def: "Many scientists rate wavelengths in the C range of the ultraviolet (UVC) solar spectrum, between 200 and 290 nm, as the most carcinogenic. The ozone layer absorbs most UVC rays. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C44461]
+synonym: "UVC Radiation" RELATED [NCIT:C44461]
+synonym: "UVC radiation" RELATED [NCIT:C44461]
+synonym: "Ultraviolet C Radiation" RELATED [NCIT:C44461]
+synonym: "ultraviolet C radiation" RELATED [NCIT:C44461]
+xref: NCIT:C44461
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Ultraviolet C Radiation" xsd:string
+property_value: P207 "C0730442" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>Invisible rays that are part of the energy that comes from the sun. Most ultraviolet C radiation from the sun is blocked from the Earth's surface by the ozone layer. In medicine, ultraviolet C radiation may also come from special lamps or a laser and is used to kill germs or to help heal wounds. It is also used to treat certain skin conditions such as psoriasis, vitiligo, and skin nodules of cutaneous T-cell lymphoma.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Ultraviolet_C_Radiation" xsd:string
+
+[Term]
+id: NCIT:C70832
+name: Radio Frequency
+def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
+synonym: "Radio Frequency" RELATED [NCIT:C70832]
+synonym: "radio wave" RELATED [NCIT:C70832]
+xref: NCIT:C70832
+is_a: NCIT:C17053  ! Nonionizing Radiation
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Radio Frequency" xsd:string
+property_value: P207 "C0034547" xsd:string
+property_value: P325 "<ncicp:ComplexDefinition><ncicp:def-definition>A type of wave made when an electric field and a magnetic field are combined. Radio waves are being studied in the treatment of several types of cancer and other conditions. The radio waves are sent through needles inserted into tumor tissue and may kill cancer cells. Radio waves are also used in MRI to create detailed images of areas inside the body.</ncicp:def-definition><ncicp:def-source>NCI-GLOSS</ncicp:def-source></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+property_value: P366 "Radio_Frequency" xsd:string
+
+[Term]
+id: NCIT:C88112
+name: Photon
+xref: NCIT:C88112
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+property_value: P368 CHEBI:30212
+property_value: P90 <ncicp:ComplexTerm><ncicp:term-name>Photon</ncicp:term-name><ncicp:term-group>PT</ncicp:term-group><ncicp:term-source>NCI</ncicp:term-source></ncicp:ComplexTerm>
+property_value: P106 "Natural Phenomenon or Process" xsd:string
+property_value: P108 "Photon" xsd:string
+property_value: P207 "C0086805" xsd:string
+property_value: P97 "<ncicp:ComplexDefinition><ncicp:def-source>NCI</ncicp:def-source><ncicp:def-definition>A single unit of electromagnetic radiation, generally considered to be a discrete particle having no mass or charge.</ncicp:def-definition></ncicp:ComplexDefinition>" xsd:http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral
+

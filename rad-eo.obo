@@ -1,0 +1,391 @@
+format-version: 1.2
+ontology: eo
+
+[Term]
+id: EO:0001022
+name: gamma radiation treatment
+namespace: plant_environment_ontology
+def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
+synonym: "gamma rays" EXACT []
+xref: EO_GIT:41
+xref: OBO_SF2_EO:41
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0001039
+name: radiation mutagen treatment
+namespace: plant_environment_ontology
+def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
+xref: EO_GIT:42
+xref: OBO_SF2_EO:42
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0001040
+name: light-induced photooxidative stress treatment
+namespace: plant_environment_ontology
+def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
+xref: EO_GIT:44
+xref: OBO_SF2_EO:44
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007001
+name: UV-B light regimen
+namespace: plant_environment_ontology
+def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007002
+name: UV-A light regimen
+namespace: plant_environment_ontology
+def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007075
+name: high light intensity regimen
+namespace: plant_environment_ontology
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007076
+name: moderate light intensity regimen
+namespace: plant_environment_ontology
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007078
+name: light quantity regimen
+namespace: plant_environment_ontology
+def: "In biological experiments often it refer to the length of the exposure time. The treatment also includes the quantity of light falling on a per unit area. This may be expressed either in terms of hours for which teh radiation was available or in the units of luminous flux or the lumens." [GR:pj]
+synonym: "photoperiod regimen" RELATED []
+is_a: EO:0007153  ! radiation quantity regimen
+
+[Term]
+id: EO:0007128
+name: intermittent light regimen
+namespace: plant_environment_ontology
+def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007129
+name: UV-C light regimen
+namespace: plant_environment_ontology
+def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007130
+name: near infra-red light regimen
+namespace: plant_environment_ontology
+def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [GR:pj]
+synonym: "near IR light regimen" RELATED []
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007131
+name: middle infra-red light regimen
+namespace: plant_environment_ontology
+def: "The treatment using middle infra-red light either exclusively or as part of a supplemental light treatment involving middle IR band that contains energy in the range of wavelengths 1300-3000nm." [GR:pj]
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007132
+name: far infra-red light regimen
+namespace: plant_environment_ontology
+def: "The treatment using far infra-red light either exclusively or as part of a supplemental light treatment involving far IR band that contains energy in the range of wavelengths 3000-14000nm." [GR:pj]
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007151
+name: radiation treatment
+namespace: plant_environment_ontology
+def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
+comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
+synonym: "light regimen" RELATED []
+is_a: EO:0007316  ! physical plant treatment
+
+[Term]
+id: EO:0007152
+name: radiation intensity regimen
+namespace: plant_environment_ontology
+def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007153
+name: radiation quantity regimen
+namespace: plant_environment_ontology
+def: "In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007154
+name: radiation quality treatment
+namespace: plant_environment_ontology
+def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007162
+name: continuous light regimen
+namespace: plant_environment_ontology
+def: "The treatment involving continuous exposure of light to the plant." [GR:pj]
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007163
+name: day light regimen
+namespace: plant_environment_ontology
+def: "The treatment involving an exposure of plant to the scheduled or natural exposure of day light and night cycles to the plant." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007193
+name: day light intensity
+namespace: plant_environment_ontology
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007196
+name: light regimen
+namespace: plant_environment_ontology
+alt_id: EO:0007201
+def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
+comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
+synonym: "artificial daylight" RELATED []
+synonym: "artificial light" RELATED []
+synonym: "day light" RELATED []
+synonym: "natural light" RELATED []
+synonym: "sun light" RELATED []
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007199
+name: long day length regimen
+namespace: plant_environment_ontology
+def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007200
+name: short day length regimen
+namespace: plant_environment_ontology
+def: "The treatment involving exposure of plant to short day light duration followed by a long night cycle." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007202
+name: IR light regimen
+namespace: plant_environment_ontology
+def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [GR:pj]
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007203
+name: far red light regimen
+namespace: plant_environment_ontology
+def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
+synonym: "Pfr light" RELATED []
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007207
+name: red light regimen
+namespace: plant_environment_ontology
+def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
+synonym: "Pr light" RELATED []
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007215
+name: orange light regimen
+namespace: plant_environment_ontology
+def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007216
+name: yellow light regimen
+namespace: plant_environment_ontology
+def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007217
+name: green light regimen
+namespace: plant_environment_ontology
+def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007218
+name: blue light regimen
+namespace: plant_environment_ontology
+def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007219
+name: indigo light regimen
+namespace: plant_environment_ontology
+def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007220
+name: violet light regimen
+namespace: plant_environment_ontology
+def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007221
+name: visible light regimen
+namespace: plant_environment_ontology
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007222
+name: UV light regimen
+namespace: plant_environment_ontology
+def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [GR:pj]
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007224
+name: light intensity regimen
+namespace: plant_environment_ontology
+def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
+is_a: EO:0007152  ! radiation intensity regimen
+
+[Term]
+id: EO:0007270
+name: continuous dark (no light) regimen
+namespace: plant_environment_ontology
+def: "The treatment involving continuous exposure to darkness (no light) to the plant." [GR:pj]
+synonym: "continuous night regimen" RELATED []
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007271
+name: low light intensity regimen
+namespace: plant_environment_ontology
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007610
+name: 3-H
+namespace: plant_environment_ontology
+synonym: "tritium" RELATED []
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007611
+name: 3-H-deoxycytidine
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007612
+name: 3-H-thymidine
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007613
+name: 32-P
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007614
+name: agr ray
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007615
+name: Bevatron irradiation
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007616
+name: deuteron irradiation
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007617
+name: ggr ray
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007618
+name: 137-Cs or ggr ray
+namespace: plant_environment_ontology
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007619
+name: 226-Ra or agr ray
+namespace: plant_environment_ontology
+synonym: "radium" RELATED []
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007620
+name: 60-Co or ggr ray
+namespace: plant_environment_ontology
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007621
+name: magnetic field
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007622
+name: neutrons
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007623
+name: 252-Cf fission neutrons
+namespace: plant_environment_ontology
+is_a: EO:0007622  ! neutrons
+
+[Term]
+id: EO:0007624
+name: radio wave
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007625
+name: stratosphere exposure
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007626
+name: supersonic-treatment
+namespace: plant_environment_ontology
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007628
+name: X-ray
+namespace: plant_environment_ontology
+def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
+is_a: EO:0007154  ! radiation quality treatment
+

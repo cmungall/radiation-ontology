@@ -1,0 +1,58 @@
+format-version: 1.2
+ontology: /untitled-ontology-77
+
+[Term]
+id: ZECO:0000145
+name: electromagnetic radiation experimental conditions
+is_a: ZECO:0000128  ! experimental conditions
+
+[Term]
+id: ZECO:0000146
+name: magnetic field
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000147
+name: electric field
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000148
+name: ionizing radiation
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000149
+name: gamma ray
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000150
+name: xray
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000151
+name: ionizing uv radiation
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000152
+name: non-ionizing radiation
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000153
+name: visible light
+is_a: ZECO:0000152  ! non-ionizing radiation
+
+[Term]
+id: ZECO:0000154
+name: non-ionizing uv
+is_a: ZECO:0000152  ! non-ionizing radiation
+
+[Term]
+id: ZECO:0000155
+name: infrared
+is_a: ZECO:0000152  ! non-ionizing radiation
+
