@@ -1,0 +1,8 @@
+digraph cliquegraph {
+subgraph cluster_ZECO_0000146 {ZECO_0000146 [ label="ZECO_0000146 magnetic
+field" ];
+EO_0007621 [ label="EO_0007621 magnetic
+field" ];}
+EO_0007621 -> ZECO_0000146 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007621 -> ZECO_0000146 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+}

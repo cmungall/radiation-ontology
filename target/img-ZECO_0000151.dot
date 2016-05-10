@@ -1,0 +1,11 @@
+digraph cliquegraph {
+subgraph cluster_ZECO_0000151 {ZECO_0000151 [ label="ZECO_0000151 ionizing
+uv
+radiation" ];
+XCO_0000179 [ label="XCO_0000179 ionizing
+ultraviolet
+radiation
+exposure" ];}
+XCO_0000179 -> ZECO_0000151 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+XCO_0000179 -> ZECO_0000151 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+}

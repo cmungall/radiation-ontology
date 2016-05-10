@@ -1,0 +1,21 @@
+digraph cliquegraph {
+subgraph cluster_ZECO_0000145 {ZECO_0000145 [ label="ZECO_0000145 electromagnetic
+radiation
+experimental
+conditions" ];
+NCIT_C17050 [ label="NCIT_C17050 Electromagnetic
+Radiation" ];
+XCO_0000045 [ label="XCO_0000045 electromagnetic
+radiation
+exposure" ];}
+XCO_0000045 -> ZECO_0000145 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17050 -> ZECO_0000145 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17050 -> XCO_0000045 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+XCO_0000045 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17050 -> XCO_0000045 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17050 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+}

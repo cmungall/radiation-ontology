@@ -1,0 +1,286 @@
+[
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/SCTID_218204007",
+    "members": [
+      "http://purl.obolibrary.org/obo/SCTID_218204007",
+      "http://purl.obolibrary.org/obo/ZECO_0000149",
+      "http://purl.obolibrary.org/obo/EO_0001022",
+      "http://purl.obolibrary.org/obo/NCIT_C44386",
+      "http://purl.obolibrary.org/obo/XCO_0000040"
+    ],
+    "size": 5,
+    "initialNumberOfProbabilisticEdges": 7,
+    "probability": 0.41097321091041883,
+    "confidence": 2.666666666666669,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 119,
+    "axiomStrings": [
+      "EO_0001022 gamma radiation treatment EquivalentTo NCIT_C44386 Gamma Radiation",
+      "EO_0001022 gamma radiation treatment EquivalentTo ZECO_0000149 gamma ray",
+      "NCIT_C44386 Gamma Radiation EquivalentTo XCO_0000040 gamma ray exposure",
+      "EO_0001022 gamma radiation treatment EquivalentTo SCTID_218204007",
+      "XCO_0000040 gamma ray exposure EquivalentTo ZECO_0000149 gamma ray",
+      "NCIT_C44386 Gamma Radiation EquivalentTo ZECO_0000149 gamma ray",
+      "EO_0001022 gamma radiation treatment EquivalentTo XCO_0000040 gamma ray exposure"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000151",
+    "members": [
+      "http://purl.obolibrary.org/obo/XCO_0000179",
+      "http://purl.obolibrary.org/obo/ZECO_0000151"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.6999999999999998,
+    "confidence": 5.999999999999994,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 5,
+    "axiomStrings": [
+      "XCO_0000179 ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000151 ionizing uv radiation"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000043",
+    "members": [
+      "http://purl.obolibrary.org/obo/ZECO_0000150",
+      "http://purl.obolibrary.org/obo/XCO_0000043",
+      "http://purl.obolibrary.org/obo/EO_0007628",
+      "http://purl.obolibrary.org/obo/NCIT_C17262"
+    ],
+    "size": 4,
+    "initialNumberOfProbabilisticEdges": 6,
+    "probability": 0.7297979797979801,
+    "confidence": 16.00000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 53,
+    "axiomStrings": [
+      "NCIT_C17262 X-Ray EquivalentTo XCO_0000043 X-ray exposure",
+      "NCIT_C17262 X-Ray EquivalentTo ZECO_0000150 xray",
+      "EO_0007628 X-ray EquivalentTo XCO_0000043 X-ray exposure",
+      "XCO_0000043 X-ray exposure EquivalentTo ZECO_0000150 xray",
+      "EO_0007628 X-ray EquivalentTo NCIT_C17262 X-Ray",
+      "EO_0007628 X-ray EquivalentTo ZECO_0000150 xray"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000152",
+    "members": [
+      "http://purl.obolibrary.org/obo/ZECO_0000152",
+      "http://purl.obolibrary.org/obo/XCO_0000044",
+      "http://purl.obolibrary.org/obo/NCIT_C17053"
+    ],
+    "size": 3,
+    "initialNumberOfProbabilisticEdges": 3,
+    "probability": 0.8348343245539509,
+    "confidence": 16.00000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 15,
+    "axiomStrings": [
+      "NCIT_C17053 Nonionizing Radiation EquivalentTo ZECO_0000152 non-ionizing radiation",
+      "NCIT_C17053 Nonionizing Radiation EquivalentTo XCO_0000044 non-ionizing radiation exposure",
+      "XCO_0000044 non-ionizing radiation exposure EquivalentTo ZECO_0000152 non-ionizing radiation"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000145",
+    "members": [
+      "http://purl.obolibrary.org/obo/ZECO_0000145",
+      "http://purl.obolibrary.org/obo/XCO_0000045",
+      "http://purl.obolibrary.org/obo/NCIT_C17050"
+    ],
+    "size": 3,
+    "initialNumberOfProbabilisticEdges": 3,
+    "probability": 0.8348343245539509,
+    "confidence": 16.00000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 15,
+    "axiomStrings": [
+      "NCIT_C17050 Electromagnetic Radiation EquivalentTo XCO_0000045 electromagnetic radiation exposure",
+      "XCO_0000045 electromagnetic radiation exposure EquivalentTo ZECO_0000145 electromagnetic radiation experimental conditions",
+      "NCIT_C17050 Electromagnetic Radiation EquivalentTo ZECO_0000145 electromagnetic radiation experimental conditions"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000042",
+    "members": [
+      "http://purl.obolibrary.org/obo/XCO_0000042",
+      "http://purl.obolibrary.org/obo/NCIT_C17231"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.5500000000000002,
+    "confidence": 2.666666666666667,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 8,
+    "axiomStrings": [
+      "NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/NCIT_C17732",
+    "members": [
+      "http://purl.obolibrary.org/obo/NCIT_C17732",
+      "http://purl.obolibrary.org/obo/ZECO_0000153"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 5,
+    "axiomStrings": [
+      "NCIT_C17732 Visible Light EquivalentTo ZECO_0000153 visible light"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000463",
+    "members": [
+      "http://purl.obolibrary.org/obo/XCO_0000463",
+      "http://purl.obolibrary.org/obo/XCO_0000462"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.3333333333333335,
+    "confidence": 0.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 6,
+    "axiomStrings": [
+      "XCO_0000462 light phase of controlled light/dark cycle SubClassOf XCO_0000463 dark phase of controlled light/dark cycle"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/SCTID_218213009",
+    "members": [
+      "http://purl.obolibrary.org/obo/NCIT_C20049",
+      "http://purl.obolibrary.org/obo/SCTID_218213009"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 5,
+    "axiomStrings": [
+      "NCIT_C20049 Radiation, Other EquivalentTo SCTID_218213009"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000046",
+    "members": [
+      "http://purl.obolibrary.org/obo/XCO_0000046",
+      "http://purl.obolibrary.org/obo/NCIT_C16736"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 81,
+    "axiomStrings": [
+      "NCIT_C16736 Infrared Radiation EquivalentTo XCO_0000046 infrared radiation exposure"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/NCIT_C16862",
+    "members": [
+      "http://purl.obolibrary.org/obo/SCTID_218192005",
+      "http://purl.obolibrary.org/obo/NCIT_C16862"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 12,
+    "axiomStrings": [
+      "NCIT_C16862 Microwave Radiation EquivalentTo SCTID_218192005"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007151",
+    "members": [
+      "http://purl.obolibrary.org/obo/XCO_0000038",
+      "http://purl.obolibrary.org/obo/SCTID_218190002",
+      "http://purl.obolibrary.org/obo/SCTID_419201009",
+      "http://purl.obolibrary.org/obo/EO_0007151"
+    ],
+    "size": 4,
+    "initialNumberOfProbabilisticEdges": 6,
+    "probability": 0.0,
+    "solved": false,
+    "messages": [
+      "UNSATISFIABLE"
+    ],
+    "timeToSolve": 2385
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000146",
+    "members": [
+      "http://purl.obolibrary.org/obo/EO_0007621",
+      "http://purl.obolibrary.org/obo/ZECO_0000146"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 7,
+    "axiomStrings": [
+      "EO_0007621 magnetic field EquivalentTo ZECO_0000146 magnetic field"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000039",
+    "members": [
+      "http://purl.obolibrary.org/obo/ZECO_0000148",
+      "http://purl.obolibrary.org/obo/XCO_0000039",
+      "http://purl.obolibrary.org/obo/NCIT_C17052",
+      "http://purl.obolibrary.org/obo/SCTID_122866006"
+    ],
+    "size": 4,
+    "initialNumberOfProbabilisticEdges": 6,
+    "probability": 0.7297979797979801,
+    "confidence": 16.00000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 49,
+    "axiomStrings": [
+      "NCIT_C17052 Ionizing Radiation EquivalentTo SCTID_122866006",
+      "SCTID_122866006 EquivalentTo ZECO_0000148 ionizing radiation",
+      "NCIT_C17052 Ionizing Radiation EquivalentTo ZECO_0000148 ionizing radiation",
+      "XCO_0000039 ionizing radiation exposure EquivalentTo ZECO_0000148 ionizing radiation",
+      "NCIT_C17052 Ionizing Radiation EquivalentTo XCO_0000039 ionizing radiation exposure",
+      "SCTID_122866006 EquivalentTo XCO_0000039 ionizing radiation exposure"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007624",
+    "members": [
+      "http://purl.obolibrary.org/obo/EO_0007624",
+      "http://purl.obolibrary.org/obo/NCIT_C70832"
+    ],
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.5500000000000002,
+    "confidence": 2.666666666666667,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 6,
+    "axiomStrings": [
+      "EO_0007624 radio wave EquivalentTo NCIT_C70832 Radio Frequency"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+digraph cliquegraph {
+subgraph cluster_XCO_0000463 {XCO_0000463 [ label="XCO_0000463 dark
+phase
+of
+controlled
+light/dark
+cycle" ];}
+
+subgraph cluster_XCO_0000462 {XCO_0000462 [ label="XCO_0000462 light
+phase
+of
+controlled
+light/dark
+cycle" ];}
+XCO_0000462 -> XCO_0000463 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+XCO_0000462 -> XCO_0000463 [ arrowhead = normal, penwidth=1, color=blue, label="0.05", style=solid]
+}

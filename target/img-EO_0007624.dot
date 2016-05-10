@@ -1,0 +1,8 @@
+digraph cliquegraph {
+subgraph cluster_EO_0007624 {EO_0007624 [ label="EO_0007624 radio
+wave" ];
+NCIT_C70832 [ label="NCIT_C70832 Radio
+Frequency" ];}
+EO_0007624 -> NCIT_C70832 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007624 -> NCIT_C70832 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
+}
