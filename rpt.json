@@ -12,7 +12,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 17,
+    "timeToSolve": 16,
     "axiomStrings": [
       "NCIT_C17050 Electromagnetic Radiation EquivalentTo XCO_0000045 electromagnetic radiation exposure",
       "XCO_0000045 electromagnetic radiation exposure EquivalentTo ZECO_0000145 electromagnetic radiation experimental conditions",
@@ -27,11 +27,11 @@
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.6999999999999998,
-    "confidence": 5.999999999999994,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 6,
+    "timeToSolve": 5,
     "axiomStrings": [
       "XCO_0000179 ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000151 ionizing uv radiation"
     ]
@@ -48,7 +48,7 @@
     "confidence": 2.666666666666667,
     "solved": true,
     "messages": [],
-    "timeToSolve": 7,
+    "timeToSolve": 6,
     "axiomStrings": [
       "EO_0007624 radio wave EquivalentTo NCIT_C70832 Radio Frequency"
     ]
@@ -61,8 +61,8 @@
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.5500000000000002,
-    "confidence": 2.666666666666667,
+    "probability": 0.6999999999999998,
+    "confidence": 5.999999999999994,
     "solved": true,
     "messages": [],
     "timeToSolve": 8,
@@ -84,7 +84,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 54,
+    "timeToSolve": 49,
     "axiomStrings": [
       "NCIT_C17262 X-Ray EquivalentTo XCO_0000043 X-ray exposure",
       "NCIT_C17262 X-Ray EquivalentTo ZECO_0000150 xray",
@@ -109,7 +109,7 @@
     "confidence": 2.666666666666669,
     "solved": true,
     "messages": [],
-    "timeToSolve": 57,
+    "timeToSolve": 58,
     "axiomStrings": [
       "EO_0001022 gamma radiation treatment EquivalentTo NCIT_C44386 Gamma Radiation",
       "EO_0001022 gamma radiation treatment EquivalentTo ZECO_0000149 gamma ray",
@@ -132,7 +132,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 6,
+    "timeToSolve": 7,
     "axiomStrings": [
       "NCIT_C16862 Microwave Radiation EquivalentTo SCTID_218192005"
     ]
@@ -170,7 +170,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 12,
+    "timeToSolve": 11,
     "axiomStrings": [
       "NCIT_C17053 Nonionizing Radiation EquivalentTo ZECO_0000152 non-ionizing radiation",
       "NCIT_C17053 Nonionizing Radiation EquivalentTo XCO_0000044 non-ionizing radiation exposure",
@@ -189,7 +189,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 7,
+    "timeToSolve": 8,
     "axiomStrings": [
       "NCIT_C20049 Radiation, Other EquivalentTo SCTID_218213009"
     ]
@@ -206,7 +206,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 5,
+    "timeToSolve": 6,
     "axiomStrings": [
       "EO_0007621 magnetic field EquivalentTo ZECO_0000146 magnetic field"
     ]
@@ -246,7 +246,7 @@
     "messages": [
       "UNSATISFIABLE"
     ],
-    "timeToSolve": 20996
+    "timeToSolve": 21737
   },
   {
     "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000039",

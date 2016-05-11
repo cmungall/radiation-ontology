@@ -15,12 +15,12 @@
 
 ## http://purl.obolibrary.org/obo/ZECO_0000151
 
- * __Pr(G)__=0.6999999999999998 CONFIDENCE=5.999999999999994 Success:true
+ * __Pr(G)__=0.8500000000000001 CONFIDENCE=16.0 Success:true
  * __SIZE__=2 (1 new axioms) 
 [img](target/img-ZECO_0000151.png)
  * MEMBER: ZECO_0000151 ionizing uv radiation
  * MEMBER: XCO_0000179 ionizing ultraviolet radiation exposure
- * XCO_0000179 ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000151 ionizing uv radiation Pr= 0.7
+ * XCO_0000179 ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000151 ionizing uv radiation Pr= 0.85
 
 
 ## http://purl.obolibrary.org/obo/EO_0007624
@@ -35,12 +35,12 @@
 
 ## http://purl.obolibrary.org/obo/XCO_0000042
 
- * __Pr(G)__=0.5500000000000002 CONFIDENCE=2.666666666666667 Success:true
+ * __Pr(G)__=0.6999999999999998 CONFIDENCE=5.999999999999994 Success:true
  * __SIZE__=2 (1 new axioms) 
 [img](target/img-XCO_0000042.png)
  * MEMBER: XCO_0000042 ultraviolet ray exposure
  * MEMBER: NCIT_C17231 Ultraviolet Radiation
- * NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure Pr= 0.55
+ * NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure Pr= 0.7
 
 
 ## http://purl.obolibrary.org/obo/XCO_0000043
