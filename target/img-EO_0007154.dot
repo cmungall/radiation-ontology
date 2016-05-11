@@ -3,36 +3,36 @@ subgraph cluster_EO_0007154 {EO_0007154 [ label="EO_0007154 radiation
 quality
 treatment" ];}
 
-subgraph cluster_PATO_0001744 {PATO_0001744 [ label="PATO_0001744 radiation
-exposure" ];
-GO_0009314 [ label="GO_0009314 response
-to
+subgraph cluster_ZECO_0000152 {ZECO_0000152 [ label="ZECO_0000152 non-ionizing
 radiation" ];
-EO_0007151 [ label="EO_0007151 radiation
-treatment" ];
-XCO_0000038 [ label="XCO_0000038 radiation
+NCIT_C17053 [ label="NCIT_C17053 Nonionizing
+Radiation" ];
+XCO_0000044 [ label="XCO_0000044 non-ionizing
+radiation
 exposure" ];
-SCTID_218190002 [ label="SCTID_218190002 Exposure
-to
+SCTID_285323007 [ label="SCTID_285323007 Non-ionizing
 radiation" ];}
 
 subgraph cluster_PATO_0000016 {PATO_0000016 [ label="PATO_0000016 color
 brightness" ];}
 
-subgraph cluster_ZECO_0000153 {ZECO_0000153 [ label="ZECO_0000153 visible
-light" ];
-EO_0007221 [ label="EO_0007221 visible
-light
-regimen" ];}
-
-subgraph cluster_SCTID_419201009 {SCTID_419201009 [ label="SCTID_419201009 Overexposure
+subgraph cluster_PATO_0001744 {PATO_0001744 [ label="PATO_0001744 radiation
+exposure" ];
+GO_0009314 [ label="GO_0009314 response
 to
-radiation" ];}
+radiation" ];
+SCTID_82107009 [ label="SCTID_82107009 Radiation" ];
+EO_0007151 [ label="EO_0007151 radiation
+treatment" ];
+XCO_0000038 [ label="XCO_0000038 radiation
+exposure" ];}
 
 subgraph cluster_EO_0007196 {EO_0007196 [ label="EO_0007196 light
 regimen" ];
 PATO_0000665 [ label="PATO_0000665 high
 brightness" ];
+ZECO_0000153 [ label="ZECO_0000153 visible
+light" ];
 XCO_0000283 [ label="XCO_0000283 visible
 light
 stimulus" ];
@@ -41,10 +41,10 @@ Light" ];
 GO_0009416 [ label="GO_0009416 response
 to
 light
-stimulus" ];
-SCTID_418921006 [ label="SCTID_418921006 Exposure
-to
-light" ];}
+stimulus" ];}
+
+subgraph cluster_PATO_0001739 {PATO_0001739 [ label="PATO_0001739 radiation
+quality" ];}
 
 subgraph cluster_ZECO_0000145 {ZECO_0000145 [ label="ZECO_0000145 electromagnetic
 radiation
@@ -54,18 +54,9 @@ NCIT_C17050 [ label="NCIT_C17050 Electromagnetic
 Radiation" ];
 XCO_0000045 [ label="XCO_0000045 electromagnetic
 radiation
-exposure" ];}
-
-subgraph cluster_PATO_0001739 {PATO_0001739 [ label="PATO_0001739 radiation
-quality" ];}
-
-subgraph cluster_ZECO_0000152 {ZECO_0000152 [ label="ZECO_0000152 non-ionizing
-radiation" ];
-NCIT_C17053 [ label="NCIT_C17053 Nonionizing
-Radiation" ];
-XCO_0000044 [ label="XCO_0000044 non-ionizing
-radiation
-exposure" ];}
+exposure" ];
+SCTID_30821001 [ label="SCTID_30821001 Electromagnetic
+radiation" ];}
 
 subgraph cluster_XCO_0000284 {XCO_0000284 [ label="XCO_0000284 controlled
 visible
@@ -78,6 +69,10 @@ subgraph cluster_PATO_0001291 {PATO_0001291 [ label="PATO_0001291 electromagneti
 (EM)
 radiation
 quality" ];}
+
+subgraph cluster_EO_0007221 {EO_0007221 [ label="EO_0007221 visible
+light
+regimen" ];}
 EO_0007154 -> EO_0007151 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
 ZECO_0000152 -> ZECO_0000145 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
@@ -92,11 +87,7 @@ PATO_0001300 -> PATO_0001291 [ arrowhead = normal, penwidth=1, color=black, labe
 
 XCO_0000045 -> XCO_0000038 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
-SCTID_419201009 -> SCTID_218190002 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
-
 XCO_0000284 -> XCO_0000045 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
-
-SCTID_418921006 -> SCTID_218190002 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
 GO_0009416 -> GO_0009314 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
@@ -113,41 +104,47 @@ PATO_0000016 -> PATO_0001300 [ arrowhead = normal, penwidth=1, color=black, labe
 
 ZECO_0000153 -> ZECO_0000152 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
+SCTID_285323007 -> SCTID_82107009 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
 EO_0007196 -> EO_0007154 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+SCTID_30821001 -> SCTID_82107009 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 
 PATO_0001291 -> PATO_0001739 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
 EO_0007151 -> PATO_0001300 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 PATO_0001300 -> XCO_0000284 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-GO_0009314 -> PATO_0001744 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+SCTID_30821001 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
 PATO_0001300 -> XCO_0000284 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 
 NCIT_C17053 -> XCO_0000044 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
-NCIT_C17050 -> XCO_0000045 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+PATO_0000665 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7*", style=solid, arrowtail=ediamond, dir=both]
 
-EO_0007151 -> PATO_0001744 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
-
-GO_0009416 -> SCTID_418921006 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+GO_0009416 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
 PATO_0001300 -> EO_0007151 [ arrowhead = normal, penwidth=2, color=blue, label="0.15", style=solid]
 
-NCIT_C17053 -> ZECO_0000152 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
-
-XCO_0000045 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
-
-GO_0009314 -> SCTID_218190002 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+NCIT_C17050 -> SCTID_30821001 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
 EO_0007196 -> NCIT_C17732 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
-NCIT_C17732 -> PATO_0000665 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7*", style=solid, arrowtail=ediamond, dir=both]
+PATO_0001744 -> SCTID_82107009 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
-EO_0007151 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+XCO_0000044 -> ZECO_0000152 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+GO_0009314 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
 NCIT_C17732 -> XCO_0000283 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
-SCTID_418921006 -> XCO_0000283 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+NCIT_C17053 -> SCTID_285323007 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
-EO_0007221 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+SCTID_82107009 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+GO_0009416 -> XCO_0000283 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+SCTID_30821001 -> XCO_0000045 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007151 -> GO_0009314 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 }

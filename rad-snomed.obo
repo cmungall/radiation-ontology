@@ -1,313 +1,373 @@
 format-version: 1.2
 
 [Term]
-id: SCTID:122866006
-name: Exposure to ionizing radiation
-is_a: SCTID:218190002  ! Exposure to radiation
+id: SCTID:118339006
+name: Continuous wave laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218190002
-name: Exposure to radiation
-is_a: SCTID:115964003  ! Exposure to non-mechanical force
+id: SCTID:118340008
+name: Pulsed laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218191003
-name: Overexposure to radiofrequency radiation
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118341007
+name: Q-switched laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218192005
-name: Overexposure to microwave radiation
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118344004
+name: Long pulsewidth laser beam
+is_a: SCTID:118340008  ! Pulsed laser beam
 
 [Term]
-id: SCTID:218193000
-name: Overexposure to radar radiation
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118345003
+name: High energy laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218195007
-name: Overexposure to infrared heater or lamp
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118352001
+name: Ultraviolet laser light
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218196008
-name: Overexposure to visual and ultraviolet light sources
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118353006
+name: Violet laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218197004
-name: Overexposure to arc lamp radiation
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118358002
+name: Red laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218198009
-name: Overexposure to black light source
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118359005
+name: Green laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218199001
-name: Overexposure to electrical welding arc
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118360000
+name: Near infrared region laser beam
+is_a: SCTID:118365005  ! Infrared laser beam
 
 [Term]
-id: SCTID:218200003
-name: Overexposure to oxygas welding torch
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118361001
+name: Visible laser light
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218201004
-name: Overexposure to sun rays
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118362008
+name: Yellow laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218202006
-name: Overexposure to visible or ultraviolet source NOS
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:118363003
+name: Orange laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218203001
-name: Overexposure to X-rays and other electromagnetic ionizing radiation
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118364009
+name: Middle infrared region laser beam
+is_a: SCTID:118365005  ! Infrared laser beam
 
 [Term]
-id: SCTID:218204007
-name: Overexposure to gamma rays
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118365005
+name: Infrared laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218205008
-name: Overexposure to hard X-rays
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118366006
+name: Far infrared region laser beam
+is_a: SCTID:118365005  ! Infrared laser beam
 
 [Term]
-id: SCTID:218206009
-name: Overexposure to soft X-rays
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118367002
+name: Blue laser light
+is_a: SCTID:118361001  ! Visible laser light
 
 [Term]
-id: SCTID:218207000
-name: Overexposure to X-rays NOS
-is_a: SCTID:218203001  ! Overexposure to X-rays and other electromagnetic ionizing radiation
+id: SCTID:118368007
+name: Quasi-continuous wave laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218208005
-name: Overexposure to lasers
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118369004
+name: Low energy laser beam
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218209002
-name: Overexposure to radioactive isotopes
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:118370003
+name: Low energy infrared laser beam
+is_a: SCTID:118365005  ! Infrared laser beam
+is_a: SCTID:118369004  ! Low energy laser beam
 
 [Term]
-id: SCTID:218210007
-name: Overexposure to radiobiologicals
-is_a: SCTID:218209002  ! Overexposure to radioactive isotopes
+id: SCTID:125576007
+name: Ionizing radiation
+is_a: SCTID:82107009  ! Radiation
 
 [Term]
-id: SCTID:218211006
-name: Overexposure to radiopharmaceuticals
-is_a: SCTID:218209002  ! Overexposure to radioactive isotopes
+id: SCTID:169209006
+name: Ultraviolet radiation in diagnosis
+is_a: SCTID:41355003  ! Ultraviolet radiation
 
 [Term]
-id: SCTID:218212004
-name: Overexposure to radioactive isotope NOS
-is_a: SCTID:218209002  ! Overexposure to radioactive isotopes
+id: SCTID:169211002
+name: U-V radiation in diagnosis NOS
+is_a: SCTID:169209006  ! Ultraviolet radiation in diagnosis
 
 [Term]
-id: SCTID:218213009
-name: Overexposure to other radiation
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:17871006
+name: Infrared radiation
+is_a: SCTID:285337003  ! Radiant heat
+is_a: SCTID:30821001  ! Electromagnetic radiation
 
 [Term]
-id: SCTID:218214003
-name: Overexposure to artificially accelerated beams of ionized particles generated by betatrons
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:2184005
+name: Positive beta particle
+is_a: SCTID:32888000  ! Radioactivity
 
 [Term]
-id: SCTID:218215002
-name: Overexposure to artificially accelerated beams of ionized particles generated by synchrotrons
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:256243004
+name: Beta radiation
+is_a: SCTID:125576007  ! Ionizing radiation
 
 [Term]
-id: SCTID:218216001
-name: Overexposure to other radiation NOS
-is_a: SCTID:218213009  ! Overexposure to other radiation
+id: SCTID:262507007
+name: Endolaser
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:218217005
-name: Overexposure to radiation NOS
-is_a: SCTID:419201009  ! Overexposure to radiation
+id: SCTID:285323007
+name: Non-ionizing radiation
+is_a: SCTID:82107009  ! Radiation
 
 [Term]
-id: SCTID:242534002
-name: Exposure to heat and light
-is_a: SCTID:418611001  ! Exposure to heat
-is_a: SCTID:418921006  ! Exposure to light
+id: SCTID:285324001
+name: Neutron radiation
+is_a: SCTID:312231003  ! Heavy particle radiation
 
 [Term]
-id: SCTID:242535001
-name: Exposure to excess sunlight
-is_a: SCTID:418921006  ! Exposure to light
+id: SCTID:285325000
+name: Alpha radiation
+is_a: SCTID:312231003  ! Heavy particle radiation
 
 [Term]
-id: SCTID:242536000
-name: Exposure to man-made visible light
-is_a: SCTID:418921006  ! Exposure to light
+id: SCTID:285328003
+name: Carbon dioxide laser light
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:242537009
-name: Exposure to man-made ultraviolet light
-is_a: SCTID:418921006  ! Exposure to light
+id: SCTID:285329006
+name: Argon laser light
+is_a: SCTID:38586004  ! Laser-generated electromagnetic radiation
 
 [Term]
-id: SCTID:242795000
-name: Exposure to ionizing radiation from geological sources
-is_a: SCTID:122866006  ! Exposure to ionizing radiation
+id: SCTID:285330001
+name: Red light
+is_a: SCTID:75184002  ! Visible light, electromagnetic radiation
 
 [Term]
-id: SCTID:242796004
-name: Exposure to ionizing radiation from cosmic sources
-is_a: SCTID:122866006  ! Exposure to ionizing radiation
+id: SCTID:285331002
+name: Blue light
+is_a: SCTID:75184002  ! Visible light, electromagnetic radiation
 
 [Term]
-id: SCTID:242797008
-name: Exposure to ionizing radiation from industrial sources
-is_a: SCTID:122866006  ! Exposure to ionizing radiation
+id: SCTID:285332009
+name: Green light
+is_a: SCTID:75184002  ! Visible light, electromagnetic radiation
 
 [Term]
-id: SCTID:242798003
-name: Exposure to radiation from nuclear reactor
-is_a: SCTID:242797008  ! Exposure to ionizing radiation from industrial sources
+id: SCTID:285333004
+name: White light
+is_a: SCTID:75184002  ! Visible light, electromagnetic radiation
 
 [Term]
-id: SCTID:242799006
-name: Exposure to radiation from nuclear reactor because of failure of containment
-is_a: SCTID:242798003  ! Exposure to radiation from nuclear reactor
+id: SCTID:285334005
+name: Long wave radiation
+is_a: SCTID:52799000  ! Electromagnetic radiation in radio wave region
 
 [Term]
-id: SCTID:242800005
-name: Exposure to radiation from nuclear reactor because of reactor malfunction
-is_a: SCTID:242798003  ! Exposure to radiation from nuclear reactor
+id: SCTID:285336007
+name: Background radiation
+is_a: SCTID:125576007  ! Ionizing radiation
 
 [Term]
-id: SCTID:242801009
-name: Exposure to radiation from nuclear reactor because of meltdown
-is_a: SCTID:242800005  ! Exposure to radiation from nuclear reactor because of reactor malfunction
+id: SCTID:285337003
+name: Radiant heat
+is_a: SCTID:285323007  ! Non-ionizing radiation
 
 [Term]
-id: SCTID:242802002
-name: Exposure to ionizing radiation from nuclear waste
-is_a: SCTID:242797008  ! Exposure to ionizing radiation from industrial sources
+id: SCTID:286629008
+name: Hard X-radiation
+is_a: SCTID:52250000  ! X-ray electromagnetic radiation
 
 [Term]
-id: SCTID:242803007
-name: Exposure to ionizing radiation in nuclear fuel processing
-is_a: SCTID:242797008  ! Exposure to ionizing radiation from industrial sources
+id: SCTID:286630003
+name: Soft X-radiation
+is_a: SCTID:52250000  ! X-ray electromagnetic radiation
 
 [Term]
-id: SCTID:242804001
-name: Exposure to ionizing radiation in nuclear weapons manufacture
-is_a: SCTID:242797008  ! Exposure to ionizing radiation from industrial sources
+id: SCTID:286631004
+name: UVA - Ultraviolet A radiation
+is_a: SCTID:41355003  ! Ultraviolet radiation
 
 [Term]
-id: SCTID:242805000
-name: Exposure to ionizing radiation from medical sources
-is_a: SCTID:122866006  ! Exposure to ionizing radiation
+id: SCTID:286632006
+name: UVB - Ultraviolet B radiation
+is_a: SCTID:41355003  ! Ultraviolet radiation
 
 [Term]
-id: SCTID:242806004
-name: Exposure to medical diagnostic radiation
-is_a: SCTID:242805000  ! Exposure to ionizing radiation from medical sources
+id: SCTID:286633001
+name: Short wave radiation
+is_a: SCTID:52799000  ! Electromagnetic radiation in radio wave region
 
 [Term]
-id: SCTID:242807008
-name: Exposure to medical diagnostic X-ray
-is_a: SCTID:242806004  ! Exposure to medical diagnostic radiation
+id: SCTID:30821001
+name: Electromagnetic radiation
+is_a: SCTID:82107009  ! Radiation
 
 [Term]
-id: SCTID:242808003
-name: Exposure of patient to medical diagnostic X-ray
-is_a: SCTID:242807008  ! Exposure to medical diagnostic X-ray
+id: SCTID:312003001
+name: Light and ultraviolet light radiation
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
 
 [Term]
-id: SCTID:242809006
-name: Exposure of member of staff to medical diagnostic X-ray
-is_a: SCTID:242807008  ! Exposure to medical diagnostic X-ray
+id: SCTID:312229007
+name: Deuteron radiation
+is_a: SCTID:312231003  ! Heavy particle radiation
 
 [Term]
-id: SCTID:242810001
-name: Exposure of member of public to medical diagnostic X-ray
-is_a: SCTID:242807008  ! Exposure to medical diagnostic X-ray
+id: SCTID:312231003
+name: Heavy particle radiation
+is_a: SCTID:32888000  ! Radioactivity
 
 [Term]
-id: SCTID:242811002
-name: Exposure to radiation from diagnostic isotopes
-is_a: SCTID:242806004  ! Exposure to medical diagnostic radiation
+id: SCTID:312232005
+name: Pi-meson radiation
+is_a: SCTID:312231003  ! Heavy particle radiation
 
 [Term]
-id: SCTID:242812009
-name: Exposure of patient to radiation from diagnostic isotopes
-is_a: SCTID:242811002  ! Exposure to radiation from diagnostic isotopes
+id: SCTID:312249003
+name: Grenz radiation
+is_a: SCTID:286630003  ! Soft X-radiation
 
 [Term]
-id: SCTID:242813004
-name: Exposure of member of staff to radiation from diagnostic medical isotopes
-is_a: SCTID:242811002  ! Exposure to radiation from diagnostic isotopes
+id: SCTID:312252006
+name: Positron beam radiation
+is_a: SCTID:125576007  ! Ionizing radiation
 
 [Term]
-id: SCTID:242814005
-name: Exposure of member of public to radiation from diagnostic medical isotopes
-is_a: SCTID:242811002  ! Exposure to radiation from diagnostic isotopes
+id: SCTID:312253001
+name: Heavy ion radiation
+is_a: SCTID:312231003  ! Heavy particle radiation
 
 [Term]
-id: SCTID:242815006
-name: Exposure to medical therapeutic radiation
-is_a: SCTID:242805000  ! Exposure to ionizing radiation from medical sources
+id: SCTID:312255008
+name: Ionizing electromagnetic radiation
+is_a: SCTID:125576007  ! Ionizing radiation
+is_a: SCTID:30821001  ! Electromagnetic radiation
 
 [Term]
-id: SCTID:242816007
-name: Exposure of patient to medical therapeutic radiation
-is_a: SCTID:242815006  ! Exposure to medical therapeutic radiation
+id: SCTID:313093000
+name: UVC - Ultraviolet C radiation
+is_a: SCTID:41355003  ! Ultraviolet radiation
 
 [Term]
-id: SCTID:242817003
-name: Exposure of member of staff to medical therapeutic radiation
-is_a: SCTID:242815006  ! Exposure to medical therapeutic radiation
+id: SCTID:32888000
+name: Radioactivity
+is_a: SCTID:125576007  ! Ionizing radiation
 
 [Term]
-id: SCTID:242818008
-name: Exposure of member of public to medical therapeutic radiation
-is_a: SCTID:242815006  ! Exposure to medical therapeutic radiation
+id: SCTID:38586004
+name: Laser-generated electromagnetic radiation
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
 
 [Term]
-id: SCTID:242819000
-name: Exposure to radiation from nuclear explosion
-is_a: SCTID:122866006  ! Exposure to ionizing radiation
+id: SCTID:41355003
+name: Ultraviolet radiation
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
 
 [Term]
-id: SCTID:242820006
-name: Exposure to direct ionizing radiation from nuclear explosion
-is_a: SCTID:242819000  ! Exposure to radiation from nuclear explosion
+id: SCTID:41588006
+name: Light emitted from a tungsten light source
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
 
 [Term]
-id: SCTID:242821005
-name: Exposure to ionizing radiation from fall-out from nuclear explosion
-is_a: SCTID:242819000  ! Exposure to radiation from nuclear explosion
+id: SCTID:46316000
+name: Cosmic radiation
+is_a: SCTID:125576007  ! Ionizing radiation
+is_a: SCTID:30821001  ! Electromagnetic radiation
 
 [Term]
-id: SCTID:288300005
-name: Ultraviolet exposure accident
-is_a: SCTID:218196008  ! Overexposure to visual and ultraviolet light sources
+id: SCTID:4845002
+name: Negative beta particle
+is_a: SCTID:32888000  ! Radioactivity
 
 [Term]
-id: SCTID:418921006
-name: Exposure to light
-is_a: SCTID:218190002  ! Exposure to radiation
+id: SCTID:49926000
+name: Light emitted by the sun
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
 
 [Term]
-id: SCTID:419201009
-name: Overexposure to radiation
-is_a: SCTID:218190002  ! Exposure to radiation
+id: SCTID:52250000
+name: X-ray electromagnetic radiation
+is_a: SCTID:312255008  ! Ionizing electromagnetic radiation
+
+[Term]
+id: SCTID:52799000
+name: Electromagnetic radiation in radio wave region
+is_a: SCTID:285323007  ! Non-ionizing radiation
+is_a: SCTID:30821001  ! Electromagnetic radiation
+
+[Term]
+id: SCTID:55080005
+name: Electromagnetic radiation from radar device
+is_a: SCTID:52799000  ! Electromagnetic radiation in radio wave region
+
+[Term]
+id: SCTID:56242006
+name: Light, electromagnetic radiation
+is_a: SCTID:285323007  ! Non-ionizing radiation
+is_a: SCTID:30821001  ! Electromagnetic radiation
+
+[Term]
+id: SCTID:64285002
+name: Electromagnetic radiation in the microwave region
+is_a: SCTID:52799000  ! Electromagnetic radiation in radio wave region
+
+[Term]
+id: SCTID:64585003
+name: High frequency electromagnetic radiation
+is_a: SCTID:30821001  ! Electromagnetic radiation
+
+[Term]
+id: SCTID:69552008
+name: Accelerated particle
+is_a: SCTID:32888000  ! Radioactivity
+
+[Term]
+id: SCTID:73494004
+name: Electron beam
+is_a: SCTID:125576007  ! Ionizing radiation
+
+[Term]
+id: SCTID:75184002
+name: Visible light, electromagnetic radiation
+is_a: SCTID:56242006  ! Light, electromagnetic radiation
+
+[Term]
+id: SCTID:76772003
+name: Gamma radiation
+is_a: SCTID:312255008  ! Ionizing electromagnetic radiation
+
+[Term]
+id: SCTID:82107009
+name: Radiation
+is_a: SCTID:78621006  ! Physical force
+
+[Term]
+id: SCTID:82371002
+name: Proton beam
+is_a: SCTID:312231003  ! Heavy particle radiation
 

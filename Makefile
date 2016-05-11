@@ -1,4 +1,4 @@
-all: probs.tsv m.tsv unmapped.tsv rpt.html merged-rad.obo axioms-r.obo 
+all: probs.tsv m.tsv unmapped.tsv rpt.html merged-rad.obo axioms-r.obo merged-rad.png merged-rad.hier
 
 rad-eo.obo:
 	blip ontol-query -r eo -query "class(R,'radiation treatment'),subclassRT(ID,R)" -to obo > $@
@@ -10,7 +10,7 @@ rad-zeco.obo:
 	blip ontol-query -r zeco -query "class(R,'electromagnetic radiation experimental conditions'),subclassRT(ID,R)" -to obo > $
 
 rad-snomed.obo:
-	blip ontol-query -r snomed_tidy -query "class(R,'Exposure to radiation'),subclassRT(ID,R)" -to obo | perl -npe 's@SCTID_@SCTID:@g' > $@
+	blip ontol-query -r snomed_tidy -query "class(R,'Radiation'),subclassRT(ID,R)" -to obo | perl -npe 's@SCTID_@SCTID:@g' > $@
 
 rad-ncit.obo:
 	blip ontol-query -r ncit -query "class(R,'Electromagnetic Radiation'),subclassRT(ID,R)" -to obo > $@
@@ -52,7 +52,7 @@ axioms.obo: axioms.owl
 axioms-r.obo: combined-rad.obo  axioms.obo
 	obo-add-comments.pl -r -t id -t equivalent_to -t is_a $^ > $@
 
-ORD = xx NCIT 10 xx EO 8 xx ZECO 6 xx XCO 4
+ORD = xx SCTID 12 xx NCIT 10 xx EO 8 xx ZECO 6 xx XCO 4
 ORD_C =  $(patsubst xx,-c,$(ORD))
 ORD_D =  $(patsubst xx,-d,$(ORD))
 ORD_L =  $(patsubst xx,-l,$(ORD))
@@ -69,4 +69,4 @@ merged-rad.hier: merged-rad.obo
 	blip ontol-subset -i $< -n % > $@
 
 merged-rad.png: merged-rad.obo
-	blip ontol-subset -i $< -n $< -to png -u ontol_config_rad  -n % > $@
+	blip ontol-subset -i $< -n $< -rel subclass -to png -u ontol_config_rad  -n % > $@

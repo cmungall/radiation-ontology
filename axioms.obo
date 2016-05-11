@@ -3,9 +3,8 @@ ontology: rad/axioms
 
 [Term]
 id: EO:0001022
-equivalent_to: GO:0010332
 equivalent_to: NCIT:C44386
-equivalent_to: SCTID:218204007
+equivalent_to: SCTID:76772003
 equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
@@ -30,8 +29,7 @@ equivalent_to: NCIT:C44461
 
 [Term]
 id: EO:0007151
-equivalent_to: PATO:0001744
-equivalent_to: XCO:0000038
+equivalent_to: GO:0009314
 
 [Term]
 id: EO:0007196
@@ -45,6 +43,7 @@ equivalent_to: GO:0010218
 id: EO:0007207
 equivalent_to: GO:0010114
 equivalent_to: PATO:0001262
+equivalent_to: SCTID:285330001
 
 [Term]
 id: EO:0007215
@@ -57,24 +56,23 @@ equivalent_to: PATO:0001264
 [Term]
 id: EO:0007217
 equivalent_to: PATO:0001250
+equivalent_to: SCTID:285332009
 
 [Term]
 id: EO:0007218
 equivalent_to: GO:0009637
 equivalent_to: PATO:0001243
+equivalent_to: SCTID:285331002
 
 [Term]
 id: EO:0007220
 equivalent_to: PATO:0001704
 
 [Term]
-id: EO:0007221
-equivalent_to: ZECO:0000153
-
-[Term]
 id: EO:0007222
 equivalent_to: GO:0009411
 equivalent_to: NCIT:C17231
+equivalent_to: SCTID:41355003
 equivalent_to: XCO:0000042
 
 [Term]
@@ -92,6 +90,7 @@ equivalent_to: ZECO:0000146
 [Term]
 id: EO:0007622
 equivalent_to: NCIT:C18070
+equivalent_to: SCTID:285324001
 
 [Term]
 id: EO:0007624
@@ -106,8 +105,7 @@ equivalent_to: ZECO:0000150
 
 [Term]
 id: GO:0009314
-equivalent_to: PATO:0001744
-equivalent_to: SCTID:218190002
+equivalent_to: XCO:0000038
 
 [Term]
 id: GO:0009411
@@ -116,15 +114,18 @@ equivalent_to: XCO:0000042
 
 [Term]
 id: GO:0009416
-equivalent_to: SCTID:418921006
+equivalent_to: XCO:0000283
+equivalent_to: ZECO:0000153
 
 [Term]
 id: GO:0009637
 equivalent_to: PATO:0001243
+equivalent_to: SCTID:285331002
 
 [Term]
 id: GO:0010114
 equivalent_to: PATO:0001262
+equivalent_to: SCTID:285330001
 
 [Term]
 id: GO:0010165
@@ -135,6 +136,7 @@ equivalent_to: ZECO:0000150
 [Term]
 id: GO:0010212
 equivalent_to: NCIT:C17052
+equivalent_to: SCTID:125576007
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
@@ -148,6 +150,7 @@ equivalent_to: NCIT:C44461
 
 [Term]
 id: GO:0010332
+equivalent_to: NCIT:C44386
 equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
@@ -156,35 +159,46 @@ id: GO:0070141
 equivalent_to: NCIT:C27986
 
 [Term]
+id: NCIT:C16279
+equivalent_to: SCTID:285325000
+
+[Term]
+id: NCIT:C16318
+equivalent_to: SCTID:285336007
+
+[Term]
+id: NCIT:C16535
+equivalent_to: SCTID:256243004
+
+[Term]
 id: NCIT:C16736
+equivalent_to: SCTID:17871006
 equivalent_to: XCO:0000046
 equivalent_to: ZECO:0000155
 
 [Term]
-id: NCIT:C16862
-equivalent_to: SCTID:218192005
-
-[Term]
 id: NCIT:C17050
-equivalent_to: XCO:0000045
+equivalent_to: SCTID:30821001
 
 [Term]
 id: NCIT:C17052
-equivalent_to: SCTID:122866006
+equivalent_to: SCTID:125576007
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
 [Term]
 id: NCIT:C17053
+equivalent_to: SCTID:285323007
 equivalent_to: XCO:0000044
-equivalent_to: ZECO:0000152
 
 [Term]
 id: NCIT:C17054
 equivalent_to: PATO:0001741
+equivalent_to: SCTID:32888000
 
 [Term]
 id: NCIT:C17231
+equivalent_to: SCTID:41355003
 equivalent_to: XCO:0000042
 
 [Term]
@@ -194,12 +208,15 @@ equivalent_to: ZECO:0000150
 
 [Term]
 id: NCIT:C17732
-equivalent_to: PATO:0000665
 equivalent_to: XCO:0000283
 
 [Term]
-id: NCIT:C20049
-equivalent_to: SCTID:218213009
+id: NCIT:C18070
+equivalent_to: SCTID:285324001
+
+[Term]
+id: NCIT:C28039
+equivalent_to: SCTID:73494004
 
 [Term]
 id: NCIT:C44386
@@ -207,8 +224,20 @@ equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
-id: NCIT:C70832
-equivalent_to: SCTID:218191003
+id: PATO:0000665
+equivalent_to: ZECO:0000153
+
+[Term]
+id: PATO:0001243
+equivalent_to: SCTID:285331002
+
+[Term]
+id: PATO:0001250
+equivalent_to: SCTID:285332009
+
+[Term]
+id: PATO:0001262
+equivalent_to: SCTID:285330001
 
 [Term]
 id: PATO:0001300
@@ -216,33 +245,47 @@ is_a: EO:0007151
 equivalent_to: XCO:0000284
 
 [Term]
-id: SCTID:122866006
+id: PATO:0001741
+equivalent_to: SCTID:32888000
+
+[Term]
+id: PATO:0001744
+equivalent_to: SCTID:82107009
+
+[Term]
+id: SCTID:125576007
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
 [Term]
-id: SCTID:218204007
+id: SCTID:17871006
+equivalent_to: XCO:0000046
+equivalent_to: ZECO:0000155
+
+[Term]
+id: SCTID:30821001
+equivalent_to: XCO:0000045
+equivalent_to: ZECO:0000145
+
+[Term]
+id: SCTID:41355003
+equivalent_to: XCO:0000042
+
+[Term]
+id: SCTID:76772003
 equivalent_to: XCO:0000040
 
 [Term]
-id: SCTID:418921006
-equivalent_to: XCO:0000283
-
-[Term]
-id: XCO:0000039
-equivalent_to: ZECO:0000148
+id: SCTID:82107009
+equivalent_to: XCO:0000038
 
 [Term]
 id: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
-id: XCO:0000043
-equivalent_to: ZECO:0000150
-
-[Term]
-id: XCO:0000045
-equivalent_to: ZECO:0000145
+id: XCO:0000044
+equivalent_to: ZECO:0000152
 
 [Term]
 id: XCO:0000046

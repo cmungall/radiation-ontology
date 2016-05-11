@@ -8,14 +8,14 @@ Radiation" ];
 EO_0007002 [ label="EO_0007002 UV-A
 light
 regimen" ];}
-GO_0070141 -> NCIT_C27986 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007002 -> GO_0070141 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 EO_0007002 -> NCIT_C27986 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-EO_0007002 -> GO_0070141 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0070141 -> NCIT_C27986 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 GO_0070141 -> NCIT_C27986 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 
-EO_0007002 -> NCIT_C27986 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
-
 EO_0007002 -> GO_0070141 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007002 -> NCIT_C27986 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
 }
