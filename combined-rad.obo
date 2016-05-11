@@ -31,12 +31,14 @@ is_a: EO:0007224  ! light intensity regimen
 [Term]
 id: EO:0007001
 name: UV-B light regimen
+synonym: "UV-B regimen" EXACT []
 def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
 is_a: EO:0007222  ! UV light regimen
 
 [Term]
 id: EO:0007002
 name: UV-A light regimen
+synonym: "UV-A regimen" EXACT []
 def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
 is_a: EO:0007222  ! UV light regimen
 
@@ -66,6 +68,7 @@ is_a: EO:0007078  ! light quantity regimen
 [Term]
 id: EO:0007129
 name: UV-C light regimen
+synonym: "UV-C regimen" EXACT []
 def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
 is_a: EO:0007222  ! UV light regimen
 
@@ -222,6 +225,7 @@ is_a: EO:0007196  ! light regimen
 [Term]
 id: EO:0007222
 name: UV light regimen
+synonym: "UV regimen" EXACT []
 def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [GR:pj]
 is_a: EO:0007196  ! light regimen
 
