@@ -31,7 +31,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 7,
+    "timeToSolve": 5,
     "axiomStrings": [
       "XCO_0000179 ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000151 ionizing uv radiation"
     ]
@@ -48,7 +48,7 @@
     "confidence": 2.666666666666667,
     "solved": true,
     "messages": [],
-    "timeToSolve": 6,
+    "timeToSolve": 7,
     "axiomStrings": [
       "EO_0007624 radio wave EquivalentTo NCIT_C70832 Radio Frequency"
     ]
@@ -65,7 +65,7 @@
     "confidence": 5.999999999999994,
     "solved": true,
     "messages": [],
-    "timeToSolve": 7,
+    "timeToSolve": 8,
     "axiomStrings": [
       "NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure"
     ]
@@ -84,7 +84,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 52,
+    "timeToSolve": 57,
     "axiomStrings": [
       "NCIT_C17262 X-Ray EquivalentTo XCO_0000043 X-ray exposure",
       "NCIT_C17262 X-Ray EquivalentTo ZECO_0000150 xray",
@@ -109,7 +109,7 @@
     "confidence": 2.666666666666669,
     "solved": true,
     "messages": [],
-    "timeToSolve": 56,
+    "timeToSolve": 57,
     "axiomStrings": [
       "EO_0001022 gamma radiation treatment EquivalentTo NCIT_C44386 Gamma Radiation",
       "EO_0001022 gamma radiation treatment EquivalentTo ZECO_0000149 gamma ray",
@@ -132,7 +132,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 6,
+    "timeToSolve": 7,
     "axiomStrings": [
       "NCIT_C16862 Microwave Radiation EquivalentTo SCTID_218192005"
     ]
@@ -150,7 +150,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 16,
+    "timeToSolve": 13,
     "axiomStrings": [
       "EO_0007221 visible light regimen EquivalentTo ZECO_0000153 visible light",
       "NCIT_C17732 Visible Light EquivalentTo ZECO_0000153 visible light",
@@ -170,7 +170,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 15,
+    "timeToSolve": 11,
     "axiomStrings": [
       "NCIT_C17053 Nonionizing Radiation EquivalentTo ZECO_0000152 non-ionizing radiation",
       "NCIT_C17053 Nonionizing Radiation EquivalentTo XCO_0000044 non-ionizing radiation exposure",
@@ -206,7 +206,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 7,
+    "timeToSolve": 5,
     "axiomStrings": [
       "EO_0007621 magnetic field EquivalentTo ZECO_0000146 magnetic field"
     ]
@@ -223,7 +223,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 15,
+    "timeToSolve": 16,
     "axiomStrings": [
       "NCIT_C16736 Infrared Radiation EquivalentTo XCO_0000046 infrared radiation exposure"
     ]
@@ -246,7 +246,7 @@
     "messages": [
       "UNSATISFIABLE"
     ],
-    "timeToSolve": 21101
+    "timeToSolve": 21493
   },
   {
     "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000039",
@@ -262,7 +262,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 46,
+    "timeToSolve": 50,
     "axiomStrings": [
       "NCIT_C17052 Ionizing Radiation EquivalentTo SCTID_122866006",
       "SCTID_122866006 EquivalentTo ZECO_0000148 ionizing radiation",
