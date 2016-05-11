@@ -17,7 +17,7 @@ rad-ncit.obo:
 
 
 combined-rad.obo:
-	obo-cat.pl rad-*.obo | grep -v ^namespace: | grep -v ^property_value: > $@
+	obo-cat.pl rad-*.obo | grep -v ^namespace: | grep -v ^property_value: | ./add-syns.pl > $@
 
 probs.tsv: combined-rad.obo ignore.pro
 	blip-findall  -i ignore.pro -debug index -goal nlp_index_all -i $< -u metadata_nlp entity_pair_mprobs/6 -no_pred > $@
