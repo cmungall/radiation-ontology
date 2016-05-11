@@ -8,5 +8,8 @@ while(<>) {
     if (m@name: Overexposure to (.*)@) {
         print "synonym: \"Exposure to $1\" BROAD []\n";
     }
+    if (m@name: controlled (.*)@) {
+        print "synonym: \"$1\" BROAD []\n";
+    }
 
 }

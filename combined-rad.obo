@@ -1235,6 +1235,7 @@ is_a: XCO:0000044  ! non-ionizing radiation exposure
 [Term]
 id: XCO:0000182
 name: controlled exposure to ambient light
+synonym: "exposure to ambient light" BROAD []
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "diurnal condition" RELATED []
 is_a: XCO:0000284  ! controlled visible light exposure
@@ -1249,6 +1250,7 @@ is_a: XCO:0000284  ! controlled visible light exposure
 [Term]
 id: XCO:0000284
 name: controlled visible light exposure
+synonym: "visible light exposure" BROAD []
 def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000045  ! electromagnetic radiation exposure
 is_a: XCO:0000181  ! controlled visible light condition
@@ -1256,6 +1258,7 @@ is_a: XCO:0000181  ! controlled visible light condition
 [Term]
 id: XCO:0000459
 name: controlled light/dark cycle
+synonym: "light/dark cycle" BROAD []
 def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000284  ! controlled visible light exposure
 
