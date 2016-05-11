@@ -2,9 +2,9 @@ format-version: 1.2
 date: 23:09:2005 14:37
 saved-by: obo-cat.pl
 default-namespace: none
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 154 Logical Axioms: 78]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 179 Logical Axioms: 87]
 ontology: rad
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007196> \"GO:0009416\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C20049> \"SCTID:218213009\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"SCTID:218204007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"GO:0009637\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"GO:0009411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"SCTID:122866006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"SCTID:218191003\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"GO:0010114\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007203> \"GO:0010218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"XCO:0000283\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"GO:0070141\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"XCO:0000038\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"GO:0009314\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007271> \"GO:0009645\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"SCTID:218190002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007196> \"SCTID:418921006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007224> \"GO:0009642\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16862> \"SCTID:218192005\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C20049> \"SCTID:218213009\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"SCTID:218204007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007215> \"PATO:0001255\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007217> \"PATO:0001250\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007221> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"GO:0009637\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001300> \"XCO:0000284\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"GO:0009411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"SCTID:218191003\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"SCTID:122866006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"PATO:0000665\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17054> \"PATO:0001741\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"PATO:0001262\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"GO:0010114\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007220> \"PATO:0001704\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007203> \"GO:0010218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"XCO:0000283\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"GO:0070141\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007196\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"PATO:0001744\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"PATO:0001243\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"XCO:0000038\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"GO:0009416\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007271> \"GO:0009645\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"GO:0009314\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"SCTID:218190002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007224> \"GO:0009642\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"SCTID:418921006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16862> \"SCTID:218192005\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007216> \"PATO:0001264\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
 
 [Term]
 id: EO:0001039
@@ -70,19 +70,24 @@ is_a: EO:0007202 ! IR light regimen
 id: EO:0007151
 name: radiation treatment
 def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
+def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps]
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electromagnetic radiation stimulus. Electromagnetic radiation is a propagating wave in space with electric and magnetic components. These components oscillate at right angles to each other and to the direction of propagation." [GOC:jl, Wikipedia:Electromagnetic_radiation]
 def: "The condition of being subjected to any type of energy transmitted by waves through space or through some medium or to a stream of particles, such as electrons or alpha particles." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
 comment: Note that 'radiation' refers to electromagnetic radiation of any wavelength.
+subset: attribute_slim
 subset: gosubset_prok
+subset: scalar_slim
 synonym: "light regimen" RELATED []
 synonym: "response to electromagnetic radiation stimulus" EXACT []
 synonym: "response to radiation stimulus" EXACT []
 xref: GO:0009314
+xref: PATO:0001744
 xref: SCTID:218190002
 xref: XCO:0000038
 is_a: EO:0007316
 is_a: GO:0009628
+is_a: PATO:0001739 ! radiation quality
 is_a: SCTID:115964003
 is_a: XCO:0000000
 
@@ -122,26 +127,6 @@ name: day light intensity
 is_a: EO:0007224 ! light intensity regimen
 
 [Term]
-id: EO:0007196
-name: light regimen
-alt_id: EO:0007201
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
-def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
-comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
-subset: gosubset_prok
-synonym: "artificial daylight" RELATED []
-synonym: "artificial light" RELATED []
-synonym: "day light" RELATED []
-synonym: "natural light" RELATED []
-synonym: "sun light" RELATED []
-xref: GO:0009416
-xref: SCTID:418921006
-is_a: EO:0007151 ! radiation treatment
-is_a: EO:0007154 ! radiation quality treatment
-intersection_of: GO:0050896
-intersection_of: has_input CHEBI:30212
-
-[Term]
 id: EO:0007199
 name: long day length regimen
 def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle." [GR:pj]
@@ -157,7 +142,7 @@ is_a: EO:0007128 ! intermittent light regimen
 id: EO:0007202
 name: IR light regimen
 def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [GR:pj]
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007203
@@ -167,58 +152,98 @@ def: "The treatment using far red light either exclusively or as part of a suppl
 synonym: "Pfr light" RELATED []
 synonym: "response to far red light stimulus" EXACT []
 xref: GO:0010218
-is_a: EO:0007196 ! light regimen
 is_a: GO:0009639 ! response to red or far red light
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007207
 name: red light regimen
+def: "A color consisting of red hue and high brightness." [PATOC:GVG]
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:mtg_far_red, GOC:sm]
 def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
 synonym: "Pr light" RELATED []
 synonym: "response to red light stimulus" EXACT []
 xref: GO:0010114
+xref: PATO:0001262
+is_a: EO:0007221 ! visible light regimen
 is_a: GO:0009639 ! response to red or far red light
-is_a: NCIT:C17732 ! Visible Light
+is_a: PATO:0000322 ! red
 
 [Term]
 id: EO:0007215
 name: orange light regimen
+def: "A color consisting of orange hue and high brightness." [PATOC:GVG]
 def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
-is_a: NCIT:C17732 ! Visible Light
+subset: mpath_slim
+subset: value_slim
+xref: PATO:0001255
+is_a: EO:0007221 ! visible light regimen
+is_a: PATO:0000953 ! orange
 
 [Term]
 id: EO:0007216
 name: yellow light regimen
+def: "A color consisting of yellow hue and high brightness." [PATOC:GVG]
 def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
-is_a: NCIT:C17732 ! Visible Light
+subset: mpath_slim
+subset: value_slim
+synonym: "blond" RELATED []
+xref: PATO:0001264
+is_a: EO:0007221 ! visible light regimen
+is_a: PATO:0000324 ! yellow
 
 [Term]
 id: EO:0007217
 name: green light regimen
+def: "A color consisting of green hue and high brightness." [PATOC:GVG]
 def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
-is_a: NCIT:C17732 ! Visible Light
+subset: mpath_slim
+subset: value_slim
+xref: PATO:0001250
+is_a: EO:0007221 ! visible light regimen
+is_a: PATO:0000320 ! green
 
 [Term]
 id: EO:0007218
 name: blue light regimen
+def: "A color consisting of blue hue and high brightness." [PATOC:GVG]
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a blue light stimulus. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm." [GOC:ai, GOC:mtg_far_red]
 def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
 synonym: "response to blue light stimulus" EXACT []
 xref: GO:0009637
-is_a: EO:0007196 ! light regimen
+xref: PATO:0001243
+is_a: EO:0007221 ! visible light regimen
 is_a: NCIT:C17732 ! Visible Light
+is_a: PATO:0000318 ! blue
 
 [Term]
 id: EO:0007219
 name: indigo light regimen
 def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
-is_a: NCIT:C17732 ! Visible Light
+is_a: EO:0007221 ! visible light regimen
 
 [Term]
 id: EO:0007220
 name: violet light regimen
+def: "A color consisting of violet hue and high brightness." [PATOC:GVG]
 def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
+xref: PATO:0001704
+is_a: EO:0007221 ! visible light regimen
+is_a: PATO:0001424 ! violet
+
+[Term]
+id: EO:0007221
+name: visible light regimen
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+xref: ZECO:0000153
+is_a: NCIT:C17053 ! Nonionizing Radiation
 is_a: NCIT:C17732 ! Visible Light
 
 [Term]
@@ -228,7 +253,7 @@ def: "Any process that results in a change in state or activity of a cell or an 
 def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
 xref: GO:0009642
 is_a: EO:0007152 ! radiation intensity regimen
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007270
@@ -327,7 +352,7 @@ is_a: EO:0007154 ! radiation quality treatment
 id: GO:0009639
 name: response to red or far red light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red or far red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Far red light is electromagnetic radiation of wavelength 700-800nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:ai, GOC:mtg_far_red]
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: GO:0009646
@@ -512,9 +537,13 @@ is_a: NCIT:C17050 ! Electromagnetic Radiation
 [Term]
 id: NCIT:C17054
 name: Radioactivity
+def: "A radiation quality inhering in bearer by virtue of the bearer's exhibiting or being caused by radioactivity." [WordNet:WordNet]
 def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
+subset: value_slim
 xref: NCIT:C17054
+xref: PATO:0001741
 is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: PATO:0001740 ! activity (of a radionuclide)
 
 [Term]
 id: NCIT:C17231
@@ -540,8 +569,8 @@ xref: EO:0007222
 xref: GO:0009411
 xref: NCIT:C17231
 xref: XCO:0000042
-is_a: EO:0007196 ! light regimen
 is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: NCIT:C17732 ! Visible Light
 is_a: NCIT:C44445 ! Solar Radiation
 
 [Term]
@@ -566,20 +595,37 @@ is_a: NCIT:C17052 ! Ionizing Radiation
 [Term]
 id: NCIT:C17732
 name: Visible Light
+alt_id: EO:0007201
+def: "A color brightness which is relatively high." [PATOC:MAH]
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
 def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
 def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
-comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
+comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
+subset: gosubset_prok
+subset: value_slim
+synonym: "artificial daylight" RELATED []
+synonym: "artificial light" RELATED []
+synonym: "day light" RELATED []
+synonym: "light" EXACT []
+synonym: "natural light" RELATED []
 synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
+synonym: "sun light" RELATED []
 synonym: "Visible Light" RELATED [NCIT:C17732]
-xref: EO:0007221
+xref: EO:0007196
+xref: GO:0009416
 xref: NCIT:C17732
+xref: PATO:0000665
+xref: SCTID:418921006
 xref: XCO:0000283
-xref: ZECO:0000153
-is_a: EO:0007196 ! light regimen
+is_a: EO:0007151 ! radiation treatment
+is_a: EO:0007154 ! radiation quality treatment
 is_a: NCIT:C17053 ! Nonionizing Radiation
+is_a: PATO:0000016 ! color brightness
+is_a: PATO:0001300 ! optical quality
 is_a: XCO:0000049
-is_a: XCO:0000284 ! controlled visible light exposure
+intersection_of: GO:0050896
+intersection_of: has_input CHEBI:30212
 
 [Term]
 id: NCIT:C18070
@@ -784,6 +830,985 @@ xref: NCIT:C88112
 is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
+id: PATO:0000014
+name: color
+alt_id: PATO:0000020
+def: "A composite chromatic quality composed of hue, saturation and intensity parts." [PATOC:GVG]
+subset: attribute_slim
+synonym: "colour" EXACT []
+synonym: "relative color" EXACT []
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000015
+name: color hue
+def: "A chromatic scalar-circular quality inhering in an object that manifests in an observer by virtue of the dominant wavelength of the visible light; may be subject to fiat divisions, typically into 7 or 8 spectra." [PATOC:cjm]
+subset: attribute_slim
+is_a: PATO:0001301 ! chromatic property
+
+[Term]
+id: PATO:0000016
+name: color brightness
+def: "A scalar optical property that is the intensity, value or amount of perceived light." [PATOC:MAH]
+comment: Color brightness refers to the intensity, lightness or value of the light present. Think of this as a dimmer switch.
+subset: attribute_slim
+synonym: "color intensity " EXACT []
+synonym: "color lightness " EXACT []
+synonym: "color value " EXACT []
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000017
+name: color saturation
+def: "A scalar chromatic property that is the degree of purity of perceived light." [PATOC:GVG]
+comment: Color saturation refers to the amount of white light or gray paint mixed in with the hue (single wavelength) and is a measure of color purity.
+subset: attribute_slim
+is_a: PATO:0001301 ! chromatic property
+
+[Term]
+id: PATO:0000018
+name: fluorescence
+def: "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001296 ! luminous flux
+
+[Term]
+id: PATO:0000317
+name: black
+def: "A color that lacks any hues as parts." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000318
+name: blue
+def: "A color hue with low wavelength of that portion of the visible spectrum lying between green and indigo, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 490 nanometers." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000319
+name: cyan
+def: "A color consisting of green and blue hue." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000320
+name: green
+def: "A color hue with medium-low wavelength of that portion of the visible spectrum lying between yellow and blue, evoked in the human observer by radiant energy with wavelengths of approximately 490 to 570 nanometers." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000321
+name: magenta
+def: "A color consisting of red and blue hues." [Wikipedia:http\://en.wikipedia.org/wiki/Magenta]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000322
+name: red
+def: "A color hue with high wavelength of the long-wave end of the visible spectrum, evoked in the human observer by radiant energy with wavelengths of approximately 630 to 750 nanometers." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000323
+name: white
+def: "An achromatic color of maximum brightness; the color of objects that reflect nearly all light of all visible wavelengths." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+synonym: "whitish" RELATED []
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000324
+name: yellow
+def: "A color hue with medium wavelength of that portion of the visible spectrum lying between orange and green, evoked in the human observer by radiant energy with wavelengths of approximately 570 to 590 nanometers." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000327
+name: low brightness
+def: "A color brightness which is relatively low." [PATOC:MAH]
+subset: value_slim
+synonym: "dark" EXACT []
+is_a: PATO:0000016 ! color brightness
+
+[Term]
+id: PATO:0000328
+name: low saturation
+def: "A color saturation which is of low purity." [PATOC:MAH]
+subset: value_slim
+synonym: "dull" RELATED []
+synonym: "pale" EXACT []
+is_a: PATO:0000017 ! color saturation
+
+[Term]
+id: PATO:0000336
+name: colored
+alt_id: PATO:0000332
+def: "A color quality inhering in a bearer by virtue of the bearer's having color." [PATOC:GVG]
+subset: value_slim
+synonym: "pigmented" RELATED []
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000950
+name: grey
+def: "A color between white and black colors." [http://en.wikipedia.org/wiki/Grey]
+subset: mpath_slim
+subset: value_slim
+synonym: "plumbeous" RELATED []
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000951
+name: purple
+def: "A color that falls about midway between red and blue in hue." [Dictionary:http\://dictionary.reference.com/]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000952
+name: brown
+def: "A color consisting of dark orange, red, of very low intensity." [Wikipedia:http\://en.wikipedia.org/wiki/Brown]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000953
+name: orange
+def: "A color hue with high-medium wavelength that of that portion of the visible spectrum lying between red and yellow, evoked in the human observer by radiant energy with wavelengths of approximately 585 to 620 nanometers." [Wikipedia:http\://en.wikipedia.org/wiki/Orange]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0000954
+name: pink
+def: "Red color having medium to high brightness and low to moderate saturation." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000322 ! red
+
+[Term]
+id: PATO:0000957
+name: opacity
+def: "An optical quality which obtains by virtue of the ability of the bearer to absorb visible light." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000963
+name: opaque
+def: "A optical quality inhering in a bearer by virtue of the bearer's not being clear; not transmitting or reflecting light or radiant energy." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "clouding" RELATED []
+synonym: "cloudy" RELATED []
+synonym: "non-transparent" EXACT []
+is_a: PATO:0000957 ! opacity
+
+[Term]
+id: PATO:0000964
+name: transparent
+def: "A optical quality inhering in a bearer by virtue of the bearer's lacking opacity." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "clear" EXACT []
+is_a: PATO:0000957 ! opacity
+
+[Term]
+id: PATO:0001229
+name: high saturation
+def: "A color saturation which is of high purity." [PATOC:MAH]
+subset: value_slim
+synonym: "bright " EXACT []
+synonym: "vivid" RELATED []
+is_a: PATO:0000017 ! color saturation
+
+[Term]
+id: PATO:0001244
+name: dark blue
+def: "A color consisting of blue hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000318 ! blue
+
+[Term]
+id: PATO:0001245
+name: dark brown
+def: "A color consisting of brown hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0001246
+name: light brown
+def: "A color consisting of brown hue and high brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0001247
+name: light cyan
+def: "A color consisting of cyan hue and high brightness." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000319 ! cyan
+
+[Term]
+id: PATO:0001248
+name: dark cyan
+def: "A color consisting of cyan hue and low brightness." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000319 ! cyan
+
+[Term]
+id: PATO:0001249
+name: dark green
+def: "A color consisting of green hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000320 ! green
+
+[Term]
+id: PATO:0001251
+name: dark grey
+def: "A color consisting of grey color and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000950 ! grey
+
+[Term]
+id: PATO:0001252
+name: light grey
+def: "A color consisting of grey color and high brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000950 ! grey
+
+[Term]
+id: PATO:0001253
+name: light magenta
+def: "A color consisting of magenta color and high brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000321 ! magenta
+
+[Term]
+id: PATO:0001254
+name: dark magenta
+def: "A color consisting of magenta with low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000321 ! magenta
+
+[Term]
+id: PATO:0001256
+name: dark orange
+def: "A color consisting of orange color and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000953 ! orange
+
+[Term]
+id: PATO:0001257
+name: light deep pink
+def: "Pink color having high brightness and moderate saturation." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000954 ! pink
+
+[Term]
+id: PATO:0001258
+name: deep pink
+def: "Pink color having medium brightness and moderate saturation." [PATOC:MAH]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000954 ! pink
+
+[Term]
+id: PATO:0001259
+name: dark purple
+def: "A color consisting of purple color and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000951 ! purple
+
+[Term]
+id: PATO:0001260
+name: light purple
+def: "A color consisting of purple color and high brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000951 ! purple
+
+[Term]
+id: PATO:0001261
+name: dark red
+def: "A color consisting of red hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000322 ! red
+
+[Term]
+id: PATO:0001263
+name: dark yellow
+def: "A color consisting of yellow hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000324 ! yellow
+
+[Term]
+id: PATO:0001265
+name: saturated blue
+def: "A color consisting of blue hue and high saturation." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "bright blue" RELATED []
+is_a: PATO:0000318 ! blue
+
+[Term]
+id: PATO:0001266
+name: desaturated blue
+def: "A color consisting of blue hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale blue" EXACT []
+is_a: PATO:0000318 ! blue
+
+[Term]
+id: PATO:0001267
+name: saturated brown
+def: "A color consisting of brown hue and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright brown" RELATED []
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0001268
+name: desaturated brown
+def: "A color consisting of brown hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale brown" EXACT []
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0001269
+name: saturated cyan
+def: "A color consisting of cyan colour and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright cyan " RELATED []
+is_a: PATO:0000319 ! cyan
+
+[Term]
+id: PATO:0001270
+name: desaturated cyan
+def: "A color consisting of cyan colour and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale cyan" EXACT []
+is_a: PATO:0000319 ! cyan
+
+[Term]
+id: PATO:0001271
+name: saturated green
+def: "A color consisting of green hue and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright green" RELATED []
+is_a: PATO:0000320 ! green
+
+[Term]
+id: PATO:0001272
+name: desaturated green
+def: "A color consisting of green hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale green" EXACT []
+is_a: PATO:0000320 ! green
+
+[Term]
+id: PATO:0001275
+name: saturated magenta
+def: "A color consisting of magenta color and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright magenta" RELATED []
+is_a: PATO:0000321 ! magenta
+
+[Term]
+id: PATO:0001276
+name: desaturated magenta
+def: "A color consisting of magenta color and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale magenta" EXACT []
+is_a: PATO:0000321 ! magenta
+
+[Term]
+id: PATO:0001277
+name: saturated orange
+def: "A color consisting of orange hue and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright orange" RELATED []
+is_a: PATO:0000953 ! orange
+
+[Term]
+id: PATO:0001278
+name: desaturated orange
+def: "A color consisting of orange hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale orange" EXACT []
+is_a: PATO:0000953 ! orange
+
+[Term]
+id: PATO:0001280
+name: dark pale pink
+alt_id: PATO:0001279
+def: "Pink color having medium brightness and low saturation." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "bright pink " RELATED []
+is_a: PATO:0000954 ! pink
+
+[Term]
+id: PATO:0001281
+name: saturated purple
+def: "A color consisting of purple color and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright purple" RELATED []
+is_a: PATO:0000951 ! purple
+
+[Term]
+id: PATO:0001282
+name: desaturated purple
+def: "A color consisting of purple color and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale purple" EXACT []
+is_a: PATO:0000951 ! purple
+
+[Term]
+id: PATO:0001283
+name: saturated red
+def: "A color consisting of red hue and high saturation." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "bright red" RELATED []
+is_a: PATO:0000322 ! red
+
+[Term]
+id: PATO:0001284
+name: desaturated red
+def: "A color consisting of red hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale red" EXACT []
+is_a: PATO:0000322 ! red
+
+[Term]
+id: PATO:0001285
+name: saturated yellow
+def: "A color consisting of yellow hue and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright yellow" RELATED []
+is_a: PATO:0000324 ! yellow
+
+[Term]
+id: PATO:0001286
+name: desaturated yellow
+def: "A color consisting of yellow hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale yellow" EXACT []
+is_a: PATO:0000324 ! yellow
+
+[Term]
+id: PATO:0001287
+name: red brown
+def: "A color consisting of red and brown hue." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0001288
+name: dark red brown
+def: "A color consisting of red and brown hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001287 ! red brown
+
+[Term]
+id: PATO:0001289
+name: light red brown
+def: "A color consisting of red and brown hue and high brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001287 ! red brown
+
+[Term]
+id: PATO:0001290
+name: fluorescent
+def: "A fluorescence quality inhering in a bearer by virtue of emitting light during exposure to radiation from an external source." [web:www.thefreedictionary.com/]
+subset: value_slim
+is_a: PATO:0000018 ! fluorescence
+
+[Term]
+id: PATO:0001291
+name: electromagnetic (EM) radiation quality
+def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_radiation]
+subset: attribute_slim
+synonym: "electromagnetic (EM) radiation" RELATED []
+is_a: PATO:0001739 ! radiation quality
+
+[Term]
+id: PATO:0001292
+name: full-spectrum EM radiation quality
+def: "An EM radiation quality that is independent of the EM wavelength range." [PATOC:GVG]
+subset: attribute_slim
+synonym: "full-spectrum EM radiation" RELATED []
+is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0001293
+name: absorption quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to retain radiation." [PATOC:GVG]
+subset: attribute_slim
+synonym: "absorption" RELATED []
+is_a: PATO:0001292 ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001294
+name: radiation reflective quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to scatter or reflect radiation." [PATOC:GVG]
+subset: attribute_slim
+synonym: "radiation reflective" RELATED []
+is_a: PATO:0001292 ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001295
+name: albedo
+def: "A reflective quality restricted to a particular wavelength." [PATOC:cjm]
+comment: Typically used for light, but also applied to full EM spectrum.
+subset: attribute_slim
+is_a: PATO:0001294 ! radiation reflective quality
+
+[Term]
+id: PATO:0001296
+name: luminous flux
+def: "A scalar optical quality which obtains by the magnitude of the light emitted by the bearer." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0001297
+name: reflectivity
+def: "A radiation reflective quality inhering in a bearer by virtue of the ratio of the energy of a wave reflected from its surface to the energy possessed by the wave striking the bearer's surface." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001294 ! radiation reflective quality
+
+[Term]
+id: PATO:0001298
+name: phosphorescence
+def: "A fluorescence in which the emittence continues after the absorption has ceased." [PATOC:GVG]
+subset: relational_slim
+is_a: PATO:0000018 ! fluorescence
+
+[Term]
+id: PATO:0001299
+name: radiation emitting quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to emit radiation." [PATOC:GVG]
+subset: attribute_slim
+synonym: "radiation emitting" RELATED []
+is_a: PATO:0001292 ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001300
+name: optical quality
+def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
+def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+subset: attribute_slim
+synonym: "optical" RELATED []
+synonym: "visible light exposure" BROAD []
+xref: XCO:0000284
+is_a: EO:0007151 ! radiation treatment
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+is_a: XCO:0000181
+
+[Term]
+id: PATO:0001301
+name: chromatic property
+def: "An optical quality that is the mixture, purity or pattern of wavelengths of light perceived by the observer." [PATOC:MAH]
+subset: attribute_slim
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0001302
+name: vermilion
+def: "A color consisting of red and orange hue with a slight amount of gray." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0001354
+name: translucent
+def: "A optical quality inhering in a bearer by virtue of the bearer's exhibiting low opacity." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000957 ! opacity
+
+[Term]
+id: PATO:0001372
+name: refractivity
+def: "A physical quality that inheres in propagating wave (light or sound) virtue of the bearer's change in direction when passing from one medium to another." [WordNet:WordNet]
+subset: attribute_slim
+subset: disposition_slim
+is_a: PATO:0001294 ! radiation reflective quality
+
+[Term]
+id: PATO:0001373
+name: glistening
+def: "A reflectivity quality inhering in a bearer by virtue of the bearer's reflecting lots of light." [PATOC:GVG]
+subset: value_slim
+synonym: "glossy" EXACT []
+synonym: "shiny" EXACT []
+is_a: PATO:0001297 ! reflectivity
+
+[Term]
+id: PATO:0001423
+name: refractile
+def: "A reflectivity quality inhering in the bearer by virtue of the bearer's ability to refract light." [biology-online:biology-online]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0001372 ! refractivity
+
+[Term]
+id: PATO:0001424
+name: violet
+def: "A color hue with very low wavelength of that portion of the visible spectrum lying between reddish blue or bluish purple, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 380 nanometers." [Wikipedia:http\://en.wikipedia.org/wiki/Violet]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0001425
+name: rosy
+def: "A color hue consisting of red hue and yellow hue and high brightness." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0001426
+name: maroon
+def: "A color consisting of purple and brown hue." [Wikipedia:http\://en.wikipedia.org/wiki/Maroon]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000014 ! color
+
+[Term]
+id: PATO:0001516
+name: focus
+def: "An optical quality where light rays originating from a point on the object converge." [Wikipedia:http\://en.wikipedia.org/wiki/Focus_(optics)]
+subset: attribute_slim
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0001517
+name: focused
+def: "An optical quality inhering in a bearer by virtue of the bearer's having focus." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0001516 ! focus
+
+[Term]
+id: PATO:0001518
+name: blurry
+def: "An optical quality inhering in a bearer by virtue of the bearer's lacking focus." [PATOC:NC]
+subset: value_slim
+is_a: PATO:0001516 ! focus
+
+[Term]
+id: PATO:0001702
+name: saturated violet
+def: "A color consisting of violet hue and high saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "bright violet" RELATED []
+is_a: PATO:0001424 ! violet
+
+[Term]
+id: PATO:0001703
+name: desaturated violet
+def: "A color consisting of violet hue and low saturation." [PATOC:GVG]
+subset: value_slim
+synonym: "pale violet" EXACT []
+is_a: PATO:0001424 ! violet
+
+[Term]
+id: PATO:0001705
+name: dark violet
+def: "A color consisting of violet hue and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001424 ! violet
+
+[Term]
+id: PATO:0001717
+name: radiation emitting intensity quality
+def: "A radiation emitting quality which obtains by the intensity of the bearer emitted radiation." [PATOC:GVG]
+synonym: "radiation emitting intensity" RELATED []
+is_a: PATO:0001299 ! radiation emitting quality
+
+[Term]
+id: PATO:0001718
+name: luminance
+def: "A quality that exists by virtue of the luminous intensity per unit area projected in a given direction." [Wikipedia:http\://en.wikipedia.org/wiki/Luminance]
+is_a: PATO:0001296 ! luminous flux
+
+[Term]
+id: PATO:0001739
+name: radiation quality
+def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
+subset: attribute_slim
+synonym: "radiation" RELATED []
+is_a: PATO:0001018
+
+[Term]
+id: PATO:0001740
+name: activity (of a radionuclide)
+def: "A radiation quality inhering in a radioactive substance by virtue of its transformation (disintegration) rate." [PATOC:GVG]
+subset: attribute_slim
+synonym: "radioactivity" EXACT []
+is_a: PATO:0001739 ! radiation quality
+
+[Term]
+id: PATO:0001742
+name: increased radioactivity
+def: "A radioactivity which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "high radioactivity" EXACT []
+is_a: NCIT:C17054 ! Radioactivity
+is_a: PATO:0002305
+intersection_of: NCIT:C17054 ! Radioactivity
+intersection_of: increased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0001743
+name: decreased radioactivity
+def: "A radioactivity which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "low radioactivity" EXACT []
+is_a: NCIT:C17054 ! Radioactivity
+is_a: PATO:0002303
+intersection_of: NCIT:C17054 ! Radioactivity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0001745
+name: radiation absorbed dose
+def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: EO:0007151 ! radiation treatment
+
+[Term]
+id: PATO:0001746
+name: radiation equivalent dose
+def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: EO:0007151 ! radiation treatment
+
+[Term]
+id: PATO:0001747
+name: radiation effective dose
+def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: EO:0007151 ! radiation treatment
+
+[Term]
+id: PATO:0001868
+name: autofluorescence
+def: "A fluorescence quality inhering in a bearer by virtue of the bearer's exhibiting fluorescence which is self-induced." [PATOC:mb]
+subset: attribute_slim
+is_a: PATO:0000018 ! fluorescence
+
+[Term]
+id: PATO:0001926
+name: increased fluorescence
+def: "A fluorescence which is higher than normal." [PATOC:GVG]
+subset: value_slim
+synonym: "high fluorescence" EXACT []
+is_a: PATO:0001290 ! fluorescent
+is_a: PATO:0002305
+intersection_of: PATO:0001290 ! fluorescent
+intersection_of: increased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0001927
+name: decreased fluorescence
+def: "A fluorescence which is lower than normal." [PATOC:GVG]
+subset: value_slim
+synonym: "low fluorescence" EXACT []
+is_a: PATO:0001290 ! fluorescent
+is_a: PATO:0002303
+intersection_of: PATO:0001290 ! fluorescent
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0001941
+name: yellow green
+def: "A color consisting of yellow and green hues." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000320 ! green
+
+[Term]
+id: PATO:0001942
+name: brown green
+def: "A color consisting of brown and green hues." [PATOC:GVG]
+synonym: "olive green" EXACT []
+is_a: PATO:0000320 ! green
+
+[Term]
+id: PATO:0001943
+name: lilac
+def: "A purple color which has low saturation and low brightness." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000951 ! purple
+
+[Term]
+id: PATO:0001944
+name: yellow orange
+def: "A color consisting of yellow and orange hue." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000953 ! orange
+
+[Term]
+id: PATO:0001945
+name: ochre
+def: "A moderate yellow-orange to orange color." [wordreference:wordreference]
+subset: value_slim
+is_a: PATO:0001944 ! yellow orange
+
+[Term]
+id: PATO:0002020
+name: pale pink
+def: "Pink color having high brightness and low saturation." [PATOC:GVG]
+is_a: PATO:0000954 ! pink
+
+[Term]
+id: PATO:0002032
+name: forward scatter
+def: "A reflectivity quality inhering in light by virtue of the bearer's scattering occurring at small angle to the incident beam." [PATOC:mc]
+subset: attribute_slim
+is_a: PATO:0001294 ! radiation reflective quality
+
+[Term]
+id: PATO:0002033
+name: side scatter
+def: "A reflective quality that is the light scattering occurring at wide angle (around 90 degrees) to the incident beam." [PATOC:mc]
+subset: attribute_slim
+is_a: PATO:0001294 ! radiation reflective quality
+
+[Term]
+id: PATO:0002059
+name: emmision wavelength
+def: "The specific wavelength of light emitted by a fluorescent molecule, such as a labelled probe, upon absorption of light at the (higher) excitation wavelength." [web:http\://www.expertglossary.com/]
+subset: attribute_slim
+is_a: PATO:0001299 ! radiation emitting quality
+
+[Term]
+id: PATO:0002060
+name: absorption wavelength
+def: "The specific wavelength of radiation that can be retained by a bearer." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001293 ! absorption quality
+
+[Term]
+id: PATO:0002136
+name: radiopacity
+def: "A quality inhering in a bearer by virtue of the bearer's relative inability of electromagnetism to pass through a particular material, particularly X-rays." [Wikipedia:Wikipedia]
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0002137
+name: radiopaque
+def: "A readiopacity quality inhering in a bearer by virtue of the bearer's prevention of the passage of electromagnetic radiation." [Wikipedia:Wikipedia]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0002136 ! radiopacity
+
+[Term]
+id: PATO:0002144
+name: increased radiopacity
+def: "A radiopacity that is relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0002136 ! radiopacity
+is_a: PATO:0002305
+intersection_of: PATO:0002136 ! radiopacity
+intersection_of: increased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0002145
+name: decreased radiopacity
+def: "A radiopacity that is relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0002136 ! radiopacity
+is_a: PATO:0002303
+intersection_of: PATO:0002136 ! radiopacity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461
+
+[Term]
+id: PATO:0002363
+name: bronze
+def: "A medium brown color with a metallic sheen, resembles the actual alloy bronze." [PATO:LC]
+subset: value_slim
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0002410
+name: beige
+def: "A colour that is very pale yellowish brown." [PATOC:MPATH]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002413 ! light yellow brown
+
+[Term]
+id: PATO:0002411
+name: yellow brown
+def: "A color consisting of yellow and brown hue." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000952 ! brown
+
+[Term]
+id: PATO:0002412
+name: dark yellow brown
+def: "A color consisting of yellow and brown hue and low brightness." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0002411 ! yellow brown
+
+[Term]
+id: PATO:0002413
+name: light yellow brown
+def: "A color consisting of yellow and brown hue and high brightness." [PATOC:GVG]
+is_a: PATO:0002411 ! yellow brown
+
+[Term]
 id: SCTID:218193000
 name: Overexposure to radar radiation
 synonym: "Exposure to radar radiation" BROAD []
@@ -918,23 +1943,23 @@ is_a: SCTID:419201009 ! Overexposure to radiation
 [Term]
 id: SCTID:242534002
 name: Exposure to heat and light
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 is_a: SCTID:418611001
 
 [Term]
 id: SCTID:242535001
 name: Exposure to excess sunlight
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: SCTID:242536000
 name: Exposure to man-made visible light
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: SCTID:242537009
 name: Exposure to man-made ultraviolet light
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: SCTID:242795000
@@ -1094,22 +2119,14 @@ name: controlled exposure to ambient light
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "diurnal condition" RELATED []
 synonym: "exposure to ambient light" BROAD []
-is_a: XCO:0000284 ! controlled visible light exposure
-
-[Term]
-id: XCO:0000284
-name: controlled visible light exposure
-def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-synonym: "visible light exposure" BROAD []
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: XCO:0000181
+is_a: PATO:0001300 ! optical quality
 
 [Term]
 id: XCO:0000459
 name: controlled light/dark cycle
 def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "light/dark cycle" BROAD []
-is_a: XCO:0000284 ! controlled visible light exposure
+is_a: PATO:0001300 ! optical quality
 
 [Term]
 id: XCO:0000462
@@ -1148,4 +2165,31 @@ synonym: "non-ionizing UV radiation exposure" EXACT []
 xref: XCO:0000180
 is_a: NCIT:C17053 ! Nonionizing Radiation
 is_a: NCIT:C17231 ! Ultraviolet Radiation
+
+[Typedef]
+id: decreased_in_magnitude_relative_to
+name: decreased_in_magnitude_relative_to
+def: "q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'decreased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001
+range: PATO:0000001
+is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
+
+[Typedef]
+id: different_in_magnitude_relative_to
+name: different_in_magnitude_relative_to
+def: "q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+domain: PATO:0000001
+range: PATO:0000001
+
+[Typedef]
+id: increased_in_magnitude_relative_to
+name: increased_in_magnitude_relative_to
+def: "q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'increased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001
+range: PATO:0000001
+is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
 

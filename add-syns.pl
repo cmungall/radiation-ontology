@@ -11,8 +11,8 @@ while(<>) {
     if (m@name: controlled (.*)@) {
         print "synonym: \"$1\" BROAD []\n";
     }
-    #if (m@name: (.*) quality$@) {
-    #    print "synonym: \"$1\" BROAD []\n";
-    #}
+    if (m@name: (.*) quality$@) {
+        print "synonym: \"$1\" RELATED []\n";
+    }
 
 }

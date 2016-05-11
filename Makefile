@@ -52,10 +52,14 @@ axioms.obo: axioms.owl
 axioms-r.obo: combined-rad.obo  axioms.obo
 	obo-add-comments.pl -r -t id -t equivalent_to -t is_a $^ > $@
 
-PRIORITIES := -l NCIT 10 -l EO 8 -l ZECO 5  -s NCIT 10 -s EO 8 -s ZECO 5 
+ORD = xx NCIT 10 xx EO 8 xx ZECO 6 xx XCO 4
+ORD_C = echo $(patsubst xx,-c,$(ORD))
+ORD_D = echo $(patsubst xx,-D,$(ORD))
+ORD_L = echo $(patsubst xx,-l,$(ORD))
+#PRIORITIES := -l NCIT 10 -l EO 8 -l ZECO 5  -s NCIT 10 -s EO 8 -s ZECO 5 
 
 merged-rad.owl: combined-rad.owl axioms.owl
-	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(PRIORITIES) --set-ontology-id $(OBO)/rad.owl -o $@
+	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(ORD_C) $(ORD_D) $(ORD_L) --set-ontology-id $(OBO)/rad.owl -o $@
 .PRECIOUS: merged-rad.owl
 
 merged-rad.obo: merged-rad.owl

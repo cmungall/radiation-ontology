@@ -5,7 +5,17 @@ blue
 light" ];
 EO_0007218 [ label="EO_0007218 blue
 light
-regimen" ];}
+regimen" ];
+PATO_0001243 [ label="PATO_0001243 light
+blue" ];}
 EO_0007218 -> GO_0009637 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+EO_0007218 -> PATO_0001243 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+GO_0009637 -> PATO_0001243 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0009637 -> PATO_0001243 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
 EO_0007218 -> GO_0009637 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007218 -> PATO_0001243 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 }

@@ -1394,6 +1394,7 @@ is_a: PATO:0000018  ! fluorescence
 [Term]
 id: PATO:0001291
 name: electromagnetic (EM) radiation quality
+synonym: "electromagnetic (EM) radiation" RELATED []
 def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_radiation]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001739  ! radiation quality
@@ -1401,6 +1402,7 @@ is_a: PATO:0001739  ! radiation quality
 [Term]
 id: PATO:0001292
 name: full-spectrum EM radiation quality
+synonym: "full-spectrum EM radiation" RELATED []
 def: "An EM radiation quality that is independent of the EM wavelength range." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
@@ -1408,6 +1410,7 @@ is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
 [Term]
 id: PATO:0001293
 name: absorption quality
+synonym: "absorption" RELATED []
 def: "A scalar EM radiation quality which obtains by the capacity of the bearer to retain radiation." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001292  ! full-spectrum EM radiation quality
@@ -1415,6 +1418,7 @@ is_a: PATO:0001292  ! full-spectrum EM radiation quality
 [Term]
 id: PATO:0001294
 name: radiation reflective quality
+synonym: "radiation reflective" RELATED []
 def: "A scalar EM radiation quality which obtains by the capacity of the bearer to scatter or reflect radiation." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001292  ! full-spectrum EM radiation quality
@@ -1451,6 +1455,7 @@ is_a: PATO:0000018  ! fluorescence
 [Term]
 id: PATO:0001299
 name: radiation emitting quality
+synonym: "radiation emitting" RELATED []
 def: "A scalar EM radiation quality which obtains by the capacity of the bearer to emit radiation." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001292  ! full-spectrum EM radiation quality
@@ -1458,6 +1463,7 @@ is_a: PATO:0001292  ! full-spectrum EM radiation quality
 [Term]
 id: PATO:0001300
 name: optical quality
+synonym: "optical" RELATED []
 def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
@@ -1588,6 +1594,7 @@ is_a: PATO:0001424  ! violet
 [Term]
 id: PATO:0001717
 name: radiation emitting intensity quality
+synonym: "radiation emitting intensity" RELATED []
 def: "A radiation emitting quality which obtains by the intensity of the bearer emitted radiation." [PATOC:GVG]
 is_a: PATO:0001299  ! radiation emitting quality
 
@@ -1600,6 +1607,7 @@ is_a: PATO:0001296  ! luminous flux
 [Term]
 id: PATO:0001739
 name: radiation quality
+synonym: "radiation" RELATED []
 def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
 subset: attribute_slim  ! Attribute slim
 is_a: PATO:0001018  ! physical quality

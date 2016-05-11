@@ -101,33 +101,75 @@ EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	false	label	exact	
 EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	true	label	exact	uvclight
 EO:0007151 ! radiation treatment	GO:0009314 ! response to radiation	false	label	exact	
 EO:0007151 ! radiation treatment	GO:0009314 ! response to radiation	false	label	label	
+EO:0007151 ! radiation treatment	PATO:0001739 ! radiation quality	false	label	related	
+EO:0007151 ! radiation treatment	PATO:0001744 ! radiation exposure	false	label	label	
 EO:0007151 ! radiation treatment	SCTID:218190002 ! Exposure to radiation	false	label	label	
 EO:0007151 ! radiation treatment	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
 EO:0007151 ! radiation treatment	XCO:0000038 ! radiation exposure	false	label	label	
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	false	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
+EO:0007151 ! radiation treatment	EO:0007221 ! visible light regimen	false	related	label	light
 EO:0007151 ! radiation treatment	GO:0009416 ! response to light stimulus	false	related	label	light
+EO:0007151 ! radiation treatment	NCIT:C17732 ! Visible Light	false	related	label	light
+EO:0007151 ! radiation treatment	NCIT:C17732 ! Visible Light	false	related	related	light
+EO:0007151 ! radiation treatment	PATO:0000665 ! high brightness	false	related	exact	light
+EO:0007151 ! radiation treatment	PATO:0000665 ! high brightness	true	related	exact	light
+EO:0007151 ! radiation treatment	PATO:0001300 ! optical quality	false	related	related	light
 EO:0007151 ! radiation treatment	SCTID:418921006 ! Exposure to light	false	related	label	light
+EO:0007151 ! radiation treatment	XCO:0000283 ! visible light stimulus	false	related	label	light
+EO:0007151 ! radiation treatment	XCO:0000284 ! controlled visible light exposure	false	related	broad	light
+EO:0007151 ! radiation treatment	ZECO:0000153 ! visible light	false	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
+EO:0007151 ! radiation treatment	EO:0007221 ! visible light regimen	true	related	label	light
 EO:0007151 ! radiation treatment	GO:0009416 ! response to light stimulus	true	related	label	light
+EO:0007151 ! radiation treatment	NCIT:C17732 ! Visible Light	true	related	label	light
+EO:0007151 ! radiation treatment	NCIT:C17732 ! Visible Light	true	related	related	light
+EO:0007151 ! radiation treatment	PATO:0000665 ! high brightness	true	related	exact	light
+EO:0007151 ! radiation treatment	PATO:0000665 ! high brightness	true	related	exact	light
+EO:0007151 ! radiation treatment	PATO:0001300 ! optical quality	true	related	related	light
 EO:0007151 ! radiation treatment	SCTID:418921006 ! Exposure to light	true	related	label	light
+EO:0007151 ! radiation treatment	XCO:0000283 ! visible light stimulus	true	related	label	light
+EO:0007151 ! radiation treatment	XCO:0000284 ! controlled visible light exposure	true	related	broad	light
+EO:0007151 ! radiation treatment	ZECO:0000153 ! visible light	true	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	false	related	label	lightregimen
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	lightregimen
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	lightregimen
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	lightregimen
+EO:0007151 ! radiation treatment	PATO:0001739 ! radiation quality	true	label	related	radiat
+EO:0007154 ! radiation quality treatment	PATO:0001739 ! radiation quality	true	label	label	qualitiradiat
+EO:0007154 ! radiation quality treatment	PATO:0001739 ! radiation quality	false	label	label	quality
+EO:0007154 ! radiation quality treatment	PATO:0001739 ! radiation quality	true	label	label	radiatqualiti
 EO:0007163 ! day light regimen	EO:0007196 ! light regimen	true	label	related	dailight
 EO:0007163 ! day light regimen	EO:0007196 ! light regimen	false	label	related	daylight
 EO:0007196 ! light regimen	EO:0007163 ! day light regimen	true	related	label	dailight
 EO:0007196 ! light regimen	EO:0007163 ! day light regimen	false	related	label	daylight
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	false	label	related	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
+EO:0007196 ! light regimen	EO:0007221 ! visible light regimen	false	label	label	light
 EO:0007196 ! light regimen	GO:0009416 ! response to light stimulus	false	label	label	light
+EO:0007196 ! light regimen	NCIT:C17732 ! Visible Light	false	label	label	light
+EO:0007196 ! light regimen	NCIT:C17732 ! Visible Light	false	label	related	light
+EO:0007196 ! light regimen	PATO:0000665 ! high brightness	false	label	exact	light
+EO:0007196 ! light regimen	PATO:0000665 ! high brightness	true	label	exact	light
+EO:0007196 ! light regimen	PATO:0001300 ! optical quality	false	label	related	light
 EO:0007196 ! light regimen	SCTID:418921006 ! Exposure to light	false	label	label	light
+EO:0007196 ! light regimen	XCO:0000283 ! visible light stimulus	false	label	label	light
+EO:0007196 ! light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+EO:0007196 ! light regimen	ZECO:0000153 ! visible light	false	label	label	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
+EO:0007196 ! light regimen	EO:0007221 ! visible light regimen	true	label	label	light
 EO:0007196 ! light regimen	GO:0009416 ! response to light stimulus	true	label	label	light
+EO:0007196 ! light regimen	NCIT:C17732 ! Visible Light	true	label	label	light
+EO:0007196 ! light regimen	NCIT:C17732 ! Visible Light	true	label	related	light
+EO:0007196 ! light regimen	PATO:0000665 ! high brightness	true	label	exact	light
+EO:0007196 ! light regimen	PATO:0000665 ! high brightness	true	label	exact	light
+EO:0007196 ! light regimen	PATO:0001300 ! optical quality	true	label	related	light
 EO:0007196 ! light regimen	SCTID:418921006 ! Exposure to light	true	label	label	light
+EO:0007196 ! light regimen	XCO:0000283 ! visible light stimulus	true	label	label	light
+EO:0007196 ! light regimen	XCO:0000284 ! controlled visible light exposure	true	label	broad	light
+EO:0007196 ! light regimen	ZECO:0000153 ! visible light	true	label	label	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	false	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
@@ -142,29 +184,60 @@ EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	true	l
 EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	true	label	label	farredlight
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	exact	lightred
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	label	lightred
+EO:0007207 ! red light regimen	PATO:0001262 ! light red	false	label	label	lightred
+EO:0007207 ! red light regimen	PATO:0001262 ! light red	true	label	label	lightred
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	exact	lightred
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	label	lightred
+EO:0007207 ! red light regimen	PATO:0001262 ! light red	true	label	label	lightred
+EO:0007207 ! red light regimen	PATO:0001262 ! light red	true	label	label	lightred
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	exact	redlight
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	label	redlight
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	exact	redlight
 EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	label	redlight
+EO:0007215 ! orange light regimen	PATO:0001255 ! light orange	true	label	label	lightorang
+EO:0007215 ! orange light regimen	PATO:0001255 ! light orange	false	label	label	lightorange
+EO:0007216 ! yellow light regimen	PATO:0001264 ! light yellow	false	label	label	lightyellow
+EO:0007216 ! yellow light regimen	PATO:0001264 ! light yellow	true	label	label	lightyellow
+EO:0007216 ! yellow light regimen	PATO:0001264 ! light yellow	true	label	label	lightyellow
+EO:0007216 ! yellow light regimen	PATO:0001264 ! light yellow	true	label	label	lightyellow
+EO:0007217 ! green light regimen	PATO:0001250 ! light green	false	label	label	greenlight
+EO:0007217 ! green light regimen	PATO:0001250 ! light green	true	label	label	greenlight
+EO:0007217 ! green light regimen	PATO:0001250 ! light green	true	label	label	greenlight
+EO:0007217 ! green light regimen	PATO:0001250 ! light green	true	label	label	greenlight
 EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	false	label	exact	bluelight
 EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	false	label	label	bluelight
+EO:0007218 ! blue light regimen	PATO:0001243 ! light blue	false	label	label	bluelight
+EO:0007218 ! blue light regimen	PATO:0001243 ! light blue	true	label	label	bluelight
 EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	true	label	exact	bluelight
 EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	true	label	label	bluelight
+EO:0007218 ! blue light regimen	PATO:0001243 ! light blue	true	label	label	bluelight
+EO:0007218 ! blue light regimen	PATO:0001243 ! light blue	true	label	label	bluelight
+EO:0007220 ! violet light regimen	PATO:0001704 ! light violet	false	label	label	lightviolet
+EO:0007220 ! violet light regimen	PATO:0001704 ! light violet	true	label	label	lightviolet
+EO:0007220 ! violet light regimen	PATO:0001704 ! light violet	true	label	label	lightviolet
+EO:0007220 ! violet light regimen	PATO:0001704 ! light violet	true	label	label	lightviolet
+EO:0007221 ! visible light regimen	EO:0007151 ! radiation treatment	false	label	related	light
+EO:0007221 ! visible light regimen	EO:0007151 ! radiation treatment	true	label	related	light
+EO:0007221 ! visible light regimen	EO:0007196 ! light regimen	false	label	label	light
+EO:0007221 ! visible light regimen	EO:0007196 ! light regimen	true	label	label	light
+EO:0007221 ! visible light regimen	GO:0009416 ! response to light stimulus	false	label	label	light
+EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	light
+EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	light
+EO:0007221 ! visible light regimen	PATO:0000665 ! high brightness	false	label	exact	light
+EO:0007221 ! visible light regimen	PATO:0000665 ! high brightness	true	label	exact	light
+EO:0007221 ! visible light regimen	PATO:0001300 ! optical quality	false	label	related	light
+EO:0007221 ! visible light regimen	SCTID:418921006 ! Exposure to light	false	label	label	light
+EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	light
+EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	light
+EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	lightlight
+EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	lightlight
+EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	lightlight
+EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightlight
+EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	lightlight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	label	lightvisibl
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	related	lightvisibl
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	true	label	label	lightvisibl
-EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
-EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
-EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
-EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
-EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	lightvisible
-EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
-EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
-EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
-EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
-EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	visiblelight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	label	visibllight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	related	visibllight
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	true	label	label	visibllight
@@ -217,10 +290,14 @@ EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	false	label	label	xray
 EO:0007628 ! X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 EO:0007628 ! X-ray	ZECO:0000150 ! xray	false	label	label	xray
 GO:0009314 ! response to radiation	EO:0007151 ! radiation treatment	false	exact	label	
+GO:0009314 ! response to radiation	PATO:0001739 ! radiation quality	false	exact	related	
+GO:0009314 ! response to radiation	PATO:0001744 ! radiation exposure	false	exact	label	
 GO:0009314 ! response to radiation	SCTID:218190002 ! Exposure to radiation	false	exact	label	
 GO:0009314 ! response to radiation	SCTID:419201009 ! Overexposure to radiation	false	exact	broad	
 GO:0009314 ! response to radiation	XCO:0000038 ! radiation exposure	false	exact	label	
 GO:0009314 ! response to radiation	EO:0007151 ! radiation treatment	false	label	label	
+GO:0009314 ! response to radiation	PATO:0001739 ! radiation quality	false	label	related	
+GO:0009314 ! response to radiation	PATO:0001744 ! radiation exposure	false	label	label	
 GO:0009314 ! response to radiation	SCTID:218190002 ! Exposure to radiation	false	label	label	
 GO:0009314 ! response to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
 GO:0009314 ! response to radiation	XCO:0000038 ! radiation exposure	false	label	label	
@@ -248,11 +325,24 @@ GO:0009416 ! response to light stimulus	EO:0007151 ! radiation treatment	false	l
 GO:0009416 ! response to light stimulus	EO:0007151 ! radiation treatment	true	label	related	light
 GO:0009416 ! response to light stimulus	EO:0007196 ! light regimen	false	label	label	light
 GO:0009416 ! response to light stimulus	EO:0007196 ! light regimen	true	label	label	light
+GO:0009416 ! response to light stimulus	EO:0007221 ! visible light regimen	false	label	label	light
+GO:0009416 ! response to light stimulus	NCIT:C17732 ! Visible Light	false	label	label	light
+GO:0009416 ! response to light stimulus	NCIT:C17732 ! Visible Light	false	label	related	light
+GO:0009416 ! response to light stimulus	PATO:0000665 ! high brightness	false	label	exact	light
+GO:0009416 ! response to light stimulus	PATO:0000665 ! high brightness	true	label	exact	light
+GO:0009416 ! response to light stimulus	PATO:0001300 ! optical quality	false	label	related	light
 GO:0009416 ! response to light stimulus	SCTID:418921006 ! Exposure to light	false	label	label	light
+GO:0009416 ! response to light stimulus	XCO:0000283 ! visible light stimulus	false	label	label	light
+GO:0009416 ! response to light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+GO:0009416 ! response to light stimulus	ZECO:0000153 ! visible light	false	label	label	light
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	false	exact	label	bluelight
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	true	exact	label	bluelight
+GO:0009637 ! response to blue light	PATO:0001243 ! light blue	false	exact	label	bluelight
+GO:0009637 ! response to blue light	PATO:0001243 ! light blue	true	exact	label	bluelight
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	false	label	label	bluelight
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	true	label	label	bluelight
+GO:0009637 ! response to blue light	PATO:0001243 ! light blue	false	label	label	bluelight
+GO:0009637 ! response to blue light	PATO:0001243 ! light blue	true	label	label	bluelight
 GO:0009642 ! response to light intensity	EO:0007224 ! light intensity regimen	false	label	label	intensitylight
 GO:0009642 ! response to light intensity	EO:0007224 ! light intensity regimen	false	label	label	lightintensity
 GO:0009644 ! response to high light intensity	EO:0007075 ! high light intensity regimen	false	label	label	highintensitylight
@@ -261,8 +351,12 @@ GO:0009645 ! response to low light intensity stimulus	EO:0007271 ! low light int
 GO:0009645 ! response to low light intensity stimulus	EO:0007271 ! low light intensity regimen	false	label	label	lowlightintensity
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	exact	label	lightred
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	true	exact	label	lightred
+GO:0010114 ! response to red light	PATO:0001262 ! light red	false	exact	label	lightred
+GO:0010114 ! response to red light	PATO:0001262 ! light red	true	exact	label	lightred
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	label	label	lightred
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	true	label	label	lightred
+GO:0010114 ! response to red light	PATO:0001262 ! light red	false	label	label	lightred
+GO:0010114 ! response to red light	PATO:0001262 ! light red	true	label	label	lightred
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	exact	label	redlight
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	true	exact	label	redlight
 GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	label	label	redlight
@@ -439,6 +533,9 @@ NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	false	
 NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	false	related	label	nonionizingradiation
 NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	true	label	label	nonionradiat
 NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	true	related	label	nonionradiat
+NCIT:C17054 ! Radioactivity	PATO:0001740 ! activity (of a radionuclide)	true	label	exact	radioact
+NCIT:C17054 ! Radioactivity	PATO:0001741 ! radioactive	true	label	label	radioact
+NCIT:C17054 ! Radioactivity	PATO:0001740 ! activity (of a radionuclide)	false	label	exact	radioactivity
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	false	label	exact	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	true	label	exact	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	GO:0009411 ! response to UV	false	label	exact	ultraviolet
@@ -465,25 +562,45 @@ NCIT:C17262 ! X-Ray	GO:0010165 ! response to X-ray	false	label	exact	xray
 NCIT:C17262 ! X-Ray	GO:0010165 ! response to X-ray	false	label	label	xray
 NCIT:C17262 ! X-Ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 NCIT:C17262 ! X-Ray	ZECO:0000150 ! xray	false	label	label	xray
+NCIT:C17732 ! Visible Light	EO:0007151 ! radiation treatment	false	label	related	light
+NCIT:C17732 ! Visible Light	EO:0007151 ! radiation treatment	true	label	related	light
+NCIT:C17732 ! Visible Light	EO:0007196 ! light regimen	false	label	label	light
+NCIT:C17732 ! Visible Light	EO:0007196 ! light regimen	true	label	label	light
+NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	light
+NCIT:C17732 ! Visible Light	GO:0009416 ! response to light stimulus	false	label	label	light
+NCIT:C17732 ! Visible Light	PATO:0000665 ! high brightness	false	label	exact	light
+NCIT:C17732 ! Visible Light	PATO:0000665 ! high brightness	true	label	exact	light
+NCIT:C17732 ! Visible Light	PATO:0001300 ! optical quality	false	label	related	light
+NCIT:C17732 ! Visible Light	SCTID:418921006 ! Exposure to light	false	label	label	light
+NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	light
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	light
+NCIT:C17732 ! Visible Light	EO:0007151 ! radiation treatment	false	related	related	light
+NCIT:C17732 ! Visible Light	EO:0007151 ! radiation treatment	true	related	related	light
+NCIT:C17732 ! Visible Light	EO:0007196 ! light regimen	false	related	label	light
+NCIT:C17732 ! Visible Light	EO:0007196 ! light regimen	true	related	label	light
+NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	light
+NCIT:C17732 ! Visible Light	GO:0009416 ! response to light stimulus	false	related	label	light
+NCIT:C17732 ! Visible Light	PATO:0000665 ! high brightness	false	related	exact	light
+NCIT:C17732 ! Visible Light	PATO:0000665 ! high brightness	true	related	exact	light
+NCIT:C17732 ! Visible Light	PATO:0001300 ! optical quality	false	related	related	light
+NCIT:C17732 ! Visible Light	SCTID:418921006 ! Exposure to light	false	related	label	light
+NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	light
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	light
+NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	light
+NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	lightlight
+NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	lightlight
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightlight
+NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	lightlight
+NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	lightlight
+NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	lightlight
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	lightlight
+NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	lightlight
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	label	label	lightvisibl
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	label	label	lightvisibl
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	related	label	lightvisibl
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	related	label	lightvisibl
-NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	lightvisible
-NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
-NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
-NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	lightvisible
-NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	lightvisible
-NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	lightvisible
-NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	lightvisible
-NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	lightvisible
-NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	visiblelight
-NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
-NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	visiblelight
-NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	visiblelight
-NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	visiblelight
-NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	visiblelight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	visiblelight
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	label	label	visibllight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	label	label	visibllight
@@ -573,6 +690,112 @@ NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	false	related	label	radiow
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
+PATO:0000014 ! color	PATO:0000336 ! colored	true	label	label	color
+PATO:0000014 ! color	PATO:0000336 ! colored	true	label	label	color
+PATO:0000018 ! fluorescence	PATO:0001290 ! fluorescent	true	label	label	fluoresc
+PATO:0000336 ! colored	PATO:0000014 ! color	true	label	label	color
+PATO:0000336 ! colored	PATO:0000014 ! color	true	label	label	color
+PATO:0000665 ! high brightness	EO:0007151 ! radiation treatment	false	exact	related	light
+PATO:0000665 ! high brightness	EO:0007151 ! radiation treatment	true	exact	related	light
+PATO:0000665 ! high brightness	EO:0007196 ! light regimen	false	exact	label	light
+PATO:0000665 ! high brightness	EO:0007196 ! light regimen	true	exact	label	light
+PATO:0000665 ! high brightness	EO:0007221 ! visible light regimen	false	exact	label	light
+PATO:0000665 ! high brightness	GO:0009416 ! response to light stimulus	false	exact	label	light
+PATO:0000665 ! high brightness	NCIT:C17732 ! Visible Light	false	exact	label	light
+PATO:0000665 ! high brightness	NCIT:C17732 ! Visible Light	false	exact	related	light
+PATO:0000665 ! high brightness	PATO:0001300 ! optical quality	false	exact	related	light
+PATO:0000665 ! high brightness	SCTID:418921006 ! Exposure to light	false	exact	label	light
+PATO:0000665 ! high brightness	XCO:0000283 ! visible light stimulus	false	exact	label	light
+PATO:0000665 ! high brightness	XCO:0000284 ! controlled visible light exposure	false	exact	broad	light
+PATO:0000665 ! high brightness	ZECO:0000153 ! visible light	false	exact	label	light
+PATO:0000665 ! high brightness	EO:0007151 ! radiation treatment	true	exact	related	light
+PATO:0000665 ! high brightness	EO:0007151 ! radiation treatment	true	exact	related	light
+PATO:0000665 ! high brightness	EO:0007196 ! light regimen	true	exact	label	light
+PATO:0000665 ! high brightness	EO:0007196 ! light regimen	true	exact	label	light
+PATO:0000665 ! high brightness	EO:0007221 ! visible light regimen	true	exact	label	light
+PATO:0000665 ! high brightness	GO:0009416 ! response to light stimulus	true	exact	label	light
+PATO:0000665 ! high brightness	NCIT:C17732 ! Visible Light	true	exact	label	light
+PATO:0000665 ! high brightness	NCIT:C17732 ! Visible Light	true	exact	related	light
+PATO:0000665 ! high brightness	PATO:0001300 ! optical quality	true	exact	related	light
+PATO:0000665 ! high brightness	SCTID:418921006 ! Exposure to light	true	exact	label	light
+PATO:0000665 ! high brightness	XCO:0000283 ! visible light stimulus	true	exact	label	light
+PATO:0000665 ! high brightness	XCO:0000284 ! controlled visible light exposure	true	exact	broad	light
+PATO:0000665 ! high brightness	ZECO:0000153 ! visible light	true	exact	label	light
+PATO:0001243 ! light blue	EO:0007218 ! blue light regimen	false	label	label	bluelight
+PATO:0001243 ! light blue	EO:0007218 ! blue light regimen	true	label	label	bluelight
+PATO:0001243 ! light blue	GO:0009637 ! response to blue light	false	label	exact	bluelight
+PATO:0001243 ! light blue	GO:0009637 ! response to blue light	false	label	label	bluelight
+PATO:0001243 ! light blue	EO:0007218 ! blue light regimen	true	label	label	bluelight
+PATO:0001243 ! light blue	EO:0007218 ! blue light regimen	true	label	label	bluelight
+PATO:0001243 ! light blue	GO:0009637 ! response to blue light	true	label	exact	bluelight
+PATO:0001243 ! light blue	GO:0009637 ! response to blue light	true	label	label	bluelight
+PATO:0001250 ! light green	EO:0007217 ! green light regimen	false	label	label	greenlight
+PATO:0001250 ! light green	EO:0007217 ! green light regimen	true	label	label	greenlight
+PATO:0001250 ! light green	EO:0007217 ! green light regimen	true	label	label	greenlight
+PATO:0001250 ! light green	EO:0007217 ! green light regimen	true	label	label	greenlight
+PATO:0001255 ! light orange	EO:0007215 ! orange light regimen	true	label	label	lightorang
+PATO:0001255 ! light orange	EO:0007215 ! orange light regimen	false	label	label	lightorange
+PATO:0001262 ! light red	EO:0007207 ! red light regimen	false	label	label	lightred
+PATO:0001262 ! light red	EO:0007207 ! red light regimen	true	label	label	lightred
+PATO:0001262 ! light red	GO:0010114 ! response to red light	false	label	exact	lightred
+PATO:0001262 ! light red	GO:0010114 ! response to red light	false	label	label	lightred
+PATO:0001262 ! light red	EO:0007207 ! red light regimen	true	label	label	lightred
+PATO:0001262 ! light red	EO:0007207 ! red light regimen	true	label	label	lightred
+PATO:0001262 ! light red	GO:0010114 ! response to red light	true	label	exact	lightred
+PATO:0001262 ! light red	GO:0010114 ! response to red light	true	label	label	lightred
+PATO:0001264 ! light yellow	EO:0007216 ! yellow light regimen	false	label	label	lightyellow
+PATO:0001264 ! light yellow	EO:0007216 ! yellow light regimen	true	label	label	lightyellow
+PATO:0001264 ! light yellow	EO:0007216 ! yellow light regimen	true	label	label	lightyellow
+PATO:0001264 ! light yellow	EO:0007216 ! yellow light regimen	true	label	label	lightyellow
+PATO:0001290 ! fluorescent	PATO:0000018 ! fluorescence	true	label	label	fluoresc
+PATO:0001300 ! optical quality	EO:0007151 ! radiation treatment	false	related	related	light
+PATO:0001300 ! optical quality	EO:0007151 ! radiation treatment	true	related	related	light
+PATO:0001300 ! optical quality	EO:0007196 ! light regimen	false	related	label	light
+PATO:0001300 ! optical quality	EO:0007196 ! light regimen	true	related	label	light
+PATO:0001300 ! optical quality	EO:0007221 ! visible light regimen	false	related	label	light
+PATO:0001300 ! optical quality	GO:0009416 ! response to light stimulus	false	related	label	light
+PATO:0001300 ! optical quality	NCIT:C17732 ! Visible Light	false	related	label	light
+PATO:0001300 ! optical quality	NCIT:C17732 ! Visible Light	false	related	related	light
+PATO:0001300 ! optical quality	PATO:0000665 ! high brightness	false	related	exact	light
+PATO:0001300 ! optical quality	PATO:0000665 ! high brightness	true	related	exact	light
+PATO:0001300 ! optical quality	SCTID:418921006 ! Exposure to light	false	related	label	light
+PATO:0001300 ! optical quality	XCO:0000283 ! visible light stimulus	false	related	label	light
+PATO:0001300 ! optical quality	XCO:0000284 ! controlled visible light exposure	false	related	broad	light
+PATO:0001300 ! optical quality	ZECO:0000153 ! visible light	false	related	label	light
+PATO:0001516 ! focus	PATO:0001517 ! focused	true	label	label	focus
+PATO:0001517 ! focused	PATO:0001516 ! focus	true	label	label	focus
+PATO:0001704 ! light violet	EO:0007220 ! violet light regimen	false	label	label	lightviolet
+PATO:0001704 ! light violet	EO:0007220 ! violet light regimen	true	label	label	lightviolet
+PATO:0001704 ! light violet	EO:0007220 ! violet light regimen	true	label	label	lightviolet
+PATO:0001704 ! light violet	EO:0007220 ! violet light regimen	true	label	label	lightviolet
+PATO:0001739 ! radiation quality	EO:0007151 ! radiation treatment	false	related	label	
+PATO:0001739 ! radiation quality	GO:0009314 ! response to radiation	false	related	exact	
+PATO:0001739 ! radiation quality	GO:0009314 ! response to radiation	false	related	label	
+PATO:0001739 ! radiation quality	PATO:0001744 ! radiation exposure	false	related	label	
+PATO:0001739 ! radiation quality	SCTID:218190002 ! Exposure to radiation	false	related	label	
+PATO:0001739 ! radiation quality	SCTID:419201009 ! Overexposure to radiation	false	related	broad	
+PATO:0001739 ! radiation quality	XCO:0000038 ! radiation exposure	false	related	label	
+PATO:0001739 ! radiation quality	EO:0007154 ! radiation quality treatment	true	label	label	qualitiradiat
+PATO:0001739 ! radiation quality	EO:0007154 ! radiation quality treatment	false	label	label	quality
+PATO:0001739 ! radiation quality	EO:0007151 ! radiation treatment	true	related	label	radiat
+PATO:0001739 ! radiation quality	EO:0007154 ! radiation quality treatment	true	label	label	radiatqualiti
+PATO:0001740 ! activity (of a radionuclide)	NCIT:C17054 ! Radioactivity	true	exact	label	radioact
+PATO:0001740 ! activity (of a radionuclide)	PATO:0001741 ! radioactive	true	exact	label	radioact
+PATO:0001740 ! activity (of a radionuclide)	NCIT:C17054 ! Radioactivity	false	exact	label	radioactivity
+PATO:0001741 ! radioactive	NCIT:C17054 ! Radioactivity	true	label	label	radioact
+PATO:0001741 ! radioactive	PATO:0001740 ! activity (of a radionuclide)	true	label	exact	radioact
+PATO:0001744 ! radiation exposure	EO:0007151 ! radiation treatment	false	label	label	
+PATO:0001744 ! radiation exposure	GO:0009314 ! response to radiation	false	label	exact	
+PATO:0001744 ! radiation exposure	GO:0009314 ! response to radiation	false	label	label	
+PATO:0001744 ! radiation exposure	PATO:0001739 ! radiation quality	false	label	related	
+PATO:0001744 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	false	label	label	
+PATO:0001744 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
+PATO:0001744 ! radiation exposure	XCO:0000038 ! radiation exposure	false	label	label	
+PATO:0001744 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	true	label	label	exposurradiat
+PATO:0001744 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
+PATO:0001744 ! radiation exposure	XCO:0000038 ! radiation exposure	true	label	label	exposurradiat
+PATO:0001744 ! radiation exposure	XCO:0000038 ! radiation exposure	true	label	label	radiatexposur
+PATO:0001744 ! radiation exposure	XCO:0000038 ! radiation exposure	false	label	label	radiationexposure
 SCTID:122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	true	label	label	exposurionizradiat
 SCTID:122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
 SCTID:122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
@@ -583,9 +806,12 @@ SCTID:122866006 ! Exposure to ionizing radiation	ZECO:0000148 ! ionizing radiati
 SCTID:218190002 ! Exposure to radiation	EO:0007151 ! radiation treatment	false	label	label	
 SCTID:218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	exact	
 SCTID:218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	label	
+SCTID:218190002 ! Exposure to radiation	PATO:0001739 ! radiation quality	false	label	related	
+SCTID:218190002 ! Exposure to radiation	PATO:0001744 ! radiation exposure	false	label	label	
 SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
 SCTID:218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	false	label	label	
 SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	exposuretoradiation
+SCTID:218190002 ! Exposure to radiation	PATO:0001744 ! radiation exposure	true	label	label	exposurradiat
 SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
 SCTID:218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	true	label	label	exposurradiat
 SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurtoradiat
@@ -601,23 +827,40 @@ SCTID:418921006 ! Exposure to light	EO:0007151 ! radiation treatment	false	label
 SCTID:418921006 ! Exposure to light	EO:0007151 ! radiation treatment	true	label	related	light
 SCTID:418921006 ! Exposure to light	EO:0007196 ! light regimen	false	label	label	light
 SCTID:418921006 ! Exposure to light	EO:0007196 ! light regimen	true	label	label	light
+SCTID:418921006 ! Exposure to light	EO:0007221 ! visible light regimen	false	label	label	light
 SCTID:418921006 ! Exposure to light	GO:0009416 ! response to light stimulus	false	label	label	light
+SCTID:418921006 ! Exposure to light	NCIT:C17732 ! Visible Light	false	label	label	light
+SCTID:418921006 ! Exposure to light	NCIT:C17732 ! Visible Light	false	label	related	light
+SCTID:418921006 ! Exposure to light	PATO:0000665 ! high brightness	false	label	exact	light
+SCTID:418921006 ! Exposure to light	PATO:0000665 ! high brightness	true	label	exact	light
+SCTID:418921006 ! Exposure to light	PATO:0001300 ! optical quality	false	label	related	light
+SCTID:418921006 ! Exposure to light	XCO:0000283 ! visible light stimulus	false	label	label	light
+SCTID:418921006 ! Exposure to light	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+SCTID:418921006 ! Exposure to light	ZECO:0000153 ! visible light	false	label	label	light
 SCTID:419201009 ! Overexposure to radiation	EO:0007151 ! radiation treatment	false	broad	label	
 SCTID:419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	exact	
 SCTID:419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	label	
+SCTID:419201009 ! Overexposure to radiation	PATO:0001739 ! radiation quality	false	broad	related	
+SCTID:419201009 ! Overexposure to radiation	PATO:0001744 ! radiation exposure	false	broad	label	
 SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	false	broad	label	
 SCTID:419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	false	broad	label	
 SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	false	broad	label	exposuretoradiation
+SCTID:419201009 ! Overexposure to radiation	PATO:0001744 ! radiation exposure	true	broad	label	exposurradiat
 SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	true	broad	label	exposurradiat
 SCTID:419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	true	broad	label	exposurradiat
 SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	true	broad	label	exposurtoradiat
 XCO:0000038 ! radiation exposure	EO:0007151 ! radiation treatment	false	label	label	
 XCO:0000038 ! radiation exposure	GO:0009314 ! response to radiation	false	label	exact	
 XCO:0000038 ! radiation exposure	GO:0009314 ! response to radiation	false	label	label	
+XCO:0000038 ! radiation exposure	PATO:0001739 ! radiation quality	false	label	related	
+XCO:0000038 ! radiation exposure	PATO:0001744 ! radiation exposure	false	label	label	
 XCO:0000038 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	false	label	label	
 XCO:0000038 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
+XCO:0000038 ! radiation exposure	PATO:0001744 ! radiation exposure	true	label	label	exposurradiat
 XCO:0000038 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	true	label	label	exposurradiat
 XCO:0000038 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
+XCO:0000038 ! radiation exposure	PATO:0001744 ! radiation exposure	true	label	label	radiatexposur
+XCO:0000038 ! radiation exposure	PATO:0001744 ! radiation exposure	false	label	label	radiationexposure
 XCO:0000039 ! ionizing radiation exposure	SCTID:122866006 ! Exposure to ionizing radiation	true	label	label	exposurionizradiat
 XCO:0000039 ! ionizing radiation exposure	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
 XCO:0000039 ! ionizing radiation exposure	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
@@ -676,26 +919,44 @@ XCO:0000180 ! non-ionizing ultraviolet radiation exposure	ZECO:0000154 ! non-ion
 XCO:0000180 ! non-ionizing ultraviolet radiation exposure	ZECO:0000154 ! non-ionizing uv	false	label	label	ionizingnonultraviolet
 XCO:0000180 ! non-ionizing ultraviolet radiation exposure	ZECO:0000154 ! non-ionizing uv	false	exact	label	nonionizingultraviolet
 XCO:0000180 ! non-ionizing ultraviolet radiation exposure	ZECO:0000154 ! non-ionizing uv	false	label	label	nonionizingultraviolet
-XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	lightvisible
-XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
-XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
-XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
-XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	lightvisible
-XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	visiblelight
-XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
-XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
-XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
-XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	visiblelight
-XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	lightvisible
-XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	lightvisible
-XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	lightvisible
-XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	lightvisible
-XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	lightvisible
-XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	visiblelight
-XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	visiblelight
-XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	visiblelight
-XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	visiblelight
-XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	visiblelight
+XCO:0000283 ! visible light stimulus	EO:0007151 ! radiation treatment	false	label	related	light
+XCO:0000283 ! visible light stimulus	EO:0007151 ! radiation treatment	true	label	related	light
+XCO:0000283 ! visible light stimulus	EO:0007196 ! light regimen	false	label	label	light
+XCO:0000283 ! visible light stimulus	EO:0007196 ! light regimen	true	label	label	light
+XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	light
+XCO:0000283 ! visible light stimulus	GO:0009416 ! response to light stimulus	false	label	label	light
+XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	light
+XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	light
+XCO:0000283 ! visible light stimulus	PATO:0000665 ! high brightness	false	label	exact	light
+XCO:0000283 ! visible light stimulus	PATO:0000665 ! high brightness	true	label	exact	light
+XCO:0000283 ! visible light stimulus	PATO:0001300 ! optical quality	false	label	related	light
+XCO:0000283 ! visible light stimulus	SCTID:418921006 ! Exposure to light	false	label	label	light
+XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	light
+XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	lightlight
+XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	lightlight
+XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	lightlight
+XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightlight
+XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	lightlight
+XCO:0000284 ! controlled visible light exposure	EO:0007151 ! radiation treatment	false	broad	related	light
+XCO:0000284 ! controlled visible light exposure	EO:0007151 ! radiation treatment	true	broad	related	light
+XCO:0000284 ! controlled visible light exposure	EO:0007196 ! light regimen	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	EO:0007196 ! light regimen	true	broad	label	light
+XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	GO:0009416 ! response to light stimulus	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	light
+XCO:0000284 ! controlled visible light exposure	PATO:0000665 ! high brightness	false	broad	exact	light
+XCO:0000284 ! controlled visible light exposure	PATO:0000665 ! high brightness	true	broad	exact	light
+XCO:0000284 ! controlled visible light exposure	PATO:0001300 ! optical quality	false	broad	related	light
+XCO:0000284 ! controlled visible light exposure	SCTID:418921006 ! Exposure to light	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	light
+XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	lightlight
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	lightlight
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	lightlight
+XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	lightlight
+XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	lightlight
 XCO:0000462 ! light phase of controlled light/dark cycle	XCO:0000463 ! dark phase of controlled light/dark cycle	true	label	label	controlcycldarklightphase
 XCO:0000462 ! light phase of controlled light/dark cycle	XCO:0000463 ! dark phase of controlled light/dark cycle	false	label	label	controlledcycledarklightphase
 XCO:0000463 ! dark phase of controlled light/dark cycle	XCO:0000462 ! light phase of controlled light/dark cycle	true	label	label	controlcycldarklightphase
@@ -743,19 +1004,30 @@ ZECO:0000152 ! non-ionizing radiation	NCIT:C17053 ! Nonionizing Radiation	false	
 ZECO:0000152 ! non-ionizing radiation	NCIT:C17053 ! Nonionizing Radiation	false	label	related	nonionizingradiation
 ZECO:0000152 ! non-ionizing radiation	NCIT:C17053 ! Nonionizing Radiation	true	label	label	nonionradiat
 ZECO:0000152 ! non-ionizing radiation	NCIT:C17053 ! Nonionizing Radiation	true	label	related	nonionradiat
+ZECO:0000153 ! visible light	EO:0007151 ! radiation treatment	false	label	related	light
+ZECO:0000153 ! visible light	EO:0007151 ! radiation treatment	true	label	related	light
+ZECO:0000153 ! visible light	EO:0007196 ! light regimen	false	label	label	light
+ZECO:0000153 ! visible light	EO:0007196 ! light regimen	true	label	label	light
+ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	label	light
+ZECO:0000153 ! visible light	GO:0009416 ! response to light stimulus	false	label	label	light
+ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	light
+ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	light
+ZECO:0000153 ! visible light	PATO:0000665 ! high brightness	false	label	exact	light
+ZECO:0000153 ! visible light	PATO:0000665 ! high brightness	true	label	exact	light
+ZECO:0000153 ! visible light	PATO:0001300 ! optical quality	false	label	related	light
+ZECO:0000153 ! visible light	SCTID:418921006 ! Exposure to light	false	label	label	light
+ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	light
+ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	light
+ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	label	lightlight
+ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	lightlight
+ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	lightlight
+ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	lightlight
+ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightlight
 ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	true	label	label	lightvisibl
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	label	lightvisibl
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	related	lightvisibl
-ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	label	lightvisible
-ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
-ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
-ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
-ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
-ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	label	visiblelight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
-ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
-ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	true	label	label	visibllight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	label	visibllight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	related	visibllight

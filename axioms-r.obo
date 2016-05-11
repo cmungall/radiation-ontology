@@ -4,6 +4,7 @@ ontology: rad/axioms
 [Term]
 id: EO:0001022 ! gamma radiation treatment
 equivalent_to: GO:0010332 ! response to gamma radiation
+equivalent_to: NCIT:C44386 ! Gamma Radiation
 equivalent_to: SCTID:218204007 ! Overexposure to gamma rays
 equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
@@ -29,11 +30,12 @@ equivalent_to: NCIT:C44461 ! Ultraviolet C Radiation
 
 [Term]
 id: EO:0007151 ! radiation treatment
+equivalent_to: PATO:0001744 ! radiation exposure
 equivalent_to: XCO:0000038 ! radiation exposure
 
 [Term]
 id: EO:0007196 ! light regimen
-equivalent_to: GO:0009416 ! response to light stimulus
+equivalent_to: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007203 ! far red light regimen
@@ -42,15 +44,31 @@ equivalent_to: GO:0010218 ! response to far red light
 [Term]
 id: EO:0007207 ! red light regimen
 equivalent_to: GO:0010114 ! response to red light
+equivalent_to: PATO:0001262 ! light red
+
+[Term]
+id: EO:0007215 ! orange light regimen
+equivalent_to: PATO:0001255 ! light orange
+
+[Term]
+id: EO:0007216 ! yellow light regimen
+equivalent_to: PATO:0001264 ! light yellow
+
+[Term]
+id: EO:0007217 ! green light regimen
+equivalent_to: PATO:0001250 ! light green
 
 [Term]
 id: EO:0007218 ! blue light regimen
 equivalent_to: GO:0009637 ! response to blue light
+equivalent_to: PATO:0001243 ! light blue
+
+[Term]
+id: EO:0007220 ! violet light regimen
+equivalent_to: PATO:0001704 ! light violet
 
 [Term]
 id: EO:0007221 ! visible light regimen
-equivalent_to: NCIT:C17732 ! Visible Light
-equivalent_to: XCO:0000283 ! visible light stimulus
 equivalent_to: ZECO:0000153 ! visible light
 
 [Term]
@@ -83,11 +101,13 @@ equivalent_to: NCIT:C70832 ! Radio Frequency
 id: EO:0007628 ! X-ray
 equivalent_to: GO:0010165 ! response to X-ray
 equivalent_to: NCIT:C17262 ! X-Ray
+equivalent_to: XCO:0000043 ! X-ray exposure
 equivalent_to: ZECO:0000150 ! xray
 
 [Term]
 id: GO:0009314 ! response to radiation
-equivalent_to: XCO:0000038 ! radiation exposure
+equivalent_to: PATO:0001744 ! radiation exposure
+equivalent_to: SCTID:218190002 ! Exposure to radiation
 
 [Term]
 id: GO:0009411 ! response to UV
@@ -99,6 +119,14 @@ id: GO:0009416 ! response to light stimulus
 equivalent_to: SCTID:418921006 ! Exposure to light
 
 [Term]
+id: GO:0009637 ! response to blue light
+equivalent_to: PATO:0001243 ! light blue
+
+[Term]
+id: GO:0010114 ! response to red light
+equivalent_to: PATO:0001262 ! light red
+
+[Term]
 id: GO:0010165 ! response to X-ray
 equivalent_to: NCIT:C17262 ! X-Ray
 equivalent_to: XCO:0000043 ! X-ray exposure
@@ -107,7 +135,6 @@ equivalent_to: ZECO:0000150 ! xray
 [Term]
 id: GO:0010212 ! response to ionizing radiation
 equivalent_to: NCIT:C17052 ! Ionizing Radiation
-equivalent_to: SCTID:122866006 ! Exposure to ionizing radiation
 equivalent_to: XCO:0000039 ! ionizing radiation exposure
 equivalent_to: ZECO:0000148 ! ionizing radiation
 
@@ -121,7 +148,6 @@ equivalent_to: NCIT:C44461 ! Ultraviolet C Radiation
 
 [Term]
 id: GO:0010332 ! response to gamma radiation
-equivalent_to: NCIT:C44386 ! Gamma Radiation
 equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
 
@@ -141,7 +167,6 @@ equivalent_to: SCTID:218192005 ! Overexposure to microwave radiation
 [Term]
 id: NCIT:C17050 ! Electromagnetic Radiation
 equivalent_to: XCO:0000045 ! electromagnetic radiation exposure
-equivalent_to: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
 id: NCIT:C17052 ! Ionizing Radiation
@@ -155,6 +180,10 @@ equivalent_to: XCO:0000044 ! non-ionizing radiation exposure
 equivalent_to: ZECO:0000152 ! non-ionizing radiation
 
 [Term]
+id: NCIT:C17054 ! Radioactivity
+equivalent_to: PATO:0001741 ! radioactive
+
+[Term]
 id: NCIT:C17231 ! Ultraviolet Radiation
 equivalent_to: XCO:0000042 ! ultraviolet ray exposure
 
@@ -165,8 +194,8 @@ equivalent_to: ZECO:0000150 ! xray
 
 [Term]
 id: NCIT:C17732 ! Visible Light
+equivalent_to: PATO:0000665 ! high brightness
 equivalent_to: XCO:0000283 ! visible light stimulus
-equivalent_to: ZECO:0000153 ! visible light
 
 [Term]
 id: NCIT:C20049 ! Radiation, Other
@@ -182,17 +211,26 @@ id: NCIT:C70832 ! Radio Frequency
 equivalent_to: SCTID:218191003 ! Overexposure to radiofrequency radiation
 
 [Term]
+id: PATO:0001300 ! optical quality
+is_a: EO:0007151 ! radiation treatment
+equivalent_to: XCO:0000284 ! controlled visible light exposure
+
+[Term]
 id: SCTID:122866006 ! Exposure to ionizing radiation
 equivalent_to: XCO:0000039 ! ionizing radiation exposure
 equivalent_to: ZECO:0000148 ! ionizing radiation
 
 [Term]
-id: SCTID:218190002 ! Exposure to radiation
-equivalent_to: XCO:0000038 ! radiation exposure
-
-[Term]
 id: SCTID:218204007 ! Overexposure to gamma rays
 equivalent_to: XCO:0000040 ! gamma ray exposure
+
+[Term]
+id: SCTID:418921006 ! Exposure to light
+equivalent_to: XCO:0000283 ! visible light stimulus
+
+[Term]
+id: XCO:0000039 ! ionizing radiation exposure
+equivalent_to: ZECO:0000148 ! ionizing radiation
 
 [Term]
 id: XCO:0000040 ! gamma ray exposure
@@ -201,10 +239,6 @@ equivalent_to: ZECO:0000149 ! gamma ray
 [Term]
 id: XCO:0000043 ! X-ray exposure
 equivalent_to: ZECO:0000150 ! xray
-
-[Term]
-id: XCO:0000044 ! non-ionizing radiation exposure
-equivalent_to: ZECO:0000152 ! non-ionizing radiation
 
 [Term]
 id: XCO:0000045 ! electromagnetic radiation exposure
@@ -221,8 +255,4 @@ equivalent_to: ZECO:0000151 ! ionizing uv radiation
 [Term]
 id: XCO:0000180 ! non-ionizing ultraviolet radiation exposure
 equivalent_to: ZECO:0000154 ! non-ionizing uv
-
-[Term]
-id: XCO:0000283 ! visible light stimulus
-equivalent_to: ZECO:0000153 ! visible light
 

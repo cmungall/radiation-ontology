@@ -8,18 +8,13 @@ EO:0007131 ! middle infra-red light regimen
 EO:0007132 ! far infra-red light regimen
 EO:0007152 ! radiation intensity regimen
 EO:0007153 ! radiation quantity regimen
-EO:0007154 ! radiation quality treatment
 EO:0007162 ! continuous light regimen
 EO:0007163 ! day light regimen
 EO:0007193 ! day light intensity
 EO:0007199 ! long day length regimen
 EO:0007200 ! short day length regimen
 EO:0007202 ! IR light regimen
-EO:0007215 ! orange light regimen
-EO:0007216 ! yellow light regimen
-EO:0007217 ! green light regimen
 EO:0007219 ! indigo light regimen
-EO:0007220 ! violet light regimen
 EO:0007270 ! continuous dark (no light) regimen
 EO:0007610 ! 3-H
 EO:0007611 ! 3-H-deoxycytidine
@@ -49,7 +44,6 @@ NCIT:C16279 ! Alpha Radiation
 NCIT:C16318 ! Low-Level Radiation
 NCIT:C16533 ! Electromagnetic Field
 NCIT:C16535 ! Beta Radiation
-NCIT:C17054 ! Radioactivity
 NCIT:C18836 ! High-LET Radiation
 NCIT:C18982 ! Radiation, Charged Particles
 NCIT:C18983 ! Low-Level Ionizing Radiation
@@ -59,6 +53,124 @@ NCIT:C40431 ! Proton Radiation
 NCIT:C44344 ! Broad-Spectrum UV Radiation
 NCIT:C44445 ! Solar Radiation
 NCIT:C88112 ! Photon
+PATO:0000014 ! color
+PATO:0000015 ! color hue
+PATO:0000016 ! color brightness
+PATO:0000017 ! color saturation
+PATO:0000018 ! fluorescence
+PATO:0000317 ! black
+PATO:0000318 ! blue
+PATO:0000319 ! cyan
+PATO:0000320 ! green
+PATO:0000321 ! magenta
+PATO:0000322 ! red
+PATO:0000323 ! white
+PATO:0000324 ! yellow
+PATO:0000327 ! low brightness
+PATO:0000328 ! low saturation
+PATO:0000336 ! colored
+PATO:0000950 ! grey
+PATO:0000951 ! purple
+PATO:0000952 ! brown
+PATO:0000953 ! orange
+PATO:0000954 ! pink
+PATO:0000957 ! opacity
+PATO:0000963 ! opaque
+PATO:0000964 ! transparent
+PATO:0001229 ! high saturation
+PATO:0001244 ! dark blue
+PATO:0001245 ! dark brown
+PATO:0001246 ! light brown
+PATO:0001247 ! light cyan
+PATO:0001248 ! dark cyan
+PATO:0001249 ! dark green
+PATO:0001251 ! dark grey
+PATO:0001252 ! light grey
+PATO:0001253 ! light magenta
+PATO:0001254 ! dark magenta
+PATO:0001256 ! dark orange
+PATO:0001257 ! light deep pink
+PATO:0001258 ! deep pink
+PATO:0001259 ! dark purple
+PATO:0001260 ! light purple
+PATO:0001261 ! dark red
+PATO:0001263 ! dark yellow
+PATO:0001265 ! saturated blue
+PATO:0001266 ! desaturated blue
+PATO:0001267 ! saturated brown
+PATO:0001268 ! desaturated brown
+PATO:0001269 ! saturated cyan
+PATO:0001270 ! desaturated cyan
+PATO:0001271 ! saturated green
+PATO:0001272 ! desaturated green
+PATO:0001275 ! saturated magenta
+PATO:0001276 ! desaturated magenta
+PATO:0001277 ! saturated orange
+PATO:0001278 ! desaturated orange
+PATO:0001280 ! dark pale pink
+PATO:0001281 ! saturated purple
+PATO:0001282 ! desaturated purple
+PATO:0001283 ! saturated red
+PATO:0001284 ! desaturated red
+PATO:0001285 ! saturated yellow
+PATO:0001286 ! desaturated yellow
+PATO:0001287 ! red brown
+PATO:0001288 ! dark red brown
+PATO:0001289 ! light red brown
+PATO:0001290 ! fluorescent
+PATO:0001291 ! electromagnetic (EM) radiation quality
+PATO:0001292 ! full-spectrum EM radiation quality
+PATO:0001293 ! absorption quality
+PATO:0001294 ! radiation reflective quality
+PATO:0001295 ! albedo
+PATO:0001296 ! luminous flux
+PATO:0001297 ! reflectivity
+PATO:0001298 ! phosphorescence
+PATO:0001299 ! radiation emitting quality
+PATO:0001301 ! chromatic property
+PATO:0001302 ! vermilion
+PATO:0001354 ! translucent
+PATO:0001372 ! refractivity
+PATO:0001373 ! glistening
+PATO:0001423 ! refractile
+PATO:0001424 ! violet
+PATO:0001425 ! rosy
+PATO:0001426 ! maroon
+PATO:0001516 ! focus
+PATO:0001517 ! focused
+PATO:0001518 ! blurry
+PATO:0001702 ! saturated violet
+PATO:0001703 ! desaturated violet
+PATO:0001705 ! dark violet
+PATO:0001717 ! radiation emitting intensity quality
+PATO:0001718 ! luminance
+PATO:0001742 ! increased radioactivity
+PATO:0001743 ! decreased radioactivity
+PATO:0001745 ! radiation absorbed dose
+PATO:0001746 ! radiation equivalent dose
+PATO:0001747 ! radiation effective dose
+PATO:0001868 ! autofluorescence
+PATO:0001926 ! increased fluorescence
+PATO:0001927 ! decreased fluorescence
+PATO:0001941 ! yellow green
+PATO:0001942 ! brown green
+PATO:0001943 ! lilac
+PATO:0001944 ! yellow orange
+PATO:0001945 ! ochre
+PATO:0002020 ! pale pink
+PATO:0002032 ! forward scatter
+PATO:0002033 ! side scatter
+PATO:0002059 ! emmision wavelength
+PATO:0002060 ! absorption wavelength
+PATO:0002136 ! radiopacity
+PATO:0002137 ! radiopaque
+PATO:0002144 ! increased radiopacity
+PATO:0002145 ! decreased radiopacity
+PATO:0002363 ! bronze
+PATO:0002410 ! beige
+PATO:0002411 ! yellow brown
+PATO:0002412 ! dark yellow brown
+PATO:0002413 ! light yellow brown
 SCTID:218193000 ! Overexposure to radar radiation
 SCTID:218195007 ! Overexposure to infrared heater or lamp
 SCTID:218196008 ! Overexposure to visual and ultraviolet light sources
@@ -119,3 +231,6 @@ XCO:0000459 ! controlled light/dark cycle
 XCO:0000462 ! light phase of controlled light/dark cycle
 XCO:0000463 ! dark phase of controlled light/dark cycle
 ZECO:0000147 ! electric field
+decreased_in_magnitude_relative_to
+different_in_magnitude_relative_to
+increased_in_magnitude_relative_to

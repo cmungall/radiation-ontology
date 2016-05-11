@@ -4,6 +4,7 @@ ontology: rad/axioms
 [Term]
 id: EO:0001022
 equivalent_to: GO:0010332
+equivalent_to: NCIT:C44386
 equivalent_to: SCTID:218204007
 equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
@@ -29,11 +30,12 @@ equivalent_to: NCIT:C44461
 
 [Term]
 id: EO:0007151
+equivalent_to: PATO:0001744
 equivalent_to: XCO:0000038
 
 [Term]
 id: EO:0007196
-equivalent_to: GO:0009416
+equivalent_to: NCIT:C17732
 
 [Term]
 id: EO:0007203
@@ -42,15 +44,31 @@ equivalent_to: GO:0010218
 [Term]
 id: EO:0007207
 equivalent_to: GO:0010114
+equivalent_to: PATO:0001262
+
+[Term]
+id: EO:0007215
+equivalent_to: PATO:0001255
+
+[Term]
+id: EO:0007216
+equivalent_to: PATO:0001264
+
+[Term]
+id: EO:0007217
+equivalent_to: PATO:0001250
 
 [Term]
 id: EO:0007218
 equivalent_to: GO:0009637
+equivalent_to: PATO:0001243
+
+[Term]
+id: EO:0007220
+equivalent_to: PATO:0001704
 
 [Term]
 id: EO:0007221
-equivalent_to: NCIT:C17732
-equivalent_to: XCO:0000283
 equivalent_to: ZECO:0000153
 
 [Term]
@@ -83,11 +101,13 @@ equivalent_to: NCIT:C70832
 id: EO:0007628
 equivalent_to: GO:0010165
 equivalent_to: NCIT:C17262
+equivalent_to: XCO:0000043
 equivalent_to: ZECO:0000150
 
 [Term]
 id: GO:0009314
-equivalent_to: XCO:0000038
+equivalent_to: PATO:0001744
+equivalent_to: SCTID:218190002
 
 [Term]
 id: GO:0009411
@@ -99,6 +119,14 @@ id: GO:0009416
 equivalent_to: SCTID:418921006
 
 [Term]
+id: GO:0009637
+equivalent_to: PATO:0001243
+
+[Term]
+id: GO:0010114
+equivalent_to: PATO:0001262
+
+[Term]
 id: GO:0010165
 equivalent_to: NCIT:C17262
 equivalent_to: XCO:0000043
@@ -107,7 +135,6 @@ equivalent_to: ZECO:0000150
 [Term]
 id: GO:0010212
 equivalent_to: NCIT:C17052
-equivalent_to: SCTID:122866006
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
@@ -121,7 +148,6 @@ equivalent_to: NCIT:C44461
 
 [Term]
 id: GO:0010332
-equivalent_to: NCIT:C44386
 equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
@@ -141,7 +167,6 @@ equivalent_to: SCTID:218192005
 [Term]
 id: NCIT:C17050
 equivalent_to: XCO:0000045
-equivalent_to: ZECO:0000145
 
 [Term]
 id: NCIT:C17052
@@ -155,6 +180,10 @@ equivalent_to: XCO:0000044
 equivalent_to: ZECO:0000152
 
 [Term]
+id: NCIT:C17054
+equivalent_to: PATO:0001741
+
+[Term]
 id: NCIT:C17231
 equivalent_to: XCO:0000042
 
@@ -165,8 +194,8 @@ equivalent_to: ZECO:0000150
 
 [Term]
 id: NCIT:C17732
+equivalent_to: PATO:0000665
 equivalent_to: XCO:0000283
-equivalent_to: ZECO:0000153
 
 [Term]
 id: NCIT:C20049
@@ -182,17 +211,26 @@ id: NCIT:C70832
 equivalent_to: SCTID:218191003
 
 [Term]
+id: PATO:0001300
+is_a: EO:0007151
+equivalent_to: XCO:0000284
+
+[Term]
 id: SCTID:122866006
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
 [Term]
-id: SCTID:218190002
-equivalent_to: XCO:0000038
-
-[Term]
 id: SCTID:218204007
 equivalent_to: XCO:0000040
+
+[Term]
+id: SCTID:418921006
+equivalent_to: XCO:0000283
+
+[Term]
+id: XCO:0000039
+equivalent_to: ZECO:0000148
 
 [Term]
 id: XCO:0000040
@@ -201,10 +239,6 @@ equivalent_to: ZECO:0000149
 [Term]
 id: XCO:0000043
 equivalent_to: ZECO:0000150
-
-[Term]
-id: XCO:0000044
-equivalent_to: ZECO:0000152
 
 [Term]
 id: XCO:0000045
@@ -221,8 +255,4 @@ equivalent_to: ZECO:0000151
 [Term]
 id: XCO:0000180
 equivalent_to: ZECO:0000154
-
-[Term]
-id: XCO:0000283
-equivalent_to: ZECO:0000153
 

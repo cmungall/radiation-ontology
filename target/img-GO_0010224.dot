@@ -10,9 +10,9 @@ light
 regimen" ];}
 EO_0007001 -> NCIT_C27987 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-GO_0010224 -> NCIT_C27987 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-
 EO_0007001 -> GO_0010224 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+GO_0010224 -> NCIT_C27987 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 GO_0010224 -> NCIT_C27987 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 
 EO_0007001 -> NCIT_C27987 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]

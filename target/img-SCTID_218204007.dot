@@ -17,32 +17,32 @@ ray
 exposure" ];
 NCIT_C44386 [ label="NCIT_C44386 Gamma
 Radiation" ];}
-GO_0010332 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0001022 -> ZECO_0000149 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 EO_0001022 -> SCTID_218204007 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C44386 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 GO_0010332 -> ZECO_0000149 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 EO_0001022 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-EO_0001022 -> ZECO_0000149 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+NCIT_C44386 -> ZECO_0000149 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 SCTID_218204007 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-NCIT_C44386 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-
-NCIT_C44386 -> ZECO_0000149 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0010332 -> XCO_0000040 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 EO_0001022 -> SCTID_218204007 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 
 GO_0010332 -> ZECO_0000149 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 
 NCIT_C44386 -> ZECO_0000149 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 
-GO_0010332 -> NCIT_C44386 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
-
 SCTID_218204007 -> XCO_0000040 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 
 EO_0001022 -> ZECO_0000149 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0001022 -> NCIT_C44386 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
 EO_0001022 -> GO_0010332 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
 
