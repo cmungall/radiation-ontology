@@ -10,7 +10,7 @@ rad-zeco.obo:
 	blip ontol-query -r zeco -query "class(R,'electromagnetic radiation experimental conditions'),subclassRT(ID,R)" -to obo > $
 
 rad-snomed.obo:
-	blip ontol-query -r snomed_tidy -query "class(R,'Exposure to radiation'),subclassRT(ID,R)" -to obo > $@
+	blip ontol-query -r snomed_tidy -query "class(R,'Exposure to radiation'),subclassRT(ID,R)" -to obo | perl -npe 's@SCTID_@SCTID:@g' > $@
 
 rad-ncit.obo:
 	blip ontol-query -r ncit -query "class(R,'Electromagnetic Radiation'),subclassRT(ID,R)" -to obo > $@
