@@ -19,10 +19,10 @@ rad-ncit.obo:
 combined-rad.obo:
 	obo-cat.pl rad-*.obo | grep -v ^namespace: | grep -v ^property_value: > $@
 
-probs.tsv: combined-rad.obo
+probs.tsv: combined-rad.obo ignore.pro
 	blip-findall  -i ignore.pro -debug index -goal nlp_index_all -i $< -u metadata_nlp entity_pair_mprobs/6 -no_pred > $@
 
-m.tsv: combined-rad.obo
+m.tsv: combined-rad.obo ignore.pro
 	blip-findall  -i ignore.pro -debug index -goal nlp_index_all -i $< -u metadata_nlp entity_pair_label_match/6 -label -no_pred > $@
 
 OBO=http://purl.obolibrary.org/obo
@@ -42,10 +42,10 @@ axioms.obo: axioms.owl
 axioms-r.obo: combined-rad.obo  axioms.obo
 	obo-add-comments.pl -r -t id -t equivalent_to -t is_a $^ > $@
 
-PRIORITIES_LABEL := -l NCIT 10 -l ZECO 5 
+PRIORITIES := -l NCIT 10 -l EO 8 -l ZECO 5  -s NCIT 10 -s EO 8 -s ZECO 5 
 
 merged-rad.owl: combined-rad.owl axioms.owl
-	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(PRIORITIES_LABEL) --set-ontology-id $(OBO)/rad.owl -o $@
+	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(PRIORITIES) --set-ontology-id $(OBO)/rad.owl -o $@
 .PRECIOUS: merged-rad.owl
 
 merged-rad.obo: merged-rad.owl

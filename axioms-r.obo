@@ -9,6 +9,11 @@ equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
 
 [Term]
+id: EO:0007221 ! visible light regimen
+equivalent_to: NCIT:C17732 ! Visible Light
+equivalent_to: ZECO:0000153 ! visible light
+
+[Term]
 id: EO:0007621 ! magnetic field
 equivalent_to: ZECO:0000146 ! magnetic field
 

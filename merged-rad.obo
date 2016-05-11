@@ -2,9 +2,9 @@ format-version: 1.2
 date: 23:09:2005 14:37
 saved-by: obo-cat.pl
 default-namespace: none
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 68 Logical Axioms: 33]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 71 Logical Axioms: 35]
 ontology: rad
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"NCIT:C17262\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000152> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"NCIT:C17052\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000146> \"EO:0007621\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000145> \"NCIT:C17050\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"NCIT:C44386\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007624> \"NCIT:C70832\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SCTID_218213009> \"NCIT:C20049\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000152> \"NCIT:C17053\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000145> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"ZECO:0000150\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\n)
 
 [Term]
 id: EO:0001039
@@ -168,50 +168,43 @@ id: EO:0007207
 name: red light regimen
 def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
 synonym: "Pr light" RELATED []
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007215
 name: orange light regimen
 def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007216
 name: yellow light regimen
 def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007217
 name: green light regimen
 def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007218
 name: blue light regimen
 def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007219
 name: indigo light regimen
 def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007220
 name: violet light regimen
 def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
-
-[Term]
-id: EO:0007221
-name: visible light regimen
-def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
-comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
-is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17732 ! Visible Light
 
 [Term]
 id: EO:0007222
@@ -295,6 +288,13 @@ name: 60-Co or ggr ray
 is_a: EO:0007617 ! ggr ray
 
 [Term]
+id: EO:0007621
+name: magnetic field
+xref: ZECO:0000146
+is_a: EO:0007154 ! radiation quality treatment
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+
+[Term]
 id: EO:0007622
 name: neutrons
 is_a: EO:0007154 ! radiation quality treatment
@@ -305,16 +305,6 @@ name: 252-Cf fission neutrons
 is_a: EO:0007622 ! neutrons
 
 [Term]
-id: EO:0007624
-name: Radio Frequency
-def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
-synonym: "Radio Frequency" RELATED [NCIT:C70832]
-synonym: "radio wave" RELATED [NCIT:C70832]
-xref: NCIT:C70832
-is_a: EO:0007154 ! radiation quality treatment
-is_a: ZECO:0000152 ! Nonionizing Radiation
-
-[Term]
 id: EO:0007625
 name: stratosphere exposure
 is_a: EO:0007154 ! radiation quality treatment
@@ -323,21 +313,6 @@ is_a: EO:0007154 ! radiation quality treatment
 id: EO:0007626
 name: supersonic-treatment
 is_a: EO:0007154 ! radiation quality treatment
-
-[Term]
-id: EO:0007628
-name: X-Ray
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between approximately 0.01 and 10 nm." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
-def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
-synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
-synonym: "roentgen radiation exposure" EXACT []
-synonym: "X-radiation exposure" EXACT []
-xref: NCIT:C17262
-xref: XCO:0000043
-xref: ZECO:0000150
-is_a: EO:0007154 ! radiation quality treatment
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C16279
@@ -354,7 +329,7 @@ name: Low-Level Radiation
 synonym: "Background Radiation" RELATED [NCIT:C16318]
 synonym: "Low-Level Radiation" RELATED [NCIT:C16318]
 xref: NCIT:C16318
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C16533
@@ -364,7 +339,7 @@ synonym: "Electromagnetic Field" RELATED [NCIT:C16533]
 synonym: "electromagnetic field" RELATED [NCIT:C16533]
 synonym: "Radiation, Electromagnetic Field" RELATED [NCIT:C16533]
 xref: NCIT:C16533
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C16535
@@ -385,8 +360,8 @@ synonym: "IR radiation exposure" EXACT []
 synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
 xref: NCIT:C16736
 xref: XCO:0000046
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: NCIT:C17053 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C16862
@@ -397,14 +372,62 @@ synonym: "Microwave Radiation" RELATED [NCIT:C16862]
 synonym: "Radiation, Microwave" RELATED [NCIT:C16862]
 xref: NCIT:C16862
 xref: SCTID:218192005
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: NCIT:C17053 ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C17050
+name: Electromagnetic Radiation
+def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
+synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
+synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
+synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
+synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
+xref: NCIT:C17050
+xref: XCO:0000045
+xref: ZECO:0000145
+is_a: NCIT:C18102
+is_a: XCO:0000038 ! radiation exposure
+is_a: ZECO:0000128
+
+[Term]
+id: NCIT:C17052
+name: Ionizing Radiation
+def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
+def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Ionizing_radiation]
+synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
+synonym: "ionizing radiation" RELATED [NCIT:C17052]
+synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
+synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
+xref: NCIT:C17052
+xref: SCTID:122866006
+xref: XCO:0000039
+xref: ZECO:0000148
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: XCO:0000038 ! radiation exposure
+
+[Term]
+id: NCIT:C17053
+name: Nonionizing Radiation
+def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
+def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Non-ionizing_radiation]
+synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
+synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
+synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
+synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
+synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
+xref: NCIT:C17053
+xref: XCO:0000044
+xref: ZECO:0000152
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: XCO:0000038 ! radiation exposure
 
 [Term]
 id: NCIT:C17054
 name: Radioactivity
 def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
 xref: NCIT:C17054
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C17231
@@ -420,18 +443,38 @@ synonym: "UV radiation" RELATED [NCIT:C17231]
 synonym: "UV radiation exposure" EXACT []
 xref: NCIT:C17231
 xref: XCO:0000042
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C44445 ! Solar Radiation
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C17262
+name: X-Ray
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between approximately 0.01 and 10 nm." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
+synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
+synonym: "roentgen radiation exposure" EXACT []
+synonym: "X-radiation exposure" EXACT []
+xref: EO:0007628
+xref: NCIT:C17262
+xref: XCO:0000043
+xref: ZECO:0000150
+is_a: EO:0007154 ! radiation quality treatment
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C17732
 name: Visible Light
 def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
 synonym: "Visible Light" RELATED [NCIT:C17732]
+xref: EO:0007221
 xref: NCIT:C17732
 xref: ZECO:0000153
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: EO:0007196 ! light regimen
+is_a: NCIT:C17053 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C18070
@@ -440,7 +483,7 @@ def: "Radiation of neutrons during radioactive decay." [NCIT:C18070]
 synonym: "Neutron Radiation" RELATED [NCIT:C18070]
 synonym: "Radiation, Neutron" RELATED [NCIT:C18070]
 xref: NCIT:C18070
-is_a: ZECO:0000148 ! Ionizing Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C18836
@@ -449,7 +492,7 @@ def: "Radioactive particles that deposit a high amount of energy by radiation pe
 synonym: "High Linear Energy Transfer Radiation" RELATED [NCIT:C18836]
 synonym: "High-LET Radiation" RELATED [NCIT:C18836]
 xref: NCIT:C18836
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C18982
@@ -457,7 +500,7 @@ name: Radiation, Charged Particles
 def: "A particle which carries a positive or negative electrical charge, typically an ionized atom or molecule, or an electron." [NCIT:C18982]
 synonym: "Radiation, Charged Particles" RELATED [NCIT:C18982]
 xref: NCIT:C18982
-is_a: ZECO:0000148 ! Ionizing Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C18983
@@ -467,7 +510,15 @@ synonym: "Radiation Ionizing, Low Level" RELATED [NCIT:C18983]
 synonym: "Radiation, Low-Level Ionizing" RELATED [NCIT:C18983]
 xref: NCIT:C18983
 is_a: NCIT:C16318 ! Low-Level Radiation
-is_a: ZECO:0000148 ! Ionizing Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
+
+[Term]
+id: NCIT:C20049
+name: Radiation, Other
+synonym: "Radiation, Other" RELATED [NCIT:C20049]
+xref: NCIT:C20049
+xref: SCTID:218213009
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C27986
@@ -525,11 +576,33 @@ xref: NCIT:C44344
 is_a: NCIT:C17231 ! Ultraviolet Radiation
 
 [Term]
+id: NCIT:C44386
+name: Gamma Radiation
+def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
+def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
+def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Gamma_ray]
+synonym: "Gamma Radiation" RELATED [NCIT:C44386]
+synonym: "gamma radiation exposure" EXACT []
+synonym: "Gamma Ray" RELATED [NCIT:C44386]
+synonym: "gamma ray" RELATED [NCIT:C44386]
+synonym: "gamma rays" EXACT []
+xref: EO:0001022
+xref: EO_GIT:41
+xref: NCIT:C44386
+xref: OBO_SF2_EO:41
+xref: SCTID:218204007
+xref: XCO:0000040
+xref: ZECO:0000149
+is_a: EO:0007154 ! radiation quality treatment
+is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
+
+[Term]
 id: NCIT:C44445
 name: Solar Radiation
 synonym: "Solar Radiation" RELATED [NCIT:C44445]
 xref: NCIT:C44445
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: NCIT:C17053 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C44461
@@ -543,17 +616,21 @@ xref: NCIT:C44461
 is_a: NCIT:C17231 ! Ultraviolet Radiation
 
 [Term]
+id: NCIT:C70832
+name: Radio Frequency
+def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
+synonym: "Radio Frequency" RELATED [NCIT:C70832]
+synonym: "radio wave" RELATED [NCIT:C70832]
+xref: EO:0007624
+xref: NCIT:C70832
+is_a: EO:0007154 ! radiation quality treatment
+is_a: NCIT:C17053 ! Nonionizing Radiation
+
+[Term]
 id: NCIT:C88112
 name: Photon
 xref: NCIT:C88112
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-
-[Term]
-id: SCTID:218213009
-name: Radiation, Other
-synonym: "Radiation, Other" RELATED [NCIT:C20049]
-xref: NCIT:C20049
-is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: SCTID_122866006
@@ -876,7 +953,7 @@ is_a: XCO:0000000
 id: XCO:0000041
 name: radon exposure
 def: "The condition of being subjected to transmitted energy from the gaseous radioactive element, atomic number 86, resulting from decay of radium.  Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Ionizing_radiation]
-is_a: ZECO:0000148 ! Ionizing Radiation
+is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
 id: XCO:0000180
@@ -884,8 +961,8 @@ name: non-ionizing ultraviolet radiation exposure
 def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http\://en.wikipedia.org/wiki/Ultraviolet]
 synonym: "near ultraviolet radiation exposure" NARROW []
 synonym: "non-ionizing UV radiation exposure" EXACT []
+is_a: NCIT:C17053 ! Nonionizing Radiation
 is_a: NCIT:C17231 ! Ultraviolet Radiation
-is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: XCO:0000182
@@ -905,8 +982,8 @@ is_a: XCO:0000284 ! controlled visible light exposure
 id: XCO:0000284
 name: controlled visible light exposure
 def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: XCO:0000181
-is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: XCO:0000459
@@ -927,67 +1004,9 @@ def: "The portion of a controlled light/dark cycle in which the subject is not b
 is_a: XCO:0000459 ! controlled light/dark cycle
 
 [Term]
-id: ZECO:0000145
-name: Electromagnetic Radiation
-def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
-def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
-synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
-synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
-synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
-synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
-xref: NCIT:C17050
-xref: XCO:0000045
-is_a: NCIT:C18102
-is_a: XCO:0000038 ! radiation exposure
-is_a: ZECO:0000128
-
-[Term]
-id: ZECO:0000146
-name: magnetic field
-xref: EO:0007621
-is_a: EO:0007154 ! radiation quality treatment
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-
-[Term]
 id: ZECO:0000147
 name: electric field
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-
-[Term]
-id: ZECO:0000148
-name: Ionizing Radiation
-def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
-def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Ionizing_radiation]
-synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
-synonym: "ionizing radiation" RELATED [NCIT:C17052]
-synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
-synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
-xref: NCIT:C17052
-xref: SCTID:122866006
-xref: XCO:0000039
-is_a: XCO:0000038 ! radiation exposure
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-
-[Term]
-id: ZECO:0000149
-name: Gamma Radiation
-def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
-def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
-def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Gamma_ray]
-synonym: "Gamma Radiation" RELATED [NCIT:C44386]
-synonym: "gamma radiation exposure" EXACT []
-synonym: "Gamma Ray" RELATED [NCIT:C44386]
-synonym: "gamma ray" RELATED [NCIT:C44386]
-synonym: "gamma rays" EXACT []
-xref: EO:0001022
-xref: EO_GIT:41
-xref: NCIT:C44386
-xref: OBO_SF2_EO:41
-xref: SCTID:218204007
-xref: XCO:0000040
-is_a: EO:0007154 ! radiation quality treatment
-is_a: ZECO:0000145 ! Electromagnetic Radiation
-is_a: ZECO:0000148 ! Ionizing Radiation
+is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
 id: ZECO:0000151
@@ -997,31 +1016,16 @@ synonym: "extreme ultraviolet ray exposure" RELATED []
 synonym: "extreme UV ray exposure" RELATED []
 synonym: "ionizing UV radiation exposure" EXACT []
 xref: XCO:0000179
+is_a: NCIT:C17052 ! Ionizing Radiation
 is_a: NCIT:C17231 ! Ultraviolet Radiation
-is_a: ZECO:0000148 ! Ionizing Radiation
-
-[Term]
-id: ZECO:0000152
-name: Nonionizing Radiation
-def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
-def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Non-ionizing_radiation]
-synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
-synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
-synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
-synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
-synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
-xref: NCIT:C17053
-xref: XCO:0000044
-is_a: XCO:0000038 ! radiation exposure
-is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: ZECO:0000154
 name: non-ionizing uv
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: NCIT:C17053 ! Nonionizing Radiation
 
 [Term]
 id: ZECO:0000155
 name: infrared
-is_a: ZECO:0000152 ! Nonionizing Radiation
+is_a: NCIT:C17053 ! Nonionizing Radiation
 

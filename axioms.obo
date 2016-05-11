@@ -9,6 +9,11 @@ equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
+id: EO:0007221
+equivalent_to: NCIT:C17732
+equivalent_to: ZECO:0000153
+
+[Term]
 id: EO:0007621
 equivalent_to: ZECO:0000146
 
