@@ -1,0 +1,21 @@
+digraph cliquegraph {
+subgraph cluster_EO_0007129 {EO_0007129 [ label="EO_0007129 UV-C
+light
+regimen" ];
+NCIT_C44461 [ label="NCIT_C44461 Ultraviolet
+C
+Radiation" ];
+GO_0010225 [ label="GO_0010225 response
+to
+UV-C" ];}
+EO_0007129 -> NCIT_C44461 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+GO_0010225 -> NCIT_C44461 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+EO_0007129 -> GO_0010225 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0010225 -> NCIT_C44461 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007129 -> NCIT_C44461 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007129 -> GO_0010225 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+}

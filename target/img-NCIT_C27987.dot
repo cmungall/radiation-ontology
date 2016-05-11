@@ -1,0 +1,10 @@
+digraph cliquegraph {
+subgraph cluster_NCIT_C27987 {NCIT_C27987 [ label="NCIT_C27987 Ultraviolet
+B
+Radiation" ];
+EO_0007001 [ label="EO_0007001 UV-B
+light
+regimen" ];}
+EO_0007001 -> NCIT_C27987 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007001 -> NCIT_C27987 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
+}

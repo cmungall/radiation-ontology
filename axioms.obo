@@ -29,8 +29,6 @@ equivalent_to: NCIT:C44461
 
 [Term]
 id: EO:0007151
-equivalent_to: GO:0009314
-equivalent_to: SCTID:218190002
 equivalent_to: XCO:0000038
 
 [Term]
@@ -89,7 +87,6 @@ equivalent_to: ZECO:0000150
 
 [Term]
 id: GO:0009314
-equivalent_to: SCTID:218190002
 equivalent_to: XCO:0000038
 
 [Term]
@@ -190,16 +187,12 @@ equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
 
 [Term]
+id: SCTID:218190002
+equivalent_to: XCO:0000038
+
+[Term]
 id: SCTID:218204007
 equivalent_to: XCO:0000040
-
-[Term]
-id: SCTID:419201009
-is_a: EO:0007151
-
-[Term]
-id: XCO:0000039
-equivalent_to: ZECO:0000148
 
 [Term]
 id: XCO:0000040

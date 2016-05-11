@@ -1,0 +1,11 @@
+digraph cliquegraph {
+subgraph cluster_GO_0009637 {GO_0009637 [ label="GO_0009637 response
+to
+blue
+light" ];
+EO_0007218 [ label="EO_0007218 blue
+light
+regimen" ];}
+EO_0007218 -> GO_0009637 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007218 -> GO_0009637 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+}

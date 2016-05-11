@@ -115,7 +115,6 @@ SCTID:242821005 ! Exposure to ionizing radiation from fall-out from nuclear expl
 SCTID:288300005 ! Ultraviolet exposure accident
 XCO:0000041 ! radon exposure
 XCO:0000182 ! controlled exposure to ambient light
-XCO:0000284 ! controlled visible light exposure
 XCO:0000459 ! controlled light/dark cycle
 XCO:0000462 ! light phase of controlled light/dark cycle
 XCO:0000463 ! dark phase of controlled light/dark cycle

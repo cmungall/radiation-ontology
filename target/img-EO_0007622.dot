@@ -1,0 +1,7 @@
+digraph cliquegraph {
+subgraph cluster_EO_0007622 {EO_0007622 [ label="EO_0007622 neutrons" ];
+NCIT_C18070 [ label="NCIT_C18070 Neutron
+Radiation" ];}
+EO_0007622 -> NCIT_C18070 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007622 -> NCIT_C18070 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+}

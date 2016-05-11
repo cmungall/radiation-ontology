@@ -1,0 +1,76 @@
+digraph cliquegraph {
+subgraph cluster_EO_0007154 {EO_0007154 [ label="EO_0007154 radiation
+quality
+treatment" ];}
+
+subgraph cluster_EO_0007196 {EO_0007196 [ label="EO_0007196 light
+regimen" ];
+GO_0009416 [ label="GO_0009416 response
+to
+light
+stimulus" ];
+SCTID_418921006 [ label="SCTID_418921006 Exposure
+to
+light" ];}
+
+subgraph cluster_SCTID_419201009 {SCTID_419201009 [ label="SCTID_419201009 Overexposure
+to
+radiation" ];}
+
+subgraph cluster_ZECO_0000145 {ZECO_0000145 [ label="ZECO_0000145 electromagnetic
+radiation
+experimental
+conditions" ];
+NCIT_C17050 [ label="NCIT_C17050 Electromagnetic
+Radiation" ];
+XCO_0000045 [ label="XCO_0000045 electromagnetic
+radiation
+exposure" ];}
+
+subgraph cluster_GO_0009314 {GO_0009314 [ label="GO_0009314 response
+to
+radiation" ];
+EO_0007151 [ label="EO_0007151 radiation
+treatment" ];
+XCO_0000038 [ label="XCO_0000038 radiation
+exposure" ];
+SCTID_218190002 [ label="SCTID_218190002 Exposure
+to
+radiation" ];}
+XCO_0000045 -> XCO_0000038 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+SCTID_419201009 -> SCTID_218190002 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+SCTID_418921006 -> SCTID_218190002 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+EO_0007154 -> EO_0007151 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+GO_0009416 -> GO_0009314 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+
+null
+EO_0007196 -> EO_0007154 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+GO_0009314 -> ZECO_0000145 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17050 -> ZECO_0000145 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+GO_0009314 -> NCIT_C17050 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+XCO_0000045 -> ZECO_0000145 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17050 -> XCO_0000045 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0009416 -> SCTID_418921006 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+XCO_0000045 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17050 -> XCO_0000045 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007151 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+GO_0009314 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17050 -> ZECO_0000145 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+SCTID_218190002 -> XCO_0000038 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007196 -> GO_0009416 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+}

@@ -1,0 +1,44 @@
+digraph cliquegraph {
+subgraph cluster_XCO_0000284 {XCO_0000284 [ label="XCO_0000284 controlled
+visible
+light
+exposure" ];}
+
+subgraph cluster_ZECO_0000153 {ZECO_0000153 [ label="ZECO_0000153 visible
+light" ];
+XCO_0000283 [ label="XCO_0000283 visible
+light
+stimulus" ];
+NCIT_C17732 [ label="NCIT_C17732 Visible
+Light" ];
+EO_0007221 [ label="EO_0007221 visible
+light
+regimen" ];}
+XCO_0000283 -> XCO_0000284 [ arrowhead = normal, penwidth=1, color=black, label="", style=solid]
+EO_0007221 -> XCO_0000284 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17732 -> XCO_0000283 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17732 -> XCO_0000284 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+XCO_0000283 -> ZECO_0000153 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+XCO_0000284 -> ZECO_0000153 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+EO_0007221 -> XCO_0000283 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C17732 -> ZECO_0000153 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+EO_0007221 -> ZECO_0000153 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+NCIT_C17732 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007221 -> NCIT_C17732 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85*", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17732 -> XCO_0000283 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+XCO_0000283 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007221 -> XCO_0000283 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+EO_0007221 -> ZECO_0000153 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+}

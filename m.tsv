@@ -158,10 +158,12 @@ EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	true	label	label
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
 EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
+EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	lightvisible
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
 EO:0007221 ! visible light regimen	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
+EO:0007221 ! visible light regimen	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	false	label	label	visiblelight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	label	visibllight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	related	visibllight
@@ -469,15 +471,19 @@ NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	related	labe
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	related	label	lightvisibl
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	lightvisible
 NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	lightvisible
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	lightvisible
 NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	lightvisible
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	lightvisible
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	lightvisible
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	label	label	visiblelight
 NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	label	label	visiblelight
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	false	related	label	visiblelight
 NCIT:C17732 ! Visible Light	XCO:0000283 ! visible light stimulus	false	related	label	visiblelight
+NCIT:C17732 ! Visible Light	XCO:0000284 ! controlled visible light exposure	false	related	broad	visiblelight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	false	related	label	visiblelight
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	label	label	visibllight
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	label	label	visibllight
@@ -673,11 +679,23 @@ XCO:0000180 ! non-ionizing ultraviolet radiation exposure	ZECO:0000154 ! non-ion
 XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	lightvisible
 XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
 XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
+XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
 XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	lightvisible
 XCO:0000283 ! visible light stimulus	EO:0007221 ! visible light regimen	false	label	label	visiblelight
 XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
 XCO:0000283 ! visible light stimulus	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
+XCO:0000283 ! visible light stimulus	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 XCO:0000283 ! visible light stimulus	ZECO:0000153 ! visible light	false	label	label	visiblelight
+XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	lightvisible
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	lightvisible
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	lightvisible
+XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	lightvisible
+XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	lightvisible
+XCO:0000284 ! controlled visible light exposure	EO:0007221 ! visible light regimen	false	broad	label	visiblelight
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	label	visiblelight
+XCO:0000284 ! controlled visible light exposure	NCIT:C17732 ! Visible Light	false	broad	related	visiblelight
+XCO:0000284 ! controlled visible light exposure	XCO:0000283 ! visible light stimulus	false	broad	label	visiblelight
+XCO:0000284 ! controlled visible light exposure	ZECO:0000153 ! visible light	false	broad	label	visiblelight
 XCO:0000462 ! light phase of controlled light/dark cycle	XCO:0000463 ! dark phase of controlled light/dark cycle	true	label	label	controlcycldarklightphase
 XCO:0000462 ! light phase of controlled light/dark cycle	XCO:0000463 ! dark phase of controlled light/dark cycle	false	label	label	controlledcycledarklightphase
 XCO:0000463 ! dark phase of controlled light/dark cycle	XCO:0000462 ! light phase of controlled light/dark cycle	true	label	label	controlcycldarklightphase
@@ -732,10 +750,12 @@ ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	labe
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	lightvisible
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	lightvisible
 ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	lightvisible
+ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	lightvisible
 ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	false	label	label	visiblelight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	label	visiblelight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	false	label	related	visiblelight
 ZECO:0000153 ! visible light	XCO:0000283 ! visible light stimulus	false	label	label	visiblelight
+ZECO:0000153 ! visible light	XCO:0000284 ! controlled visible light exposure	false	label	broad	visiblelight
 ZECO:0000153 ! visible light	EO:0007221 ! visible light regimen	true	label	label	visibllight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	label	visibllight
 ZECO:0000153 ! visible light	NCIT:C17732 ! Visible Light	true	label	related	visibllight
