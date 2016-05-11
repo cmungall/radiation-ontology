@@ -2,9 +2,9 @@ format-version: 1.2
 date: 23:09:2005 14:37
 saved-by: obo-cat.pl
 default-namespace: none
-remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 73 Logical Axioms: 36]
+remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 94 Logical Axioms: 45]
 ontology: rad
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
 
 [Term]
 id: EO:0001039
@@ -21,20 +21,6 @@ def: "A light intensity regimen (EO:0007224) involving use of light-dependent ge
 xref: EO_GIT:44
 xref: OBO_SF2_EO:44
 is_a: EO:0007224 ! light intensity regimen
-
-[Term]
-id: EO:0007001
-name: UV-B light regimen
-def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
-synonym: "UV-B regimen" EXACT []
-is_a: NCIT:C17231 ! Ultraviolet Radiation
-
-[Term]
-id: EO:0007002
-name: UV-A light regimen
-def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
-synonym: "UV-A regimen" EXACT []
-is_a: NCIT:C17231 ! Ultraviolet Radiation
 
 [Term]
 id: EO:0007075
@@ -58,13 +44,6 @@ id: EO:0007128
 name: intermittent light regimen
 def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
 is_a: EO:0007078 ! light quantity regimen
-
-[Term]
-id: EO:0007129
-name: UV-C light regimen
-def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
-synonym: "UV-C regimen" EXACT []
-is_a: NCIT:C17231 ! Ultraviolet Radiation
 
 [Term]
 id: EO:0007130
@@ -292,14 +271,9 @@ is_a: EO:0007154 ! radiation quality treatment
 is_a: NCIT:C17050 ! Electromagnetic Radiation
 
 [Term]
-id: EO:0007622
-name: neutrons
-is_a: EO:0007154 ! radiation quality treatment
-
-[Term]
 id: EO:0007623
 name: 252-Cf fission neutrons
-is_a: EO:0007622 ! neutrons
+is_a: NCIT:C18070 ! Neutron Radiation
 
 [Term]
 id: EO:0007625
@@ -357,6 +331,7 @@ synonym: "IR radiation exposure" EXACT []
 synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
 xref: NCIT:C16736
 xref: XCO:0000046
+xref: ZECO:0000155
 is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C17053 ! Nonionizing Radiation
 
@@ -483,7 +458,9 @@ name: Neutron Radiation
 def: "Radiation of neutrons during radioactive decay." [NCIT:C18070]
 synonym: "Neutron Radiation" RELATED [NCIT:C18070]
 synonym: "Radiation, Neutron" RELATED [NCIT:C18070]
+xref: EO:0007622
 xref: NCIT:C18070
+is_a: EO:0007154 ! radiation quality treatment
 is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
@@ -524,23 +501,29 @@ is_a: NCIT:C17050 ! Electromagnetic Radiation
 [Term]
 id: NCIT:C27986
 name: Ultraviolet A Radiation
+def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
 def: "Ultraviolet A Radiation is the 320 to 400 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. It is may be up to 1,000 times more intense than UVB. UVA radiation can penetrate to underlying tissues of the skin and cause photo-aging or long-term skin damage. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C27986]
 synonym: "Ultraviolet A Radiation" RELATED [NCIT:C27986]
 synonym: "ultraviolet A radiation" RELATED [NCIT:C27986]
+synonym: "UV-A regimen" EXACT []
 synonym: "UVA Radiation" RELATED [NCIT:C27986]
 synonym: "UVA radiation" RELATED [NCIT:C27986]
+xref: EO:0007002
 xref: NCIT:C27986
 is_a: NCIT:C17231 ! Ultraviolet Radiation
 
 [Term]
 id: NCIT:C27987
 name: Ultraviolet B Radiation
+def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
 def: "Ultraviolet B Radiation is the 290 to 320 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. Recent ozone depletion has permitted more UVB to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. Evidence shows a dose-response relationship between nonmelanoma skin cancer and cumulative exposure to UVB radiation. (NCI04)" [NCIT:C27987]
 synonym: "Ultraviolet B Radiation" RELATED [NCIT:C27987]
 synonym: "ultraviolet B radiation" RELATED [NCIT:C27987]
 synonym: "Ultraviolet-B Radiation" RELATED [NCIT:C27987]
+synonym: "UV-B regimen" EXACT []
 synonym: "UVB Radiation" RELATED [NCIT:C27987]
 synonym: "UVB radiation" RELATED [NCIT:C27987]
+xref: EO:0007001
 xref: NCIT:C27987
 is_a: NCIT:C17231 ! Ultraviolet Radiation
 
@@ -609,10 +592,13 @@ is_a: NCIT:C17053 ! Nonionizing Radiation
 id: NCIT:C44461
 name: Ultraviolet C Radiation
 def: "Many scientists rate wavelengths in the C range of the ultraviolet (UVC) solar spectrum, between 200 and 290 nm, as the most carcinogenic. The ozone layer absorbs most UVC rays. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C44461]
+def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
 synonym: "Ultraviolet C Radiation" RELATED [NCIT:C44461]
 synonym: "ultraviolet C radiation" RELATED [NCIT:C44461]
+synonym: "UV-C regimen" EXACT []
 synonym: "UVC Radiation" RELATED [NCIT:C44461]
 synonym: "UVC radiation" RELATED [NCIT:C44461]
+xref: EO:0007129
 xref: NCIT:C44461
 is_a: NCIT:C17231 ! Ultraviolet Radiation
 
@@ -624,6 +610,7 @@ synonym: "Radio Frequency" RELATED [NCIT:C70832]
 synonym: "radio wave" RELATED [NCIT:C70832]
 xref: EO:0007624
 xref: NCIT:C70832
+xref: SCTID:218191003
 is_a: EO:0007154 ! radiation quality treatment
 is_a: NCIT:C17053 ! Nonionizing Radiation
 
@@ -957,15 +944,6 @@ def: "The condition of being subjected to transmitted energy from the gaseous ra
 is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
-id: XCO:0000180
-name: non-ionizing ultraviolet radiation exposure
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http\://en.wikipedia.org/wiki/Ultraviolet]
-synonym: "near ultraviolet radiation exposure" NARROW []
-synonym: "non-ionizing UV radiation exposure" EXACT []
-is_a: NCIT:C17053 ! Nonionizing Radiation
-is_a: NCIT:C17231 ! Ultraviolet Radiation
-
-[Term]
 id: XCO:0000182
 name: controlled exposure to ambient light
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
@@ -1023,10 +1001,10 @@ is_a: NCIT:C17231 ! Ultraviolet Radiation
 [Term]
 id: ZECO:0000154
 name: non-ionizing uv
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http\://en.wikipedia.org/wiki/Ultraviolet]
+synonym: "near ultraviolet radiation exposure" NARROW []
+synonym: "non-ionizing UV radiation exposure" EXACT []
+xref: XCO:0000180
 is_a: NCIT:C17053 ! Nonionizing Radiation
-
-[Term]
-id: ZECO:0000155
-name: infrared
-is_a: NCIT:C17053 ! Nonionizing Radiation
+is_a: NCIT:C17231 ! Ultraviolet Radiation
 

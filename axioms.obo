@@ -9,17 +9,34 @@ equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
+id: EO:0007001
+equivalent_to: NCIT:C27987
+
+[Term]
+id: EO:0007002
+equivalent_to: NCIT:C27986
+
+[Term]
+id: EO:0007129
+equivalent_to: NCIT:C44461
+
+[Term]
 id: EO:0007221
 equivalent_to: NCIT:C17732
 equivalent_to: ZECO:0000153
 
 [Term]
 id: EO:0007222
+equivalent_to: NCIT:C17231
 equivalent_to: XCO:0000042
 
 [Term]
 id: EO:0007621
 equivalent_to: ZECO:0000146
+
+[Term]
+id: EO:0007622
+equivalent_to: NCIT:C18070
 
 [Term]
 id: EO:0007624
@@ -34,6 +51,7 @@ equivalent_to: ZECO:0000150
 [Term]
 id: NCIT:C16736
 equivalent_to: XCO:0000046
+equivalent_to: ZECO:0000155
 
 [Term]
 id: NCIT:C16862
@@ -78,6 +96,10 @@ equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
+id: NCIT:C70832
+equivalent_to: SCTID:218191003
+
+[Term]
 id: SCTID:122866006
 equivalent_to: XCO:0000039
 equivalent_to: ZECO:0000148
@@ -103,6 +125,14 @@ id: XCO:0000045
 equivalent_to: ZECO:0000145
 
 [Term]
+id: XCO:0000046
+equivalent_to: ZECO:0000155
+
+[Term]
 id: XCO:0000179
 equivalent_to: ZECO:0000151
+
+[Term]
+id: XCO:0000180
+equivalent_to: ZECO:0000154
 

@@ -9,17 +9,34 @@ equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
 
 [Term]
+id: EO:0007001 ! UV-B light regimen
+equivalent_to: NCIT:C27987 ! Ultraviolet B Radiation
+
+[Term]
+id: EO:0007002 ! UV-A light regimen
+equivalent_to: NCIT:C27986 ! Ultraviolet A Radiation
+
+[Term]
+id: EO:0007129 ! UV-C light regimen
+equivalent_to: NCIT:C44461 ! Ultraviolet C Radiation
+
+[Term]
 id: EO:0007221 ! visible light regimen
 equivalent_to: NCIT:C17732 ! Visible Light
 equivalent_to: ZECO:0000153 ! visible light
 
 [Term]
 id: EO:0007222 ! UV light regimen
+equivalent_to: NCIT:C17231 ! Ultraviolet Radiation
 equivalent_to: XCO:0000042 ! ultraviolet ray exposure
 
 [Term]
 id: EO:0007621 ! magnetic field
 equivalent_to: ZECO:0000146 ! magnetic field
+
+[Term]
+id: EO:0007622 ! neutrons
+equivalent_to: NCIT:C18070 ! Neutron Radiation
 
 [Term]
 id: EO:0007624 ! radio wave
@@ -34,6 +51,7 @@ equivalent_to: ZECO:0000150 ! xray
 [Term]
 id: NCIT:C16736 ! Infrared Radiation
 equivalent_to: XCO:0000046 ! infrared radiation exposure
+equivalent_to: ZECO:0000155 ! infrared
 
 [Term]
 id: NCIT:C16862 ! Microwave Radiation
@@ -78,6 +96,10 @@ equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
 
 [Term]
+id: NCIT:C70832 ! Radio Frequency
+equivalent_to: SCTID:218191003
+
+[Term]
 id: SCTID:122866006
 equivalent_to: XCO:0000039 ! ionizing radiation exposure
 equivalent_to: ZECO:0000148 ! ionizing radiation
@@ -103,6 +125,14 @@ id: XCO:0000045 ! electromagnetic radiation exposure
 equivalent_to: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
+id: XCO:0000046 ! infrared radiation exposure
+equivalent_to: ZECO:0000155 ! infrared
+
+[Term]
 id: XCO:0000179 ! ionizing ultraviolet radiation exposure
 equivalent_to: ZECO:0000151 ! ionizing uv radiation
+
+[Term]
+id: XCO:0000180 ! non-ionizing ultraviolet radiation exposure
+equivalent_to: ZECO:0000154 ! non-ionizing uv
 

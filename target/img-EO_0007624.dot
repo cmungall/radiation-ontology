@@ -1,8 +1,13 @@
 digraph cliquegraph {
 subgraph cluster_EO_0007624 {EO_0007624 [ label="EO_0007624 radio
 wave" ];
+SCTID_218191003 [ label="SCTID_218191003 " ];
 NCIT_C70832 [ label="NCIT_C70832 Radio
 Frequency" ];}
 EO_0007624 -> NCIT_C70832 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+NCIT_C70832 -> SCTID_218191003 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+NCIT_C70832 -> SCTID_218191003 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
 EO_0007624 -> NCIT_C70832 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 }
