@@ -25,6 +25,9 @@ probs.tsv: combined-rad.obo ignore.pro
 m.tsv: combined-rad.obo ignore.pro
 	blip-findall  -i ignore.pro -debug index -goal nlp_index_all -i $< -u metadata_nlp entity_pair_label_match/6 -label -no_pred > $@
 
+unmapped.tsv: combined-rad.obo ignore.pro
+	blip-findall  -i ignore.pro -debug index -goal nlp_index_all -i $< -u metadata_nlp "entity_nomatch/1" -label -no_pred > $@
+
 OBO=http://purl.obolibrary.org/obo
 combined-rad.owl: combined-rad.obo
 	owltools $< --set-ontology-id $(OBO)/rad.owl -o $@
