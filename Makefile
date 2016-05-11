@@ -1,4 +1,4 @@
-all: probs.tsv m.tsv rpt.html merged-rad.obo axioms-r.obo 
+all: probs.tsv m.tsv unmapped.tsv rpt.html merged-rad.obo axioms-r.obo 
 
 rad-eo.obo:
 	blip ontol-query -r eo -query "class(R,'radiation treatment'),subclassRT(ID,R)" -to obo > $@
