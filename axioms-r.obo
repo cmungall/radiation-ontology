@@ -1,0 +1,103 @@
+format-version: 1.2
+ontology: rad/axioms
+
+[Term]
+id: EO:0001022 ! gamma radiation treatment
+equivalent_to: NCIT:C44386 ! Gamma Radiation
+equivalent_to: SCTID:218204007
+equivalent_to: XCO:0000040 ! gamma ray exposure
+equivalent_to: ZECO:0000149 ! gamma ray
+
+[Term]
+id: EO:0007621 ! magnetic field
+equivalent_to: ZECO:0000146 ! magnetic field
+
+[Term]
+id: EO:0007624 ! radio wave
+equivalent_to: NCIT:C70832 ! Radio Frequency
+
+[Term]
+id: EO:0007628 ! X-ray
+equivalent_to: NCIT:C17262 ! X-Ray
+equivalent_to: XCO:0000043 ! X-ray exposure
+equivalent_to: ZECO:0000150 ! xray
+
+[Term]
+id: NCIT:C16736 ! Infrared Radiation
+equivalent_to: XCO:0000046 ! infrared radiation exposure
+
+[Term]
+id: NCIT:C16862 ! Microwave Radiation
+equivalent_to: SCTID:218192005
+
+[Term]
+id: NCIT:C17050 ! Electromagnetic Radiation
+equivalent_to: XCO:0000045 ! electromagnetic radiation exposure
+equivalent_to: ZECO:0000145 ! electromagnetic radiation experimental conditions
+
+[Term]
+id: NCIT:C17052 ! Ionizing Radiation
+equivalent_to: SCTID:122866006
+equivalent_to: XCO:0000039 ! ionizing radiation exposure
+equivalent_to: ZECO:0000148 ! ionizing radiation
+
+[Term]
+id: NCIT:C17053 ! Nonionizing Radiation
+equivalent_to: XCO:0000044 ! non-ionizing radiation exposure
+equivalent_to: ZECO:0000152 ! non-ionizing radiation
+
+[Term]
+id: NCIT:C17231 ! Ultraviolet Radiation
+equivalent_to: XCO:0000042 ! ultraviolet ray exposure
+
+[Term]
+id: NCIT:C17262 ! X-Ray
+equivalent_to: XCO:0000043 ! X-ray exposure
+equivalent_to: ZECO:0000150 ! xray
+
+[Term]
+id: NCIT:C17732 ! Visible Light
+equivalent_to: ZECO:0000153 ! visible light
+
+[Term]
+id: NCIT:C20049 ! Radiation, Other
+equivalent_to: SCTID:218213009
+
+[Term]
+id: NCIT:C44386 ! Gamma Radiation
+equivalent_to: XCO:0000040 ! gamma ray exposure
+equivalent_to: ZECO:0000149 ! gamma ray
+
+[Term]
+id: SCTID:122866006
+equivalent_to: XCO:0000039 ! ionizing radiation exposure
+equivalent_to: ZECO:0000148 ! ionizing radiation
+
+[Term]
+id: XCO:0000039 ! ionizing radiation exposure
+equivalent_to: ZECO:0000148 ! ionizing radiation
+
+[Term]
+id: XCO:0000040 ! gamma ray exposure
+equivalent_to: ZECO:0000149 ! gamma ray
+
+[Term]
+id: XCO:0000043 ! X-ray exposure
+equivalent_to: ZECO:0000150 ! xray
+
+[Term]
+id: XCO:0000044 ! non-ionizing radiation exposure
+equivalent_to: ZECO:0000152 ! non-ionizing radiation
+
+[Term]
+id: XCO:0000045 ! electromagnetic radiation exposure
+equivalent_to: ZECO:0000145 ! electromagnetic radiation experimental conditions
+
+[Term]
+id: XCO:0000179 ! ionizing ultraviolet radiation exposure
+equivalent_to: ZECO:0000151 ! ionizing uv radiation
+
+[Term]
+id: XCO:0000462 ! light phase of controlled light/dark cycle
+is_a: XCO:0000463 ! dark phase of controlled light/dark cycle
+

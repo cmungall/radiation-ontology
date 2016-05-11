@@ -1,0 +1,68 @@
+format-version: 1.2
+ontology: rad
+
+[Term]
+id: EO:0007624
+xref: NCIT:C70832
+
+[Term]
+id: EO:0007628
+xref: NCIT:C17262
+xref: XCO:0000043
+xref: ZECO:0000150
+
+[Term]
+id: NCIT:C16736
+xref: XCO:0000046
+
+[Term]
+id: NCIT:C16862
+xref: SCTID:218192005
+
+[Term]
+id: NCIT:C17231
+xref: XCO:0000042
+
+[Term]
+id: NCIT:C17732
+xref: ZECO:0000153
+
+[Term]
+id: SCTID:218213009
+xref: NCIT:C20049
+
+[Term]
+id: XCO:0000462
+is_a: XCO:0000463
+
+[Term]
+id: ZECO:0000145
+xref: NCIT:C17050
+xref: XCO:0000045
+
+[Term]
+id: ZECO:0000146
+xref: EO:0007621
+
+[Term]
+id: ZECO:0000148
+xref: NCIT:C17052
+xref: SCTID:122866006
+xref: XCO:0000039
+
+[Term]
+id: ZECO:0000149
+xref: EO:0001022
+xref: NCIT:C44386
+xref: SCTID:218204007
+xref: XCO:0000040
+
+[Term]
+id: ZECO:0000151
+xref: XCO:0000179
+
+[Term]
+id: ZECO:0000152
+xref: NCIT:C17053
+xref: XCO:0000044
+

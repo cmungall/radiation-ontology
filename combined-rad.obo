@@ -1,0 +1,1100 @@
+format-version: 1.2
+date: 23:09:2005 14:37
+saved-by: obo-cat.pl
+default-namespace: none
+
+[Term]
+id: EO:0001022
+name: gamma radiation treatment
+def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
+synonym: "gamma rays" EXACT []
+xref: EO_GIT:41
+xref: OBO_SF2_EO:41
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0001039
+name: radiation mutagen treatment
+def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
+xref: EO_GIT:42
+xref: OBO_SF2_EO:42
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0001040
+name: light-induced photooxidative stress treatment
+def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
+xref: EO_GIT:44
+xref: OBO_SF2_EO:44
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007001
+name: UV-B light regimen
+def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007002
+name: UV-A light regimen
+def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007075
+name: high light intensity regimen
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007076
+name: moderate light intensity regimen
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007078
+name: light quantity regimen
+def: "In biological experiments often it refer to the length of the exposure time. The treatment also includes the quantity of light falling on a per unit area. This may be expressed either in terms of hours for which teh radiation was available or in the units of luminous flux or the lumens." [GR:pj]
+synonym: "photoperiod regimen" RELATED []
+is_a: EO:0007153  ! radiation quantity regimen
+
+[Term]
+id: EO:0007128
+name: intermittent light regimen
+def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007129
+name: UV-C light regimen
+def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
+is_a: EO:0007222  ! UV light regimen
+
+[Term]
+id: EO:0007130
+name: near infra-red light regimen
+def: "The treatment using infra-red light either exclusively or as part of a supplemental light of near IR band that contains energy in the range of wavelengths 750-1300nm, which is closest to the visible light." [GR:pj]
+synonym: "near IR light regimen" RELATED []
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007131
+name: middle infra-red light regimen
+def: "The treatment using middle infra-red light either exclusively or as part of a supplemental light treatment involving middle IR band that contains energy in the range of wavelengths 1300-3000nm." [GR:pj]
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007132
+name: far infra-red light regimen
+def: "The treatment using far infra-red light either exclusively or as part of a supplemental light treatment involving far IR band that contains energy in the range of wavelengths 3000-14000nm." [GR:pj]
+is_a: EO:0007202  ! IR light regimen
+
+[Term]
+id: EO:0007151
+name: radiation treatment
+def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
+comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
+synonym: "light regimen" RELATED []
+is_a: EO:0007316  ! physical plant treatment
+
+[Term]
+id: EO:0007152
+name: radiation intensity regimen
+def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007153
+name: radiation quantity regimen
+def: "In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007154
+name: radiation quality treatment
+def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
+is_a: EO:0007151  ! radiation treatment
+
+[Term]
+id: EO:0007162
+name: continuous light regimen
+def: "The treatment involving continuous exposure of light to the plant." [GR:pj]
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007163
+name: day light regimen
+def: "The treatment involving an exposure of plant to the scheduled or natural exposure of day light and night cycles to the plant." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007193
+name: day light intensity
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007196
+name: light regimen
+alt_id: EO:0007201
+def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
+comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
+synonym: "artificial daylight" RELATED []
+synonym: "artificial light" RELATED []
+synonym: "day light" RELATED []
+synonym: "natural light" RELATED []
+synonym: "sun light" RELATED []
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007199
+name: long day length regimen
+def: "The treatment involving exposure of plant to long day light duration followed by a short night cycle." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007200
+name: short day length regimen
+def: "The treatment involving exposure of plant to short day light duration followed by a long night cycle." [GR:pj]
+is_a: EO:0007128  ! intermittent light regimen
+
+[Term]
+id: EO:0007202
+name: IR light regimen
+def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [GR:pj]
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007203
+name: far red light regimen
+def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
+synonym: "Pfr light" RELATED []
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007207
+name: red light regimen
+def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
+synonym: "Pr light" RELATED []
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007215
+name: orange light regimen
+def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007216
+name: yellow light regimen
+def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007217
+name: green light regimen
+def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007218
+name: blue light regimen
+def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007219
+name: indigo light regimen
+def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007220
+name: violet light regimen
+def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
+is_a: EO:0007221  ! visible light regimen
+
+[Term]
+id: EO:0007221
+name: visible light regimen
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007222
+name: UV light regimen
+def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [GR:pj]
+is_a: EO:0007196  ! light regimen
+
+[Term]
+id: EO:0007224
+name: light intensity regimen
+def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
+is_a: EO:0007152  ! radiation intensity regimen
+
+[Term]
+id: EO:0007270
+name: continuous dark (no light) regimen
+def: "The treatment involving continuous exposure to darkness (no light) to the plant." [GR:pj]
+synonym: "continuous night regimen" RELATED []
+is_a: EO:0007078  ! light quantity regimen
+
+[Term]
+id: EO:0007271
+name: low light intensity regimen
+is_a: EO:0007224  ! light intensity regimen
+
+[Term]
+id: EO:0007610
+name: 3-H
+synonym: "tritium" RELATED []
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007611
+name: 3-H-deoxycytidine
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007612
+name: 3-H-thymidine
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007613
+name: 32-P
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007614
+name: agr ray
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007615
+name: Bevatron irradiation
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007616
+name: deuteron irradiation
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007617
+name: ggr ray
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007618
+name: 137-Cs or ggr ray
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007619
+name: 226-Ra or agr ray
+synonym: "radium" RELATED []
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007620
+name: 60-Co or ggr ray
+is_a: EO:0007617  ! ggr ray
+
+[Term]
+id: EO:0007621
+name: magnetic field
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007622
+name: neutrons
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007623
+name: 252-Cf fission neutrons
+is_a: EO:0007622  ! neutrons
+
+[Term]
+id: EO:0007624
+name: radio wave
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007625
+name: stratosphere exposure
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007626
+name: supersonic-treatment
+is_a: EO:0007154  ! radiation quality treatment
+
+[Term]
+id: EO:0007628
+name: X-ray
+def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
+is_a: EO:0007154  ! radiation quality treatment
+
+
+
+[Term]
+id: NCIT:C16279
+name: Alpha Radiation
+def: "An emission of positively charged particles composed of two protons and two neutrons, i.e., helium nuclei, emitted during disintegration of very heavy isotopes; a beam of alpha particles or an alpha ray has very strong ionizing power, but weak penetrability." [NCIT:C16279]
+synonym: "Alpha Particle Radiation" RELATED [NCIT:C16279]
+synonym: "Alpha Radiation" RELATED [NCIT:C16279]
+xref: NCIT:C16279
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+
+[Term]
+id: NCIT:C16318
+name: Low-Level Radiation
+synonym: "Background Radiation" RELATED [NCIT:C16318]
+synonym: "Low-Level Radiation" RELATED [NCIT:C16318]
+xref: NCIT:C16318
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C16533
+name: Electromagnetic Field
+def: "Field of force associated with a moving electric charge and consisting of electric and magnetic fields that are generated at right angles to each other." [NCIT:C16533]
+synonym: "Electromagnetic Field" RELATED [NCIT:C16533]
+synonym: "Radiation, Electromagnetic Field" RELATED [NCIT:C16533]
+synonym: "electromagnetic field" RELATED [NCIT:C16533]
+xref: NCIT:C16533
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C16535
+name: Beta Radiation
+def: "Radiation of beta particles during radioactive decay." [NCIT:C16535]
+synonym: "Beta Radiation" RELATED [NCIT:C16535]
+synonym: "Radiation, Charged Particles-Electrons" RELATED [NCIT:C16535]
+xref: NCIT:C16535
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+
+[Term]
+id: NCIT:C16736
+name: Infrared Radiation
+def: "Electromagnetic radiation with wavelengths between 750 nanometers and 1 millimeter, between those of visible light and microwaves. This portion of the electromagnetic spectrum can usually be sensed as heat." [NCIT:C16736]
+synonym: "Infrared Radiation" RELATED [NCIT:C16736]
+synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
+xref: NCIT:C16736
+is_a: NCIT:C17053  ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C16862
+name: Microwave Radiation
+def: "Electromagnetic radiation between the ultrahigh frequency radio and infrared (in the 10e-3 (micro) to about 0.5 X 10e-1 meter) region of the spectrum." [NCIT:C16862]
+synonym: "Electromagnetic, Microwave" RELATED [NCIT:C16862]
+synonym: "Microwave Radiation" RELATED [NCIT:C16862]
+synonym: "Radiation, Microwave" RELATED [NCIT:C16862]
+xref: NCIT:C16862
+is_a: NCIT:C17053  ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C17050
+name: Electromagnetic Radiation
+def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
+synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
+synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
+synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
+synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
+xref: NCIT:C17050
+is_a: NCIT:C18102  ! Physical Phenomenon or Property
+
+[Term]
+id: NCIT:C17052
+name: Ionizing Radiation
+def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
+synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
+synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
+synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
+synonym: "ionizing radiation" RELATED [NCIT:C17052]
+xref: NCIT:C17052
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C17053
+name: Nonionizing Radiation
+def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
+synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
+synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
+synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
+synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
+synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
+xref: NCIT:C17053
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C17054
+name: Radioactivity
+def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
+xref: NCIT:C17054
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C17231
+name: Ultraviolet Radiation
+def: "The invisible ultraviolet spectrum makes up one specific portion of sunlight. This unique portion accounts for three percent of all solar radiation reaching the earth. UV radiation causes many health problems." [NCIT:C17231]
+synonym: "Radiation, UV" RELATED [NCIT:C17231]
+synonym: "Sun/Ultra-Violet Rays" RELATED [NCIT:C17231]
+synonym: "UV Radiation" RELATED [NCIT:C17231]
+synonym: "UV radiation" RELATED [NCIT:C17231]
+synonym: "Ultraviolet Radiation" RELATED [NCIT:C17231]
+synonym: "ultraviolet radiation" RELATED [NCIT:C17231]
+xref: NCIT:C17231
+is_a: NCIT:C44445  ! Solar Radiation
+
+[Term]
+id: NCIT:C17262
+name: X-Ray
+synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
+xref: NCIT:C17262
+is_a: NCIT:C17052  ! Ionizing Radiation
+
+[Term]
+id: NCIT:C17732
+name: Visible Light
+def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
+synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
+synonym: "Visible Light" RELATED [NCIT:C17732]
+xref: NCIT:C17732
+is_a: NCIT:C17053  ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C18070
+name: Neutron Radiation
+def: "Radiation of neutrons during radioactive decay." [NCIT:C18070]
+synonym: "Neutron Radiation" RELATED [NCIT:C18070]
+synonym: "Radiation, Neutron" RELATED [NCIT:C18070]
+xref: NCIT:C18070
+is_a: NCIT:C17052  ! Ionizing Radiation
+
+[Term]
+id: NCIT:C18836
+name: High-LET Radiation
+def: "Radioactive particles that deposit a high amount of energy by radiation per unit length of travel." [NCIT:C18836]
+synonym: "High Linear Energy Transfer Radiation" RELATED [NCIT:C18836]
+synonym: "High-LET Radiation" RELATED [NCIT:C18836]
+xref: NCIT:C18836
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C18982
+name: Radiation, Charged Particles
+def: "A particle which carries a positive or negative electrical charge, typically an ionized atom or molecule, or an electron." [NCIT:C18982]
+synonym: "Radiation, Charged Particles" RELATED [NCIT:C18982]
+xref: NCIT:C18982
+is_a: NCIT:C17052  ! Ionizing Radiation
+
+[Term]
+id: NCIT:C18983
+name: Low-Level Ionizing Radiation
+synonym: "Low-Level Ionizing Radiation" RELATED [NCIT:C18983]
+synonym: "Radiation Ionizing, Low Level" RELATED [NCIT:C18983]
+synonym: "Radiation, Low-Level Ionizing" RELATED [NCIT:C18983]
+xref: NCIT:C18983
+is_a: NCIT:C16318  ! Low-Level Radiation
+is_a: NCIT:C17052  ! Ionizing Radiation
+
+[Term]
+id: NCIT:C20049
+name: Radiation, Other
+synonym: "Radiation, Other" RELATED [NCIT:C20049]
+xref: NCIT:C20049
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+[Term]
+id: NCIT:C27986
+name: Ultraviolet A Radiation
+def: "Ultraviolet A Radiation is the 320 to 400 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. It is may be up to 1,000 times more intense than UVB. UVA radiation can penetrate to underlying tissues of the skin and cause photo-aging or long-term skin damage. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C27986]
+synonym: "UVA Radiation" RELATED [NCIT:C27986]
+synonym: "UVA radiation" RELATED [NCIT:C27986]
+synonym: "Ultraviolet A Radiation" RELATED [NCIT:C27986]
+synonym: "ultraviolet A radiation" RELATED [NCIT:C27986]
+xref: NCIT:C27986
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+
+[Term]
+id: NCIT:C27987
+name: Ultraviolet B Radiation
+def: "Ultraviolet B Radiation is the 290 to 320 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. Recent ozone depletion has permitted more UVB to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. Evidence shows a dose-response relationship between nonmelanoma skin cancer and cumulative exposure to UVB radiation. (NCI04)" [NCIT:C27987]
+synonym: "UVB Radiation" RELATED [NCIT:C27987]
+synonym: "UVB radiation" RELATED [NCIT:C27987]
+synonym: "Ultraviolet B Radiation" RELATED [NCIT:C27987]
+synonym: "Ultraviolet-B Radiation" RELATED [NCIT:C27987]
+synonym: "ultraviolet B radiation" RELATED [NCIT:C27987]
+xref: NCIT:C27987
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+
+[Term]
+id: NCIT:C28039
+name: Electron Beam
+synonym: "Electron Beam" RELATED [NCIT:C28039]
+synonym: "electron beam" RELATED [NCIT:C28039]
+xref: NCIT:C28039
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+
+[Term]
+id: NCIT:C29887
+name: Californium-252 Fission Neutron Radiation
+def: "Californium-252 is a neutron emitter with a high specific activity.  It is used most often in brachytherapy for cancer patients." [NCIT:C29887]
+synonym: "Californium-252 Fission Neutron Radiation" RELATED [NCIT:C29887]
+xref: NCIT:C29887
+is_a: NCIT:C16279  ! Alpha Radiation
+
+[Term]
+id: NCIT:C40431
+name: Proton Radiation
+def: "Radiation of protons during radioactive decay." [NCIT:C40431]
+synonym: "Proton Radiation" RELATED [NCIT:C40431]
+synonym: "Radiation, Charged Particles-Protons" RELATED [NCIT:C40431]
+xref: NCIT:C40431
+is_a: NCIT:C18982  ! Radiation, Charged Particles
+
+[Term]
+id: NCIT:C44344
+name: Broad-Spectrum UV Radiation
+synonym: "Broad-Spectrum UV Radiation" RELATED [NCIT:C44344]
+xref: NCIT:C44344
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+
+[Term]
+id: NCIT:C44386
+name: Gamma Radiation
+def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
+synonym: "Gamma Radiation" RELATED [NCIT:C44386]
+synonym: "Gamma Ray" RELATED [NCIT:C44386]
+synonym: "gamma ray" RELATED [NCIT:C44386]
+xref: NCIT:C44386
+is_a: NCIT:C17052  ! Ionizing Radiation
+
+[Term]
+id: NCIT:C44445
+name: Solar Radiation
+synonym: "Solar Radiation" RELATED [NCIT:C44445]
+xref: NCIT:C44445
+is_a: NCIT:C17053  ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C44461
+name: Ultraviolet C Radiation
+def: "Many scientists rate wavelengths in the C range of the ultraviolet (UVC) solar spectrum, between 200 and 290 nm, as the most carcinogenic. The ozone layer absorbs most UVC rays. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C44461]
+synonym: "UVC Radiation" RELATED [NCIT:C44461]
+synonym: "UVC radiation" RELATED [NCIT:C44461]
+synonym: "Ultraviolet C Radiation" RELATED [NCIT:C44461]
+synonym: "ultraviolet C radiation" RELATED [NCIT:C44461]
+xref: NCIT:C44461
+is_a: NCIT:C17231  ! Ultraviolet Radiation
+
+[Term]
+id: NCIT:C70832
+name: Radio Frequency
+def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
+synonym: "Radio Frequency" RELATED [NCIT:C70832]
+synonym: "radio wave" RELATED [NCIT:C70832]
+xref: NCIT:C70832
+is_a: NCIT:C17053  ! Nonionizing Radiation
+
+[Term]
+id: NCIT:C88112
+name: Photon
+xref: NCIT:C88112
+is_a: NCIT:C17050  ! Electromagnetic Radiation
+
+
+
+[Term]
+id: SCTID_122866006
+name: Exposure to ionizing radiation
+is_a: SCTID_218190002  ! Exposure to radiation
+
+[Term]
+id: SCTID_218190002
+name: Exposure to radiation
+is_a: SCTID_115964003  ! Exposure to non-mechanical force
+
+[Term]
+id: SCTID_218191003
+name: Overexposure to radiofrequency radiation
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218192005
+name: Overexposure to microwave radiation
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218193000
+name: Overexposure to radar radiation
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218195007
+name: Overexposure to infrared heater or lamp
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218196008
+name: Overexposure to visual and ultraviolet light sources
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218197004
+name: Overexposure to arc lamp radiation
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218198009
+name: Overexposure to black light source
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218199001
+name: Overexposure to electrical welding arc
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218200003
+name: Overexposure to oxygas welding torch
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218201004
+name: Overexposure to sun rays
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218202006
+name: Overexposure to visible or ultraviolet source NOS
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_218203001
+name: Overexposure to X-rays and other electromagnetic ionizing radiation
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218204007
+name: Overexposure to gamma rays
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218205008
+name: Overexposure to hard X-rays
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218206009
+name: Overexposure to soft X-rays
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218207000
+name: Overexposure to X-rays NOS
+is_a: SCTID_218203001  ! Overexposure to X-rays and other electromagnetic ionizing radiation
+
+[Term]
+id: SCTID_218208005
+name: Overexposure to lasers
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218209002
+name: Overexposure to radioactive isotopes
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218210007
+name: Overexposure to radiobiologicals
+is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
+
+[Term]
+id: SCTID_218211006
+name: Overexposure to radiopharmaceuticals
+is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
+
+[Term]
+id: SCTID_218212004
+name: Overexposure to radioactive isotope NOS
+is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
+
+[Term]
+id: SCTID_218213009
+name: Overexposure to other radiation
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218214003
+name: Overexposure to artificially accelerated beams of ionized particles generated by betatrons
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218215002
+name: Overexposure to artificially accelerated beams of ionized particles generated by synchrotrons
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_218216001
+name: Overexposure to other radiation NOS
+is_a: SCTID_218213009  ! Overexposure to other radiation
+
+[Term]
+id: SCTID_218217005
+name: Overexposure to radiation NOS
+is_a: SCTID_419201009  ! Overexposure to radiation
+
+[Term]
+id: SCTID_242534002
+name: Exposure to heat and light
+is_a: SCTID_418611001  ! Exposure to heat
+is_a: SCTID_418921006  ! Exposure to light
+
+[Term]
+id: SCTID_242535001
+name: Exposure to excess sunlight
+is_a: SCTID_418921006  ! Exposure to light
+
+[Term]
+id: SCTID_242536000
+name: Exposure to man-made visible light
+is_a: SCTID_418921006  ! Exposure to light
+
+[Term]
+id: SCTID_242537009
+name: Exposure to man-made ultraviolet light
+is_a: SCTID_418921006  ! Exposure to light
+
+[Term]
+id: SCTID_242795000
+name: Exposure to ionizing radiation from geological sources
+is_a: SCTID_122866006  ! Exposure to ionizing radiation
+
+[Term]
+id: SCTID_242796004
+name: Exposure to ionizing radiation from cosmic sources
+is_a: SCTID_122866006  ! Exposure to ionizing radiation
+
+[Term]
+id: SCTID_242797008
+name: Exposure to ionizing radiation from industrial sources
+is_a: SCTID_122866006  ! Exposure to ionizing radiation
+
+[Term]
+id: SCTID_242798003
+name: Exposure to radiation from nuclear reactor
+is_a: SCTID_242797008  ! Exposure to ionizing radiation from industrial sources
+
+[Term]
+id: SCTID_242799006
+name: Exposure to radiation from nuclear reactor because of failure of containment
+is_a: SCTID_242798003  ! Exposure to radiation from nuclear reactor
+
+[Term]
+id: SCTID_242800005
+name: Exposure to radiation from nuclear reactor because of reactor malfunction
+is_a: SCTID_242798003  ! Exposure to radiation from nuclear reactor
+
+[Term]
+id: SCTID_242801009
+name: Exposure to radiation from nuclear reactor because of meltdown
+is_a: SCTID_242800005  ! Exposure to radiation from nuclear reactor because of reactor malfunction
+
+[Term]
+id: SCTID_242802002
+name: Exposure to ionizing radiation from nuclear waste
+is_a: SCTID_242797008  ! Exposure to ionizing radiation from industrial sources
+
+[Term]
+id: SCTID_242803007
+name: Exposure to ionizing radiation in nuclear fuel processing
+is_a: SCTID_242797008  ! Exposure to ionizing radiation from industrial sources
+
+[Term]
+id: SCTID_242804001
+name: Exposure to ionizing radiation in nuclear weapons manufacture
+is_a: SCTID_242797008  ! Exposure to ionizing radiation from industrial sources
+
+[Term]
+id: SCTID_242805000
+name: Exposure to ionizing radiation from medical sources
+is_a: SCTID_122866006  ! Exposure to ionizing radiation
+
+[Term]
+id: SCTID_242806004
+name: Exposure to medical diagnostic radiation
+is_a: SCTID_242805000  ! Exposure to ionizing radiation from medical sources
+
+[Term]
+id: SCTID_242807008
+name: Exposure to medical diagnostic X-ray
+is_a: SCTID_242806004  ! Exposure to medical diagnostic radiation
+
+[Term]
+id: SCTID_242808003
+name: Exposure of patient to medical diagnostic X-ray
+is_a: SCTID_242807008  ! Exposure to medical diagnostic X-ray
+
+[Term]
+id: SCTID_242809006
+name: Exposure of member of staff to medical diagnostic X-ray
+is_a: SCTID_242807008  ! Exposure to medical diagnostic X-ray
+
+[Term]
+id: SCTID_242810001
+name: Exposure of member of public to medical diagnostic X-ray
+is_a: SCTID_242807008  ! Exposure to medical diagnostic X-ray
+
+[Term]
+id: SCTID_242811002
+name: Exposure to radiation from diagnostic isotopes
+is_a: SCTID_242806004  ! Exposure to medical diagnostic radiation
+
+[Term]
+id: SCTID_242812009
+name: Exposure of patient to radiation from diagnostic isotopes
+is_a: SCTID_242811002  ! Exposure to radiation from diagnostic isotopes
+
+[Term]
+id: SCTID_242813004
+name: Exposure of member of staff to radiation from diagnostic medical isotopes
+is_a: SCTID_242811002  ! Exposure to radiation from diagnostic isotopes
+
+[Term]
+id: SCTID_242814005
+name: Exposure of member of public to radiation from diagnostic medical isotopes
+is_a: SCTID_242811002  ! Exposure to radiation from diagnostic isotopes
+
+[Term]
+id: SCTID_242815006
+name: Exposure to medical therapeutic radiation
+is_a: SCTID_242805000  ! Exposure to ionizing radiation from medical sources
+
+[Term]
+id: SCTID_242816007
+name: Exposure of patient to medical therapeutic radiation
+is_a: SCTID_242815006  ! Exposure to medical therapeutic radiation
+
+[Term]
+id: SCTID_242817003
+name: Exposure of member of staff to medical therapeutic radiation
+is_a: SCTID_242815006  ! Exposure to medical therapeutic radiation
+
+[Term]
+id: SCTID_242818008
+name: Exposure of member of public to medical therapeutic radiation
+is_a: SCTID_242815006  ! Exposure to medical therapeutic radiation
+
+[Term]
+id: SCTID_242819000
+name: Exposure to radiation from nuclear explosion
+is_a: SCTID_122866006  ! Exposure to ionizing radiation
+
+[Term]
+id: SCTID_242820006
+name: Exposure to direct ionizing radiation from nuclear explosion
+is_a: SCTID_242819000  ! Exposure to radiation from nuclear explosion
+
+[Term]
+id: SCTID_242821005
+name: Exposure to ionizing radiation from fall-out from nuclear explosion
+is_a: SCTID_242819000  ! Exposure to radiation from nuclear explosion
+
+[Term]
+id: SCTID_288300005
+name: Ultraviolet exposure accident
+is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
+
+[Term]
+id: SCTID_418921006
+name: Exposure to light
+is_a: SCTID_218190002  ! Exposure to radiation
+
+[Term]
+id: SCTID_419201009
+name: Overexposure to radiation
+is_a: SCTID_218190002  ! Exposure to radiation
+
+
+
+[Term]
+id: XCO:0000038
+name: radiation exposure
+def: "The condition of being subjected to any type of energy transmitted by waves through space or through some medium or to a stream of particles, such as electrons or alpha particles." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000000  ! experimental condition
+
+[Term]
+id: XCO:0000039
+name: ionizing radiation exposure
+def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000040
+name: gamma ray exposure
+def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Gamma_ray]
+synonym: "gamma radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000041
+name: radon exposure
+def: "The condition of being subjected to transmitted energy from the gaseous radioactive element, atomic number 86, resulting from decay of radium.  Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+is_a: XCO:0000039  ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000042
+name: ultraviolet ray exposure
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, in the part of the electromagnetic spectrum with wavelengths between about 10 and 400 nm.  Ultraviolet radiation can be ionizing or non-ionizing depending on the wavelength." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "UV radiation exposure" EXACT []
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000043
+name: X-ray exposure
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between approximately 0.01 and 10 nm." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "X-radiation exposure" EXACT []
+synonym: "roentgen radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000044
+name: non-ionizing radiation exposure
+def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Non-ionizing_radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000045
+name: electromagnetic radiation exposure
+def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+is_a: XCO:0000038  ! radiation exposure
+
+[Term]
+id: XCO:0000046
+name: infrared radiation exposure
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths longer than those of visible light, i.e. from approximately 750 nm to 1 mm." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+synonym: "IR radiation exposure" EXACT []
+is_a: XCO:0000044  ! non-ionizing radiation exposure
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+
+[Term]
+id: XCO:0000179
+name: ionizing ultraviolet radiation exposure
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 10 and 120 nm. Radiation (i.e. ultraviolet light) at this wavelength is considered  ionizing, that is, composed of photons that individually carry enough energy to liberate an electron from an atom or molecule without raising the bulk material to ionization temperature." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http://en.wikipedia.org/wiki/Ionizing_radiation]
+synonym: "extreme UV ray exposure" RELATED []
+synonym: "extreme ultraviolet ray exposure" RELATED []
+synonym: "ionizing UV radiation exposure" EXACT []
+is_a: XCO:0000039  ! ionizing radiation exposure
+is_a: XCO:0000042  ! ultraviolet ray exposure
+
+[Term]
+id: XCO:0000180
+name: non-ionizing ultraviolet radiation exposure
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http://en.wikipedia.org/wiki/Ultraviolet]
+synonym: "near ultraviolet radiation exposure" NARROW []
+synonym: "non-ionizing UV radiation exposure" EXACT []
+is_a: XCO:0000042  ! ultraviolet ray exposure
+is_a: XCO:0000044  ! non-ionizing radiation exposure
+
+[Term]
+id: XCO:0000182
+name: controlled exposure to ambient light
+def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "diurnal condition" RELATED []
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000283
+name: visible light stimulus
+def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+is_a: XCO:0000049  ! visual stimulus
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000284
+name: controlled visible light exposure
+def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+is_a: XCO:0000045  ! electromagnetic radiation exposure
+is_a: XCO:0000181  ! controlled visible light condition
+
+[Term]
+id: XCO:0000459
+name: controlled light/dark cycle
+def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000284  ! controlled visible light exposure
+
+[Term]
+id: XCO:0000462
+name: light phase of controlled light/dark cycle
+def: "The portion of a controlled light/dark cycle in which the subject is exposed to ambient light (that is, during which the room is lit). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000459  ! controlled light/dark cycle
+
+[Term]
+id: XCO:0000463
+name: dark phase of controlled light/dark cycle
+def: "The portion of a controlled light/dark cycle in which the subject is not being exposed to ambient light (that is, during which the room is darkened). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000459  ! controlled light/dark cycle
+
+
+
+[Term]
+id: ZECO:0000145
+name: electromagnetic radiation experimental conditions
+is_a: ZECO:0000128  ! experimental conditions
+
+[Term]
+id: ZECO:0000146
+name: magnetic field
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000147
+name: electric field
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000148
+name: ionizing radiation
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000149
+name: gamma ray
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000150
+name: xray
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000151
+name: ionizing uv radiation
+is_a: ZECO:0000148  ! ionizing radiation
+
+[Term]
+id: ZECO:0000152
+name: non-ionizing radiation
+is_a: ZECO:0000145  ! electromagnetic radiation experimental conditions
+
+[Term]
+id: ZECO:0000153
+name: visible light
+is_a: ZECO:0000152  ! non-ionizing radiation
+
+[Term]
+id: ZECO:0000154
+name: non-ionizing uv
+is_a: ZECO:0000152  ! non-ionizing radiation
+
+[Term]
+id: ZECO:0000155
+name: infrared
+is_a: ZECO:0000152  ! non-ionizing radiation
+
+
+

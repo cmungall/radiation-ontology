@@ -1,0 +1,103 @@
+format-version: 1.2
+ontology: rad/axioms
+
+[Term]
+id: EO:0001022
+equivalent_to: NCIT:C44386
+equivalent_to: SCTID:218204007
+equivalent_to: XCO:0000040
+equivalent_to: ZECO:0000149
+
+[Term]
+id: EO:0007621
+equivalent_to: ZECO:0000146
+
+[Term]
+id: EO:0007624
+equivalent_to: NCIT:C70832
+
+[Term]
+id: EO:0007628
+equivalent_to: NCIT:C17262
+equivalent_to: XCO:0000043
+equivalent_to: ZECO:0000150
+
+[Term]
+id: NCIT:C16736
+equivalent_to: XCO:0000046
+
+[Term]
+id: NCIT:C16862
+equivalent_to: SCTID:218192005
+
+[Term]
+id: NCIT:C17050
+equivalent_to: XCO:0000045
+equivalent_to: ZECO:0000145
+
+[Term]
+id: NCIT:C17052
+equivalent_to: SCTID:122866006
+equivalent_to: XCO:0000039
+equivalent_to: ZECO:0000148
+
+[Term]
+id: NCIT:C17053
+equivalent_to: XCO:0000044
+equivalent_to: ZECO:0000152
+
+[Term]
+id: NCIT:C17231
+equivalent_to: XCO:0000042
+
+[Term]
+id: NCIT:C17262
+equivalent_to: XCO:0000043
+equivalent_to: ZECO:0000150
+
+[Term]
+id: NCIT:C17732
+equivalent_to: ZECO:0000153
+
+[Term]
+id: NCIT:C20049
+equivalent_to: SCTID:218213009
+
+[Term]
+id: NCIT:C44386
+equivalent_to: XCO:0000040
+equivalent_to: ZECO:0000149
+
+[Term]
+id: SCTID:122866006
+equivalent_to: XCO:0000039
+equivalent_to: ZECO:0000148
+
+[Term]
+id: XCO:0000039
+equivalent_to: ZECO:0000148
+
+[Term]
+id: XCO:0000040
+equivalent_to: ZECO:0000149
+
+[Term]
+id: XCO:0000043
+equivalent_to: ZECO:0000150
+
+[Term]
+id: XCO:0000044
+equivalent_to: ZECO:0000152
+
+[Term]
+id: XCO:0000045
+equivalent_to: ZECO:0000145
+
+[Term]
+id: XCO:0000179
+equivalent_to: ZECO:0000151
+
+[Term]
+id: XCO:0000462
+is_a: XCO:0000463
+
