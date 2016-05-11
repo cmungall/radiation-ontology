@@ -1,5 +1,8 @@
 digraph cliquegraph {
-subgraph cluster_SCTID_218213009 {SCTID_218213009 [ label="SCTID_218213009 " ];
+subgraph cluster_SCTID_218213009 {SCTID_218213009 [ label="SCTID_218213009 Overexposure
+to
+other
+radiation" ];
 NCIT_C20049 [ label="NCIT_C20049 Radiation,
 Other" ];}
 NCIT_C20049 -> SCTID_218213009 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]

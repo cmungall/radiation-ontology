@@ -1,9 +1,48 @@
 [
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007271",
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007154",
     "members": [
-      "http://purl.obolibrary.org/obo/GO_0009645",
-      "http://purl.obolibrary.org/obo/EO_0007271"
+      "http://purl.obolibrary.org/obo/XCO_0000038",
+      "http://purl.obolibrary.org/obo/GO_0009314",
+      "http://purl.obolibrary.org/obo/ZECO_0000145",
+      "http://purl.obolibrary.org/obo/SCTID_218190002",
+      "http://purl.obolibrary.org/obo/EO_0007154",
+      "http://purl.obolibrary.org/obo/SCTID_418921006",
+      "http://purl.obolibrary.org/obo/GO_0009416",
+      "http://purl.obolibrary.org/obo/XCO_0000045",
+      "http://purl.obolibrary.org/obo/NCIT_C17050",
+      "http://purl.obolibrary.org/obo/SCTID_419201009",
+      "http://purl.obolibrary.org/obo/EO_0007151",
+      "http://purl.obolibrary.org/obo/EO_0007196"
+    ],
+    "size": 12,
+    "initialNumberOfProbabilisticEdges": 20,
+    "probability": 2.649335423967496E-4,
+    "confidence": 6.661338147750939E-16,
+    "solved": true,
+    "messages": [
+      "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 5"
+    ],
+    "timeToSolve": 1089,
+    "axiomStrings": [
+      "EO_0007151 radiation treatment EquivalentTo GO_0009314 response to radiation",
+      "GO_0009416 response to light stimulus EquivalentTo SCTID_418921006 Exposure to light",
+      "NCIT_C17050 Electromagnetic Radiation EquivalentTo XCO_0000045 electromagnetic radiation exposure",
+      "EO_0007151 radiation treatment EquivalentTo SCTID_218190002 Exposure to radiation",
+      "XCO_0000045 electromagnetic radiation exposure EquivalentTo ZECO_0000145 electromagnetic radiation experimental conditions",
+      "GO_0009314 response to radiation EquivalentTo SCTID_218190002 Exposure to radiation",
+      "GO_0009314 response to radiation EquivalentTo XCO_0000038 radiation exposure",
+      "EO_0007151 radiation treatment EquivalentTo XCO_0000038 radiation exposure",
+      "NCIT_C17050 Electromagnetic Radiation EquivalentTo ZECO_0000145 electromagnetic radiation experimental conditions",
+      "EO_0007196 light regimen EquivalentTo GO_0009416 response to light stimulus",
+      "SCTID_419201009 Overexposure to radiation SubClassOf EO_0007151 radiation treatment"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007224",
+    "members": [
+      "http://purl.obolibrary.org/obo/EO_0007224",
+      "http://purl.obolibrary.org/obo/GO_0009642"
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
@@ -11,34 +50,37 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 8,
+    "timeToSolve": 9,
     "axiomStrings": [
-      "EO_0007271 low light intensity regimen EquivalentTo GO_0009645 response to low light intensity stimulus"
+      "EO_0007224 light intensity regimen EquivalentTo GO_0009642 response to light intensity"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010114",
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007129",
     "members": [
-      "http://purl.obolibrary.org/obo/EO_0007207",
-      "http://purl.obolibrary.org/obo/GO_0010114"
+      "http://purl.obolibrary.org/obo/EO_0007129",
+      "http://purl.obolibrary.org/obo/GO_0010225",
+      "http://purl.obolibrary.org/obo/NCIT_C44461"
     ],
-    "size": 2,
-    "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.8500000000000001,
-    "confidence": 16.0,
+    "size": 3,
+    "initialNumberOfProbabilisticEdges": 3,
+    "probability": 0.6970711297071127,
+    "confidence": 5.999999999999993,
     "solved": true,
     "messages": [],
-    "timeToSolve": 8,
+    "timeToSolve": 18,
     "axiomStrings": [
-      "EO_0007207 red light regimen EquivalentTo GO_0010114 response to red light"
+      "EO_0007129 UV-C light regimen EquivalentTo NCIT_C44461 Ultraviolet C Radiation",
+      "GO_0010225 response to UV-C EquivalentTo NCIT_C44461 Ultraviolet C Radiation",
+      "EO_0007129 UV-C light regimen EquivalentTo GO_0010225 response to UV-C"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/GO_0070141",
+    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010224",
     "members": [
-      "http://purl.obolibrary.org/obo/GO_0070141",
-      "http://purl.obolibrary.org/obo/NCIT_C27986",
-      "http://purl.obolibrary.org/obo/EO_0007002"
+      "http://purl.obolibrary.org/obo/GO_0010224",
+      "http://purl.obolibrary.org/obo/NCIT_C27987",
+      "http://purl.obolibrary.org/obo/EO_0007001"
     ],
     "size": 3,
     "initialNumberOfProbabilisticEdges": 3,
@@ -46,11 +88,11 @@
     "confidence": 5.999999999999994,
     "solved": true,
     "messages": [],
-    "timeToSolve": 40,
+    "timeToSolve": 25,
     "axiomStrings": [
-      "GO_0070141 response to UV-A EquivalentTo NCIT_C27986 Ultraviolet A Radiation",
-      "EO_0007002 UV-A light regimen EquivalentTo GO_0070141 response to UV-A",
-      "EO_0007002 UV-A light regimen EquivalentTo NCIT_C27986 Ultraviolet A Radiation"
+      "EO_0007001 UV-B light regimen EquivalentTo NCIT_C27987 Ultraviolet B Radiation",
+      "EO_0007001 UV-B light regimen EquivalentTo GO_0010224 response to UV-B",
+      "GO_0010224 response to UV-B EquivalentTo NCIT_C27987 Ultraviolet B Radiation"
     ]
   },
   {
@@ -71,50 +113,52 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007129",
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000039",
     "members": [
-      "http://purl.obolibrary.org/obo/EO_0007129",
-      "http://purl.obolibrary.org/obo/GO_0010225",
-      "http://purl.obolibrary.org/obo/NCIT_C44461"
+      "http://purl.obolibrary.org/obo/ZECO_0000148",
+      "http://purl.obolibrary.org/obo/XCO_0000039",
+      "http://purl.obolibrary.org/obo/GO_0010212",
+      "http://purl.obolibrary.org/obo/NCIT_C17052",
+      "http://purl.obolibrary.org/obo/SCTID_122866006"
     ],
-    "size": 3,
-    "initialNumberOfProbabilisticEdges": 3,
-    "probability": 0.6970711297071128,
-    "confidence": 5.999999999999994,
+    "size": 5,
+    "initialNumberOfProbabilisticEdges": 10,
+    "probability": 0.16146646159289116,
+    "confidence": 16.00000000000002,
     "solved": true,
-    "messages": [],
-    "timeToSolve": 17,
+    "messages": [
+      "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 2"
+    ],
+    "timeToSolve": 497,
     "axiomStrings": [
-      "EO_0007129 UV-C light regimen EquivalentTo NCIT_C44461 Ultraviolet C Radiation",
-      "GO_0010225 response to UV-C EquivalentTo NCIT_C44461 Ultraviolet C Radiation",
-      "EO_0007129 UV-C light regimen EquivalentTo GO_0010225 response to UV-C"
+      "GO_0010212 response to ionizing radiation EquivalentTo ZECO_0000148 ionizing radiation",
+      "NCIT_C17052 Ionizing Radiation EquivalentTo SCTID_122866006 Exposure to ionizing radiation",
+      "GO_0010212 response to ionizing radiation EquivalentTo SCTID_122866006 Exposure to ionizing radiation",
+      "GO_0010212 response to ionizing radiation EquivalentTo XCO_0000039 ionizing radiation exposure",
+      "NCIT_C17052 Ionizing Radiation EquivalentTo ZECO_0000148 ionizing radiation",
+      "SCTID_122866006 Exposure to ionizing radiation EquivalentTo ZECO_0000148 ionizing radiation",
+      "XCO_0000039 ionizing radiation exposure EquivalentTo ZECO_0000148 ionizing radiation",
+      "NCIT_C17052 Ionizing Radiation EquivalentTo XCO_0000039 ionizing radiation exposure",
+      "GO_0010212 response to ionizing radiation EquivalentTo NCIT_C17052 Ionizing Radiation",
+      "SCTID_122866006 Exposure to ionizing radiation EquivalentTo XCO_0000039 ionizing radiation exposure"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007154",
+    "cliqueId": "http://purl.obolibrary.org/obo/SCTID_218213009",
     "members": [
-      "http://purl.obolibrary.org/obo/XCO_0000038",
-      "http://purl.obolibrary.org/obo/GO_0009314",
-      "http://purl.obolibrary.org/obo/ZECO_0000145",
-      "http://purl.obolibrary.org/obo/SCTID_218190002",
-      "http://purl.obolibrary.org/obo/EO_0007154",
-      "http://purl.obolibrary.org/obo/SCTID_418921006",
-      "http://purl.obolibrary.org/obo/GO_0009416",
-      "http://purl.obolibrary.org/obo/XCO_0000045",
-      "http://purl.obolibrary.org/obo/NCIT_C17050",
-      "http://purl.obolibrary.org/obo/SCTID_419201009",
-      "http://purl.obolibrary.org/obo/EO_0007151",
-      "http://purl.obolibrary.org/obo/EO_0007196"
+      "http://purl.obolibrary.org/obo/NCIT_C20049",
+      "http://purl.obolibrary.org/obo/SCTID_218213009"
     ],
-    "size": 12,
-    "initialNumberOfProbabilisticEdges": 21,
-    "probability": 0.0,
-    "solved": false,
-    "messages": [
-      "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 6",
-      "UNSATISFIABLE"
-    ],
-    "timeToSolve": 9628
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.5500000000000002,
+    "confidence": 1.2000000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 6,
+    "axiomStrings": [
+      "NCIT_C20049 Radiation, Other EquivalentTo SCTID_218213009 Overexposure to other radiation"
+    ]
   },
   {
     "cliqueId": "http://purl.obolibrary.org/obo/SCTID_218204007",
@@ -128,21 +172,21 @@
     ],
     "size": 6,
     "initialNumberOfProbabilisticEdges": 12,
-    "probability": 0.010035125891800051,
+    "probability": 0.010062604292294292,
     "confidence": 2.6666666666666687,
     "solved": true,
     "messages": [
       "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 3"
     ],
-    "timeToSolve": 1119,
+    "timeToSolve": 521,
     "axiomStrings": [
-      "EO_0001022 gamma radiation treatment EquivalentTo NCIT_C44386 Gamma Radiation",
-      "SCTID_218204007 EquivalentTo XCO_0000040 gamma ray exposure",
       "EO_0001022 gamma radiation treatment EquivalentTo ZECO_0000149 gamma ray",
       "NCIT_C44386 Gamma Radiation EquivalentTo XCO_0000040 gamma ray exposure",
-      "EO_0001022 gamma radiation treatment EquivalentTo SCTID_218204007",
+      "EO_0001022 gamma radiation treatment EquivalentTo GO_0010332 response to gamma radiation",
       "GO_0010332 response to gamma radiation EquivalentTo NCIT_C44386 Gamma Radiation",
       "XCO_0000040 gamma ray exposure EquivalentTo ZECO_0000149 gamma ray",
+      "EO_0001022 gamma radiation treatment EquivalentTo SCTID_218204007 Overexposure to gamma rays",
+      "SCTID_218204007 Overexposure to gamma rays EquivalentTo XCO_0000040 gamma ray exposure",
       "GO_0010332 response to gamma radiation EquivalentTo ZECO_0000149 gamma ray",
       "NCIT_C44386 Gamma Radiation EquivalentTo ZECO_0000149 gamma ray",
       "GO_0010332 response to gamma radiation EquivalentTo XCO_0000040 gamma ray exposure",
@@ -166,7 +210,7 @@
     "messages": [
       "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 2"
     ],
-    "timeToSolve": 131,
+    "timeToSolve": 221,
     "axiomStrings": [
       "GO_0010165 response to X-ray EquivalentTo NCIT_C17262 X-Ray",
       "GO_0010165 response to X-ray EquivalentTo XCO_0000043 X-ray exposure",
@@ -180,10 +224,10 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000154",
+    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010114",
     "members": [
-      "http://purl.obolibrary.org/obo/XCO_0000180",
-      "http://purl.obolibrary.org/obo/ZECO_0000154"
+      "http://purl.obolibrary.org/obo/EO_0007207",
+      "http://purl.obolibrary.org/obo/GO_0010114"
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
@@ -191,46 +235,46 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 11,
+    "timeToSolve": 7,
     "axiomStrings": [
-      "XCO_0000180 non-ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000154 non-ionizing uv"
+      "EO_0007207 red light regimen EquivalentTo GO_0010114 response to red light"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/SCTID_218213009",
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007271",
     "members": [
-      "http://purl.obolibrary.org/obo/NCIT_C20049",
-      "http://purl.obolibrary.org/obo/SCTID_218213009"
+      "http://purl.obolibrary.org/obo/GO_0009645",
+      "http://purl.obolibrary.org/obo/EO_0007271"
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.5500000000000002,
-    "confidence": 2.666666666666667,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 6,
+    "timeToSolve": 7,
     "axiomStrings": [
-      "NCIT_C20049 Radiation, Other EquivalentTo SCTID_218213009"
+      "EO_0007271 low light intensity regimen EquivalentTo GO_0009645 response to low light intensity stimulus"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010224",
+    "cliqueId": "http://purl.obolibrary.org/obo/GO_0070141",
     "members": [
-      "http://purl.obolibrary.org/obo/GO_0010224",
-      "http://purl.obolibrary.org/obo/NCIT_C27987",
-      "http://purl.obolibrary.org/obo/EO_0007001"
+      "http://purl.obolibrary.org/obo/GO_0070141",
+      "http://purl.obolibrary.org/obo/NCIT_C27986",
+      "http://purl.obolibrary.org/obo/EO_0007002"
     ],
     "size": 3,
     "initialNumberOfProbabilisticEdges": 3,
-    "probability": 0.685032894736842,
+    "probability": 0.6970711297071128,
     "confidence": 5.999999999999994,
     "solved": true,
     "messages": [],
-    "timeToSolve": 18,
+    "timeToSolve": 30,
     "axiomStrings": [
-      "EO_0007001 UV-B light regimen EquivalentTo NCIT_C27987 Ultraviolet B Radiation",
-      "EO_0007001 UV-B light regimen EquivalentTo GO_0010224 response to UV-B",
-      "GO_0010224 response to UV-B EquivalentTo NCIT_C27987 Ultraviolet B Radiation"
+      "GO_0070141 response to UV-A EquivalentTo NCIT_C27986 Ultraviolet A Radiation",
+      "EO_0007002 UV-A light regimen EquivalentTo GO_0070141 response to UV-A",
+      "EO_0007002 UV-A light regimen EquivalentTo NCIT_C27986 Ultraviolet A Radiation"
     ]
   },
   {
@@ -247,7 +291,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 46,
+    "timeToSolve": 64,
     "axiomStrings": [
       "NCIT_C17732 Visible Light EquivalentTo XCO_0000283 visible light stimulus",
       "EO_0007221 visible light regimen EquivalentTo ZECO_0000153 visible light",
@@ -258,34 +302,10 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000042",
+    "cliqueId": "http://purl.obolibrary.org/obo/ZECO_0000154",
     "members": [
-      "http://purl.obolibrary.org/obo/GO_0009411",
-      "http://purl.obolibrary.org/obo/EO_0007222",
-      "http://purl.obolibrary.org/obo/XCO_0000042",
-      "http://purl.obolibrary.org/obo/NCIT_C17231"
-    ],
-    "size": 4,
-    "initialNumberOfProbabilisticEdges": 6,
-    "probability": 0.5625120586532893,
-    "confidence": 5.999999999999993,
-    "solved": true,
-    "messages": [],
-    "timeToSolve": 162,
-    "axiomStrings": [
-      "GO_0009411 response to UV EquivalentTo NCIT_C17231 Ultraviolet Radiation",
-      "EO_0007222 UV light regimen EquivalentTo XCO_0000042 ultraviolet ray exposure",
-      "EO_0007222 UV light regimen EquivalentTo GO_0009411 response to UV",
-      "NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure",
-      "GO_0009411 response to UV EquivalentTo XCO_0000042 ultraviolet ray exposure",
-      "EO_0007222 UV light regimen EquivalentTo NCIT_C17231 Ultraviolet Radiation"
-    ]
-  },
-  {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007224",
-    "members": [
-      "http://purl.obolibrary.org/obo/EO_0007224",
-      "http://purl.obolibrary.org/obo/GO_0009642"
+      "http://purl.obolibrary.org/obo/XCO_0000180",
+      "http://purl.obolibrary.org/obo/ZECO_0000154"
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
@@ -295,24 +315,24 @@
     "messages": [],
     "timeToSolve": 9,
     "axiomStrings": [
-      "EO_0007224 light intensity regimen EquivalentTo GO_0009642 response to light intensity"
+      "XCO_0000180 non-ionizing ultraviolet radiation exposure EquivalentTo ZECO_0000154 non-ionizing uv"
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010218",
+    "cliqueId": "http://purl.obolibrary.org/obo/NCIT_C16862",
     "members": [
-      "http://purl.obolibrary.org/obo/EO_0007203",
-      "http://purl.obolibrary.org/obo/GO_0010218"
+      "http://purl.obolibrary.org/obo/SCTID_218192005",
+      "http://purl.obolibrary.org/obo/NCIT_C16862"
     ],
     "size": 2,
     "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.8500000000000001,
-    "confidence": 16.0,
+    "probability": 0.5500000000000002,
+    "confidence": 1.2000000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 9,
+    "timeToSolve": 7,
     "axiomStrings": [
-      "EO_0007203 far red light regimen EquivalentTo GO_0010218 response to far red light"
+      "NCIT_C16862 Microwave Radiation EquivalentTo SCTID_218192005 Overexposure to microwave radiation"
     ]
   },
   {
@@ -328,7 +348,7 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 27,
+    "timeToSolve": 23,
     "axiomStrings": [
       "NCIT_C17053 Nonionizing Radiation EquivalentTo ZECO_0000152 non-ionizing radiation",
       "NCIT_C17053 Nonionizing Radiation EquivalentTo XCO_0000044 non-ionizing radiation exposure",
@@ -336,33 +356,39 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000039",
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007075",
     "members": [
-      "http://purl.obolibrary.org/obo/ZECO_0000148",
-      "http://purl.obolibrary.org/obo/XCO_0000039",
-      "http://purl.obolibrary.org/obo/GO_0010212",
-      "http://purl.obolibrary.org/obo/NCIT_C17052",
-      "http://purl.obolibrary.org/obo/SCTID_122866006"
+      "http://purl.obolibrary.org/obo/GO_0009644",
+      "http://purl.obolibrary.org/obo/EO_0007075"
     ],
-    "size": 5,
-    "initialNumberOfProbabilisticEdges": 10,
-    "probability": 0.18429141182503606,
-    "confidence": 16.000000000000014,
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
     "solved": true,
-    "messages": [
-      "Used heuristic to estimate some probabilistic edges - confidence may be negative. |Reduced| \u003d 2"
-    ],
-    "timeToSolve": 143,
+    "messages": [],
+    "timeToSolve": 9,
     "axiomStrings": [
-      "GO_0010212 response to ionizing radiation EquivalentTo ZECO_0000148 ionizing radiation",
-      "NCIT_C17052 Ionizing Radiation EquivalentTo SCTID_122866006",
-      "SCTID_122866006 EquivalentTo ZECO_0000148 ionizing radiation",
-      "GO_0010212 response to ionizing radiation EquivalentTo SCTID_122866006",
-      "GO_0010212 response to ionizing radiation EquivalentTo XCO_0000039 ionizing radiation exposure",
-      "NCIT_C17052 Ionizing Radiation EquivalentTo ZECO_0000148 ionizing radiation",
-      "XCO_0000039 ionizing radiation exposure EquivalentTo ZECO_0000148 ionizing radiation",
-      "GO_0010212 response to ionizing radiation EquivalentTo NCIT_C17052 Ionizing Radiation",
-      "SCTID_122866006 EquivalentTo XCO_0000039 ionizing radiation exposure"
+      "EO_0007075 high light intensity regimen EquivalentTo GO_0009644 response to high light intensity"
+    ]
+  },
+  {
+    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007624",
+    "members": [
+      "http://purl.obolibrary.org/obo/EO_0007624",
+      "http://purl.obolibrary.org/obo/NCIT_C70832",
+      "http://purl.obolibrary.org/obo/SCTID_218191003"
+    ],
+    "size": 3,
+    "initialNumberOfProbabilisticEdges": 2,
+    "probability": 0.3094629156010231,
+    "confidence": 1.2000000000000002,
+    "solved": true,
+    "messages": [],
+    "timeToSolve": 114,
+    "axiomStrings": [
+      "EO_0007624 radio wave EquivalentTo NCIT_C70832 Radio Frequency",
+      "NCIT_C70832 Radio Frequency EquivalentTo SCTID_218191003 Overexposure to radiofrequency radiation"
     ]
   },
   {
@@ -383,20 +409,27 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/NCIT_C16862",
+    "cliqueId": "http://purl.obolibrary.org/obo/XCO_0000042",
     "members": [
-      "http://purl.obolibrary.org/obo/SCTID_218192005",
-      "http://purl.obolibrary.org/obo/NCIT_C16862"
+      "http://purl.obolibrary.org/obo/GO_0009411",
+      "http://purl.obolibrary.org/obo/EO_0007222",
+      "http://purl.obolibrary.org/obo/XCO_0000042",
+      "http://purl.obolibrary.org/obo/NCIT_C17231"
     ],
-    "size": 2,
-    "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.5500000000000002,
-    "confidence": 2.666666666666667,
+    "size": 4,
+    "initialNumberOfProbabilisticEdges": 6,
+    "probability": 0.5625120586532893,
+    "confidence": 5.999999999999993,
     "solved": true,
     "messages": [],
-    "timeToSolve": 10,
+    "timeToSolve": 145,
     "axiomStrings": [
-      "NCIT_C16862 Microwave Radiation EquivalentTo SCTID_218192005"
+      "GO_0009411 response to UV EquivalentTo NCIT_C17231 Ultraviolet Radiation",
+      "EO_0007222 UV light regimen EquivalentTo XCO_0000042 ultraviolet ray exposure",
+      "EO_0007222 UV light regimen EquivalentTo GO_0009411 response to UV",
+      "NCIT_C17231 Ultraviolet Radiation EquivalentTo XCO_0000042 ultraviolet ray exposure",
+      "GO_0009411 response to UV EquivalentTo XCO_0000042 ultraviolet ray exposure",
+      "EO_0007222 UV light regimen EquivalentTo NCIT_C17231 Ultraviolet Radiation"
     ]
   },
   {
@@ -411,7 +444,7 @@
     "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 5,
+    "timeToSolve": 6,
     "axiomStrings": [
       "EO_0007621 magnetic field EquivalentTo ZECO_0000146 magnetic field"
     ]
@@ -434,22 +467,20 @@
     ]
   },
   {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007624",
+    "cliqueId": "http://purl.obolibrary.org/obo/GO_0010218",
     "members": [
-      "http://purl.obolibrary.org/obo/EO_0007624",
-      "http://purl.obolibrary.org/obo/NCIT_C70832",
-      "http://purl.obolibrary.org/obo/SCTID_218191003"
+      "http://purl.obolibrary.org/obo/EO_0007203",
+      "http://purl.obolibrary.org/obo/GO_0010218"
     ],
-    "size": 3,
-    "initialNumberOfProbabilisticEdges": 2,
-    "probability": 0.34971098265895967,
-    "confidence": 2.666666666666667,
+    "size": 2,
+    "initialNumberOfProbabilisticEdges": 1,
+    "probability": 0.8500000000000001,
+    "confidence": 16.0,
     "solved": true,
     "messages": [],
-    "timeToSolve": 101,
+    "timeToSolve": 8,
     "axiomStrings": [
-      "NCIT_C70832 Radio Frequency EquivalentTo SCTID_218191003",
-      "EO_0007624 radio wave EquivalentTo NCIT_C70832 Radio Frequency"
+      "EO_0007203 far red light regimen EquivalentTo GO_0010218 response to far red light"
     ]
   },
   {
@@ -465,28 +496,11 @@
     "confidence": 16.00000000000002,
     "solved": true,
     "messages": [],
-    "timeToSolve": 55,
+    "timeToSolve": 47,
     "axiomStrings": [
       "NCIT_C16736 Infrared Radiation EquivalentTo XCO_0000046 infrared radiation exposure",
       "NCIT_C16736 Infrared Radiation EquivalentTo ZECO_0000155 infrared",
       "XCO_0000046 infrared radiation exposure EquivalentTo ZECO_0000155 infrared"
-    ]
-  },
-  {
-    "cliqueId": "http://purl.obolibrary.org/obo/EO_0007075",
-    "members": [
-      "http://purl.obolibrary.org/obo/GO_0009644",
-      "http://purl.obolibrary.org/obo/EO_0007075"
-    ],
-    "size": 2,
-    "initialNumberOfProbabilisticEdges": 1,
-    "probability": 0.8500000000000001,
-    "confidence": 16.0,
-    "solved": true,
-    "messages": [],
-    "timeToSolve": 11,
-    "axiomStrings": [
-      "EO_0007075 high light intensity regimen EquivalentTo GO_0009644 response to high light intensity"
     ]
   }
 ]

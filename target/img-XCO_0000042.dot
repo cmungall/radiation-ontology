@@ -10,17 +10,17 @@ UV" ];
 EO_0007222 [ label="EO_0007222 UV
 light
 regimen" ];}
-GO_0009411 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007222 -> NCIT_C17231 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 NCIT_C17231 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-EO_0007222 -> NCIT_C17231 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-
 EO_0007222 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-EO_0007222 -> GO_0009411 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+GO_0009411 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 GO_0009411 -> NCIT_C17231 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
+EO_0007222 -> GO_0009411 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 GO_0009411 -> NCIT_C17231 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 
 GO_0009411 -> XCO_0000042 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]

@@ -6,7 +6,7 @@ EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	true	label	
 EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	true	label	related	gammaradiat
 EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	true	exact	related	gammarai
 EO:0001022 ! gamma radiation treatment	ZECO:0000149 ! gamma ray	true	exact	label	gammarai
-EO:0001022 ! gamma radiation treatment	SCTID_218204007 ! Overexposure to gamma rays	false	exact	broad	gammarays
+EO:0001022 ! gamma radiation treatment	SCTID:218204007 ! Overexposure to gamma rays	false	exact	broad	gammarays
 EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	false	label	exact	blightultraviolet
 EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	true	label	exact	blightultraviolet
 EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	false	exact	exact	bultraviolet
@@ -101,17 +101,17 @@ EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	false	label	exact	
 EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	true	label	exact	uvclight
 EO:0007151 ! radiation treatment	GO:0009314 ! response to radiation	false	label	exact	
 EO:0007151 ! radiation treatment	GO:0009314 ! response to radiation	false	label	label	
-EO:0007151 ! radiation treatment	SCTID_218190002 ! Exposure to radiation	false	label	label	
-EO:0007151 ! radiation treatment	SCTID_419201009 ! Overexposure to radiation	false	label	broad	
+EO:0007151 ! radiation treatment	SCTID:218190002 ! Exposure to radiation	false	label	label	
+EO:0007151 ! radiation treatment	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
 EO:0007151 ! radiation treatment	XCO:0000038 ! radiation exposure	false	label	label	
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	false	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
 EO:0007151 ! radiation treatment	GO:0009416 ! response to light stimulus	false	related	label	light
-EO:0007151 ! radiation treatment	SCTID_418921006 ! Exposure to light	false	related	label	light
+EO:0007151 ! radiation treatment	SCTID:418921006 ! Exposure to light	false	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	light
 EO:0007151 ! radiation treatment	GO:0009416 ! response to light stimulus	true	related	label	light
-EO:0007151 ! radiation treatment	SCTID_418921006 ! Exposure to light	true	related	label	light
+EO:0007151 ! radiation treatment	SCTID:418921006 ! Exposure to light	true	related	label	light
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	false	related	label	lightregimen
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	lightregimen
 EO:0007151 ! radiation treatment	EO:0007196 ! light regimen	true	related	label	lightregimen
@@ -123,11 +123,11 @@ EO:0007196 ! light regimen	EO:0007163 ! day light regimen	false	related	label	da
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	false	label	related	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
 EO:0007196 ! light regimen	GO:0009416 ! response to light stimulus	false	label	label	light
-EO:0007196 ! light regimen	SCTID_418921006 ! Exposure to light	false	label	label	light
+EO:0007196 ! light regimen	SCTID:418921006 ! Exposure to light	false	label	label	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	light
 EO:0007196 ! light regimen	GO:0009416 ! response to light stimulus	true	label	label	light
-EO:0007196 ! light regimen	SCTID_418921006 ! Exposure to light	true	label	label	light
+EO:0007196 ! light regimen	SCTID:418921006 ! Exposure to light	true	label	label	light
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	false	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
@@ -215,12 +215,12 @@ EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	false	label	label	xray
 EO:0007628 ! X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 EO:0007628 ! X-ray	ZECO:0000150 ! xray	false	label	label	xray
 GO:0009314 ! response to radiation	EO:0007151 ! radiation treatment	false	exact	label	
-GO:0009314 ! response to radiation	SCTID_218190002 ! Exposure to radiation	false	exact	label	
-GO:0009314 ! response to radiation	SCTID_419201009 ! Overexposure to radiation	false	exact	broad	
+GO:0009314 ! response to radiation	SCTID:218190002 ! Exposure to radiation	false	exact	label	
+GO:0009314 ! response to radiation	SCTID:419201009 ! Overexposure to radiation	false	exact	broad	
 GO:0009314 ! response to radiation	XCO:0000038 ! radiation exposure	false	exact	label	
 GO:0009314 ! response to radiation	EO:0007151 ! radiation treatment	false	label	label	
-GO:0009314 ! response to radiation	SCTID_218190002 ! Exposure to radiation	false	label	label	
-GO:0009314 ! response to radiation	SCTID_419201009 ! Overexposure to radiation	false	label	broad	
+GO:0009314 ! response to radiation	SCTID:218190002 ! Exposure to radiation	false	label	label	
+GO:0009314 ! response to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
 GO:0009314 ! response to radiation	XCO:0000038 ! radiation exposure	false	label	label	
 GO:0009314 ! response to radiation	NCIT:C17050 ! Electromagnetic Radiation	false	exact	label	electromagnetic
 GO:0009314 ! response to radiation	NCIT:C17050 ! Electromagnetic Radiation	false	exact	related	electromagnetic
@@ -246,7 +246,7 @@ GO:0009416 ! response to light stimulus	EO:0007151 ! radiation treatment	false	l
 GO:0009416 ! response to light stimulus	EO:0007151 ! radiation treatment	true	label	related	light
 GO:0009416 ! response to light stimulus	EO:0007196 ! light regimen	false	label	label	light
 GO:0009416 ! response to light stimulus	EO:0007196 ! light regimen	true	label	label	light
-GO:0009416 ! response to light stimulus	SCTID_418921006 ! Exposure to light	false	label	label	light
+GO:0009416 ! response to light stimulus	SCTID:418921006 ! Exposure to light	false	label	label	light
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	false	exact	label	bluelight
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	true	exact	label	bluelight
 GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	false	label	label	bluelight
@@ -287,12 +287,12 @@ GO:0010165 ! response to X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xr
 GO:0010165 ! response to X-ray	ZECO:0000150 ! xray	false	label	label	xray
 GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	exact	label	ionizing
 GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	exact	related	ionizing
-GO:0010212 ! response to ionizing radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	exact	label	ionizing
+GO:0010212 ! response to ionizing radiation	SCTID:122866006 ! Exposure to ionizing radiation	false	exact	label	ionizing
 GO:0010212 ! response to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	exact	label	ionizing
 GO:0010212 ! response to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	exact	label	ionizing
 GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
-GO:0010212 ! response to ionizing radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
+GO:0010212 ! response to ionizing radiation	SCTID:122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 GO:0010212 ! response to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
 GO:0010212 ! response to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
 GO:0010218 ! response to far red light	EO:0007203 ! far red light regimen	false	exact	label	farlightred
@@ -404,8 +404,8 @@ NCIT:C16736 ! Infrared Radiation	XCO:0000046 ! infrared radiation exposure	false
 NCIT:C16736 ! Infrared Radiation	ZECO:0000155 ! infrared	false	label	label	infrared
 NCIT:C16736 ! Infrared Radiation	XCO:0000046 ! infrared radiation exposure	false	related	label	infrared
 NCIT:C16736 ! Infrared Radiation	ZECO:0000155 ! infrared	false	related	label	infrared
-NCIT:C16862 ! Microwave Radiation	SCTID_218192005 ! Overexposure to microwave radiation	false	label	broad	microwave
-NCIT:C16862 ! Microwave Radiation	SCTID_218192005 ! Overexposure to microwave radiation	false	related	broad	microwave
+NCIT:C16862 ! Microwave Radiation	SCTID:218192005 ! Overexposure to microwave radiation	false	label	broad	microwave
+NCIT:C16862 ! Microwave Radiation	SCTID:218192005 ! Overexposure to microwave radiation	false	related	broad	microwave
 NCIT:C17050 ! Electromagnetic Radiation	GO:0009314 ! response to radiation	false	label	exact	electromagnetic
 NCIT:C17050 ! Electromagnetic Radiation	XCO:0000045 ! electromagnetic radiation exposure	false	label	label	electromagnetic
 NCIT:C17050 ! Electromagnetic Radiation	ZECO:0000145 ! electromagnetic radiation experimental conditions	false	label	label	electromagnetic
@@ -414,12 +414,12 @@ NCIT:C17050 ! Electromagnetic Radiation	XCO:0000045 ! electromagnetic radiation 
 NCIT:C17050 ! Electromagnetic Radiation	ZECO:0000145 ! electromagnetic radiation experimental conditions	false	related	label	electromagnetic
 NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
 NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
-NCIT:C17052 ! Ionizing Radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
+NCIT:C17052 ! Ionizing Radiation	SCTID:122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	related	exact	ionizing
 NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	related	label	ionizing
-NCIT:C17052 ! Ionizing Radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	related	label	ionizing
+NCIT:C17052 ! Ionizing Radiation	SCTID:122866006 ! Exposure to ionizing radiation	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	XCO:0000039 ! ionizing radiation exposure	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	ZECO:0000148 ! ionizing radiation	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizingradiation
@@ -485,8 +485,8 @@ NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	related	labe
 NCIT:C17732 ! Visible Light	ZECO:0000153 ! visible light	true	related	label	visibllight
 NCIT:C18070 ! Neutron Radiation	EO:0007622 ! neutrons	true	label	label	neutron
 NCIT:C18070 ! Neutron Radiation	EO:0007622 ! neutrons	true	related	label	neutron
-NCIT:C20049 ! Radiation, Other	SCTID_218213009 ! Overexposure to other radiation	false	label	broad	other
-NCIT:C20049 ! Radiation, Other	SCTID_218213009 ! Overexposure to other radiation	false	related	broad	other
+NCIT:C20049 ! Radiation, Other	SCTID:218213009 ! Overexposure to other radiation	false	label	broad	other
+NCIT:C20049 ! Radiation, Other	SCTID:218213009 ! Overexposure to other radiation	false	related	broad	other
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	label	exact	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	label	exact	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	label	exact	aultraviolet
@@ -561,65 +561,65 @@ NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	rela
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	related	exact	uvc
 NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	related	exact	uvc
 NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	related	label	uvc
-NCIT:C70832 ! Radio Frequency	SCTID_218191003 ! Overexposure to radiofrequency radiation	false	label	broad	radiofrequency
-NCIT:C70832 ! Radio Frequency	SCTID_218191003 ! Overexposure to radiofrequency radiation	false	related	broad	radiofrequency
+NCIT:C70832 ! Radio Frequency	SCTID:218191003 ! Overexposure to radiofrequency radiation	false	label	broad	radiofrequency
+NCIT:C70832 ! Radio Frequency	SCTID:218191003 ! Overexposure to radiofrequency radiation	false	related	broad	radiofrequency
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	false	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
-SCTID_122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	true	label	label	exposurionizradiat
-SCTID_122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
-SCTID_122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
-SCTID_122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
-SCTID_122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
-SCTID_122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
-SCTID_122866006 ! Exposure to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
-SCTID_218190002 ! Exposure to radiation	EO:0007151 ! radiation treatment	false	label	label	
-SCTID_218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	exact	
-SCTID_218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	label	
-SCTID_218190002 ! Exposure to radiation	SCTID_419201009 ! Overexposure to radiation	false	label	broad	
-SCTID_218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	false	label	label	
-SCTID_218190002 ! Exposure to radiation	SCTID_419201009 ! Overexposure to radiation	false	label	broad	exposuretoradiation
-SCTID_218190002 ! Exposure to radiation	SCTID_419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
-SCTID_218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	true	label	label	exposurradiat
-SCTID_218190002 ! Exposure to radiation	SCTID_419201009 ! Overexposure to radiation	true	label	broad	exposurtoradiat
-SCTID_218191003 ! Overexposure to radiofrequency radiation	NCIT:C70832 ! Radio Frequency	false	broad	label	radiofrequency
-SCTID_218191003 ! Overexposure to radiofrequency radiation	NCIT:C70832 ! Radio Frequency	false	broad	related	radiofrequency
-SCTID_218192005 ! Overexposure to microwave radiation	NCIT:C16862 ! Microwave Radiation	false	broad	label	microwave
-SCTID_218192005 ! Overexposure to microwave radiation	NCIT:C16862 ! Microwave Radiation	false	broad	related	microwave
-SCTID_218204007 ! Overexposure to gamma rays	XCO:0000040 ! gamma ray exposure	true	broad	label	exposurgammarai
-SCTID_218204007 ! Overexposure to gamma rays	EO:0001022 ! gamma radiation treatment	false	broad	exact	gammarays
-SCTID_218213009 ! Overexposure to other radiation	NCIT:C20049 ! Radiation, Other	false	broad	label	other
-SCTID_218213009 ! Overexposure to other radiation	NCIT:C20049 ! Radiation, Other	false	broad	related	other
-SCTID_418921006 ! Exposure to light	EO:0007151 ! radiation treatment	false	label	related	light
-SCTID_418921006 ! Exposure to light	EO:0007151 ! radiation treatment	true	label	related	light
-SCTID_418921006 ! Exposure to light	EO:0007196 ! light regimen	false	label	label	light
-SCTID_418921006 ! Exposure to light	EO:0007196 ! light regimen	true	label	label	light
-SCTID_418921006 ! Exposure to light	GO:0009416 ! response to light stimulus	false	label	label	light
-SCTID_419201009 ! Overexposure to radiation	EO:0007151 ! radiation treatment	false	broad	label	
-SCTID_419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	exact	
-SCTID_419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	label	
-SCTID_419201009 ! Overexposure to radiation	SCTID_218190002 ! Exposure to radiation	false	broad	label	
-SCTID_419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	false	broad	label	
-SCTID_419201009 ! Overexposure to radiation	SCTID_218190002 ! Exposure to radiation	false	broad	label	exposuretoradiation
-SCTID_419201009 ! Overexposure to radiation	SCTID_218190002 ! Exposure to radiation	true	broad	label	exposurradiat
-SCTID_419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	true	broad	label	exposurradiat
-SCTID_419201009 ! Overexposure to radiation	SCTID_218190002 ! Exposure to radiation	true	broad	label	exposurtoradiat
+SCTID:122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	true	label	label	exposurionizradiat
+SCTID:122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
+SCTID:122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
+SCTID:122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
+SCTID:122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
+SCTID:122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
+SCTID:122866006 ! Exposure to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
+SCTID:218190002 ! Exposure to radiation	EO:0007151 ! radiation treatment	false	label	label	
+SCTID:218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	exact	
+SCTID:218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	label	
+SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
+SCTID:218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	false	label	label	
+SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	false	label	broad	exposuretoradiation
+SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
+SCTID:218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	true	label	label	exposurradiat
+SCTID:218190002 ! Exposure to radiation	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurtoradiat
+SCTID:218191003 ! Overexposure to radiofrequency radiation	NCIT:C70832 ! Radio Frequency	false	broad	label	radiofrequency
+SCTID:218191003 ! Overexposure to radiofrequency radiation	NCIT:C70832 ! Radio Frequency	false	broad	related	radiofrequency
+SCTID:218192005 ! Overexposure to microwave radiation	NCIT:C16862 ! Microwave Radiation	false	broad	label	microwave
+SCTID:218192005 ! Overexposure to microwave radiation	NCIT:C16862 ! Microwave Radiation	false	broad	related	microwave
+SCTID:218204007 ! Overexposure to gamma rays	XCO:0000040 ! gamma ray exposure	true	broad	label	exposurgammarai
+SCTID:218204007 ! Overexposure to gamma rays	EO:0001022 ! gamma radiation treatment	false	broad	exact	gammarays
+SCTID:218213009 ! Overexposure to other radiation	NCIT:C20049 ! Radiation, Other	false	broad	label	other
+SCTID:218213009 ! Overexposure to other radiation	NCIT:C20049 ! Radiation, Other	false	broad	related	other
+SCTID:418921006 ! Exposure to light	EO:0007151 ! radiation treatment	false	label	related	light
+SCTID:418921006 ! Exposure to light	EO:0007151 ! radiation treatment	true	label	related	light
+SCTID:418921006 ! Exposure to light	EO:0007196 ! light regimen	false	label	label	light
+SCTID:418921006 ! Exposure to light	EO:0007196 ! light regimen	true	label	label	light
+SCTID:418921006 ! Exposure to light	GO:0009416 ! response to light stimulus	false	label	label	light
+SCTID:419201009 ! Overexposure to radiation	EO:0007151 ! radiation treatment	false	broad	label	
+SCTID:419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	exact	
+SCTID:419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	broad	label	
+SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	false	broad	label	
+SCTID:419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	false	broad	label	
+SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	false	broad	label	exposuretoradiation
+SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	true	broad	label	exposurradiat
+SCTID:419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	true	broad	label	exposurradiat
+SCTID:419201009 ! Overexposure to radiation	SCTID:218190002 ! Exposure to radiation	true	broad	label	exposurtoradiat
 XCO:0000038 ! radiation exposure	EO:0007151 ! radiation treatment	false	label	label	
 XCO:0000038 ! radiation exposure	GO:0009314 ! response to radiation	false	label	exact	
 XCO:0000038 ! radiation exposure	GO:0009314 ! response to radiation	false	label	label	
-XCO:0000038 ! radiation exposure	SCTID_218190002 ! Exposure to radiation	false	label	label	
-XCO:0000038 ! radiation exposure	SCTID_419201009 ! Overexposure to radiation	false	label	broad	
-XCO:0000038 ! radiation exposure	SCTID_218190002 ! Exposure to radiation	true	label	label	exposurradiat
-XCO:0000038 ! radiation exposure	SCTID_419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
-XCO:0000039 ! ionizing radiation exposure	SCTID_122866006 ! Exposure to ionizing radiation	true	label	label	exposurionizradiat
+XCO:0000038 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	false	label	label	
+XCO:0000038 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	false	label	broad	
+XCO:0000038 ! radiation exposure	SCTID:218190002 ! Exposure to radiation	true	label	label	exposurradiat
+XCO:0000038 ! radiation exposure	SCTID:419201009 ! Overexposure to radiation	true	label	broad	exposurradiat
+XCO:0000039 ! ionizing radiation exposure	SCTID:122866006 ! Exposure to ionizing radiation	true	label	label	exposurionizradiat
 XCO:0000039 ! ionizing radiation exposure	GO:0010212 ! response to ionizing radiation	false	label	exact	ionizing
 XCO:0000039 ! ionizing radiation exposure	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
-XCO:0000039 ! ionizing radiation exposure	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
+XCO:0000039 ! ionizing radiation exposure	SCTID:122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
-XCO:0000040 ! gamma ray exposure	SCTID_218204007 ! Overexposure to gamma rays	true	label	broad	exposurgammarai
+XCO:0000040 ! gamma ray exposure	SCTID:218204007 ! Overexposure to gamma rays	true	label	broad	exposurgammarai
 XCO:0000040 ! gamma ray exposure	EO:0001022 ! gamma radiation treatment	false	exact	label	gamma
 XCO:0000040 ! gamma ray exposure	GO:0010332 ! response to gamma radiation	false	exact	label	gamma
 XCO:0000040 ! gamma ray exposure	NCIT:C44386 ! Gamma Radiation	false	exact	label	gamma
@@ -694,7 +694,7 @@ ZECO:0000148 ! ionizing radiation	GO:0010212 ! response to ionizing radiation	fa
 ZECO:0000148 ! ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
-ZECO:0000148 ! ionizing radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
+ZECO:0000148 ! ionizing radiation	SCTID:122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizingradiation
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizingradiation
