@@ -44,9 +44,9 @@ axioms-r.obo: combined-rad.obo  axioms.obo
 
 PRIORITIES_LABEL := -l NCIT 10 -l ZECO 5 
 
-merged-rad.owl: axioms.owl
+merged-rad.owl: combined-rad.owl axioms.owl
 	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(PRIORITIES_LABEL) --set-ontology-id $(OBO)/rad.owl -o $@
 .PRECIOUS: merged-rad.owl
 
 merged-rad.obo: merged-rad.owl
-	owltools $< -o -f obo $@
+	owltools $< -o -f obo --no-check $@
