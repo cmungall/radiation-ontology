@@ -4,7 +4,7 @@ saved-by: obo-cat.pl
 default-namespace: none
 remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 179 Logical Axioms: 87]
 ontology: rad
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C20049> \"SCTID:218213009\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"SCTID:218204007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007215> \"PATO:0001255\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007217> \"PATO:0001250\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007221> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"GO:0009637\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001300> \"XCO:0000284\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"GO:0009411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"SCTID:218191003\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"SCTID:122866006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"PATO:0000665\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17054> \"PATO:0001741\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"PATO:0001262\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"GO:0010114\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007220> \"PATO:0001704\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007203> \"GO:0010218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"XCO:0000283\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"GO:0070141\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007196\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"PATO:0001744\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"PATO:0001243\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"XCO:0000038\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"GO:0009416\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007271> \"GO:0009645\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"GO:0009314\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007151> \"SCTID:218190002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007224> \"GO:0009642\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"SCTID:418921006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16862> \"SCTID:218192005\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007216> \"PATO:0001264\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"NCIT:C17262\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007217> \"PATO:0001250\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007215> \"PATO:0001255\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000283> \"EO:0007196\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"NCIT:C44386\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007624> \"NCIT:C70832\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000038> \"SCTID:218190002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001300> \"XCO:0000284\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009411> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/SCTID_218213009> \"NCIT:C20049\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000180> \"ZECO:0000154\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000283> \"GO:0009416\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000038> \"EO:0007151\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007624> \"SCTID:218191003\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009637> \"EO:0007218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0010114> \"EO:0007207\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009642> \"EO:0007224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"NCIT:C17052\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007129> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0010218> \"EO:0007203\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009411> \"NCIT:C17231\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007220> \"PATO:0001704\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000038> \"PATO:0001744\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000283> \"PATO:0000665\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000146> \"EO:0007621\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000283> \"SCTID:418921006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007129> \"NCIT:C44461\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000153> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000145> \"NCIT:C17050\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000038> \"GO:0009314\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0010114> \"PATO:0001262\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000145> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007628> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009637> \"PATO:0001243\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000152> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001264> \"EO:0007216\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007271> \"GO:0009645\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/PATO_0001741> \"NCIT:C17054\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000148> \"SCTID:122866006\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0070141> \"NCIT:C27986\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"SCTID:218204007\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0009411> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000152> \"NCIT:C17053\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0070141> \"EO:0007002\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16862> \"SCTID:218192005\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000149> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/XCO_0000283> \"NCIT:C17732\"^^xsd:string)\n)
 
 [Term]
 id: EO:0001039
@@ -12,7 +12,7 @@ name: radiation mutagen treatment
 def: "A radiation treatment (EO:0007151) involving exposure of plant to chemicals or radiation resulting in perturbations to the genome." [PO:cooperl]
 xref: EO_GIT:42
 xref: OBO_SF2_EO:42
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: EO:0001040
@@ -20,19 +20,19 @@ name: light-induced photooxidative stress treatment
 def: "A light intensity regimen (EO:0007224) involving use of light-dependent generations of reactive oxygen species." [PO:cooperl]
 xref: EO_GIT:44
 xref: OBO_SF2_EO:44
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: EO:0007075
 name: high light intensity regimen
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a high light intensity stimulus." [GOC:go_curators]
 xref: GO:0009644
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: EO:0007076
 name: moderate light intensity regimen
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: EO:0007078
@@ -46,6 +46,27 @@ id: EO:0007128
 name: intermittent light regimen
 def: "In biological experiments it refer to the intermittent exposure of plant to the cycles of light and dark or one light Vs the another type of light." [GR:pj]
 is_a: EO:0007078 ! light quantity regimen
+
+[Term]
+id: EO:0007129
+name: Ultraviolet C Radiation
+def: "Many scientists rate wavelengths in the C range of the ultraviolet (UVC) solar spectrum, between 200 and 290 nm, as the most carcinogenic. The ozone layer absorbs most UVC rays. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C44461]
+synonym: "response to germicidal ultraviolet light stimulus" EXACT []
+synonym: "response to germicidal ultraviolet radiation stimulus" EXACT []
+synonym: "response to shortwave ultraviolet light stimulus" EXACT []
+synonym: "response to shortwave ultraviolet radiation stimulus" EXACT []
+synonym: "response to UV-C light stimulus" EXACT []
+synonym: "response to UV-C radiation stimulus" EXACT []
+synonym: "response to UVC light stimulus" EXACT []
+synonym: "response to UVC radiation stimulus" EXACT []
+synonym: "Ultraviolet C Radiation" RELATED [NCIT:C44461]
+synonym: "ultraviolet C radiation" RELATED [NCIT:C44461]
+synonym: "UV-C regimen" EXACT []
+synonym: "UVC Radiation" RELATED [NCIT:C44461]
+synonym: "UVC radiation" RELATED [NCIT:C44461]
+xref: GO:0010225
+xref: NCIT:C44461
+is_a: GO:0009411 ! Ultraviolet Radiation
 
 [Term]
 id: EO:0007130
@@ -67,47 +88,22 @@ def: "The treatment using far infra-red light either exclusively or as part of a
 is_a: EO:0007202 ! IR light regimen
 
 [Term]
-id: EO:0007151
-name: radiation treatment
-def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
-def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps]
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electromagnetic radiation stimulus. Electromagnetic radiation is a propagating wave in space with electric and magnetic components. These components oscillate at right angles to each other and to the direction of propagation." [GOC:jl, Wikipedia:Electromagnetic_radiation]
-def: "The condition of being subjected to any type of energy transmitted by waves through space or through some medium or to a stream of particles, such as electrons or alpha particles." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
-comment: Note that 'radiation' refers to electromagnetic radiation of any wavelength.
-subset: attribute_slim
-subset: gosubset_prok
-subset: scalar_slim
-synonym: "light regimen" RELATED []
-synonym: "response to electromagnetic radiation stimulus" EXACT []
-synonym: "response to radiation stimulus" EXACT []
-xref: GO:0009314
-xref: PATO:0001744
-xref: SCTID:218190002
-xref: XCO:0000038
-is_a: EO:0007316
-is_a: GO:0009628
-is_a: PATO:0001739 ! radiation quality
-is_a: SCTID:115964003
-is_a: XCO:0000000
-
-[Term]
 id: EO:0007152
 name: radiation intensity regimen
 def: "The treatment involving amount of energy of any radiation incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: EO:0007153
 name: radiation quantity regimen
 def: "In biological experiments it refer to the treatment involving radiation in terms of length of the exposure time. It also includes the quantity of radiation falling on a per unit area. This is expressed in the units of luminous flux or the lumens." [GR:pj]
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: EO:0007154
 name: radiation quality treatment
 def: "The treatment involving an exposure to a given type of radiation. Often it is in the form of electromagnetic and ionizing radiation such as light (infrared, visible or ultraviolet), x-rays, gamma rays, etc." [GR:pj]
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: EO:0007162
@@ -124,7 +120,7 @@ is_a: EO:0007128 ! intermittent light regimen
 [Term]
 id: EO:0007193
 name: day light intensity
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: EO:0007199
@@ -142,118 +138,43 @@ is_a: EO:0007128 ! intermittent light regimen
 id: EO:0007202
 name: IR light regimen
 def: "The treatment using infra red (IR) light either exclusively or as part of a supplemental light treatment involving IR light in the wavelength range of 700nm-1mm." [GR:pj]
-is_a: NCIT:C17732 ! Visible Light
-
-[Term]
-id: EO:0007203
-name: far red light regimen
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of far red light stimulus. Far red light is electromagnetic radiation of wavelength 700-800nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:mtg_far_red, GOC:tb]
-def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
-synonym: "Pfr light" RELATED []
-synonym: "response to far red light stimulus" EXACT []
-xref: GO:0010218
-is_a: GO:0009639 ! response to red or far red light
-is_a: NCIT:C17732 ! Visible Light
-
-[Term]
-id: EO:0007207
-name: red light regimen
-def: "A color consisting of red hue and high brightness." [PATOC:GVG]
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:mtg_far_red, GOC:sm]
-def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
-subset: mpath_slim
-subset: value_slim
-synonym: "Pr light" RELATED []
-synonym: "response to red light stimulus" EXACT []
-xref: GO:0010114
-xref: PATO:0001262
-is_a: EO:0007221 ! visible light regimen
-is_a: GO:0009639 ! response to red or far red light
-is_a: PATO:0000322 ! red
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: EO:0007215
 name: orange light regimen
-def: "A color consisting of orange hue and high brightness." [PATOC:GVG]
 def: "The treatment using orange light either exclusively or as part of a supplemental light treatment involving orange color light in the wavelength range of 622-597 nM." [GR:pj]
 subset: mpath_slim
 subset: value_slim
 xref: PATO:0001255
-is_a: EO:0007221 ! visible light regimen
 is_a: PATO:0000953 ! orange
-
-[Term]
-id: EO:0007216
-name: yellow light regimen
-def: "A color consisting of yellow hue and high brightness." [PATOC:GVG]
-def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
-subset: mpath_slim
-subset: value_slim
-synonym: "blond" RELATED []
-xref: PATO:0001264
-is_a: EO:0007221 ! visible light regimen
-is_a: PATO:0000324 ! yellow
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: EO:0007217
 name: green light regimen
-def: "A color consisting of green hue and high brightness." [PATOC:GVG]
 def: "The treatment using green light either exclusively or as part of a supplemental light treatment involving green color light in the wavelength range of 577-492 nM." [GR:pj]
 subset: mpath_slim
 subset: value_slim
 xref: PATO:0001250
-is_a: EO:0007221 ! visible light regimen
 is_a: PATO:0000320 ! green
-
-[Term]
-id: EO:0007218
-name: blue light regimen
-def: "A color consisting of blue hue and high brightness." [PATOC:GVG]
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a blue light stimulus. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm." [GOC:ai, GOC:mtg_far_red]
-def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
-subset: mpath_slim
-subset: value_slim
-synonym: "response to blue light stimulus" EXACT []
-xref: GO:0009637
-xref: PATO:0001243
-is_a: EO:0007221 ! visible light regimen
-is_a: NCIT:C17732 ! Visible Light
-is_a: PATO:0000318 ! blue
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: EO:0007219
 name: indigo light regimen
 def: "The treatment using indigo light either exclusively or as part of a supplemental light treatment involving indigo color light in the wavelength range of 450-440 nM." [GR:pj]
-is_a: EO:0007221 ! visible light regimen
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: EO:0007220
 name: violet light regimen
-def: "A color consisting of violet hue and high brightness." [PATOC:GVG]
 def: "The treatment using violet light either exclusively or as part of a supplemental light treatment involving violet color light in the wavelength range of 455-390 nM." [GR:pj]
 subset: mpath_slim
 subset: value_slim
 xref: PATO:0001704
-is_a: EO:0007221 ! visible light regimen
 is_a: PATO:0001424 ! violet
-
-[Term]
-id: EO:0007221
-name: visible light regimen
-def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
-comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
-xref: ZECO:0000153
-is_a: NCIT:C17053 ! Nonionizing Radiation
-is_a: NCIT:C17732 ! Visible Light
-
-[Term]
-id: EO:0007224
-name: light intensity regimen
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light intensity stimulus." [GOC:go_curators]
-def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
-xref: GO:0009642
-is_a: EO:0007152 ! radiation intensity regimen
-is_a: NCIT:C17732 ! Visible Light
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: EO:0007270
@@ -267,7 +188,7 @@ id: EO:0007271
 name: low light intensity regimen
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low light intensity stimulus. Low light intensity is defined as a level of electromagnetic radiation at or below 0.1 micromols/m2." [GOC:go_curators, GOC:mtg_far_red]
 xref: GO:0009645
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: EO:0007610
@@ -327,16 +248,22 @@ name: 60-Co or ggr ray
 is_a: EO:0007617 ! ggr ray
 
 [Term]
-id: EO:0007621
-name: magnetic field
-xref: ZECO:0000146
-is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-
-[Term]
 id: EO:0007623
 name: 252-Cf fission neutrons
 is_a: NCIT:C18070 ! Neutron Radiation
+
+[Term]
+id: EO:0007624
+name: Radio Frequency
+def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
+synonym: "Exposure to radiofrequency radiation" BROAD []
+synonym: "Radio Frequency" RELATED [NCIT:C70832]
+synonym: "radio wave" RELATED [NCIT:C70832]
+xref: NCIT:C70832
+xref: SCTID:218191003
+is_a: EO:0007154 ! radiation quality treatment
+is_a: SCTID:419201009 ! Overexposure to radiation
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: EO:0007625
@@ -349,51 +276,136 @@ name: supersonic-treatment
 is_a: EO:0007154 ! radiation quality treatment
 
 [Term]
+id: EO:0007628
+name: X-Ray
+def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
+synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
+synonym: "response to X-ray radiation stimulus" EXACT []
+synonym: "roentgen radiation exposure" EXACT []
+synonym: "X-radiation exposure" EXACT []
+xref: GO:0010165
+xref: NCIT:C17262
+xref: XCO:0000043
+xref: ZECO:0000150
+is_a: EO:0007154 ! radiation quality treatment
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
+
+[Term]
+id: GO:0009411
+name: Ultraviolet Radiation
+def: "The invisible ultraviolet spectrum makes up one specific portion of sunlight. This unique portion accounts for three percent of all solar radiation reaching the earth. UV radiation causes many health problems." [NCIT:C17231]
+subset: gosubset_prok
+synonym: "Radiation, UV" RELATED [NCIT:C17231]
+synonym: "response to ultraviolet light stimulus" EXACT []
+synonym: "response to ultraviolet radiation stimulus" EXACT []
+synonym: "response to UV light stimulus" EXACT []
+synonym: "response to UV radiation stimulus" EXACT []
+synonym: "Sun/Ultra-Violet Rays" RELATED [NCIT:C17231]
+synonym: "Ultraviolet Radiation" RELATED [NCIT:C17231]
+synonym: "ultraviolet radiation" RELATED [NCIT:C17231]
+synonym: "UV Radiation" RELATED [NCIT:C17231]
+synonym: "UV radiation" RELATED [NCIT:C17231]
+synonym: "UV radiation exposure" EXACT []
+synonym: "UV regimen" EXACT []
+xref: EO:0007222
+xref: NCIT:C17231
+xref: XCO:0000042
+is_a: NCIT:C44445 ! Solar Radiation
+is_a: XCO:0000283 ! Visible Light
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
+id: GO:0009637
+name: blue light regimen
+def: "The treatment using blue light either exclusively or as part of a supplemental light treatment involving blue color light in the wavelength range of 492-455 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
+synonym: "response to blue light stimulus" EXACT []
+xref: EO:0007218
+xref: PATO:0001243
+is_a: PATO:0000318 ! blue
+is_a: XCO:0000283 ! Visible Light
+is_a: ZECO:0000153 ! visible light regimen
+
+[Term]
 id: GO:0009639
 name: response to red or far red light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red or far red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Far red light is electromagnetic radiation of wavelength 700-800nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:ai, GOC:mtg_far_red]
-is_a: NCIT:C17732 ! Visible Light
+is_a: XCO:0000283 ! Visible Light
+
+[Term]
+id: GO:0009642
+name: light intensity regimen
+def: "The treatment involving exposure of plant or a plant part to the amount of light energy incident upon (or flowing through) unit area, perpendicular to the radiation source, in unit time." [GR:pj]
+xref: EO:0007224
+is_a: EO:0007152 ! radiation intensity regimen
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: GO:0009646
 name: response to absence of light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an absence of light stimuli." [GOC:go_curators]
 synonym: "response to darkness" RELATED []
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
 
 [Term]
 id: GO:0009906
 name: response to photoperiod, blue light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a blue light photoperiod stimulus. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm." [GOC:go_curators, GOC:mtg_far_red]
-is_a: EO:0007218 ! blue light regimen
+is_a: GO:0009637 ! blue light regimen
 is_a: GO:0009648
 
 [Term]
 id: GO:0009907
 name: response to photoperiod, red light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red light photoperiod stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm." [GOC:go_curators, GOC:mtg_far_red]
-is_a: EO:0007207 ! red light regimen
 is_a: GO:0009648
+is_a: GO:0010114 ! red light regimen
+
+[Term]
+id: GO:0010114
+name: red light regimen
+def: "The treatment using red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 780-622 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
+synonym: "Pr light" RELATED []
+synonym: "response to red light stimulus" EXACT []
+xref: EO:0007207
+xref: PATO:0001262
+is_a: GO:0009639 ! response to red or far red light
+is_a: PATO:0000322 ! red
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: GO:0010201
 name: response to continuous far red light stimulus by the high-irradiance response system
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a continuous far red light stimulus by the high-irradiance response system. Far red light is electromagnetic radiation of wavelength 700-800nm. The activity of the high-irradiance response system is characterized by stronger effects of continuous than pulsed light at equal total fluence." [GOC:mtg_far_red, GOC:sm]
-is_a: EO:0007203 ! far red light regimen
+is_a: GO:0010218 ! far red light regimen
 
 [Term]
 id: GO:0010202
 name: response to low fluence red light stimulus
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low fluence red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Low fluence red light is defined in this case as short pulses of red light followed by darkness, providing a light level of 0.001-0.1 mmol/m2/sec." [GOC:mtg_far_red, GOC:sm]
-is_a: EO:0007207 ! red light regimen
 is_a: EO:0007271 ! low light intensity regimen
+is_a: GO:0010114 ! red light regimen
 
 [Term]
 id: GO:0010203
 name: response to very low fluence red light stimulus
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a very low fluence red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Very low fluence red light is defined in this case as short pulses of red light followed by darkness, providing light levels of less than 0.001 mmol/m2/sec." [GOC:mtg_far_red, GOC:sm]
-is_a: EO:0007207 ! red light regimen
+is_a: GO:0010114 ! red light regimen
 is_a: GO:0055122 ! response to very low light intensity stimulus
+
+[Term]
+id: GO:0010218
+name: far red light regimen
+def: "The treatment using far red light either exclusively or as part of a supplemental light treatment involving red color light in the wavelength range of 800-700 nM." [GR:pj]
+synonym: "Pfr light" RELATED []
+synonym: "response to far red light stimulus" EXACT []
+xref: EO:0007203
+is_a: GO:0009639 ! response to red or far red light
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: GO:0010244
@@ -401,8 +413,8 @@ name: response to low fluence blue light stimulus by blue low-fluence system
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a low fluence blue light stimulus by the blue low-fluence system. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm. The blue low-fluence system responds to blue light at or below 0.1 micromols/m2. In certain species excitation of the blue low fluence system induces the transcription of a number of nuclear and plastid coded genes." [GOC:mtg_far_red, PMID:10398709]
 synonym: "response to low fluence blue light" BROAD []
 synonym: "response to low fluence blue light by blf system" EXACT []
-is_a: EO:0007218 ! blue light regimen
 is_a: EO:0007271 ! low light intensity regimen
+is_a: GO:0009637 ! blue light regimen
 
 [Term]
 id: GO:0055121
@@ -411,13 +423,30 @@ def: "Any process that results in a change in state or activity of a cell or an 
 synonym: "response to high fluence blue light" BROAD []
 synonym: "response to high fluence blue light by bhf system" RELATED []
 is_a: EO:0007075 ! high light intensity regimen
-is_a: EO:0007218 ! blue light regimen
+is_a: GO:0009637 ! blue light regimen
 
 [Term]
 id: GO:0055122
 name: response to very low light intensity stimulus
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a very low light intensity stimulus. A very low light intensity stimulus is defined as a level of electromagnetic radiation below 0.001 mmol/m2/sec." [GOC:mtg_far_red]
-is_a: EO:0007224 ! light intensity regimen
+is_a: GO:0009642 ! light intensity regimen
+
+[Term]
+id: GO:0070141
+name: Ultraviolet A Radiation
+def: "Ultraviolet A Radiation is the 320 to 400 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. It is may be up to 1,000 times more intense than UVB. UVA radiation can penetrate to underlying tissues of the skin and cause photo-aging or long-term skin damage. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C27986]
+synonym: "response to UV-A light stimulus" EXACT []
+synonym: "response to UV-A radiation stimulus" EXACT []
+synonym: "response to UVA light stimulus" EXACT []
+synonym: "response to UVA radiation stimulus" EXACT []
+synonym: "Ultraviolet A Radiation" RELATED [NCIT:C27986]
+synonym: "ultraviolet A radiation" RELATED [NCIT:C27986]
+synonym: "UV-A regimen" EXACT []
+synonym: "UVA Radiation" RELATED [NCIT:C27986]
+synonym: "UVA radiation" RELATED [NCIT:C27986]
+xref: EO:0007002
+xref: NCIT:C27986
+is_a: GO:0009411 ! Ultraviolet Radiation
 
 [Term]
 id: NCIT:C16279
@@ -434,7 +463,7 @@ name: Low-Level Radiation
 synonym: "Background Radiation" RELATED [NCIT:C16318]
 synonym: "Low-Level Radiation" RELATED [NCIT:C16318]
 xref: NCIT:C16318
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C16533
@@ -444,7 +473,7 @@ synonym: "Electromagnetic Field" RELATED [NCIT:C16533]
 synonym: "electromagnetic field" RELATED [NCIT:C16533]
 synonym: "Radiation, Electromagnetic Field" RELATED [NCIT:C16533]
 xref: NCIT:C16533
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C16535
@@ -459,15 +488,14 @@ is_a: NCIT:C18982 ! Radiation, Charged Particles
 id: NCIT:C16736
 name: Infrared Radiation
 def: "Electromagnetic radiation with wavelengths between 750 nanometers and 1 millimeter, between those of visible light and microwaves. This portion of the electromagnetic spectrum can usually be sensed as heat." [NCIT:C16736]
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths longer than those of visible light, i.e. from approximately 750 nm to 1 mm." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
 synonym: "Infrared Radiation" RELATED [NCIT:C16736]
 synonym: "IR radiation exposure" EXACT []
 synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
 xref: NCIT:C16736
 xref: XCO:0000046
 xref: ZECO:0000155
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: NCIT:C17053 ! Nonionizing Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C16862
@@ -479,153 +507,8 @@ synonym: "Microwave Radiation" RELATED [NCIT:C16862]
 synonym: "Radiation, Microwave" RELATED [NCIT:C16862]
 xref: NCIT:C16862
 xref: SCTID:218192005
-is_a: NCIT:C17053 ! Nonionizing Radiation
 is_a: SCTID:419201009 ! Overexposure to radiation
-
-[Term]
-id: NCIT:C17050
-name: Electromagnetic Radiation
-def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
-def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
-synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
-synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
-synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
-synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
-xref: NCIT:C17050
-xref: XCO:0000045
-xref: ZECO:0000145
-is_a: EO:0007151 ! radiation treatment
-is_a: NCIT:C18102
-is_a: ZECO:0000128
-
-[Term]
-id: NCIT:C17052
-name: Ionizing Radiation
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ionizing radiation stimulus. Ionizing radiation is radiation with sufficient energy to remove electrons from atoms and may arise from spontaneous decay of unstable isotopes, resulting in alpha and beta particles and gamma rays. Ionizing radiation also includes X-rays." [PMID:12509526]
-def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
-def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Ionizing_radiation]
-synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
-synonym: "ionizing radiation" RELATED [NCIT:C17052]
-synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
-synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
-synonym: "response to ionising radiation" EXACT []
-synonym: "response to ionizing radiation stimulus" EXACT []
-xref: GO:0010212
-xref: NCIT:C17052
-xref: SCTID:122866006
-xref: XCO:0000039
-xref: ZECO:0000148
-is_a: EO:0007151 ! radiation treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-
-[Term]
-id: NCIT:C17053
-name: Nonionizing Radiation
-def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
-def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Non-ionizing_radiation]
-synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
-synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
-synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
-synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
-synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
-xref: NCIT:C17053
-xref: XCO:0000044
-xref: ZECO:0000152
-is_a: EO:0007151 ! radiation treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-
-[Term]
-id: NCIT:C17054
-name: Radioactivity
-def: "A radiation quality inhering in bearer by virtue of the bearer's exhibiting or being caused by radioactivity." [WordNet:WordNet]
-def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
-subset: value_slim
-xref: NCIT:C17054
-xref: PATO:0001741
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: PATO:0001740 ! activity (of a radionuclide)
-
-[Term]
-id: NCIT:C17231
-name: Ultraviolet Radiation
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultraviolet radiation (UV light) stimulus. Ultraviolet radiation is electromagnetic radiation with a wavelength in the range of 10 to 380 nanometers." [GOC:hb]
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, in the part of the electromagnetic spectrum with wavelengths between about 10 and 400 nm.  Ultraviolet radiation can be ionizing or non-ionizing depending on the wavelength." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
-def: "The invisible ultraviolet spectrum makes up one specific portion of sunlight. This unique portion accounts for three percent of all solar radiation reaching the earth. UV radiation causes many health problems." [NCIT:C17231]
-def: "The treatment using UV-B light either exclusively or as part of a supplemental light involving electromagnetic radiation in the wavelength range of 315-10nm." [GR:pj]
-subset: gosubset_prok
-synonym: "Radiation, UV" RELATED [NCIT:C17231]
-synonym: "response to ultraviolet light stimulus" EXACT []
-synonym: "response to ultraviolet radiation stimulus" EXACT []
-synonym: "response to UV light stimulus" EXACT []
-synonym: "response to UV radiation stimulus" EXACT []
-synonym: "Sun/Ultra-Violet Rays" RELATED [NCIT:C17231]
-synonym: "Ultraviolet Radiation" RELATED [NCIT:C17231]
-synonym: "ultraviolet radiation" RELATED [NCIT:C17231]
-synonym: "UV Radiation" RELATED [NCIT:C17231]
-synonym: "UV radiation" RELATED [NCIT:C17231]
-synonym: "UV radiation exposure" EXACT []
-synonym: "UV regimen" EXACT []
-xref: EO:0007222
-xref: GO:0009411
-xref: NCIT:C17231
-xref: XCO:0000042
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: NCIT:C17732 ! Visible Light
-is_a: NCIT:C44445 ! Solar Radiation
-
-[Term]
-id: NCIT:C17262
-name: X-Ray
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of X-ray radiation. An X-ray is a form of electromagnetic radiation with a wavelength in the range of 10 nanometers to 100 picometers (corresponding to frequencies in the range 30 PHz to 3 EHz)." [GOC:sm, Wikipedia:X-ray]
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between approximately 0.01 and 10 nm." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
-def: "The treatment using X-ray either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 5pm-10nm." [GR:pj]
-synonym: "Radiation, X-Rays" RELATED [NCIT:C17262]
-synonym: "response to X-ray radiation stimulus" EXACT []
-synonym: "roentgen radiation exposure" EXACT []
-synonym: "X-radiation exposure" EXACT []
-xref: EO:0007628
-xref: GO:0010165
-xref: NCIT:C17262
-xref: XCO:0000043
-xref: ZECO:0000150
-is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: NCIT:C17052 ! Ionizing Radiation
-
-[Term]
-id: NCIT:C17732
-name: Visible Light
-alt_id: EO:0007201
-def: "A color brightness which is relatively high." [PATOC:MAH]
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
-def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
-def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-def: "The treatment involving day light as the light of the sun or the artificial light in a growth chamber." [GR:pj]
-comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
-subset: gosubset_prok
-subset: value_slim
-synonym: "artificial daylight" RELATED []
-synonym: "artificial light" RELATED []
-synonym: "day light" RELATED []
-synonym: "light" EXACT []
-synonym: "natural light" RELATED []
-synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
-synonym: "sun light" RELATED []
-synonym: "Visible Light" RELATED [NCIT:C17732]
-xref: EO:0007196
-xref: GO:0009416
-xref: NCIT:C17732
-xref: PATO:0000665
-xref: SCTID:418921006
-xref: XCO:0000283
-is_a: EO:0007151 ! radiation treatment
-is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17053 ! Nonionizing Radiation
-is_a: PATO:0000016 ! color brightness
-is_a: PATO:0001300 ! optical quality
-is_a: XCO:0000049
-intersection_of: GO:0050896
-intersection_of: has_input CHEBI:30212
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C18070
@@ -636,7 +519,7 @@ synonym: "Radiation, Neutron" RELATED [NCIT:C18070]
 xref: EO:0007622
 xref: NCIT:C18070
 is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C18836
@@ -645,7 +528,7 @@ def: "Radioactive particles that deposit a high amount of energy by radiation pe
 synonym: "High Linear Energy Transfer Radiation" RELATED [NCIT:C18836]
 synonym: "High-LET Radiation" RELATED [NCIT:C18836]
 xref: NCIT:C18836
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: NCIT:C18982
@@ -653,7 +536,7 @@ name: Radiation, Charged Particles
 def: "A particle which carries a positive or negative electrical charge, typically an ionized atom or molecule, or an electron." [NCIT:C18982]
 synonym: "Radiation, Charged Particles" RELATED [NCIT:C18982]
 xref: NCIT:C18982
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C18983
@@ -663,43 +546,11 @@ synonym: "Radiation Ionizing, Low Level" RELATED [NCIT:C18983]
 synonym: "Radiation, Low-Level Ionizing" RELATED [NCIT:C18983]
 xref: NCIT:C18983
 is_a: NCIT:C16318 ! Low-Level Radiation
-is_a: NCIT:C17052 ! Ionizing Radiation
-
-[Term]
-id: NCIT:C20049
-name: Radiation, Other
-synonym: "Exposure to other radiation" BROAD []
-synonym: "Radiation, Other" RELATED [NCIT:C20049]
-xref: NCIT:C20049
-xref: SCTID:218213009
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: SCTID:419201009 ! Overexposure to radiation
-
-[Term]
-id: NCIT:C27986
-name: Ultraviolet A Radiation
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-A radiation stimulus. UV-A radiation (UV-A light) spans the wavelengths 315 to 400 nm." [GOC:BHF, GOC:mah]
-def: "The treatment using UV-A light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 380-315nm." [GR:pj]
-def: "Ultraviolet A Radiation is the 320 to 400 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. It is may be up to 1,000 times more intense than UVB. UVA radiation can penetrate to underlying tissues of the skin and cause photo-aging or long-term skin damage. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C27986]
-synonym: "response to UV-A light stimulus" EXACT []
-synonym: "response to UV-A radiation stimulus" EXACT []
-synonym: "response to UVA light stimulus" EXACT []
-synonym: "response to UVA radiation stimulus" EXACT []
-synonym: "Ultraviolet A Radiation" RELATED [NCIT:C27986]
-synonym: "ultraviolet A radiation" RELATED [NCIT:C27986]
-synonym: "UV-A regimen" EXACT []
-synonym: "UVA Radiation" RELATED [NCIT:C27986]
-synonym: "UVA radiation" RELATED [NCIT:C27986]
-xref: EO:0007002
-xref: GO:0070141
-xref: NCIT:C27986
-is_a: NCIT:C17231 ! Ultraviolet Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: NCIT:C27987
 name: Ultraviolet B Radiation
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-B radiation stimulus. UV-B radiation (UV-B light) spans the wavelengths 280 to 315 nm." [GOC:tb]
-def: "The treatment using UV-B light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 315-280nm." [GR:pj]
 def: "Ultraviolet B Radiation is the 290 to 320 nanometers portion of the sun's radiant electromagnetic energy spectrum, partially absorbed by the Earth's protective stratospheric ozone layer. Recent ozone depletion has permitted more UVB to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. Evidence shows a dose-response relationship between nonmelanoma skin cancer and cumulative exposure to UVB radiation. (NCI04)" [NCIT:C27987]
 synonym: "response to medium wave ultraviolet light stimulus" EXACT []
 synonym: "response to medium wave ultraviolet radiation stimulus" EXACT []
@@ -716,7 +567,7 @@ synonym: "UVB radiation" RELATED [NCIT:C27987]
 xref: EO:0007001
 xref: GO:0010224
 xref: NCIT:C27987
-is_a: NCIT:C17231 ! Ultraviolet Radiation
+is_a: GO:0009411 ! Ultraviolet Radiation
 
 [Term]
 id: NCIT:C28039
@@ -748,86 +599,20 @@ id: NCIT:C44344
 name: Broad-Spectrum UV Radiation
 synonym: "Broad-Spectrum UV Radiation" RELATED [NCIT:C44344]
 xref: NCIT:C44344
-is_a: NCIT:C17231 ! Ultraviolet Radiation
-
-[Term]
-id: NCIT:C44386
-name: Gamma Radiation
-def: "A radiation quality treatment (EO:0007154) involving the exposure to gamma radiation." [PO:cooperl]
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a gamma radiation stimulus. Gamma radiation is a form of electromagnetic radiation (EMR) or light emission of a specific frequency produced from sub-atomic particle interaction, such as electron-positron annihilation and radioactive decay. Gamma rays are generally characterized as EMR having the highest frequency and energy, and also the shortest wavelength, within the electromagnetic radiation spectrum." [GOC:tair_curators, Wikipedia:Gamma_ray]
-def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
-def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Gamma_ray]
-synonym: "Exposure to gamma rays" BROAD []
-synonym: "Gamma Radiation" RELATED [NCIT:C44386]
-synonym: "gamma radiation exposure" EXACT []
-synonym: "Gamma Ray" RELATED [NCIT:C44386]
-synonym: "gamma ray" RELATED [NCIT:C44386]
-synonym: "gamma rays" EXACT []
-synonym: "response to gamma ray" RELATED []
-synonym: "response to gamma-ray photon" RELATED []
-xref: EO:0001022
-xref: EO_GIT:41
-xref: GO:0010332
-xref: NCIT:C44386
-xref: OBO_SF2_EO:41
-xref: SCTID:218204007
-xref: XCO:0000040
-xref: ZECO:0000149
-is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
-is_a: NCIT:C17052 ! Ionizing Radiation
-is_a: SCTID:419201009 ! Overexposure to radiation
+is_a: GO:0009411 ! Ultraviolet Radiation
 
 [Term]
 id: NCIT:C44445
 name: Solar Radiation
 synonym: "Solar Radiation" RELATED [NCIT:C44445]
 xref: NCIT:C44445
-is_a: NCIT:C17053 ! Nonionizing Radiation
-
-[Term]
-id: NCIT:C44461
-name: Ultraviolet C Radiation
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-C radiation stimulus. UV-C radiation (UV-C light) spans the wavelengths 100 to 280 nm." [GOC:tb]
-def: "Many scientists rate wavelengths in the C range of the ultraviolet (UVC) solar spectrum, between 200 and 290 nm, as the most carcinogenic. The ozone layer absorbs most UVC rays. Recent ozone depletion has permitted more UV radiation to reach the Earth's surface with a wide range of potentially damaging health effects related to skin, eyes, and immune system. (NCI04)" [NCIT:C44461]
-def: "The treatment using UV-C light either exclusively or as part of a supplemental electromagnetic radiation in the wavelength range of 280-10nm." [GR:pj]
-synonym: "response to germicidal ultraviolet light stimulus" EXACT []
-synonym: "response to germicidal ultraviolet radiation stimulus" EXACT []
-synonym: "response to shortwave ultraviolet light stimulus" EXACT []
-synonym: "response to shortwave ultraviolet radiation stimulus" EXACT []
-synonym: "response to UV-C light stimulus" EXACT []
-synonym: "response to UV-C radiation stimulus" EXACT []
-synonym: "response to UVC light stimulus" EXACT []
-synonym: "response to UVC radiation stimulus" EXACT []
-synonym: "Ultraviolet C Radiation" RELATED [NCIT:C44461]
-synonym: "ultraviolet C radiation" RELATED [NCIT:C44461]
-synonym: "UV-C regimen" EXACT []
-synonym: "UVC Radiation" RELATED [NCIT:C44461]
-synonym: "UVC radiation" RELATED [NCIT:C44461]
-xref: EO:0007129
-xref: GO:0010225
-xref: NCIT:C44461
-is_a: NCIT:C17231 ! Ultraviolet Radiation
-
-[Term]
-id: NCIT:C70832
-name: Radio Frequency
-def: "An electromagnetic wave frequency between audio and infrared." [NCIT:C70832]
-synonym: "Exposure to radiofrequency radiation" BROAD []
-synonym: "Radio Frequency" RELATED [NCIT:C70832]
-synonym: "radio wave" RELATED [NCIT:C70832]
-xref: EO:0007624
-xref: NCIT:C70832
-xref: SCTID:218191003
-is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17053 ! Nonionizing Radiation
-is_a: SCTID:419201009 ! Overexposure to radiation
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: NCIT:C88112
 name: Photon
 xref: NCIT:C88112
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: PATO:0000014
@@ -837,7 +622,7 @@ def: "A composite chromatic quality composed of hue, saturation and intensity pa
 subset: attribute_slim
 synonym: "colour" EXACT []
 synonym: "relative color" EXACT []
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0000015
@@ -855,7 +640,7 @@ subset: attribute_slim
 synonym: "color intensity " EXACT []
 synonym: "color lightness " EXACT []
 synonym: "color value " EXACT []
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0000017
@@ -1008,7 +793,7 @@ id: PATO:0000957
 name: opacity
 def: "An optical quality which obtains by virtue of the ability of the bearer to absorb visible light." [PATOC:GVG]
 subset: attribute_slim
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0000963
@@ -1172,6 +957,17 @@ def: "A color consisting of yellow hue and low brightness." [PATOC:GVG]
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000324 ! yellow
+
+[Term]
+id: PATO:0001264
+name: yellow light regimen
+def: "The treatment using yellow light either exclusively or as part of a supplemental light treatment involving yellow color light in the wavelength range of 597-577 nM." [GR:pj]
+subset: mpath_slim
+subset: value_slim
+synonym: "blond" RELATED []
+xref: EO:0007216
+is_a: PATO:0000324 ! yellow
+is_a: ZECO:0000153 ! visible light regimen
 
 [Term]
 id: PATO:0001265
@@ -1405,7 +1201,7 @@ id: PATO:0001296
 name: luminous flux
 def: "A scalar optical quality which obtains by the magnitude of the light emitted by the bearer." [PATOC:GVG]
 subset: attribute_slim
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0001297
@@ -1431,24 +1227,23 @@ is_a: PATO:0001292 ! full-spectrum EM radiation quality
 
 [Term]
 id: PATO:0001300
-name: optical quality
-def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
+name: controlled visible light exposure
 def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 subset: attribute_slim
 synonym: "optical" RELATED []
 synonym: "visible light exposure" BROAD []
 xref: XCO:0000284
-is_a: EO:0007151 ! radiation treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+is_a: XCO:0000038 ! radiation treatment
 is_a: XCO:0000181
+is_a: ZECO:0000145 ! Electromagnetic Radiation
 
 [Term]
 id: PATO:0001301
 name: chromatic property
 def: "An optical quality that is the mixture, purity or pattern of wavelengths of light perceived by the observer." [PATOC:MAH]
 subset: attribute_slim
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0001302
@@ -1518,7 +1313,7 @@ id: PATO:0001516
 name: focus
 def: "An optical quality where light rays originating from a point on the object converge." [Wikipedia:http\://en.wikipedia.org/wiki/Focus_(optics)]
 subset: attribute_slim
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: PATO:0001517
@@ -1588,14 +1383,23 @@ synonym: "radioactivity" EXACT []
 is_a: PATO:0001739 ! radiation quality
 
 [Term]
+id: PATO:0001741
+name: Radioactivity
+def: "The quality of emitting or the emission of corpuscular or electromagnetic radiations consequent to nuclear disintegration, a natural property of all chemical elements of atomic number above 83 and possible of induction in all other known elements." [NCIT:C17054]
+subset: value_slim
+xref: NCIT:C17054
+is_a: PATO:0001740 ! activity (of a radionuclide)
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
 id: PATO:0001742
 name: increased radioactivity
 def: "A radioactivity which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "high radioactivity" EXACT []
-is_a: NCIT:C17054 ! Radioactivity
+is_a: PATO:0001741 ! Radioactivity
 is_a: PATO:0002305
-intersection_of: NCIT:C17054 ! Radioactivity
+intersection_of: PATO:0001741 ! Radioactivity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461
 
 [Term]
@@ -1604,9 +1408,9 @@ name: decreased radioactivity
 def: "A radioactivity which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "low radioactivity" EXACT []
-is_a: NCIT:C17054 ! Radioactivity
+is_a: PATO:0001741 ! Radioactivity
 is_a: PATO:0002303
-intersection_of: NCIT:C17054 ! Radioactivity
+intersection_of: PATO:0001741 ! Radioactivity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461
 
 [Term]
@@ -1615,7 +1419,7 @@ name: radiation absorbed dose
 def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: PATO:0001746
@@ -1623,7 +1427,7 @@ name: radiation equivalent dose
 def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: PATO:0001747
@@ -1631,7 +1435,7 @@ name: radiation effective dose
 def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
 
 [Term]
 id: PATO:0001868
@@ -1917,6 +1721,15 @@ synonym: "Exposure to radioactive isotope NOS" BROAD []
 is_a: SCTID:218209002 ! Overexposure to radioactive isotopes
 
 [Term]
+id: SCTID:218213009
+name: Radiation, Other
+synonym: "Exposure to other radiation" BROAD []
+synonym: "Radiation, Other" RELATED [NCIT:C20049]
+xref: NCIT:C20049
+is_a: SCTID:419201009 ! Overexposure to radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
 id: SCTID:218214003
 name: Overexposure to artificially accelerated beams of ionized particles generated by betatrons
 synonym: "Exposure to artificially accelerated beams of ionized particles generated by betatrons" BROAD []
@@ -1932,7 +1745,7 @@ is_a: SCTID:419201009 ! Overexposure to radiation
 id: SCTID:218216001
 name: Overexposure to other radiation NOS
 synonym: "Exposure to other radiation NOS" BROAD []
-is_a: NCIT:C20049 ! Radiation, Other
+is_a: SCTID:218213009 ! Radiation, Other
 
 [Term]
 id: SCTID:218217005
@@ -1943,38 +1756,38 @@ is_a: SCTID:419201009 ! Overexposure to radiation
 [Term]
 id: SCTID:242534002
 name: Exposure to heat and light
-is_a: NCIT:C17732 ! Visible Light
 is_a: SCTID:418611001
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: SCTID:242535001
 name: Exposure to excess sunlight
-is_a: NCIT:C17732 ! Visible Light
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: SCTID:242536000
 name: Exposure to man-made visible light
-is_a: NCIT:C17732 ! Visible Light
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: SCTID:242537009
 name: Exposure to man-made ultraviolet light
-is_a: NCIT:C17732 ! Visible Light
+is_a: XCO:0000283 ! Visible Light
 
 [Term]
 id: SCTID:242795000
 name: Exposure to ionizing radiation from geological sources
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: SCTID:242796004
 name: Exposure to ionizing radiation from cosmic sources
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: SCTID:242797008
 name: Exposure to ionizing radiation from industrial sources
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: SCTID:242798003
@@ -2014,7 +1827,7 @@ is_a: SCTID:242797008 ! Exposure to ionizing radiation from industrial sources
 [Term]
 id: SCTID:242805000
 name: Exposure to ionizing radiation from medical sources
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: SCTID:242806004
@@ -2084,7 +1897,7 @@ is_a: SCTID:242815006 ! Exposure to medical therapeutic radiation
 [Term]
 id: SCTID:242819000
 name: Exposure to radiation from nuclear explosion
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: SCTID:242820006
@@ -2105,13 +1918,44 @@ is_a: SCTID:218196008 ! Overexposure to visual and ultraviolet light sources
 id: SCTID:419201009
 name: Overexposure to radiation
 synonym: "Exposure to radiation" BROAD []
-is_a: EO:0007151 ! radiation treatment
+is_a: XCO:0000038 ! radiation treatment
+
+[Term]
+id: XCO:0000038
+name: radiation treatment
+def: "A physical plant treatment (EO:0007316) involving an exposure with a radiation type, intensity or quantity." [GR:pj, PO:cooperl]
+comment: EMR is classified according to the frequency of its wave. The electromagnetic spectrum, in order of increasing frequency and decreasing wavelength, consists of radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays and gamma rays. (from Wikipedia).
+subset: attribute_slim
+subset: gosubset_prok
+subset: scalar_slim
+synonym: "light regimen" RELATED []
+synonym: "response to electromagnetic radiation stimulus" EXACT []
+synonym: "response to radiation stimulus" EXACT []
+xref: EO:0007151
+xref: GO:0009314
+xref: PATO:0001744
+xref: SCTID:218190002
+is_a: EO:0007316
+is_a: GO:0009628
+is_a: PATO:0001739 ! radiation quality
+is_a: SCTID:115964003
+is_a: XCO:0000000
 
 [Term]
 id: XCO:0000041
 name: radon exposure
 def: "The condition of being subjected to transmitted energy from the gaseous radioactive element, atomic number 86, resulting from decay of radium.  Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Ionizing_radiation]
-is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
+
+[Term]
+id: XCO:0000180
+name: non-ionizing uv
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http\://en.wikipedia.org/wiki/Ultraviolet]
+synonym: "near ultraviolet radiation exposure" NARROW []
+synonym: "non-ionizing UV radiation exposure" EXACT []
+xref: ZECO:0000154
+is_a: GO:0009411 ! Ultraviolet Radiation
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Term]
 id: XCO:0000182
@@ -2119,14 +1963,44 @@ name: controlled exposure to ambient light
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "diurnal condition" RELATED []
 synonym: "exposure to ambient light" BROAD []
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
+
+[Term]
+id: XCO:0000283
+name: Visible Light
+alt_id: EO:0007201
+def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
+comment: A type of light used in a commercial light box to simulate natural daylight. For experiments carried out in growth chambers, the daylight is a light source providing a color temperature of 6500+/-200 K at an illumination of 90 to 120 ft/candles. This source is typically provided by fluorescent,  tungsten or halogen lamps.
+subset: gosubset_prok
+subset: value_slim
+synonym: "artificial daylight" RELATED []
+synonym: "artificial light" RELATED []
+synonym: "day light" RELATED []
+synonym: "light" EXACT []
+synonym: "natural light" RELATED []
+synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
+synonym: "sun light" RELATED []
+synonym: "Visible Light" RELATED [NCIT:C17732]
+xref: EO:0007196
+xref: GO:0009416
+xref: NCIT:C17732
+xref: PATO:0000665
+xref: SCTID:418921006
+is_a: EO:0007154 ! radiation quality treatment
+is_a: PATO:0000016 ! color brightness
+is_a: PATO:0001300 ! controlled visible light exposure
+is_a: XCO:0000038 ! radiation treatment
+is_a: XCO:0000049
+is_a: ZECO:0000152 ! Nonionizing Radiation
+intersection_of: GO:0050896
+intersection_of: has_input CHEBI:30212
 
 [Term]
 id: XCO:0000459
 name: controlled light/dark cycle
 def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "light/dark cycle" BROAD []
-is_a: PATO:0001300 ! optical quality
+is_a: PATO:0001300 ! controlled visible light exposure
 
 [Term]
 id: XCO:0000462
@@ -2141,9 +2015,71 @@ def: "The portion of a controlled light/dark cycle in which the subject is not b
 is_a: XCO:0000459 ! controlled light/dark cycle
 
 [Term]
+id: ZECO:0000145
+name: Electromagnetic Radiation
+def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
+synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
+synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
+synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
+synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
+xref: NCIT:C17050
+xref: XCO:0000045
+is_a: NCIT:C18102
+is_a: XCO:0000038 ! radiation treatment
+is_a: ZECO:0000128
+
+[Term]
+id: ZECO:0000146
+name: magnetic field
+xref: EO:0007621
+is_a: EO:0007154 ! radiation quality treatment
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
 id: ZECO:0000147
 name: electric field
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
+id: ZECO:0000148
+name: Ionizing Radiation
+def: "High-energy radiation capable of producing ionization in substances through which it passes." [NCIT:C17052]
+synonym: "Ionizing Radiation" RELATED [NCIT:C17052]
+synonym: "ionizing radiation" RELATED [NCIT:C17052]
+synonym: "Radiation, Ionizing" RELATED [NCIT:C17052]
+synonym: "Radiation-Ionizing Total" RELATED [NCIT:C17052]
+synonym: "response to ionising radiation" EXACT []
+synonym: "response to ionizing radiation stimulus" EXACT []
+xref: GO:0010212
+xref: NCIT:C17052
+xref: SCTID:122866006
+xref: XCO:0000039
+is_a: XCO:0000038 ! radiation treatment
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
+id: ZECO:0000149
+name: Gamma Radiation
+def: "High-energy, short wavelength, ionizing electromagnetic radiation emitted from the nucleus. Gamma radiation frequently accompanies alpha and beta emissions and always accompanies fission. Gamma rays are very penetrating and are best stopped or shielded by dense materials, such as lead or depleted uranium. Gamma rays are identical to x-rays and are only differentiated by their origin. (from NRC Glossary)" [NCIT:C44386]
+synonym: "Exposure to gamma rays" BROAD []
+synonym: "Gamma Radiation" RELATED [NCIT:C44386]
+synonym: "gamma radiation exposure" EXACT []
+synonym: "Gamma Ray" RELATED [NCIT:C44386]
+synonym: "gamma ray" RELATED [NCIT:C44386]
+synonym: "gamma rays" EXACT []
+synonym: "response to gamma ray" RELATED []
+synonym: "response to gamma-ray photon" RELATED []
+xref: EO:0001022
+xref: EO_GIT:41
+xref: GO:0010332
+xref: NCIT:C44386
+xref: OBO_SF2_EO:41
+xref: SCTID:218204007
+xref: XCO:0000040
+is_a: EO:0007154 ! radiation quality treatment
+is_a: SCTID:419201009 ! Overexposure to radiation
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
 id: ZECO:0000151
@@ -2153,18 +2089,31 @@ synonym: "extreme ultraviolet ray exposure" RELATED []
 synonym: "extreme UV ray exposure" RELATED []
 synonym: "ionizing UV radiation exposure" EXACT []
 xref: XCO:0000179
-is_a: NCIT:C17052 ! Ionizing Radiation
-is_a: NCIT:C17231 ! Ultraviolet Radiation
+is_a: GO:0009411 ! Ultraviolet Radiation
+is_a: ZECO:0000148 ! Ionizing Radiation
 
 [Term]
-id: ZECO:0000154
-name: non-ionizing uv
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation, Wikipedia:http\://en.wikipedia.org/wiki/Ultraviolet]
-synonym: "near ultraviolet radiation exposure" NARROW []
-synonym: "non-ionizing UV radiation exposure" EXACT []
-xref: XCO:0000180
-is_a: NCIT:C17053 ! Nonionizing Radiation
-is_a: NCIT:C17231 ! Ultraviolet Radiation
+id: ZECO:0000152
+name: Nonionizing Radiation
+def: "Electromagnetic radiation which does not produce ions in matter through which it passes. Its wavelengths are generally greater than those of far ultraviolet radiation and range through the longest radio waves." [NCIT:C17053]
+synonym: "Nonionizing Radiation" RELATED [NCIT:C17053]
+synonym: "Radiation Non-Ionizing, Other" RELATED [NCIT:C17053]
+synonym: "Radiation, Non-Ionizing" RELATED [NCIT:C17053]
+synonym: "Radiation, Nonionizing" RELATED [NCIT:C17053]
+synonym: "Radiation-Non-Ionizing Total" RELATED [NCIT:C17053]
+xref: NCIT:C17053
+xref: XCO:0000044
+is_a: XCO:0000038 ! radiation treatment
+is_a: ZECO:0000145 ! Electromagnetic Radiation
+
+[Term]
+id: ZECO:0000153
+name: visible light regimen
+def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
+comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
+xref: EO:0007221
+is_a: XCO:0000283 ! Visible Light
+is_a: ZECO:0000152 ! Nonionizing Radiation
 
 [Typedef]
 id: decreased_in_magnitude_relative_to

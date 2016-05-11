@@ -53,9 +53,9 @@ axioms-r.obo: combined-rad.obo  axioms.obo
 	obo-add-comments.pl -r -t id -t equivalent_to -t is_a $^ > $@
 
 ORD = xx NCIT 10 xx EO 8 xx ZECO 6 xx XCO 4
-ORD_C = echo $(patsubst xx,-c,$(ORD))
-ORD_D = echo $(patsubst xx,-D,$(ORD))
-ORD_L = echo $(patsubst xx,-l,$(ORD))
+ORD_C =  $(patsubst xx,-c,$(ORD))
+ORD_D =  $(patsubst xx,-d,$(ORD))
+ORD_L =  $(patsubst xx,-l,$(ORD))
 #PRIORITIES := -l NCIT 10 -l EO 8 -l ZECO 5  -s NCIT 10 -s EO 8 -s ZECO 5 
 
 merged-rad.owl: combined-rad.owl axioms.owl
