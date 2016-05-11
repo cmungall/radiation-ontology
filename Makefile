@@ -18,6 +18,10 @@ rad-ncit.obo:
 rad-go.obo:
 	blip ontol-query -r go -query "class(R,'response to radiation'),subclassRT(ID,R)" -to obo | obo-grep.pl -r 'name: response to' - > $@
 
+rad-pato.obo:
+	blip ontol-query -r pato -query "class(R,'radiation quality'),subclassRT(ID,R)" -to obo  > $@
+
+
 
 combined-rad.obo:
 	obo-cat.pl rad-*.obo | grep -v ^namespace: | grep -v ^property_value: | ./add-syns.pl > $@
@@ -56,3 +60,9 @@ merged-rad.owl: combined-rad.owl axioms.owl
 
 merged-rad.obo: merged-rad.owl
 	owltools $< -o -f obo --no-check $@
+
+merged-rad.hier: merged-rad.obo
+	blip ontol-subset -i $< -n % > $@
+
+merged-rad.png: merged-rad.obo
+	blip ontol-subset -i $< -n $< -to png -u ontol_config_rad  -n % > $@

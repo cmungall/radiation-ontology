@@ -812,6 +812,1072 @@ is_a: NCIT:C17050  ! Electromagnetic Radiation
 
 
 [Term]
+id: PATO:0000014
+name: color
+alt_id: PATO:0000020
+def: "A composite chromatic quality composed of hue, saturation and intensity parts." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+synonym: "colour" EXACT []
+synonym: "relative color" EXACT []
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0000015
+name: color hue
+def: "A chromatic scalar-circular quality inhering in an object that manifests in an observer by virtue of the dominant wavelength of the visible light; may be subject to fiat divisions, typically into 7 or 8 spectra." [PATOC:cjm]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001301  ! chromatic property
+
+[Term]
+id: PATO:0000016
+name: color brightness
+def: "A scalar optical property that is the intensity, value or amount of perceived light." [PATOC:MAH]
+comment: Color brightness refers to the intensity, lightness or value of the light present. Think of this as a dimmer switch.
+subset: attribute_slim  ! Attribute slim
+synonym: "color intensity " EXACT []
+synonym: "color lightness " EXACT []
+synonym: "color value " EXACT []
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0000017
+name: color saturation
+def: "A scalar chromatic property that is the degree of purity of perceived light." [PATOC:GVG]
+comment: Color saturation refers to the amount of white light or gray paint mixed in with the hue (single wavelength) and is a measure of color purity.
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001301  ! chromatic property
+
+[Term]
+id: PATO:0000018
+name: fluorescence
+def: "A luminous flux quality inhering in a bearer by virtue of the bearer's emitting longer wavelength light following the absorption of shorter wavelength radiation; fluorescence is common with aromatic compounds with several rings joined together." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001296  ! luminous flux
+
+[Term]
+id: PATO:0000317
+name: black
+def: "A color that lacks any hues as parts." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000318
+name: blue
+def: "A color hue with low wavelength of that portion of the visible spectrum lying between green and indigo, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 490 nanometers." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000319
+name: cyan
+def: "A color consisting of green and blue hue." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000320
+name: green
+def: "A color hue with medium-low wavelength of that portion of the visible spectrum lying between yellow and blue, evoked in the human observer by radiant energy with wavelengths of approximately 490 to 570 nanometers." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000321
+name: magenta
+def: "A color consisting of red and blue hues." [Wikipedia:http://en.wikipedia.org/wiki/Magenta]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000322
+name: red
+def: "A color hue with high wavelength of the long-wave end of the visible spectrum, evoked in the human observer by radiant energy with wavelengths of approximately 630 to 750 nanometers." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000323
+name: white
+def: "An achromatic color of maximum brightness; the color of objects that reflect nearly all light of all visible wavelengths." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "whitish" RELATED []
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000324
+name: yellow
+def: "A color hue with medium wavelength of that portion of the visible spectrum lying between orange and green, evoked in the human observer by radiant energy with wavelengths of approximately 570 to 590 nanometers." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000327
+name: low brightness
+def: "A color brightness which is relatively low." [PATOC:MAH]
+subset: value_slim  ! Value slim
+synonym: "dark" EXACT []
+is_a: PATO:0000016  ! color brightness
+
+[Term]
+id: PATO:0000328
+name: low saturation
+def: "A color saturation which is of low purity." [PATOC:MAH]
+subset: value_slim  ! Value slim
+synonym: "dull" RELATED []
+synonym: "pale" EXACT []
+is_a: PATO:0000017  ! color saturation
+
+[Term]
+id: PATO:0000336
+name: colored
+alt_id: PATO:0000332
+def: "A color quality inhering in a bearer by virtue of the bearer's having color." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pigmented" RELATED []
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000665
+name: high brightness
+def: "A color brightness which is relatively high." [PATOC:MAH]
+subset: value_slim  ! Value slim
+synonym: "light" EXACT []
+is_a: PATO:0000016  ! color brightness
+
+[Term]
+id: PATO:0000950
+name: grey
+def: "A color between white and black colors." [http://en.wikipedia.org/wiki/Grey]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "plumbeous" RELATED []
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000951
+name: purple
+def: "A color that falls about midway between red and blue in hue." [Dictionary:http://dictionary.reference.com/]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000952
+name: brown
+def: "A color consisting of dark orange, red, of very low intensity." [Wikipedia:http://en.wikipedia.org/wiki/Brown]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000953
+name: orange
+def: "A color hue with high-medium wavelength that of that portion of the visible spectrum lying between red and yellow, evoked in the human observer by radiant energy with wavelengths of approximately 585 to 620 nanometers." [Wikipedia:http://en.wikipedia.org/wiki/Orange]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0000954
+name: pink
+def: "Red color having medium to high brightness and low to moderate saturation." [PATOC:MAH]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000322  ! red
+
+[Term]
+id: PATO:0000957
+name: opacity
+def: "An optical quality which obtains by virtue of the ability of the bearer to absorb visible light." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0000963
+name: opaque
+def: "A optical quality inhering in a bearer by virtue of the bearer's not being clear; not transmitting or reflecting light or radiant energy." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "clouding" RELATED []
+synonym: "cloudy" RELATED []
+synonym: "non-transparent" EXACT []
+is_a: PATO:0000957  ! opacity
+
+[Term]
+id: PATO:0000964
+name: transparent
+def: "A optical quality inhering in a bearer by virtue of the bearer's lacking opacity." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "clear" EXACT []
+is_a: PATO:0000957  ! opacity
+
+[Term]
+id: PATO:0001229
+name: high saturation
+def: "A color saturation which is of high purity." [PATOC:MAH]
+subset: value_slim  ! Value slim
+synonym: "bright " EXACT []
+synonym: "vivid" RELATED []
+is_a: PATO:0000017  ! color saturation
+
+[Term]
+id: PATO:0001243
+name: light blue
+def: "A color consisting of blue hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000318  ! blue
+
+[Term]
+id: PATO:0001244
+name: dark blue
+def: "A color consisting of blue hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000318  ! blue
+
+[Term]
+id: PATO:0001245
+name: dark brown
+def: "A color consisting of brown hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0001246
+name: light brown
+def: "A color consisting of brown hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0001247
+name: light cyan
+def: "A color consisting of cyan hue and high brightness." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000319  ! cyan
+
+[Term]
+id: PATO:0001248
+name: dark cyan
+def: "A color consisting of cyan hue and low brightness." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000319  ! cyan
+
+[Term]
+id: PATO:0001249
+name: dark green
+def: "A color consisting of green hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001250
+name: light green
+def: "A color consisting of green hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001251
+name: dark grey
+def: "A color consisting of grey color and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000950  ! grey
+
+[Term]
+id: PATO:0001252
+name: light grey
+def: "A color consisting of grey color and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000950  ! grey
+
+[Term]
+id: PATO:0001253
+name: light magenta
+def: "A color consisting of magenta color and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000321  ! magenta
+
+[Term]
+id: PATO:0001254
+name: dark magenta
+def: "A color consisting of magenta with low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000321  ! magenta
+
+[Term]
+id: PATO:0001255
+name: light orange
+def: "A color consisting of orange hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000953  ! orange
+
+[Term]
+id: PATO:0001256
+name: dark orange
+def: "A color consisting of orange color and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000953  ! orange
+
+[Term]
+id: PATO:0001257
+name: light deep pink
+def: "Pink color having high brightness and moderate saturation." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000954  ! pink
+
+[Term]
+id: PATO:0001258
+name: deep pink
+def: "Pink color having medium brightness and moderate saturation." [PATOC:MAH]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000954  ! pink
+
+[Term]
+id: PATO:0001259
+name: dark purple
+def: "A color consisting of purple color and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000951  ! purple
+
+[Term]
+id: PATO:0001260
+name: light purple
+def: "A color consisting of purple color and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000951  ! purple
+
+[Term]
+id: PATO:0001261
+name: dark red
+def: "A color consisting of red hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000322  ! red
+
+[Term]
+id: PATO:0001262
+name: light red
+def: "A color consisting of red hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000322  ! red
+
+[Term]
+id: PATO:0001263
+name: dark yellow
+def: "A color consisting of yellow hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000324  ! yellow
+
+[Term]
+id: PATO:0001264
+name: light yellow
+def: "A color consisting of yellow hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "blond" RELATED []
+is_a: PATO:0000324  ! yellow
+
+[Term]
+id: PATO:0001265
+name: saturated blue
+def: "A color consisting of blue hue and high saturation." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "bright blue" RELATED []
+is_a: PATO:0000318  ! blue
+
+[Term]
+id: PATO:0001266
+name: desaturated blue
+def: "A color consisting of blue hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale blue" EXACT []
+is_a: PATO:0000318  ! blue
+
+[Term]
+id: PATO:0001267
+name: saturated brown
+def: "A color consisting of brown hue and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright brown" RELATED []
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0001268
+name: desaturated brown
+def: "A color consisting of brown hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale brown" EXACT []
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0001269
+name: saturated cyan
+def: "A color consisting of cyan colour and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright cyan " RELATED []
+is_a: PATO:0000319  ! cyan
+
+[Term]
+id: PATO:0001270
+name: desaturated cyan
+def: "A color consisting of cyan colour and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale cyan" EXACT []
+is_a: PATO:0000319  ! cyan
+
+[Term]
+id: PATO:0001271
+name: saturated green
+def: "A color consisting of green hue and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright green" RELATED []
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001272
+name: desaturated green
+def: "A color consisting of green hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale green" EXACT []
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001275
+name: saturated magenta
+def: "A color consisting of magenta color and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright magenta" RELATED []
+is_a: PATO:0000321  ! magenta
+
+[Term]
+id: PATO:0001276
+name: desaturated magenta
+def: "A color consisting of magenta color and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale magenta" EXACT []
+is_a: PATO:0000321  ! magenta
+
+[Term]
+id: PATO:0001277
+name: saturated orange
+def: "A color consisting of orange hue and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright orange" RELATED []
+is_a: PATO:0000953  ! orange
+
+[Term]
+id: PATO:0001278
+name: desaturated orange
+def: "A color consisting of orange hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale orange" EXACT []
+is_a: PATO:0000953  ! orange
+
+[Term]
+id: PATO:0001280
+name: dark pale pink
+alt_id: PATO:0001279
+def: "Pink color having medium brightness and low saturation." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "bright pink " RELATED []
+is_a: PATO:0000954  ! pink
+
+[Term]
+id: PATO:0001281
+name: saturated purple
+def: "A color consisting of purple color and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright purple" RELATED []
+is_a: PATO:0000951  ! purple
+
+[Term]
+id: PATO:0001282
+name: desaturated purple
+def: "A color consisting of purple color and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale purple" EXACT []
+is_a: PATO:0000951  ! purple
+
+[Term]
+id: PATO:0001283
+name: saturated red
+def: "A color consisting of red hue and high saturation." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+synonym: "bright red" RELATED []
+is_a: PATO:0000322  ! red
+
+[Term]
+id: PATO:0001284
+name: desaturated red
+def: "A color consisting of red hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale red" EXACT []
+is_a: PATO:0000322  ! red
+
+[Term]
+id: PATO:0001285
+name: saturated yellow
+def: "A color consisting of yellow hue and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright yellow" RELATED []
+is_a: PATO:0000324  ! yellow
+
+[Term]
+id: PATO:0001286
+name: desaturated yellow
+def: "A color consisting of yellow hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale yellow" EXACT []
+is_a: PATO:0000324  ! yellow
+
+[Term]
+id: PATO:0001287
+name: red brown
+def: "A color consisting of red and brown hue." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0001288
+name: dark red brown
+def: "A color consisting of red and brown hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0001287  ! red brown
+
+[Term]
+id: PATO:0001289
+name: light red brown
+def: "A color consisting of red and brown hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0001287  ! red brown
+
+[Term]
+id: PATO:0001290
+name: fluorescent
+def: "A fluorescence quality inhering in a bearer by virtue of emitting light during exposure to radiation from an external source." [web:www.thefreedictionary.com/]
+subset: value_slim  ! Value slim
+is_a: PATO:0000018  ! fluorescence
+
+[Term]
+id: PATO:0001291
+name: electromagnetic (EM) radiation quality
+def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http://en.wikipedia.org/wiki/Electromagnetic_radiation]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001739  ! radiation quality
+
+[Term]
+id: PATO:0001292
+name: full-spectrum EM radiation quality
+def: "An EM radiation quality that is independent of the EM wavelength range." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0001293
+name: absorption quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to retain radiation." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001292  ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001294
+name: radiation reflective quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to scatter or reflect radiation." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001292  ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001295
+name: albedo
+def: "A reflective quality restricted to a particular wavelength." [PATOC:cjm]
+comment: Typically used for light, but also applied to full EM spectrum.
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001294  ! radiation reflective quality
+
+[Term]
+id: PATO:0001296
+name: luminous flux
+def: "A scalar optical quality which obtains by the magnitude of the light emitted by the bearer." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0001297
+name: reflectivity
+def: "A radiation reflective quality inhering in a bearer by virtue of the ratio of the energy of a wave reflected from its surface to the energy possessed by the wave striking the bearer's surface." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001294  ! radiation reflective quality
+
+[Term]
+id: PATO:0001298
+name: phosphorescence
+def: "A fluorescence in which the emittence continues after the absorption has ceased." [PATOC:GVG]
+subset: relational_slim  ! Relational slim: types of quality that require an additional entity in order to exist
+is_a: PATO:0000018  ! fluorescence
+
+[Term]
+id: PATO:0001299
+name: radiation emitting quality
+def: "A scalar EM radiation quality which obtains by the capacity of the bearer to emit radiation." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001292  ! full-spectrum EM radiation quality
+
+[Term]
+id: PATO:0001300
+name: optical quality
+def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0001301
+name: chromatic property
+def: "An optical quality that is the mixture, purity or pattern of wavelengths of light perceived by the observer." [PATOC:MAH]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0001302
+name: vermilion
+def: "A color consisting of red and orange hue with a slight amount of gray." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0001354
+name: translucent
+def: "A optical quality inhering in a bearer by virtue of the bearer's exhibiting low opacity." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000957  ! opacity
+
+[Term]
+id: PATO:0001372
+name: refractivity
+def: "A physical quality that inheres in propagating wave (light or sound) virtue of the bearer's change in direction when passing from one medium to another." [WordNet:WordNet]
+subset: attribute_slim  ! Attribute slim
+subset: disposition_slim  ! Disposition slim
+is_a: PATO:0001294  ! radiation reflective quality
+
+[Term]
+id: PATO:0001373
+name: glistening
+def: "A reflectivity quality inhering in a bearer by virtue of the bearer's reflecting lots of light." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "glossy" EXACT []
+synonym: "shiny" EXACT []
+is_a: PATO:0001297  ! reflectivity
+
+[Term]
+id: PATO:0001423
+name: refractile
+def: "A reflectivity quality inhering in the bearer by virtue of the bearer's ability to refract light." [biology-online:biology-online]
+subset: disposition_slim  ! Disposition slim
+subset: value_slim  ! Value slim
+is_a: PATO:0001372  ! refractivity
+
+[Term]
+id: PATO:0001424
+name: violet
+def: "A color hue with very low wavelength of that portion of the visible spectrum lying between reddish blue or bluish purple, evoked in the human observer by radiant energy with wavelengths of approximately 420 to 380 nanometers." [Wikipedia:http://en.wikipedia.org/wiki/Violet]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0001425
+name: rosy
+def: "A color hue consisting of red hue and yellow hue and high brightness." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0001426
+name: maroon
+def: "A color consisting of purple and brown hue." [Wikipedia:http://en.wikipedia.org/wiki/Maroon]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000014  ! color
+
+[Term]
+id: PATO:0001516
+name: focus
+def: "An optical quality where light rays originating from a point on the object converge." [Wikipedia:http://en.wikipedia.org/wiki/Focus_(optics)]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001300  ! optical quality
+
+[Term]
+id: PATO:0001517
+name: focused
+def: "An optical quality inhering in a bearer by virtue of the bearer's having focus." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0001516  ! focus
+
+[Term]
+id: PATO:0001518
+name: blurry
+def: "An optical quality inhering in a bearer by virtue of the bearer's lacking focus." [PATOC:NC]
+subset: value_slim  ! Value slim
+is_a: PATO:0001516  ! focus
+
+[Term]
+id: PATO:0001702
+name: saturated violet
+def: "A color consisting of violet hue and high saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "bright violet" RELATED []
+is_a: PATO:0001424  ! violet
+
+[Term]
+id: PATO:0001703
+name: desaturated violet
+def: "A color consisting of violet hue and low saturation." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "pale violet" EXACT []
+is_a: PATO:0001424  ! violet
+
+[Term]
+id: PATO:0001704
+name: light violet
+def: "A color consisting of violet hue and high brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0001424  ! violet
+
+[Term]
+id: PATO:0001705
+name: dark violet
+def: "A color consisting of violet hue and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0001424  ! violet
+
+[Term]
+id: PATO:0001717
+name: radiation emitting intensity quality
+def: "A radiation emitting quality which obtains by the intensity of the bearer emitted radiation." [PATOC:GVG]
+is_a: PATO:0001299  ! radiation emitting quality
+
+[Term]
+id: PATO:0001718
+name: luminance
+def: "A quality that exists by virtue of the luminous intensity per unit area projected in a given direction." [Wikipedia:http://en.wikipedia.org/wiki/Luminance]
+is_a: PATO:0001296  ! luminous flux
+
+[Term]
+id: PATO:0001739
+name: radiation quality
+def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001018  ! physical quality
+
+[Term]
+id: PATO:0001740
+name: activity (of a radionuclide)
+def: "A radiation quality inhering in a radioactive substance by virtue of its transformation (disintegration) rate." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+synonym: "radioactivity" EXACT []
+is_a: PATO:0001739  ! radiation quality
+
+[Term]
+id: PATO:0001741
+name: radioactive
+def: "A radiation quality inhering in bearer by virtue of the bearer's exhibiting or being caused by radioactivity." [WordNet:WordNet]
+subset: value_slim  ! Value slim
+is_a: PATO:0001740  ! activity (of a radionuclide)
+
+[Term]
+id: PATO:0001742
+name: increased radioactivity
+def: "A radioactivity which is relatively low." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "high radioactivity" EXACT []
+is_a: PATO:0001741  ! radioactive
+is_a: PATO:0002305  ! increased object quality
+intersection_of: PATO:0001741  ! radioactive
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0001743
+name: decreased radioactivity
+def: "A radioactivity which is relatively high." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "low radioactivity" EXACT []
+is_a: PATO:0001741  ! radioactive
+is_a: PATO:0002303  ! decreased object quality
+intersection_of: PATO:0001741  ! radioactive
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0001744
+name: radiation exposure
+def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps]
+subset: attribute_slim  ! Attribute slim
+subset: scalar_slim  ! Scalar slim
+is_a: PATO:0001739  ! radiation quality
+
+[Term]
+id: PATO:0001745
+name: radiation absorbed dose
+def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa]
+subset: attribute_slim  ! Attribute slim
+subset: scalar_slim  ! Scalar slim
+is_a: PATO:0001744  ! radiation exposure
+
+[Term]
+id: PATO:0001746
+name: radiation equivalent dose
+def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa]
+subset: attribute_slim  ! Attribute slim
+subset: scalar_slim  ! Scalar slim
+is_a: PATO:0001744  ! radiation exposure
+
+[Term]
+id: PATO:0001747
+name: radiation effective dose
+def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa]
+subset: attribute_slim  ! Attribute slim
+subset: scalar_slim  ! Scalar slim
+is_a: PATO:0001744  ! radiation exposure
+
+[Term]
+id: PATO:0001868
+name: autofluorescence
+def: "A fluorescence quality inhering in a bearer by virtue of the bearer's exhibiting fluorescence which is self-induced." [PATOC:mb]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0000018  ! fluorescence
+
+[Term]
+id: PATO:0001926
+name: increased fluorescence
+def: "A fluorescence which is higher than normal." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "high fluorescence" EXACT []
+is_a: PATO:0001290  ! fluorescent
+is_a: PATO:0002305  ! increased object quality
+intersection_of: PATO:0001290  ! fluorescent
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0001927
+name: decreased fluorescence
+def: "A fluorescence which is lower than normal." [PATOC:GVG]
+subset: value_slim  ! Value slim
+synonym: "low fluorescence" EXACT []
+is_a: PATO:0001290  ! fluorescent
+is_a: PATO:0002303  ! decreased object quality
+intersection_of: PATO:0001290  ! fluorescent
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0001941
+name: yellow green
+def: "A color consisting of yellow and green hues." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001942
+name: brown green
+def: "A color consisting of brown and green hues." [PATOC:GVG]
+synonym: "olive green" EXACT []
+is_a: PATO:0000320  ! green
+
+[Term]
+id: PATO:0001943
+name: lilac
+def: "A purple color which has low saturation and low brightness." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000951  ! purple
+
+[Term]
+id: PATO:0001944
+name: yellow orange
+def: "A color consisting of yellow and orange hue." [PATOC:GVG]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0000953  ! orange
+
+[Term]
+id: PATO:0001945
+name: ochre
+def: "A moderate yellow-orange to orange color." [wordreference:wordreference]
+subset: value_slim  ! Value slim
+is_a: PATO:0001944  ! yellow orange
+
+[Term]
+id: PATO:0002020
+name: pale pink
+def: "Pink color having high brightness and low saturation." [PATOC:GVG]
+is_a: PATO:0000954  ! pink
+
+[Term]
+id: PATO:0002032
+name: forward scatter
+def: "A reflectivity quality inhering in light by virtue of the bearer's scattering occurring at small angle to the incident beam." [PATOC:mc]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001294  ! radiation reflective quality
+
+[Term]
+id: PATO:0002033
+name: side scatter
+def: "A reflective quality that is the light scattering occurring at wide angle (around 90 degrees) to the incident beam." [PATOC:mc]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001294  ! radiation reflective quality
+
+[Term]
+id: PATO:0002059
+name: emmision wavelength
+def: "The specific wavelength of light emitted by a fluorescent molecule, such as a labelled probe, upon absorption of light at the (higher) excitation wavelength." [web:http://www.expertglossary.com/]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001299  ! radiation emitting quality
+
+[Term]
+id: PATO:0002060
+name: absorption wavelength
+def: "The specific wavelength of radiation that can be retained by a bearer." [PATOC:GVG]
+subset: attribute_slim  ! Attribute slim
+is_a: PATO:0001293  ! absorption quality
+
+[Term]
+id: PATO:0002136
+name: radiopacity
+def: "A quality inhering in a bearer by virtue of the bearer's relative inability of electromagnetism to pass through a particular material, particularly X-rays." [Wikipedia:Wikipedia]
+subset: attribute_slim  ! Attribute slim
+subset: disposition_slim  ! Disposition slim
+subset: scalar_slim  ! Scalar slim
+is_a: PATO:0001291  ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0002137
+name: radiopaque
+def: "A readiopacity quality inhering in a bearer by virtue of the bearer's prevention of the passage of electromagnetic radiation." [Wikipedia:Wikipedia]
+subset: disposition_slim  ! Disposition slim
+subset: value_slim  ! Value slim
+is_a: PATO:0002136  ! radiopacity
+
+[Term]
+id: PATO:0002144
+name: increased radiopacity
+def: "A radiopacity that is relatively high." [PATOC:GVG]
+subset: disposition_slim  ! Disposition slim
+subset: value_slim  ! Value slim
+is_a: PATO:0002136  ! radiopacity
+is_a: PATO:0002305  ! increased object quality
+intersection_of: PATO:0002136  ! radiopacity
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0002145
+name: decreased radiopacity
+def: "A radiopacity that is relatively low." [PATOC:GVG]
+subset: disposition_slim  ! Disposition slim
+subset: value_slim  ! Value slim
+is_a: PATO:0002136  ! radiopacity
+is_a: PATO:0002303  ! decreased object quality
+intersection_of: PATO:0002136  ! radiopacity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0002363
+name: bronze
+def: "A medium brown color with a metallic sheen, resembles the actual alloy bronze." [PATO:LC]
+subset: value_slim  ! Value slim
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0002410
+name: beige
+def: "A colour that is very pale yellowish brown." [PATOC:MPATH]
+subset: mpath_slim  ! Pathology slim
+subset: value_slim  ! Value slim
+is_a: PATO:0002413  ! light yellow brown
+
+[Term]
+id: PATO:0002411
+name: yellow brown
+def: "A color consisting of yellow and brown hue." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0000952  ! brown
+
+[Term]
+id: PATO:0002412
+name: dark yellow brown
+def: "A color consisting of yellow and brown hue and low brightness." [PATOC:GVG]
+subset: value_slim  ! Value slim
+is_a: PATO:0002411  ! yellow brown
+
+[Term]
+id: PATO:0002413
+name: light yellow brown
+def: "A color consisting of yellow and brown hue and high brightness." [PATOC:GVG]
+is_a: PATO:0002411  ! yellow brown
+
+[Typedef]
+id: decreased_in_magnitude_relative_to
+name: decreased_in_magnitude_relative_to
+def: "q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+is_transitive: true
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'decreased strength', relative to the parent type, 'strength'.
+is_a: different_in_magnitude_relative_to  ! different_in_magnitude_relative_to
+domain: PATO:0000001  ! quality
+range: PATO:0000001  ! quality
+
+[Typedef]
+id: different_in_magnitude_relative_to
+name: different_in_magnitude_relative_to
+def: "q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+domain: PATO:0000001  ! quality
+range: PATO:0000001  ! quality
+
+[Typedef]
+id: increased_in_magnitude_relative_to
+name: increased_in_magnitude_relative_to
+def: "q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+is_transitive: true
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'increased strength', relative to the parent type, 'strength'.
+is_a: different_in_magnitude_relative_to  ! different_in_magnitude_relative_to
+domain: PATO:0000001  ! quality
+range: PATO:0000001  ! quality
+
+
+
+[Term]
 id: SCTID:122866006
 name: Exposure to ionizing radiation
 is_a: SCTID:218190002  ! Exposure to radiation
