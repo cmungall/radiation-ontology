@@ -1,11 +1,11 @@
 digraph cliquegraph {
-EO_0007151 -> XCO_0000038 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+SCTID_419201009 -> XCO_0000038 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 SCTID_218190002 -> SCTID_419201009 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 SCTID_218190002 -> XCO_0000038 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-SCTID_419201009 -> XCO_0000038 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007151 -> XCO_0000038 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 EO_0007151 -> SCTID_419201009 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 

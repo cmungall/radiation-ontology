@@ -97,7 +97,3 @@ equivalent_to: ZECO:0000145
 id: XCO:0000179
 equivalent_to: ZECO:0000151
 
-[Term]
-id: XCO:0000462
-is_a: XCO:0000463
-

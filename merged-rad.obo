@@ -32,10 +32,6 @@ id: SCTID:218213009
 xref: NCIT:C20049
 
 [Term]
-id: XCO:0000462
-is_a: XCO:0000463
-
-[Term]
 id: ZECO:0000145
 xref: NCIT:C17050
 xref: XCO:0000045

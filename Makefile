@@ -1,3 +1,5 @@
+all: rpt.html merged-rad.obo axioms-r.obo 
+
 rad-eo.obo:
 	blip ontol-query -r eo -query "class(R,'radiation treatment'),subclassRT(ID,R)" -to obo > $@
 
@@ -31,6 +33,9 @@ MAX_E=10
 axioms.owl: combined-rad.owl probs.tsv
 	kboom --experimental  --splitSize 50 --max $(MAX_E) -m rpt.md -j rpt.json -n -o $@ -t probs.tsv $<
 
+rpt.html: axioms.owl
+	pandoc rpt.md -o rpt.html
+
 axioms.obo: axioms.owl
 	owltools $< combined-rad.owl --set-ontology-id $(OBO)/rad/axioms -o -f obo $@
 
@@ -41,6 +46,7 @@ PRIORITIES_LABEL := -l NCIT 10 -l ZECO 5
 
 merged-rad.owl: axioms.owl
 	owltools $^ --merge-support-ontologies --reasoner elk --merge-equivalence-sets $(PRIORITIES_LABEL) --set-ontology-id $(OBO)/rad.owl -o $@
+.PRECIOUS: merged-rad.owl
 
 merged-rad.obo: merged-rad.owl
 	owltools $< -o -f obo $@

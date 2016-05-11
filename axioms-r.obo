@@ -97,7 +97,3 @@ equivalent_to: ZECO:0000145 ! electromagnetic radiation experimental conditions
 id: XCO:0000179 ! ionizing ultraviolet radiation exposure
 equivalent_to: ZECO:0000151 ! ionizing uv radiation
 
-[Term]
-id: XCO:0000462 ! light phase of controlled light/dark cycle
-is_a: XCO:0000463 ! dark phase of controlled light/dark cycle
-
