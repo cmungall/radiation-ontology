@@ -4,7 +4,7 @@ saved-by: obo-cat.pl
 default-namespace: none
 remark: Includes Ontology(OntologyID(Anonymous-3)) [Axioms: 136 Logical Axioms: 70]
 ontology: rad
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007203> \"GO:0010218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"GO:0070141\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"XCO:0000045\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"GO:0009637\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"GO:0009411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17050> \"ZECO:0000145\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007224> \"GO:0009642\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"GO:0010114\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"XCO:0000043\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"XCO:0000042\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"GO:0010165\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"EO:0007222\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007203> \"GO:0010218\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"EO:0007221\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"XCO:0000283\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"ZECO:0000152\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"GO:0010332\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"GO:0010212\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"GO:0070141\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007218> \"GO:0009637\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"EO:0007628\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"XCO:0000040\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17262> \"ZECO:0000150\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007075> \"GO:0009644\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"ZECO:0000148\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17052> \"XCO:0000039\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"EO:0007129\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17231> \"GO:0009411\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"ZECO:0000149\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"XCO:0000046\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007621> \"ZECO:0000146\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007271> \"GO:0009645\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C16736> \"ZECO:0000155\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000154> \"XCO:0000180\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"GO:0010224\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007224> \"GO:0009642\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17732> \"ZECO:0000153\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44386> \"EO:0001022\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/ZECO_0000151> \"XCO:0000179\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27987> \"EO:0007001\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/EO_0007207> \"GO:0010114\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C44461> \"GO:0010225\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C70832> \"EO:0007624\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C18070> \"EO:0007622\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C17053> \"XCO:0000044\"^^xsd:string)\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/NCIT_C27986> \"EO:0007002\"^^xsd:string)\n)
 
 [Term]
 id: EO:0001039
@@ -221,6 +221,8 @@ is_a: EO:0007078 ! light quantity regimen
 [Term]
 id: EO:0007271
 name: low light intensity regimen
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low light intensity stimulus. Low light intensity is defined as a level of electromagnetic radiation at or below 0.1 micromols/m2." [GOC:go_curators, GOC:mtg_far_red]
+xref: GO:0009645
 is_a: EO:0007224 ! light intensity regimen
 
 [Term]
@@ -285,7 +287,7 @@ id: EO:0007621
 name: magnetic field
 xref: ZECO:0000146
 is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
 id: EO:0007623
@@ -328,12 +330,6 @@ def: "Any process that results in a change in state or activity of a cell or an 
 is_a: GO:0009416 ! response to light stimulus
 
 [Term]
-id: GO:0009645
-name: response to low light intensity stimulus
-def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low light intensity stimulus. Low light intensity is defined as a level of electromagnetic radiation at or below 0.1 micromols/m2." [GOC:go_curators, GOC:mtg_far_red]
-is_a: EO:0007224 ! light intensity regimen
-
-[Term]
 id: GO:0009646
 name: response to absence of light
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an absence of light stimuli." [GOC:go_curators]
@@ -365,7 +361,7 @@ id: GO:0010202
 name: response to low fluence red light stimulus
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low fluence red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Low fluence red light is defined in this case as short pulses of red light followed by darkness, providing a light level of 0.001-0.1 mmol/m2/sec." [GOC:mtg_far_red, GOC:sm]
 is_a: EO:0007207 ! red light regimen
-is_a: GO:0009645 ! response to low light intensity stimulus
+is_a: EO:0007271 ! low light intensity regimen
 
 [Term]
 id: GO:0010203
@@ -381,7 +377,7 @@ def: "Any process that results in a change in state or activity of a cell or an 
 synonym: "response to low fluence blue light" BROAD []
 synonym: "response to low fluence blue light by blf system" EXACT []
 is_a: EO:0007218 ! blue light regimen
-is_a: GO:0009645 ! response to low light intensity stimulus
+is_a: EO:0007271 ! low light intensity regimen
 
 [Term]
 id: GO:0055121
@@ -445,8 +441,8 @@ synonym: "Radiation, Infrared" RELATED [NCIT:C16736]
 xref: NCIT:C16736
 xref: XCO:0000046
 xref: ZECO:0000155
-is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C17053 ! Nonionizing Radiation
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: NCIT:C16862
@@ -462,18 +458,13 @@ is_a: NCIT:C17053 ! Nonionizing Radiation
 [Term]
 id: NCIT:C17050
 name: Electromagnetic Radiation
-def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
 def: "The radiation of energy as transverse waves produced by moving charges." [NCIT:C17050]
 synonym: "Electromagnetic Radiation" RELATED [NCIT:C17050]
 synonym: "electromagnetic radiation" RELATED [NCIT:C17050]
 synonym: "radiation (unspecified type)" RELATED [NCIT:C17050]
 synonym: "Radiation, Electromagnetic" RELATED [NCIT:C17050]
 xref: NCIT:C17050
-xref: XCO:0000045
-xref: ZECO:0000145
 is_a: NCIT:C18102
-is_a: XCO:0000038 ! radiation exposure
-is_a: ZECO:0000128
 
 [Term]
 id: NCIT:C17052
@@ -495,6 +486,7 @@ xref: ZECO:0000148
 is_a: GO:0009314 ! response to radiation
 is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: XCO:0000038 ! radiation exposure
+is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
 id: NCIT:C17053
@@ -511,6 +503,7 @@ xref: XCO:0000044
 xref: ZECO:0000152
 is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: XCO:0000038 ! radiation exposure
+is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
 id: NCIT:C17054
@@ -545,8 +538,8 @@ xref: NCIT:C17231
 xref: XCO:0000042
 is_a: EO:0007196 ! light regimen
 is_a: GO:0009416 ! response to light stimulus
-is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C44445 ! Solar Radiation
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: NCIT:C17262
@@ -564,22 +557,26 @@ xref: NCIT:C17262
 xref: XCO:0000043
 xref: ZECO:0000150
 is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: NCIT:C17732
 name: Visible Light
 def: "Electromagnetic radiation in the portion of the spectrum from about 380 nm (violet) to 800 nm (red)." [NCIT:C17732]
+def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 def: "The treatment using visible light in the wavelength range of 380-780 nM." [GR:pj]
 comment: Visible light  is the portion of the electromagnetic spectrum that is visible to the human eye. The optical spectrum is a composite, or mixture, of the various colors.
 synonym: "Radiation, Visible Light" RELATED [NCIT:C17732]
 synonym: "Visible Light" RELATED [NCIT:C17732]
 xref: EO:0007221
 xref: NCIT:C17732
+xref: XCO:0000283
 xref: ZECO:0000153
 is_a: EO:0007196 ! light regimen
 is_a: NCIT:C17053 ! Nonionizing Radiation
+is_a: XCO:0000049
+is_a: XCO:0000284 ! controlled visible light exposure
 
 [Term]
 id: NCIT:C18070
@@ -725,8 +722,8 @@ xref: SCTID:218204007
 xref: XCO:0000040
 xref: ZECO:0000149
 is_a: EO:0007154 ! radiation quality treatment
-is_a: NCIT:C17050 ! Electromagnetic Radiation
 is_a: NCIT:C17052 ! Ionizing Radiation
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: NCIT:C44445
@@ -790,131 +787,157 @@ is_a: SCTID_115964003
 [Term]
 id: SCTID_218191003
 name: Overexposure to radiofrequency radiation
+synonym: "Exposure to radiofrequency radiation" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218192005
 name: Overexposure to microwave radiation
+synonym: "Exposure to microwave radiation" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218193000
 name: Overexposure to radar radiation
+synonym: "Exposure to radar radiation" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218195007
 name: Overexposure to infrared heater or lamp
+synonym: "Exposure to infrared heater or lamp" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218196008
 name: Overexposure to visual and ultraviolet light sources
+synonym: "Exposure to visual and ultraviolet light sources" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218197004
 name: Overexposure to arc lamp radiation
+synonym: "Exposure to arc lamp radiation" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218198009
 name: Overexposure to black light source
+synonym: "Exposure to black light source" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218199001
 name: Overexposure to electrical welding arc
+synonym: "Exposure to electrical welding arc" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218200003
 name: Overexposure to oxygas welding torch
+synonym: "Exposure to oxygas welding torch" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218201004
 name: Overexposure to sun rays
+synonym: "Exposure to sun rays" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218202006
 name: Overexposure to visible or ultraviolet source NOS
+synonym: "Exposure to visible or ultraviolet source NOS" BROAD []
 is_a: SCTID_218196008 ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218203001
 name: Overexposure to X-rays and other electromagnetic ionizing radiation
+synonym: "Exposure to X-rays and other electromagnetic ionizing radiation" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218204007
 name: Overexposure to gamma rays
+synonym: "Exposure to gamma rays" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218205008
 name: Overexposure to hard X-rays
+synonym: "Exposure to hard X-rays" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218206009
 name: Overexposure to soft X-rays
+synonym: "Exposure to soft X-rays" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218207000
 name: Overexposure to X-rays NOS
+synonym: "Exposure to X-rays NOS" BROAD []
 is_a: SCTID_218203001 ! Overexposure to X-rays and other electromagnetic ionizing radiation
 
 [Term]
 id: SCTID_218208005
 name: Overexposure to lasers
+synonym: "Exposure to lasers" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218209002
 name: Overexposure to radioactive isotopes
+synonym: "Exposure to radioactive isotopes" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218210007
 name: Overexposure to radiobiologicals
+synonym: "Exposure to radiobiologicals" BROAD []
 is_a: SCTID_218209002 ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218211006
 name: Overexposure to radiopharmaceuticals
+synonym: "Exposure to radiopharmaceuticals" BROAD []
 is_a: SCTID_218209002 ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218212004
 name: Overexposure to radioactive isotope NOS
+synonym: "Exposure to radioactive isotope NOS" BROAD []
 is_a: SCTID_218209002 ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218213009
 name: Overexposure to other radiation
+synonym: "Exposure to other radiation" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218214003
 name: Overexposure to artificially accelerated beams of ionized particles generated by betatrons
+synonym: "Exposure to artificially accelerated beams of ionized particles generated by betatrons" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218215002
 name: Overexposure to artificially accelerated beams of ionized particles generated by synchrotrons
+synonym: "Exposure to artificially accelerated beams of ionized particles generated by synchrotrons" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
 id: SCTID_218216001
 name: Overexposure to other radiation NOS
+synonym: "Exposure to other radiation NOS" BROAD []
 is_a: SCTID_218213009 ! Overexposure to other radiation
 
 [Term]
 id: SCTID_218217005
 name: Overexposure to radiation NOS
+synonym: "Exposure to radiation NOS" BROAD []
 is_a: SCTID_419201009 ! Overexposure to radiation
 
 [Term]
@@ -1086,6 +1109,7 @@ is_a: SCTID_218190002 ! Exposure to radiation
 [Term]
 id: SCTID_419201009
 name: Overexposure to radiation
+synonym: "Exposure to radiation" BROAD []
 is_a: SCTID_218190002 ! Exposure to radiation
 
 [Term]
@@ -1101,6 +1125,12 @@ def: "The condition of being subjected to transmitted energy from the gaseous ra
 is_a: NCIT:C17052 ! Ionizing Radiation
 
 [Term]
+id: XCO:0000045
+name: electromagnetic radiation exposure
+def: "The condition of being subjected to energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Electromagnetic radiation includes, in order of decreasing wavelength, radio waves, microwaves, infrared, visible, and ultraviolet light, x-rays, gamma rays, and cosmic rays." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_Radiation]
+is_a: XCO:0000038 ! radiation exposure
+
+[Term]
 id: XCO:0000182
 name: controlled exposure to ambient light
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
@@ -1108,17 +1138,10 @@ synonym: "diurnal condition" RELATED []
 is_a: XCO:0000284 ! controlled visible light exposure
 
 [Term]
-id: XCO:0000283
-name: visible light stimulus
-def: "Exposure to visible light in a manner, such as for a length of time or at a level, which would not be considered natural, usual or environmental and which is  designed to elicit or evoke an action or response in a cell, an excitable tissue, or an organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-is_a: XCO:0000049
-is_a: XCO:0000284 ! controlled visible light exposure
-
-[Term]
 id: XCO:0000284
 name: controlled visible light exposure
 def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 is_a: XCO:0000181
 
 [Term]
@@ -1140,9 +1163,14 @@ def: "The portion of a controlled light/dark cycle in which the subject is not b
 is_a: XCO:0000459 ! controlled light/dark cycle
 
 [Term]
+id: ZECO:0000145
+name: electromagnetic radiation experimental conditions
+is_a: ZECO:0000128
+
+[Term]
 id: ZECO:0000147
 name: electric field
-is_a: NCIT:C17050 ! Electromagnetic Radiation
+is_a: ZECO:0000145 ! electromagnetic radiation experimental conditions
 
 [Term]
 id: ZECO:0000151

@@ -3,5 +3,5 @@ subgraph cluster_SCTID_218213009 {SCTID_218213009 [ label="SCTID_218213009 " ];
 NCIT_C20049 [ label="NCIT_C20049 Radiation,
 Other" ];}
 NCIT_C20049 -> SCTID_218213009 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-NCIT_C20049 -> SCTID_218213009 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+NCIT_C20049 -> SCTID_218213009 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 }

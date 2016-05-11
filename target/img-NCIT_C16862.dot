@@ -3,5 +3,5 @@ subgraph cluster_NCIT_C16862 {NCIT_C16862 [ label="NCIT_C16862 Microwave
 Radiation" ];
 SCTID_218192005 [ label="SCTID_218192005 " ];}
 NCIT_C16862 -> SCTID_218192005 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-NCIT_C16862 -> SCTID_218192005 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+NCIT_C16862 -> SCTID_218192005 [ arrowhead = ediamond, penwidth=6, color=red, label="0.55", style=solid, arrowtail=ediamond, dir=both]
 }
