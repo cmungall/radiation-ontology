@@ -6,14 +6,14 @@ Radiation" ];
 XCO_0000044 [ label="XCO_0000044 non-ionizing
 radiation
 exposure" ];}
-XCO_0000044 -> ZECO_0000152 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+NCIT_C17053 -> ZECO_0000152 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
 NCIT_C17053 -> XCO_0000044 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 
-NCIT_C17053 -> ZECO_0000152 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
-NCIT_C17053 -> XCO_0000044 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
-
+XCO_0000044 -> ZECO_0000152 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
 NCIT_C17053 -> ZECO_0000152 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
+NCIT_C17053 -> XCO_0000044 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 
 XCO_0000044 -> ZECO_0000152 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
 }

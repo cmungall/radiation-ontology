@@ -2,8 +2,15 @@ digraph cliquegraph {
 subgraph cluster_XCO_0000042 {XCO_0000042 [ label="XCO_0000042 ultraviolet
 ray
 exposure" ];
+EO_0007222 [ label="EO_0007222 UV
+light
+regimen" ];
 NCIT_C17231 [ label="NCIT_C17231 Ultraviolet
 Radiation" ];}
+EO_0007222 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+
 NCIT_C17231 -> XCO_0000042 [ arrowhead = none, penwidth=1, color=blue, label="", style=dotted]
+EO_0007222 -> XCO_0000042 [ arrowhead = ediamond, penwidth=9, color=red, label="0.85", style=solid, arrowtail=ediamond, dir=both]
+
 NCIT_C17231 -> XCO_0000042 [ arrowhead = ediamond, penwidth=8, color=red, label="0.7", style=solid, arrowtail=ediamond, dir=both]
 }

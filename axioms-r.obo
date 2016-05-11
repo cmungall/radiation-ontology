@@ -14,6 +14,10 @@ equivalent_to: NCIT:C17732 ! Visible Light
 equivalent_to: ZECO:0000153 ! visible light
 
 [Term]
+id: EO:0007222 ! UV light regimen
+equivalent_to: XCO:0000042 ! ultraviolet ray exposure
+
+[Term]
 id: EO:0007621 ! magnetic field
 equivalent_to: ZECO:0000146 ! magnetic field
 
