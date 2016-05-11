@@ -343,6 +343,207 @@ is_a: EO:0007154  ! radiation quality treatment
 
 
 [Term]
+id: GO:0009314
+name: response to radiation
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electromagnetic radiation stimulus. Electromagnetic radiation is a propagating wave in space with electric and magnetic components. These components oscillate at right angles to each other and to the direction of propagation." [GOC:jl, Wikipedia:Electromagnetic_radiation]
+comment: Note that 'radiation' refers to electromagnetic radiation of any wavelength.
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "response to electromagnetic radiation stimulus" EXACT []
+synonym: "response to radiation stimulus" EXACT []
+is_a: GO:0009628  ! response to abiotic stimulus
+
+[Term]
+id: GO:0009411
+name: response to UV
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an ultraviolet radiation (UV light) stimulus. Ultraviolet radiation is electromagnetic radiation with a wavelength in the range of 10 to 380 nanometers." [GOC:hb]
+subset: gosubset_prok  ! Prokaryotic GO subset
+synonym: "response to UV light stimulus" EXACT []
+synonym: "response to UV radiation stimulus" EXACT []
+synonym: "response to ultraviolet light stimulus" EXACT []
+synonym: "response to ultraviolet radiation stimulus" EXACT []
+is_a: GO:0009416  ! response to light stimulus
+
+[Term]
+id: GO:0009416
+name: response to light stimulus
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
+subset: gosubset_prok  ! Prokaryotic GO subset
+is_a: GO:0009314  ! response to radiation
+intersection_of: GO:0050896  ! response to stimulus
+intersection_of: has_input CHEBI:30212
+
+[Term]
+id: GO:0009637
+name: response to blue light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a blue light stimulus. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm." [GOC:ai, GOC:mtg_far_red]
+synonym: "response to blue light stimulus" EXACT []
+is_a: GO:0009416  ! response to light stimulus
+
+[Term]
+id: GO:0009639
+name: response to red or far red light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red or far red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Far red light is electromagnetic radiation of wavelength 700-800nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:ai, GOC:mtg_far_red]
+is_a: GO:0009416  ! response to light stimulus
+
+[Term]
+id: GO:0009642
+name: response to light intensity
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light intensity stimulus." [GOC:go_curators]
+is_a: GO:0009416  ! response to light stimulus
+
+[Term]
+id: GO:0009644
+name: response to high light intensity
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a high light intensity stimulus." [GOC:go_curators]
+is_a: GO:0009642  ! response to light intensity
+
+[Term]
+id: GO:0009645
+name: response to low light intensity stimulus
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low light intensity stimulus. Low light intensity is defined as a level of electromagnetic radiation at or below 0.1 micromols/m2." [GOC:go_curators, GOC:mtg_far_red]
+is_a: GO:0009642  ! response to light intensity
+
+[Term]
+id: GO:0009646
+name: response to absence of light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an absence of light stimuli." [GOC:go_curators]
+synonym: "response to darkness" RELATED []
+is_a: GO:0009642  ! response to light intensity
+
+[Term]
+id: GO:0009906
+name: response to photoperiod, blue light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a blue light photoperiod stimulus. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm." [GOC:go_curators, GOC:mtg_far_red]
+is_a: GO:0009637  ! response to blue light
+is_a: GO:0009648  ! photoperiodism
+
+[Term]
+id: GO:0009907
+name: response to photoperiod, red light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red light photoperiod stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm." [GOC:go_curators, GOC:mtg_far_red]
+is_a: GO:0009648  ! photoperiodism
+is_a: GO:0010114  ! response to red light
+
+[Term]
+id: GO:0010114
+name: response to red light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:mtg_far_red, GOC:sm]
+synonym: "response to red light stimulus" EXACT []
+is_a: GO:0009639  ! response to red or far red light
+
+[Term]
+id: GO:0010165
+name: response to X-ray
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of X-ray radiation. An X-ray is a form of electromagnetic radiation with a wavelength in the range of 10 nanometers to 100 picometers (corresponding to frequencies in the range 30 PHz to 3 EHz)." [GOC:sm, Wikipedia:X-ray]
+synonym: "response to X-ray radiation stimulus" EXACT []
+is_a: GO:0010212  ! response to ionizing radiation
+
+[Term]
+id: GO:0010201
+name: response to continuous far red light stimulus by the high-irradiance response system
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a continuous far red light stimulus by the high-irradiance response system. Far red light is electromagnetic radiation of wavelength 700-800nm. The activity of the high-irradiance response system is characterized by stronger effects of continuous than pulsed light at equal total fluence." [GOC:mtg_far_red, GOC:sm]
+is_a: GO:0010218  ! response to far red light
+
+[Term]
+id: GO:0010202
+name: response to low fluence red light stimulus
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a low fluence red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Low fluence red light is defined in this case as short pulses of red light followed by darkness, providing a light level of 0.001-0.1 mmol/m2/sec." [GOC:mtg_far_red, GOC:sm]
+is_a: GO:0009645  ! response to low light intensity stimulus
+is_a: GO:0010114  ! response to red light
+
+[Term]
+id: GO:0010203
+name: response to very low fluence red light stimulus
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a very low fluence red light stimulus. Red light is electromagnetic radiation of wavelength of 580-700nm. Very low fluence red light is defined in this case as short pulses of red light followed by darkness, providing light levels of less than 0.001 mmol/m2/sec." [GOC:mtg_far_red, GOC:sm]
+is_a: GO:0010114  ! response to red light
+is_a: GO:0055122  ! response to very low light intensity stimulus
+
+[Term]
+id: GO:0010212
+name: response to ionizing radiation
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a ionizing radiation stimulus. Ionizing radiation is radiation with sufficient energy to remove electrons from atoms and may arise from spontaneous decay of unstable isotopes, resulting in alpha and beta particles and gamma rays. Ionizing radiation also includes X-rays." [PMID:12509526]
+synonym: "response to ionising radiation" EXACT []
+synonym: "response to ionizing radiation stimulus" EXACT []
+is_a: GO:0009314  ! response to radiation
+
+[Term]
+id: GO:0010218
+name: response to far red light
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of far red light stimulus. Far red light is electromagnetic radiation of wavelength 700-800nm. An example of this response is seen at the beginning of many plant species developmental stages. These include germination, and the point when cotyledon expansion is triggered. In certain species these processes take place in response to absorption of red light by the pigment molecule phytochrome, but the signal can be reversed by exposure to far red light. During the initial phase the phytochrome molecule is only present in the red light absorbing form, but on absorption of red light it changes to a far red light absorbing form, triggering progress through development. An immediate short period of exposure to far red light entirely returns the pigment to its initial state and prevents triggering of the developmental process. A thirty minute break between red and subsequent far red light exposure renders the red light effect irreversible, and development then occurs regardless of whether far red light exposure subsequently occurs." [GOC:mtg_far_red, GOC:tb]
+synonym: "response to far red light stimulus" EXACT []
+is_a: GO:0009639  ! response to red or far red light
+
+[Term]
+id: GO:0010224
+name: response to UV-B
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-B radiation stimulus. UV-B radiation (UV-B light) spans the wavelengths 280 to 315 nm." [GOC:tb]
+synonym: "response to UV-B light stimulus" EXACT []
+synonym: "response to UV-B radiation stimulus" EXACT []
+synonym: "response to UVB light stimulus" EXACT []
+synonym: "response to UVB radiation stimulus" EXACT []
+synonym: "response to medium wave ultraviolet light stimulus" EXACT []
+synonym: "response to medium wave ultraviolet radiation stimulus" EXACT []
+is_a: GO:0009411  ! response to UV
+
+[Term]
+id: GO:0010225
+name: response to UV-C
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-C radiation stimulus. UV-C radiation (UV-C light) spans the wavelengths 100 to 280 nm." [GOC:tb]
+synonym: "response to UV-C light stimulus" EXACT []
+synonym: "response to UV-C radiation stimulus" EXACT []
+synonym: "response to UVC light stimulus" EXACT []
+synonym: "response to UVC radiation stimulus" EXACT []
+synonym: "response to germicidal ultraviolet light stimulus" EXACT []
+synonym: "response to germicidal ultraviolet radiation stimulus" EXACT []
+synonym: "response to shortwave ultraviolet light stimulus" EXACT []
+synonym: "response to shortwave ultraviolet radiation stimulus" EXACT []
+is_a: GO:0009411  ! response to UV
+
+[Term]
+id: GO:0010244
+name: response to low fluence blue light stimulus by blue low-fluence system
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a low fluence blue light stimulus by the blue low-fluence system. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm. The blue low-fluence system responds to blue light at or below 0.1 micromols/m2. In certain species excitation of the blue low fluence system induces the transcription of a number of nuclear and plastid coded genes." [GOC:mtg_far_red, PMID:10398709]
+synonym: "response to low fluence blue light" BROAD []
+synonym: "response to low fluence blue light by blf system" EXACT []
+is_a: GO:0009637  ! response to blue light
+is_a: GO:0009645  ! response to low light intensity stimulus
+
+[Term]
+id: GO:0010332
+name: response to gamma radiation
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a gamma radiation stimulus. Gamma radiation is a form of electromagnetic radiation (EMR) or light emission of a specific frequency produced from sub-atomic particle interaction, such as electron-positron annihilation and radioactive decay. Gamma rays are generally characterized as EMR having the highest frequency and energy, and also the shortest wavelength, within the electromagnetic radiation spectrum." [GOC:tair_curators, Wikipedia:Gamma_ray]
+synonym: "response to gamma ray" RELATED []
+synonym: "response to gamma-ray photon" RELATED []
+is_a: GO:0010212  ! response to ionizing radiation
+
+[Term]
+id: GO:0055121
+name: response to high fluence blue light stimulus by blue high-fluence system
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of the detection of a high fluence blue light stimulus by the blue high-fluence system. Blue light is electromagnetic radiation with a wavelength of between 440 and 500nm. The blue high-fluence system responds to blue light at levels between 100 and 1000 micromols/m2." [GOC:mtg_far_red]
+synonym: "response to high fluence blue light" BROAD []
+synonym: "response to high fluence blue light by bhf system" RELATED []
+is_a: GO:0009637  ! response to blue light
+is_a: GO:0009644  ! response to high light intensity
+
+[Term]
+id: GO:0055122
+name: response to very low light intensity stimulus
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a very low light intensity stimulus. A very low light intensity stimulus is defined as a level of electromagnetic radiation below 0.001 mmol/m2/sec." [GOC:mtg_far_red]
+is_a: GO:0009642  ! response to light intensity
+
+[Term]
+id: GO:0070141
+name: response to UV-A
+def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a UV-A radiation stimulus. UV-A radiation (UV-A light) spans the wavelengths 315 to 400 nm." [GOC:BHF, GOC:mah]
+synonym: "response to UV-A light stimulus" EXACT []
+synonym: "response to UV-A radiation stimulus" EXACT []
+synonym: "response to UVA light stimulus" EXACT []
+synonym: "response to UVA radiation stimulus" EXACT []
+is_a: GO:0009411  ! response to UV
+
+
+
+[Term]
 id: NCIT:C16279
 name: Alpha Radiation
 def: "An emission of positively charged particles composed of two protons and two neutrons, i.e., helium nuclei, emitted during disintegration of very heavy isotopes; a beam of alpha particles or an alpha ray has very strong ionizing power, but weak penetrability." [NCIT:C16279]
@@ -623,131 +824,157 @@ is_a: SCTID_115964003  ! Exposure to non-mechanical force
 [Term]
 id: SCTID_218191003
 name: Overexposure to radiofrequency radiation
+synonym: "Exposure to radiofrequency radiation" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218192005
 name: Overexposure to microwave radiation
+synonym: "Exposure to microwave radiation" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218193000
 name: Overexposure to radar radiation
+synonym: "Exposure to radar radiation" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218195007
 name: Overexposure to infrared heater or lamp
+synonym: "Exposure to infrared heater or lamp" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218196008
 name: Overexposure to visual and ultraviolet light sources
+synonym: "Exposure to visual and ultraviolet light sources" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218197004
 name: Overexposure to arc lamp radiation
+synonym: "Exposure to arc lamp radiation" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218198009
 name: Overexposure to black light source
+synonym: "Exposure to black light source" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218199001
 name: Overexposure to electrical welding arc
+synonym: "Exposure to electrical welding arc" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218200003
 name: Overexposure to oxygas welding torch
+synonym: "Exposure to oxygas welding torch" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218201004
 name: Overexposure to sun rays
+synonym: "Exposure to sun rays" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218202006
 name: Overexposure to visible or ultraviolet source NOS
+synonym: "Exposure to visible or ultraviolet source NOS" BROAD []
 is_a: SCTID_218196008  ! Overexposure to visual and ultraviolet light sources
 
 [Term]
 id: SCTID_218203001
 name: Overexposure to X-rays and other electromagnetic ionizing radiation
+synonym: "Exposure to X-rays and other electromagnetic ionizing radiation" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218204007
 name: Overexposure to gamma rays
+synonym: "Exposure to gamma rays" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218205008
 name: Overexposure to hard X-rays
+synonym: "Exposure to hard X-rays" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218206009
 name: Overexposure to soft X-rays
+synonym: "Exposure to soft X-rays" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218207000
 name: Overexposure to X-rays NOS
+synonym: "Exposure to X-rays NOS" BROAD []
 is_a: SCTID_218203001  ! Overexposure to X-rays and other electromagnetic ionizing radiation
 
 [Term]
 id: SCTID_218208005
 name: Overexposure to lasers
+synonym: "Exposure to lasers" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218209002
 name: Overexposure to radioactive isotopes
+synonym: "Exposure to radioactive isotopes" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218210007
 name: Overexposure to radiobiologicals
+synonym: "Exposure to radiobiologicals" BROAD []
 is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218211006
 name: Overexposure to radiopharmaceuticals
+synonym: "Exposure to radiopharmaceuticals" BROAD []
 is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218212004
 name: Overexposure to radioactive isotope NOS
+synonym: "Exposure to radioactive isotope NOS" BROAD []
 is_a: SCTID_218209002  ! Overexposure to radioactive isotopes
 
 [Term]
 id: SCTID_218213009
 name: Overexposure to other radiation
+synonym: "Exposure to other radiation" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218214003
 name: Overexposure to artificially accelerated beams of ionized particles generated by betatrons
+synonym: "Exposure to artificially accelerated beams of ionized particles generated by betatrons" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218215002
 name: Overexposure to artificially accelerated beams of ionized particles generated by synchrotrons
+synonym: "Exposure to artificially accelerated beams of ionized particles generated by synchrotrons" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
 id: SCTID_218216001
 name: Overexposure to other radiation NOS
+synonym: "Exposure to other radiation NOS" BROAD []
 is_a: SCTID_218213009  ! Overexposure to other radiation
 
 [Term]
 id: SCTID_218217005
 name: Overexposure to radiation NOS
+synonym: "Exposure to radiation NOS" BROAD []
 is_a: SCTID_419201009  ! Overexposure to radiation
 
 [Term]
@@ -919,6 +1146,7 @@ is_a: SCTID_218190002  ! Exposure to radiation
 [Term]
 id: SCTID_419201009
 name: Overexposure to radiation
+synonym: "Exposure to radiation" BROAD []
 is_a: SCTID_218190002  ! Exposure to radiation
 
 

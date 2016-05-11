@@ -5,5 +5,8 @@ while(<>) {
     if (m@name: (uv.*)\s+light\s+(.*)@i) {
         print "synonym: \"$1 $2\" EXACT []\n";
     }
+    if (m@name: Overexposure to (.*)@) {
+        print "synonym: \"Exposure to $1\" BROAD []\n";
+    }
 
 }

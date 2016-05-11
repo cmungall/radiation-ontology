@@ -1,6 +1,5 @@
 EO:0001039 ! radiation mutagen treatment
 EO:0001040 ! light-induced photooxidative stress treatment
-EO:0007075 ! high light intensity regimen
 EO:0007076 ! moderate light intensity regimen
 EO:0007078 ! light quantity regimen
 EO:0007128 ! intermittent light regimen
@@ -16,15 +15,11 @@ EO:0007193 ! day light intensity
 EO:0007199 ! long day length regimen
 EO:0007200 ! short day length regimen
 EO:0007202 ! IR light regimen
-EO:0007203 ! far red light regimen
-EO:0007207 ! red light regimen
 EO:0007215 ! orange light regimen
 EO:0007216 ! yellow light regimen
 EO:0007217 ! green light regimen
-EO:0007218 ! blue light regimen
 EO:0007219 ! indigo light regimen
 EO:0007220 ! violet light regimen
-EO:0007224 ! light intensity regimen
 EO:0007270 ! continuous dark (no light) regimen
 EO:0007271 ! low light intensity regimen
 EO:0007610 ! 3-H
@@ -41,6 +36,18 @@ EO:0007620 ! 60-Co or ggr ray
 EO:0007623 ! 252-Cf fission neutrons
 EO:0007625 ! stratosphere exposure
 EO:0007626 ! supersonic-treatment
+GO:0009416 ! response to light stimulus
+GO:0009639 ! response to red or far red light
+GO:0009645 ! response to low light intensity stimulus
+GO:0009646 ! response to absence of light
+GO:0009906 ! response to photoperiod, blue light
+GO:0009907 ! response to photoperiod, red light
+GO:0010201 ! response to continuous far red light stimulus by the high-irradiance response system
+GO:0010202 ! response to low fluence red light stimulus
+GO:0010203 ! response to very low fluence red light stimulus
+GO:0010244 ! response to low fluence blue light stimulus by blue low-fluence system
+GO:0055121 ! response to high fluence blue light stimulus by blue high-fluence system
+GO:0055122 ! response to very low light intensity stimulus
 NCIT:C16279 ! Alpha Radiation
 NCIT:C16318 ! Low-Level Radiation
 NCIT:C16533 ! Electromagnetic Field

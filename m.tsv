@@ -1,3 +1,4 @@
+EO:0001022 ! gamma radiation treatment	GO:0010332 ! response to gamma radiation	false	label	label	gamma
 EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	false	label	label	gamma
 EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	false	label	related	gamma
 EO:0001022 ! gamma radiation treatment	XCO:0000040 ! gamma ray exposure	false	label	exact	gamma
@@ -6,36 +7,57 @@ EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	true	label	
 EO:0001022 ! gamma radiation treatment	NCIT:C44386 ! Gamma Radiation	true	exact	related	gammarai
 EO:0001022 ! gamma radiation treatment	ZECO:0000149 ! gamma ray	true	exact	label	gammarai
 EO:0001022 ! gamma radiation treatment	SCTID_218204007 ! Overexposure to gamma rays	false	exact	label	gammarays
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	false	exact	label	bultraviolet
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	false	exact	label	bultraviolet
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	false	exact	related	bultraviolet
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	true	exact	label	bultraviolet
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	true	exact	label	bultraviolet
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	true	exact	related	bultraviolet
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	false	exact	label	ultravioletb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	false	exact	label	ultravioletb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	false	exact	related	ultravioletb
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	true	exact	label	ultravioletb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	true	exact	label	ultravioletb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	true	exact	related	ultravioletb
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	false	exact	label	uvb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	false	exact	related	uvb
+EO:0007001 ! UV-B light regimen	GO:0010224 ! response to UV-B	true	exact	label	uvb
 EO:0007001 ! UV-B light regimen	NCIT:C27987 ! Ultraviolet B Radiation	true	exact	related	uvb
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	false	exact	label	aultraviolet
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	false	exact	label	aultraviolet
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	false	exact	related	aultraviolet
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	true	exact	label	aultraviolet
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	true	exact	label	aultraviolet
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	true	exact	related	aultraviolet
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	false	exact	label	ultravioleta
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	false	exact	label	ultravioleta
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	false	exact	related	ultravioleta
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	true	exact	label	ultravioleta
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	true	exact	label	ultravioleta
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	true	exact	related	ultravioleta
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	false	exact	label	uva
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	false	exact	related	uva
+EO:0007002 ! UV-A light regimen	GO:0070141 ! response to UV-A	true	exact	label	uva
 EO:0007002 ! UV-A light regimen	NCIT:C27986 ! Ultraviolet A Radiation	true	exact	related	uva
+EO:0007075 ! high light intensity regimen	GO:0009644 ! response to high light intensity	false	label	label	highintensitylight
+EO:0007075 ! high light intensity regimen	GO:0009644 ! response to high light intensity	false	label	label	highlightintensity
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	false	exact	label	cultraviolet
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	false	exact	label	cultraviolet
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	false	exact	related	cultraviolet
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	true	exact	label	cultraviolet
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	true	exact	label	cultraviolet
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	true	exact	related	cultraviolet
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	false	exact	label	ultravioletc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	false	exact	label	ultravioletc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	false	exact	related	ultravioletc
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	true	exact	label	ultravioletc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	true	exact	label	ultravioletc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	true	exact	related	ultravioletc
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	false	exact	label	uvc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	false	exact	related	uvc
+EO:0007129 ! UV-C light regimen	GO:0010225 ! response to UV-C	true	exact	label	uvc
 EO:0007129 ! UV-C light regimen	NCIT:C44461 ! Ultraviolet C Radiation	true	exact	related	uvc
+EO:0007151 ! radiation treatment	GO:0009314 ! response to radiation	false	label	label	
 EO:0007151 ! radiation treatment	SCTID_218190002 ! Exposure to radiation	false	label	label	
 EO:0007151 ! radiation treatment	SCTID_419201009 ! Overexposure to radiation	false	label	label	
 EO:0007151 ! radiation treatment	XCO:0000038 ! radiation exposure	false	label	label	
@@ -63,6 +85,16 @@ EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	false	label	related	
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
 EO:0007196 ! light regimen	EO:0007151 ! radiation treatment	true	label	related	lightregimen
+EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	false	label	label	farlightred
+EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	true	label	label	farlightred
+EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	false	label	label	farredlight
+EO:0007203 ! far red light regimen	GO:0010218 ! response to far red light	true	label	label	farredlight
+EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	label	lightred
+EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	label	lightred
+EO:0007207 ! red light regimen	GO:0010114 ! response to red light	false	label	label	redlight
+EO:0007207 ! red light regimen	GO:0010114 ! response to red light	true	label	label	redlight
+EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	false	label	label	bluelight
+EO:0007218 ! blue light regimen	GO:0009637 ! response to blue light	true	label	label	bluelight
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	label	lightvisibl
 EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	related	lightvisibl
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	true	label	label	lightvisibl
@@ -77,14 +109,18 @@ EO:0007221 ! visible light regimen	NCIT:C17732 ! Visible Light	true	label	relate
 EO:0007221 ! visible light regimen	ZECO:0000153 ! visible light	true	label	label	visibllight
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	false	label	label	lightultraviolet
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	true	label	label	lightultraviolet
+EO:0007222 ! UV light regimen	GO:0009411 ! response to UV	false	exact	label	ultraviolet
 EO:0007222 ! UV light regimen	NCIT:C17231 ! Ultraviolet Radiation	false	exact	label	ultraviolet
 EO:0007222 ! UV light regimen	NCIT:C17231 ! Ultraviolet Radiation	false	exact	related	ultraviolet
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	false	exact	exact	ultraviolet
+EO:0007222 ! UV light regimen	GO:0009411 ! response to UV	true	exact	label	ultraviolet
 EO:0007222 ! UV light regimen	NCIT:C17231 ! Ultraviolet Radiation	true	exact	label	ultraviolet
 EO:0007222 ! UV light regimen	NCIT:C17231 ! Ultraviolet Radiation	true	exact	related	ultraviolet
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	true	exact	exact	ultraviolet
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	false	label	label	ultravioletlight
 EO:0007222 ! UV light regimen	XCO:0000042 ! ultraviolet ray exposure	true	label	label	ultravioletlight
+EO:0007224 ! light intensity regimen	GO:0009642 ! response to light intensity	false	label	label	intensitylight
+EO:0007224 ! light intensity regimen	GO:0009642 ! response to light intensity	false	label	label	lightintensity
 EO:0007621 ! magnetic field	ZECO:0000146 ! magnetic field	true	label	label	fieldmagnet
 EO:0007621 ! magnetic field	ZECO:0000146 ! magnetic field	false	label	label	fieldmagnetic
 EO:0007621 ! magnetic field	ZECO:0000146 ! magnetic field	true	label	label	magnetfield
@@ -95,16 +131,97 @@ EO:0007624 ! radio wave	NCIT:C70832 ! Radio Frequency	false	label	related	radiow
 EO:0007624 ! radio wave	NCIT:C70832 ! Radio Frequency	true	label	related	radiowave
 EO:0007624 ! radio wave	NCIT:C70832 ! Radio Frequency	true	label	related	radiowave
 EO:0007624 ! radio wave	NCIT:C70832 ! Radio Frequency	true	label	related	radiowave
+EO:0007628 ! X-ray	GO:0010165 ! response to X-ray	false	label	label	lightx
 EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	false	label	label	lightx
 EO:0007628 ! X-ray	XCO:0000043 ! X-ray exposure	false	label	label	lightx
 EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	true	label	label	raix
+EO:0007628 ! X-ray	GO:0010165 ! response to X-ray	false	label	label	xlight
 EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	false	label	label	xlight
 EO:0007628 ! X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xlight
 EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	true	label	label	xrai
 EO:0007628 ! X-ray	ZECO:0000150 ! xray	true	label	label	xrai
+EO:0007628 ! X-ray	GO:0010165 ! response to X-ray	false	label	label	xray
 EO:0007628 ! X-ray	NCIT:C17262 ! X-Ray	false	label	label	xray
 EO:0007628 ! X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 EO:0007628 ! X-ray	ZECO:0000150 ! xray	false	label	label	xray
+GO:0009314 ! response to radiation	EO:0007151 ! radiation treatment	false	label	label	
+GO:0009314 ! response to radiation	SCTID_218190002 ! Exposure to radiation	false	label	label	
+GO:0009314 ! response to radiation	SCTID_419201009 ! Overexposure to radiation	false	label	label	
+GO:0009314 ! response to radiation	XCO:0000038 ! radiation exposure	false	label	label	
+GO:0009411 ! response to UV	EO:0007222 ! UV light regimen	false	label	exact	ultraviolet
+GO:0009411 ! response to UV	EO:0007222 ! UV light regimen	true	label	exact	ultraviolet
+GO:0009411 ! response to UV	NCIT:C17231 ! Ultraviolet Radiation	false	label	label	ultraviolet
+GO:0009411 ! response to UV	NCIT:C17231 ! Ultraviolet Radiation	false	label	related	ultraviolet
+GO:0009411 ! response to UV	XCO:0000042 ! ultraviolet ray exposure	false	label	exact	ultraviolet
+GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	false	label	label	bluelight
+GO:0009637 ! response to blue light	EO:0007218 ! blue light regimen	true	label	label	bluelight
+GO:0009642 ! response to light intensity	EO:0007224 ! light intensity regimen	false	label	label	intensitylight
+GO:0009642 ! response to light intensity	EO:0007224 ! light intensity regimen	false	label	label	lightintensity
+GO:0009644 ! response to high light intensity	EO:0007075 ! high light intensity regimen	false	label	label	highintensitylight
+GO:0009644 ! response to high light intensity	EO:0007075 ! high light intensity regimen	false	label	label	highlightintensity
+GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	label	label	lightred
+GO:0010114 ! response to red light	EO:0007207 ! red light regimen	true	label	label	lightred
+GO:0010114 ! response to red light	EO:0007207 ! red light regimen	false	label	label	redlight
+GO:0010114 ! response to red light	EO:0007207 ! red light regimen	true	label	label	redlight
+GO:0010165 ! response to X-ray	EO:0007628 ! X-ray	false	label	label	lightx
+GO:0010165 ! response to X-ray	NCIT:C17262 ! X-Ray	false	label	label	lightx
+GO:0010165 ! response to X-ray	XCO:0000043 ! X-ray exposure	false	label	label	lightx
+GO:0010165 ! response to X-ray	EO:0007628 ! X-ray	false	label	label	xlight
+GO:0010165 ! response to X-ray	NCIT:C17262 ! X-Ray	false	label	label	xlight
+GO:0010165 ! response to X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xlight
+GO:0010165 ! response to X-ray	EO:0007628 ! X-ray	false	label	label	xray
+GO:0010165 ! response to X-ray	NCIT:C17262 ! X-Ray	false	label	label	xray
+GO:0010165 ! response to X-ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
+GO:0010165 ! response to X-ray	ZECO:0000150 ! xray	false	label	label	xray
+GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
+GO:0010212 ! response to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
+GO:0010212 ! response to ionizing radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
+GO:0010212 ! response to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
+GO:0010212 ! response to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
+GO:0010218 ! response to far red light	EO:0007203 ! far red light regimen	false	label	label	farlightred
+GO:0010218 ! response to far red light	EO:0007203 ! far red light regimen	true	label	label	farlightred
+GO:0010218 ! response to far red light	EO:0007203 ! far red light regimen	false	label	label	farredlight
+GO:0010218 ! response to far red light	EO:0007203 ! far red light regimen	true	label	label	farredlight
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	false	label	exact	bultraviolet
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	true	label	exact	bultraviolet
+GO:0010224 ! response to UV-B	NCIT:C27987 ! Ultraviolet B Radiation	false	label	label	bultraviolet
+GO:0010224 ! response to UV-B	NCIT:C27987 ! Ultraviolet B Radiation	false	label	related	bultraviolet
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	false	label	exact	ultravioletb
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	true	label	exact	ultravioletb
+GO:0010224 ! response to UV-B	NCIT:C27987 ! Ultraviolet B Radiation	false	label	label	ultravioletb
+GO:0010224 ! response to UV-B	NCIT:C27987 ! Ultraviolet B Radiation	false	label	related	ultravioletb
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	false	label	exact	uvb
+GO:0010224 ! response to UV-B	EO:0007001 ! UV-B light regimen	true	label	exact	uvb
+GO:0010224 ! response to UV-B	NCIT:C27987 ! Ultraviolet B Radiation	false	label	related	uvb
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	false	label	exact	cultraviolet
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	true	label	exact	cultraviolet
+GO:0010225 ! response to UV-C	NCIT:C44461 ! Ultraviolet C Radiation	false	label	label	cultraviolet
+GO:0010225 ! response to UV-C	NCIT:C44461 ! Ultraviolet C Radiation	false	label	related	cultraviolet
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	false	label	exact	ultravioletc
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	true	label	exact	ultravioletc
+GO:0010225 ! response to UV-C	NCIT:C44461 ! Ultraviolet C Radiation	false	label	label	ultravioletc
+GO:0010225 ! response to UV-C	NCIT:C44461 ! Ultraviolet C Radiation	false	label	related	ultravioletc
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	false	label	exact	uvc
+GO:0010225 ! response to UV-C	EO:0007129 ! UV-C light regimen	true	label	exact	uvc
+GO:0010225 ! response to UV-C	NCIT:C44461 ! Ultraviolet C Radiation	false	label	related	uvc
+GO:0010332 ! response to gamma radiation	EO:0001022 ! gamma radiation treatment	false	label	label	gamma
+GO:0010332 ! response to gamma radiation	NCIT:C44386 ! Gamma Radiation	false	label	label	gamma
+GO:0010332 ! response to gamma radiation	NCIT:C44386 ! Gamma Radiation	false	label	related	gamma
+GO:0010332 ! response to gamma radiation	XCO:0000040 ! gamma ray exposure	false	label	exact	gamma
+GO:0010332 ! response to gamma radiation	NCIT:C44386 ! Gamma Radiation	false	related	related	gammalight
+GO:0010332 ! response to gamma radiation	XCO:0000040 ! gamma ray exposure	false	related	label	gammalight
+GO:0010332 ! response to gamma radiation	ZECO:0000149 ! gamma ray	false	related	label	gammalight
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	false	label	exact	aultraviolet
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	true	label	exact	aultraviolet
+GO:0070141 ! response to UV-A	NCIT:C27986 ! Ultraviolet A Radiation	false	label	label	aultraviolet
+GO:0070141 ! response to UV-A	NCIT:C27986 ! Ultraviolet A Radiation	false	label	related	aultraviolet
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	false	label	exact	ultravioleta
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	true	label	exact	ultravioleta
+GO:0070141 ! response to UV-A	NCIT:C27986 ! Ultraviolet A Radiation	false	label	label	ultravioleta
+GO:0070141 ! response to UV-A	NCIT:C27986 ! Ultraviolet A Radiation	false	label	related	ultravioleta
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	false	label	exact	uva
+GO:0070141 ! response to UV-A	EO:0007002 ! UV-A light regimen	true	label	exact	uva
+GO:0070141 ! response to UV-A	NCIT:C27986 ! Ultraviolet A Radiation	false	label	related	uva
 NCIT:C16736 ! Infrared Radiation	XCO:0000046 ! infrared radiation exposure	false	label	label	infrared
 NCIT:C16736 ! Infrared Radiation	ZECO:0000155 ! infrared	false	label	label	infrared
 NCIT:C16736 ! Infrared Radiation	XCO:0000046 ! infrared radiation exposure	false	related	label	infrared
@@ -115,9 +232,11 @@ NCIT:C17050 ! Electromagnetic Radiation	XCO:0000045 ! electromagnetic radiation 
 NCIT:C17050 ! Electromagnetic Radiation	ZECO:0000145 ! electromagnetic radiation experimental conditions	false	label	label	electromagnetic
 NCIT:C17050 ! Electromagnetic Radiation	XCO:0000045 ! electromagnetic radiation exposure	false	related	label	electromagnetic
 NCIT:C17050 ! Electromagnetic Radiation	ZECO:0000145 ! electromagnetic radiation experimental conditions	false	related	label	electromagnetic
+NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
+NCIT:C17052 ! Ionizing Radiation	GO:0010212 ! response to ionizing radiation	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	XCO:0000039 ! ionizing radiation exposure	false	related	label	ionizing
 NCIT:C17052 ! Ionizing Radiation	ZECO:0000148 ! ionizing radiation	false	related	label	ionizing
@@ -138,18 +257,23 @@ NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	true	l
 NCIT:C17053 ! Nonionizing Radiation	ZECO:0000152 ! non-ionizing radiation	true	related	label	nonionradiat
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	false	label	exact	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	true	label	exact	ultraviolet
+NCIT:C17231 ! Ultraviolet Radiation	GO:0009411 ! response to UV	false	label	label	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	XCO:0000042 ! ultraviolet ray exposure	false	label	exact	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	false	related	exact	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	EO:0007222 ! UV light regimen	true	related	exact	ultraviolet
+NCIT:C17231 ! Ultraviolet Radiation	GO:0009411 ! response to UV	false	related	label	ultraviolet
 NCIT:C17231 ! Ultraviolet Radiation	XCO:0000042 ! ultraviolet ray exposure	false	related	exact	ultraviolet
 NCIT:C17262 ! X-Ray	EO:0007628 ! X-ray	false	label	label	lightx
+NCIT:C17262 ! X-Ray	GO:0010165 ! response to X-ray	false	label	label	lightx
 NCIT:C17262 ! X-Ray	XCO:0000043 ! X-ray exposure	false	label	label	lightx
 NCIT:C17262 ! X-Ray	EO:0007628 ! X-ray	true	label	label	raix
 NCIT:C17262 ! X-Ray	EO:0007628 ! X-ray	false	label	label	xlight
+NCIT:C17262 ! X-Ray	GO:0010165 ! response to X-ray	false	label	label	xlight
 NCIT:C17262 ! X-Ray	XCO:0000043 ! X-ray exposure	false	label	label	xlight
 NCIT:C17262 ! X-Ray	EO:0007628 ! X-ray	true	label	label	xrai
 NCIT:C17262 ! X-Ray	ZECO:0000150 ! xray	true	label	label	xrai
 NCIT:C17262 ! X-Ray	EO:0007628 ! X-ray	false	label	label	xray
+NCIT:C17262 ! X-Ray	GO:0010165 ! response to X-ray	false	label	label	xray
 NCIT:C17262 ! X-Ray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 NCIT:C17262 ! X-Ray	ZECO:0000150 ! xray	false	label	label	xray
 NCIT:C17732 ! Visible Light	EO:0007221 ! visible light regimen	true	label	label	lightvisibl
@@ -174,28 +298,41 @@ NCIT:C20049 ! Radiation, Other	SCTID_218213009 ! Overexposure to other radiation
 NCIT:C20049 ! Radiation, Other	SCTID_218213009 ! Overexposure to other radiation	false	related	label	other
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	label	exact	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	label	exact	aultraviolet
+NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	label	label	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	related	exact	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	related	exact	aultraviolet
+NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	related	label	aultraviolet
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	label	exact	ultravioleta
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	label	exact	ultravioleta
+NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	label	label	ultravioleta
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	related	exact	ultravioleta
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	related	exact	ultravioleta
+NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	related	label	ultravioleta
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	false	related	exact	uva
 NCIT:C27986 ! Ultraviolet A Radiation	EO:0007002 ! UV-A light regimen	true	related	exact	uva
+NCIT:C27986 ! Ultraviolet A Radiation	GO:0070141 ! response to UV-A	false	related	label	uva
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	false	label	exact	bultraviolet
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	true	label	exact	bultraviolet
+NCIT:C27987 ! Ultraviolet B Radiation	GO:0010224 ! response to UV-B	false	label	label	bultraviolet
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	false	related	exact	bultraviolet
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	true	related	exact	bultraviolet
+NCIT:C27987 ! Ultraviolet B Radiation	GO:0010224 ! response to UV-B	false	related	label	bultraviolet
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	false	label	exact	ultravioletb
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	true	label	exact	ultravioletb
+NCIT:C27987 ! Ultraviolet B Radiation	GO:0010224 ! response to UV-B	false	label	label	ultravioletb
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	false	related	exact	ultravioletb
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	true	related	exact	ultravioletb
+NCIT:C27987 ! Ultraviolet B Radiation	GO:0010224 ! response to UV-B	false	related	label	ultravioletb
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	false	related	exact	uvb
 NCIT:C27987 ! Ultraviolet B Radiation	EO:0007001 ! UV-B light regimen	true	related	exact	uvb
+NCIT:C27987 ! Ultraviolet B Radiation	GO:0010224 ! response to UV-B	false	related	label	uvb
 NCIT:C44386 ! Gamma Radiation	EO:0001022 ! gamma radiation treatment	false	label	label	gamma
+NCIT:C44386 ! Gamma Radiation	GO:0010332 ! response to gamma radiation	false	label	label	gamma
 NCIT:C44386 ! Gamma Radiation	XCO:0000040 ! gamma ray exposure	false	label	exact	gamma
 NCIT:C44386 ! Gamma Radiation	EO:0001022 ! gamma radiation treatment	false	related	label	gamma
+NCIT:C44386 ! Gamma Radiation	GO:0010332 ! response to gamma radiation	false	related	label	gamma
 NCIT:C44386 ! Gamma Radiation	XCO:0000040 ! gamma ray exposure	false	related	exact	gamma
+NCIT:C44386 ! Gamma Radiation	GO:0010332 ! response to gamma radiation	false	related	related	gammalight
 NCIT:C44386 ! Gamma Radiation	XCO:0000040 ! gamma ray exposure	false	related	label	gammalight
 NCIT:C44386 ! Gamma Radiation	ZECO:0000149 ! gamma ray	false	related	label	gammalight
 NCIT:C44386 ! Gamma Radiation	EO:0001022 ! gamma radiation treatment	true	label	label	gammaradiat
@@ -205,14 +342,19 @@ NCIT:C44386 ! Gamma Radiation	ZECO:0000149 ! gamma ray	true	related	label	gammar
 NCIT:C44386 ! Gamma Radiation	ZECO:0000149 ! gamma ray	false	related	label	gammaray
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	label	exact	cultraviolet
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	label	exact	cultraviolet
+NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	label	label	cultraviolet
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	related	exact	cultraviolet
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	related	exact	cultraviolet
+NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	related	label	cultraviolet
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	label	exact	ultravioletc
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	label	exact	ultravioletc
+NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	label	label	ultravioletc
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	related	exact	ultravioletc
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	related	exact	ultravioletc
+NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	related	label	ultravioletc
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	false	related	exact	uvc
 NCIT:C44461 ! Ultraviolet C Radiation	EO:0007129 ! UV-C light regimen	true	related	exact	uvc
+NCIT:C44461 ! Ultraviolet C Radiation	GO:0010225 ! response to UV-C	false	related	label	uvc
 NCIT:C70832 ! Radio Frequency	SCTID_218191003 ! Overexposure to radiofrequency radiation	false	label	label	radiofrequency
 NCIT:C70832 ! Radio Frequency	SCTID_218191003 ! Overexposure to radiofrequency radiation	false	related	label	radiofrequency
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	false	related	label	radiowave
@@ -220,11 +362,13 @@ NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowa
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 NCIT:C70832 ! Radio Frequency	EO:0007624 ! radio wave	true	related	label	radiowave
 SCTID_122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	true	label	label	exposurionizradiat
+SCTID_122866006 ! Exposure to ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 SCTID_122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 SCTID_122866006 ! Exposure to ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
 SCTID_122866006 ! Exposure to ionizing radiation	XCO:0000039 ! ionizing radiation exposure	false	label	label	ionizing
 SCTID_122866006 ! Exposure to ionizing radiation	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
 SCTID_218190002 ! Exposure to radiation	EO:0007151 ! radiation treatment	false	label	label	
+SCTID_218190002 ! Exposure to radiation	GO:0009314 ! response to radiation	false	label	label	
 SCTID_218190002 ! Exposure to radiation	SCTID_419201009 ! Overexposure to radiation	false	label	label	
 SCTID_218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	false	label	label	
 SCTID_218190002 ! Exposure to radiation	XCO:0000038 ! radiation exposure	true	label	label	exposurradiat
@@ -240,35 +384,44 @@ SCTID_418921006 ! Exposure to light	EO:0007151 ! radiation treatment	true	label	
 SCTID_418921006 ! Exposure to light	EO:0007196 ! light regimen	false	label	label	light
 SCTID_418921006 ! Exposure to light	EO:0007196 ! light regimen	true	label	label	light
 SCTID_419201009 ! Overexposure to radiation	EO:0007151 ! radiation treatment	false	label	label	
+SCTID_419201009 ! Overexposure to radiation	GO:0009314 ! response to radiation	false	label	label	
 SCTID_419201009 ! Overexposure to radiation	SCTID_218190002 ! Exposure to radiation	false	label	label	
 SCTID_419201009 ! Overexposure to radiation	XCO:0000038 ! radiation exposure	false	label	label	
 XCO:0000038 ! radiation exposure	EO:0007151 ! radiation treatment	false	label	label	
+XCO:0000038 ! radiation exposure	GO:0009314 ! response to radiation	false	label	label	
 XCO:0000038 ! radiation exposure	SCTID_218190002 ! Exposure to radiation	false	label	label	
 XCO:0000038 ! radiation exposure	SCTID_419201009 ! Overexposure to radiation	false	label	label	
 XCO:0000038 ! radiation exposure	SCTID_218190002 ! Exposure to radiation	true	label	label	exposurradiat
 XCO:0000039 ! ionizing radiation exposure	SCTID_122866006 ! Exposure to ionizing radiation	true	label	label	exposurionizradiat
+XCO:0000039 ! ionizing radiation exposure	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
 XCO:0000039 ! ionizing radiation exposure	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
 XCO:0000039 ! ionizing radiation exposure	ZECO:0000148 ! ionizing radiation	false	label	label	ionizing
 XCO:0000040 ! gamma ray exposure	EO:0001022 ! gamma radiation treatment	false	exact	label	gamma
+XCO:0000040 ! gamma ray exposure	GO:0010332 ! response to gamma radiation	false	exact	label	gamma
 XCO:0000040 ! gamma ray exposure	NCIT:C44386 ! Gamma Radiation	false	exact	label	gamma
 XCO:0000040 ! gamma ray exposure	NCIT:C44386 ! Gamma Radiation	false	exact	related	gamma
+XCO:0000040 ! gamma ray exposure	GO:0010332 ! response to gamma radiation	false	label	related	gammalight
 XCO:0000040 ! gamma ray exposure	NCIT:C44386 ! Gamma Radiation	false	label	related	gammalight
 XCO:0000040 ! gamma ray exposure	ZECO:0000149 ! gamma ray	false	label	label	gammalight
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	false	label	label	lightultraviolet
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	true	label	label	lightultraviolet
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	false	exact	exact	ultraviolet
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	true	exact	exact	ultraviolet
+XCO:0000042 ! ultraviolet ray exposure	GO:0009411 ! response to UV	false	exact	label	ultraviolet
 XCO:0000042 ! ultraviolet ray exposure	NCIT:C17231 ! Ultraviolet Radiation	false	exact	label	ultraviolet
 XCO:0000042 ! ultraviolet ray exposure	NCIT:C17231 ! Ultraviolet Radiation	false	exact	related	ultraviolet
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	false	label	label	ultravioletlight
 XCO:0000042 ! ultraviolet ray exposure	EO:0007222 ! UV light regimen	true	label	label	ultravioletlight
 XCO:0000043 ! X-ray exposure	EO:0007628 ! X-ray	false	label	label	lightx
+XCO:0000043 ! X-ray exposure	GO:0010165 ! response to X-ray	false	label	label	lightx
 XCO:0000043 ! X-ray exposure	NCIT:C17262 ! X-Ray	false	label	label	lightx
 XCO:0000043 ! X-ray exposure	EO:0007628 ! X-ray	false	label	label	xlight
+XCO:0000043 ! X-ray exposure	GO:0010165 ! response to X-ray	false	label	label	xlight
 XCO:0000043 ! X-ray exposure	NCIT:C17262 ! X-Ray	false	label	label	xlight
 XCO:0000043 ! X-ray exposure	EO:0007628 ! X-ray	false	label	label	xray
+XCO:0000043 ! X-ray exposure	GO:0010165 ! response to X-ray	false	label	label	xray
 XCO:0000043 ! X-ray exposure	NCIT:C17262 ! X-Ray	false	label	label	xray
 XCO:0000043 ! X-ray exposure	ZECO:0000150 ! xray	false	label	label	xray
 XCO:0000044 ! non-ionizing radiation exposure	NCIT:C17053 ! Nonionizing Radiation	false	label	related	ionizingnon
@@ -299,6 +452,7 @@ ZECO:0000146 ! magnetic field	EO:0007621 ! magnetic field	true	label	label	field
 ZECO:0000146 ! magnetic field	EO:0007621 ! magnetic field	false	label	label	fieldmagnetic
 ZECO:0000146 ! magnetic field	EO:0007621 ! magnetic field	true	label	label	magnetfield
 ZECO:0000146 ! magnetic field	EO:0007621 ! magnetic field	false	label	label	magneticfield
+ZECO:0000148 ! ionizing radiation	GO:0010212 ! response to ionizing radiation	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	label	ionizing
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizing
 ZECO:0000148 ! ionizing radiation	SCTID_122866006 ! Exposure to ionizing radiation	false	label	label	ionizing
@@ -307,6 +461,7 @@ ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	l
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	false	label	related	ionizingradiation
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	true	label	label	ionizradiat
 ZECO:0000148 ! ionizing radiation	NCIT:C17052 ! Ionizing Radiation	true	label	related	ionizradiat
+ZECO:0000149 ! gamma ray	GO:0010332 ! response to gamma radiation	false	label	related	gammalight
 ZECO:0000149 ! gamma ray	NCIT:C44386 ! Gamma Radiation	false	label	related	gammalight
 ZECO:0000149 ! gamma ray	XCO:0000040 ! gamma ray exposure	false	label	label	gammalight
 ZECO:0000149 ! gamma ray	EO:0001022 ! gamma radiation treatment	true	label	exact	gammarai
@@ -315,6 +470,7 @@ ZECO:0000149 ! gamma ray	NCIT:C44386 ! Gamma Radiation	false	label	related	gamma
 ZECO:0000150 ! xray	EO:0007628 ! X-ray	true	label	label	xrai
 ZECO:0000150 ! xray	NCIT:C17262 ! X-Ray	true	label	label	xrai
 ZECO:0000150 ! xray	EO:0007628 ! X-ray	false	label	label	xray
+ZECO:0000150 ! xray	GO:0010165 ! response to X-ray	false	label	label	xray
 ZECO:0000150 ! xray	NCIT:C17262 ! X-Ray	false	label	label	xray
 ZECO:0000150 ! xray	XCO:0000043 ! X-ray exposure	false	label	label	xray
 ZECO:0000151 ! ionizing uv radiation	XCO:0000179 ! ionizing ultraviolet radiation exposure	false	label	exact	ionizingultraviolet

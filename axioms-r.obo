@@ -3,22 +3,41 @@ ontology: rad/axioms
 
 [Term]
 id: EO:0001022 ! gamma radiation treatment
-equivalent_to: NCIT:C44386 ! Gamma Radiation
+equivalent_to: GO:0010332 ! response to gamma radiation
 equivalent_to: SCTID:218204007
 equivalent_to: XCO:0000040 ! gamma ray exposure
 equivalent_to: ZECO:0000149 ! gamma ray
 
 [Term]
 id: EO:0007001 ! UV-B light regimen
+equivalent_to: GO:0010224 ! response to UV-B
 equivalent_to: NCIT:C27987 ! Ultraviolet B Radiation
 
 [Term]
 id: EO:0007002 ! UV-A light regimen
+equivalent_to: GO:0070141 ! response to UV-A
 equivalent_to: NCIT:C27986 ! Ultraviolet A Radiation
 
 [Term]
+id: EO:0007075 ! high light intensity regimen
+equivalent_to: GO:0009644 ! response to high light intensity
+
+[Term]
 id: EO:0007129 ! UV-C light regimen
+equivalent_to: GO:0010225 ! response to UV-C
 equivalent_to: NCIT:C44461 ! Ultraviolet C Radiation
+
+[Term]
+id: EO:0007203 ! far red light regimen
+equivalent_to: GO:0010218 ! response to far red light
+
+[Term]
+id: EO:0007207 ! red light regimen
+equivalent_to: GO:0010114 ! response to red light
+
+[Term]
+id: EO:0007218 ! blue light regimen
+equivalent_to: GO:0009637 ! response to blue light
 
 [Term]
 id: EO:0007221 ! visible light regimen
@@ -27,8 +46,13 @@ equivalent_to: ZECO:0000153 ! visible light
 
 [Term]
 id: EO:0007222 ! UV light regimen
+equivalent_to: GO:0009411 ! response to UV
 equivalent_to: NCIT:C17231 ! Ultraviolet Radiation
 equivalent_to: XCO:0000042 ! ultraviolet ray exposure
+
+[Term]
+id: EO:0007224 ! light intensity regimen
+equivalent_to: GO:0009642 ! response to light intensity
 
 [Term]
 id: EO:0007621 ! magnetic field
@@ -44,9 +68,46 @@ equivalent_to: NCIT:C70832 ! Radio Frequency
 
 [Term]
 id: EO:0007628 ! X-ray
+equivalent_to: GO:0010165 ! response to X-ray
 equivalent_to: NCIT:C17262 ! X-Ray
 equivalent_to: XCO:0000043 ! X-ray exposure
 equivalent_to: ZECO:0000150 ! xray
+
+[Term]
+id: GO:0009411 ! response to UV
+equivalent_to: NCIT:C17231 ! Ultraviolet Radiation
+equivalent_to: XCO:0000042 ! ultraviolet ray exposure
+
+[Term]
+id: GO:0010165 ! response to X-ray
+equivalent_to: NCIT:C17262 ! X-Ray
+equivalent_to: XCO:0000043 ! X-ray exposure
+equivalent_to: ZECO:0000150 ! xray
+
+[Term]
+id: GO:0010212 ! response to ionizing radiation
+equivalent_to: NCIT:C17052 ! Ionizing Radiation
+equivalent_to: SCTID:122866006
+equivalent_to: XCO:0000039 ! ionizing radiation exposure
+equivalent_to: ZECO:0000148 ! ionizing radiation
+
+[Term]
+id: GO:0010224 ! response to UV-B
+equivalent_to: NCIT:C27987 ! Ultraviolet B Radiation
+
+[Term]
+id: GO:0010225 ! response to UV-C
+equivalent_to: NCIT:C44461 ! Ultraviolet C Radiation
+
+[Term]
+id: GO:0010332 ! response to gamma radiation
+equivalent_to: NCIT:C44386 ! Gamma Radiation
+equivalent_to: XCO:0000040 ! gamma ray exposure
+equivalent_to: ZECO:0000149 ! gamma ray
+
+[Term]
+id: GO:0070141 ! response to UV-A
+equivalent_to: NCIT:C27986 ! Ultraviolet A Radiation
 
 [Term]
 id: NCIT:C16736 ! Infrared Radiation

@@ -15,6 +15,9 @@ rad-snomed.obo:
 rad-ncit.obo:
 	blip ontol-query -r ncit -query "class(R,'Electromagnetic Radiation'),subclassRT(ID,R)" -to obo > $@
 
+rad-go.obo:
+	blip ontol-query -r go -query "class(R,'response to radiation'),subclassRT(ID,R)" -to obo | obo-grep.pl -r 'name: response to' - > $@
+
 
 combined-rad.obo:
 	obo-cat.pl rad-*.obo | grep -v ^namespace: | grep -v ^property_value: | ./add-syns.pl > $@
@@ -32,7 +35,7 @@ OBO=http://purl.obolibrary.org/obo
 combined-rad.owl: combined-rad.obo
 	owltools $< --set-ontology-id $(OBO)/rad.owl -o $@
 
-MAX_E=10
+MAX_E=8
 axioms.owl: combined-rad.owl probs.tsv
 	kboom --experimental  --splitSize 50 --max $(MAX_E) -m rpt.md -j rpt.json -n -o $@ -t probs.tsv $<
 

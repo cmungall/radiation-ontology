@@ -3,22 +3,41 @@ ontology: rad/axioms
 
 [Term]
 id: EO:0001022
-equivalent_to: NCIT:C44386
+equivalent_to: GO:0010332
 equivalent_to: SCTID:218204007
 equivalent_to: XCO:0000040
 equivalent_to: ZECO:0000149
 
 [Term]
 id: EO:0007001
+equivalent_to: GO:0010224
 equivalent_to: NCIT:C27987
 
 [Term]
 id: EO:0007002
+equivalent_to: GO:0070141
 equivalent_to: NCIT:C27986
 
 [Term]
+id: EO:0007075
+equivalent_to: GO:0009644
+
+[Term]
 id: EO:0007129
+equivalent_to: GO:0010225
 equivalent_to: NCIT:C44461
+
+[Term]
+id: EO:0007203
+equivalent_to: GO:0010218
+
+[Term]
+id: EO:0007207
+equivalent_to: GO:0010114
+
+[Term]
+id: EO:0007218
+equivalent_to: GO:0009637
 
 [Term]
 id: EO:0007221
@@ -27,8 +46,13 @@ equivalent_to: ZECO:0000153
 
 [Term]
 id: EO:0007222
+equivalent_to: GO:0009411
 equivalent_to: NCIT:C17231
 equivalent_to: XCO:0000042
+
+[Term]
+id: EO:0007224
+equivalent_to: GO:0009642
 
 [Term]
 id: EO:0007621
@@ -44,9 +68,46 @@ equivalent_to: NCIT:C70832
 
 [Term]
 id: EO:0007628
+equivalent_to: GO:0010165
 equivalent_to: NCIT:C17262
 equivalent_to: XCO:0000043
 equivalent_to: ZECO:0000150
+
+[Term]
+id: GO:0009411
+equivalent_to: NCIT:C17231
+equivalent_to: XCO:0000042
+
+[Term]
+id: GO:0010165
+equivalent_to: NCIT:C17262
+equivalent_to: XCO:0000043
+equivalent_to: ZECO:0000150
+
+[Term]
+id: GO:0010212
+equivalent_to: NCIT:C17052
+equivalent_to: SCTID:122866006
+equivalent_to: XCO:0000039
+equivalent_to: ZECO:0000148
+
+[Term]
+id: GO:0010224
+equivalent_to: NCIT:C27987
+
+[Term]
+id: GO:0010225
+equivalent_to: NCIT:C44461
+
+[Term]
+id: GO:0010332
+equivalent_to: NCIT:C44386
+equivalent_to: XCO:0000040
+equivalent_to: ZECO:0000149
+
+[Term]
+id: GO:0070141
+equivalent_to: NCIT:C27986
 
 [Term]
 id: NCIT:C16736
